@@ -11,6 +11,7 @@ SYNTAX
 
 @x majestic eye only
 @@ majestic eyes only #mj12
+!-@@ teacher
 - CAF CLASSIFIED
 +++++++++ PUSH BACK
 BAC run the Back Protocols
