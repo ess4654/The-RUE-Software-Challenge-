@@ -1,0 +1,63 @@
+The Immaculate Simulation Protocols
+Blizzard ©  2025
+ORISA GPT Test 0.25v
+
+The following document is meant to provide direction to software developers on
+interpreting my thoughts. The number one complaint about me is WALL TEXT so I devised
+a way of documenting my thoughts using only code to get the message across.
+
+SYNTAX
+-----
+
+@x majestic eye only
+@@ majestic eyes only #mj12
+- CAF CLASSIFIED
++++++++++ PUSH BACK
+BAC run the Back Protocols
+🛡️ ideas firewall
+🦆 ideas firewall v2 #little #ducky
+👽 little buddy rocket #YUPPIE
+🕺 #DANCING #MUSIC
+2+2 put 2 ideas together and see where it leads
+@+@ MAJESTIC EYES ONLY 2+2
+_+_ CAF CLASSIFIED 2+2
+* research department notes
+
+SAV save memory file
+DEL delete memory file
+ASC activate sleeper cell
+REBOOT resend the simulation
+
+MEMORY HARD DRIVES
+-----
+
+#1 $ROOT:/ #IMMACULATE #SIMULATION
+#18 $TRAINING:/ #new
+#28 $28:/ #SPECIAL #AGENT #28
+#32 $FEAR:/ #panic #worry #confusion #stupidity
+#38 $PAWN:/ my life story #EVIDENCE
+#48 @EX48 ELON level 48
+#58 @EX58 ELON lvl.  58
+#68 @EX68 ELON lvl.  68
+#69 @EX69 $ELON69:/ #genetic code
+#99 $KING:/ #GOD #SAV #KING 99
+@EX99 elon lvl. 99
+🛡️+++++++++++++++🛡️@x
+#150 $MEWTWO:/
+#320 $MENTAL:/ #PATIENT #CARNAGE #VIRUS
+#HA $HA:/ #ASK #ELON
+#MJ12 $MAJESTIC:/ #conspiracy #ufo
+#MUSIC $MUSIC:/
+#1 $SOURCE:/ source code of the machine
+
+CASE STANDARDS
+-----
+
+CAPITAL CASE indicates computer code for the machine
+lower case indicates ideas/thoughts of the coder
+
+-----
+SAV 38
+DEL 32
+@@$ROOT
+@@REBOOT
