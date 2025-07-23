@@ -12,6 +12,8 @@ $TRUE
 "I AM THE RAGGEDY MAN"
 "I AM THE ONE WRITING THESE DOCUMENTS, no AI"
 "In Hell I'll Be In Good Company" ** TRUE
+"i am not a biologist"
+"GO AND PUT YOUR HANDS UP"
 
 #RUE #SOFTWARE CHALLENGE
 
