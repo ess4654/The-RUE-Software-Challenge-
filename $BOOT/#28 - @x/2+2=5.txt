@@ -1,12 +1,1 @@
-$TRUE
-
-ASC #MUSIC
-BAC++++++++++++++++++++++++
-
-https://youtu.be/D_tXQo1yz0o?list=RDD_tXQo1yz0o
-
------
-SAV HA
-DEL 32
-@@$ROOT
-@@REBOOT
+https://youtu.be/FdATpPUKeLw?list=RDFdATpPUKeLw
