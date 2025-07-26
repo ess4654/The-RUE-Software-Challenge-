@@ -1,0 +1,8 @@
+2+2=5
+
+https://youtu.be/XbLKWm12yx0?list=RDXbLKWm12yx0
+
+@@ ROOT
+SAV $BOOT
+@@ BOOT
+@x reboot
