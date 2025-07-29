@@ -14,3 +14,12 @@ https://x.com/CBCNews/status/1949538660585812295
 $F
 
 https://x.com/AHS_media/status/1949968752851689707
+
+$F
+
+HIS NAME IS MARIO NOT PATRICK!
+
+MARIO=TRUE;
+PATRICK=FALSE;
+
+@S.
