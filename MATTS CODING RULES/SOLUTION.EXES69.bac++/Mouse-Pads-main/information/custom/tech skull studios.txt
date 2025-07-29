@@ -1,0 +1,225 @@
+Commenting
+All documents begin with a comment block containing the following:
+/*
+ APPLICATION NAME
+ ASSEMBLY LOCATION (Postfix with: CLASS or INTERFACE)
+ FILE / CLASS NAME
+ v1.0 - FILE VERSION
+ LAST EDITED: WEEKDAY MONTH DAY, YEAR
+ COPYRIGHT © TECH SKULL STUDIOS
+/*
+
+Unit Test files contain the following above the file version number:
+TEST FOR VERSION: v1.0 (Version of runtime script)
+
+• All <summary> comment blocks will be indented
+• All public methods & variables will be commented
+• Where possible, use <see cref=""/> references
+• Use (Output) as a prefix for output parameters
+• Use (Ref) as a prefix for refence parameters
+• Add //callback comment to injected callbacks
+• Add //engine comment to engine calls
+• Add //event comment to serialized event calls
+• Add //subscribed event comment to event calls
+• TODO may be used to indicate work in progress
+• Add additional notes inside <remarks> block
+• Use <exception> to explain custom exceptions
+• Comments will be made above the applicable code
+• Comments must be detailed
+
+* Triple forward slash creates a summary comment block
+
+
+Naming Conventions
+• Assembly definitions will be named with format:
+  TechSkullStudios.ProjectName.MVC_Patern
+• Files will be named using Pascal Case
+• File comment headers will use CAPITAL CASE
+• Public content will use Pascal Case
+• Regions will be named using CAPITAL CASE
+• Method variables will use camelCase
+• Private variables will use Pascal Case
+• Public constants will use SCREAMING_SNAKE Case
+• Single character variable names are
+  permissible only in for loops
+• Interfaces begin with capital I
+• Acronyms such as AI, ID, UUID and UI
+  will be capitalized
+• Use [Heaader("")] above serialized fields to group them
+• Names should not exceed 5 words max
+• Debugging variables will prefix
+  the name with an underscore (m_)
+
+
+Organization
+• Files will be organized using the MVC pattern
+• Namespaces will match the MVC pattern
+• Organize documents #region tags
+• Region names will be selected from the following options:
+     • VARIABLE DECLARATIONS
+     • EVENTS
+     • SETUP
+     • EDITOR
+     • UPDATES
+     • COLLISIONS
+     • ENGINE
+     • METHODS
+     • AUDIO
+     • ANIMATIONS
+     • UI
+     • CLEAN UP
+     • DEBUGGING
+     • DEPRICATED
+
+
+Formatting
+• All classes, structs & enums will be wrapped inside on an appropriately named namespace
+• All mono classes must inherit from Core.Behaviour
+• All classes which inherit from Behaviour will begin with:
+private const string Filename = "The Name Of Your Scrtipt";
+
+• All variables will be grouped at the top of the document in the following order:
+events, serialized fields, public variables, public constants, private variables, private constants
+• SETUP region contains Awake, Start, OnEnable, OnDisable mono behaviours & associated handler methods
+• EDITOR region contains OnValidate & OnGizmos mono behavior & associated private methods
+• UPDATE region contains Update, LateUpdate, and FixedUpdate mono behaviours & associated private methods
+• COLLISIONS region contains OnTriggerEnter, OnTriggerStay, OnTriggerExit & associated private methods
+• ENGINE region contains virtual engine methods that are called by the internally driven engine behavior
+• METHODS region contains publicly accessible methods
+• AUDIO region contains methods related to audio & sound
+• ANIMATIONS region contains methods that relate to animation, timeline & manipulation of the transform
+• UI region contains methods pertaining to the user interface
+• CLEAN UP is for handling the deconstruction of the document (minus OnDisable)
+• DEBUGGING region contains InspectorButton boolean variables & associated methods
+• DEPRICATED region contains outdated code that remains for reference in a comment block
+
+• All single line methods will be formatted with the arrow on line 1 and the body indented on line 2
+• All public variables and methods require a <summary> comment block
+
+
+Notes
+• The Code Repository is the backbone of the architecture
+• Plugins are publicly sold single purpose packages
+• Toolkits are internally sourced genre specific game creation tools
+• Internal enums and structs within other structs and classes is permissible
+• Interfaces are to be used for complex dynamic engines
+  built for general purpose
+• Gizmos icons should be used for better clarity on its purpose
+• Obsolete code that is not yet approved for removal should
+  be stored in a sub folder named Obsolete
+
+
+Code Repository
+
+Core
+• Core (Root)
+• Core.Data
+• Core.Data.Serialized Dictionary
+• Core.Exceptions
+• Core.
+
+Controllers
+• Controllers (Root)
+• Controllers.Input
+• Controllers.Utility
+• Controllers.Utility.Events
+
+Data
+• Data (Root)
+• Data.Constructors
+• Data.Selectors
+• Data.Settings
+• Data.Utility
+• Data.Utility.Math
+• Data.Utility.Libraries
+• Data.Utility.Lists
+
+Helpers
+• Helpers (Root)
+• Helpers.Audio
+• Helpers.Debugging
+• Helpers.FileManagement
+• Helpers.Services
+• Helpers.Physics
+• Helpers.PlaystationTools
+• Helpers.XBoxTools
+• Helpers.SwitchTools
+• Helpers.Steam
+
+View
+• Views (Root)
+• Views.Graphics
+• Views.Timeline
+• Views.UI
+• Views.Utility
+• Views.Utility.Tweening
+
+Toolkits
+• Multiplayer Toolkit
+• Sandbox Toolkit
+• Boardgame Toolkit
+• VR Toolkit
+• Combat Toolkit
+• Sports Toolkit
+• AR Toolkit
+• FPS Toolkit
+• Dialogue Toolkit
+• Racing Toolkit
+• Mobile Toolkit
+• Arcade Toolkit
+• Golfing Toolkit
+• Quest Toolkit
+• Puzzle Toolkit
+• Open World Toolkit
+• Character Creator Toolkit
+• AI Toolkit
+• Bowling Toolkit
+• Casino Toolkit
+• Platformer Toolkit
+
+
+Plugins
+• UConsole
+• URegions
+• UTables
+• UExtensions
+• UStrap
+• ULogic Gates
+• URegisters
+• Controller Buttons
+• Shared
+• Animation Sprite Swapper
+• Universal Inputs
+• Data Trees
+• Mod Workshop
+• Prop Manager
+• Void Actions
+
+
+Software Tools
+Code:
+     Visual Studios
+     VS Code
+     Sublime Text
+
+Art & UI:
+     Paint.NET
+     Photoshop
+     Illustrator
+
+3D Modeling:
+     Blender
+     Substance Painter
+
+Audio:
+     Audacity
+     Audition
+
+
+Video Production:
+     Premiere Pro
+
+
+Versioning:
+     Git Bash
+     GitHub Desktop

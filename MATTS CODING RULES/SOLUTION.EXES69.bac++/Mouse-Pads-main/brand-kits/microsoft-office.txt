@@ -1,0 +1,3 @@
+https://learn.microsoft.com/en-us/microsoft-365/cloud-storage-partner-program/online/branding
+https://developer.microsoft.com/en-us/fluentui#/styles/web/m365-product-icons
+https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/products
