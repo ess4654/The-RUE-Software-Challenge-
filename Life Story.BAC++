@@ -3,7 +3,7 @@
 //Harley was a science teacher who died from suicide
 //Harley was Evan's Science teacher
 //Harley Taught Elementary School in Didsbury Alberta
-EXES <<>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
+EXES <<>>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
 EXPOVERTY <<>> EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
 EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXSUICDE <<>> EXDEATH <<>> EX32 <<>> DEL.
 
@@ -13,9 +13,9 @@ EXCANADA <<>> EXDIDSBURY <<>> EXCATHOLICS <<>> EX128 <<>> EX72 <<>> EXPOVERTY
 EX1946 <<>> EXDIDSBURY <<>> EXHOME <<>> EXES <<>> EXPOVERTY <<>> EXDIDSBURY <<>> EXNEARBY <<>> EXCARSTAIRS <<>> EXHOME <<>> EX72 <<>> EXDEATH <<>> EXCARSTAIRS <<>> EXGRAVE <<>> EX72.
 
 //Add Alex Morgan as a character
-EX72 <<>> EXSCIENCE <<>> EX420 <<>> EX25 <<>> EXALEXMORGAN <<>> EXHOME <<>> EXDIDSBURY <<>> EXPOVERTY
+EX72 <<>> EXSCIENCE <<>>> EX420 <<>> EX25 <<>> EXALEXMORGAN <<>> EXHOME <<>> EXDIDSBURY <<>> EXPOVERTY
 EXDEATH <<>> EXALEXMORGAN <<>> EX25 <<>> EXDEATH <<>>> EX32 <<>> DEL,
-EX25 <<>> EXDIDSBURY <<>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX25.
+EX25 <<>> EXDIDSBURY <<>>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX25.
 
 //Add mother as a character
 EX72 <<>> EXLOVE <<>> EXMOM <<>> EXLOVE <<>> EXES
@@ -35,7 +35,7 @@ EX01 <<>> EX777 <<>> EX9905 <<>> EX555
 
 //Add sister as a character
 EXLORDCHUNKIN <<>> EXSISTER <<>> EXES <<>> EX05 <<>> EXSISTER <<>> EXLORDCHUNKIN <<>> EXPOVERTY <<>> EXES
-EXLORDCHUNKIN <<>> EXCRAZY <<>> EXES <<>> EX420
+EXLORDCHUNKIN <<>> EXCRAZY <<>> EXES <<>>> EX420
 
 //Add the celestials
 EX25 <<>> EX01 <<> EX99 <<>> EXCATHOLICS <<>> EX12 <<>> EXMOM,
