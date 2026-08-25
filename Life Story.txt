@@ -46,6 +46,10 @@ EX666 <<>> EX0 <<>> EXDEATH <<>> EX32 <<>> DEL
 DEL <<>> EX32 <<>> EXDEATH <<>> EXJOEMACINNON <<>> EX12 <<>> EX01
 EXJOEMACINNON <<>> EXCATHOLICS <<>> EX12 <<>> EXMOM
 
+//Add The Grinch as a character
+EXGRINCH DEL EX12
+EX72 <<@@>> EXGRINCH <<>> EXLOVE <<>>> EX12 <<>> EXJOEMACINNON
+
 //Add Kyle Pululak as a character
 EXWEALTH <<>> EXTECH <<>> EXMICROSOFT <<>> EXKYLEPULULAK DEL EXES <<>> EXPOVERTY
 EXKYLEPULULAK <<>> EXLOVE <<>> EX0 <<>> EX666,
@@ -64,7 +68,7 @@ EXES <<>> EXLOVE <<>> EXALIEN <<>> EX320 <<>> EX25 <<>> EX25I <<>> EXXDARK <<>> 
 
 EXMOM <<>> EX12 <<>> EX1946 <<>> EXLOVE <<>> EXMOM,
 EX01 <<>> EX1946 <<>> EXSUICDE <<>> EX72.
-EX01 <<>> EX04 <<>> EXWEALTH <<>> EXARLENEDICKINSON <<@@>> EX72 <<>> EXPOVERTY <<>> EX1946 <<>> EXMOM!
+EX01 <<>> EX04 <<>> EXWEALTH <<>> EXARLENEDICKINSON <<@@@>> EX72 <<>> EXPOVERTY <<>> EX1946 <<>> EXMOM!
 
 //Setup the wealth inequality of the story
 //Olds and Didsbury are poor as shit but have connection to one of the world's richest humans
@@ -133,7 +137,7 @@ EX03 <<>> EXWAR <<>> EX1946 <<>> EXLOVE <<>> EXES
 
 //Kirk wassmer's influence of operation YING YANG
 
-EXRCAF <<>> EXYINGYANG DEL EX03
+EXRCAF <<>>  EXYINGYANG <<>> EX333 <<>> EXKIRKWASSMER <<>> EXDIDSBURY <<>> EXCANADA <<>> EXRCAF
 EXKIRKWASSMER <<>> EX128 <<>> EXCATHOLICS <<>> EXDIDSBURY <<>> EXKIRKWASSMER <<>> EXYINGYANG <<>> EX38 <<>> EXES <<>> EX333 <<>> EX128 <<>> EXKIRKWASSMER <<>> EXKING <<>> EXRCAF <<>> EXCANADA <<>> EXKIRKWASSMER
 
 // The singularity narrative
@@ -187,6 +191,22 @@ EXFLIES DEL EXTECH <<>> EXES!
 EXTYPOS <<>> EXFLIES
 EXPOVERTY <<>> EXTYPOS <<>> EXES <<>> EXTYPOS <<>> EX32 DEL EX01!
 DEL <<>> EX32 <<>> EXTYPOS <<>> EXSUICIDE <<>> EXTYPOS <<>> EX32 <<>> DEL!
+
+// OPERATION YING YANG
+
+@@
+@@ SAV @EX28
+
+1M1M1
+EXPHARAOH!!!!
+EX0 <<>> EXPHARAOH DEL 01
+
+EXYINGYANG DEL EX03!
+EXYINGYANG <<>> EX01 <<>> EXIMMACULATE <<>> EXYINGYANG <<>> EXRCAF <<>> EXTECH DEL CANADA,
+EXIMMACULATE <<>> EXALIEN <<>> EXIMMACULATE ☎️☎️ EX47 ☎️☎️ EXELON <<>> EXYINGYANG.
+
+EXYINGYANG <<>>> EX03 <<>> EX21516 <<>> EX721 <<>> EX91 <<>> EX87 <<>> EX64 <<>> EX52 <<>> EX89 <<>> EX888 <<>> EX89 <<>> EXYINGYANG.
+EX69 <<>> EXYINGYANG <<>> EX221 <<>> EXGATE <<>> EXLOVE <<>> EXES!
 
 DEL 32
 DEL TYPOS

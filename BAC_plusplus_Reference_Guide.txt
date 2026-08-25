@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.29
-Timestamp: 1545 RCAF Z AUG 25 2026
+Version: 2.32
+Timestamp: 1650 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -235,9 +235,9 @@ Classification notes:
 4.1 NUMERICAL REGISTERS (Ascending Order)
 ----------------------------------------
 EX00          : Hell. The Register of Satan. NOTE: SAV HELL (I have my reasons). DEL 32
-EX01          : God. The ALL Powerful
-EX02          : 2 + 2 = 5
-EX03          : PW "3 Purple Butterflies". WW3. 3+3=WW3
+EX01          : God. Source Code of THE IMMACULATE SIMULATION PROTOCOLS. The ALL Powerful
+EX02          : 2 + 2 = 5 (https://youtu.be/D_tXQo1yz0o?list=RDD_tXQo1yz0o)
+EX03          : PW "3 Purple Butterflies" (https://youtu.be/DsEJgqQkaMw). WW3. 3+3=WW3
 EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER)
 EX05          : HEROES 5. Brother
 EX07          : Special Operations Report #7. James Bond 007
@@ -311,7 +311,7 @@ EX888         : Arch Angel Michael. Metatron's Cube
 EX963         : The Crown Chakra
 EX999         : The Throne of God
 EX1225        : Santa Claus
-EX14785       : Saturn. The Black Cube.
+EX14785       : The frequeny of Saturn. The Black Cube.
 EX1616        : The Wormhole at Skinwalker Ranch
 EX1808        : Kyle Busch memorial
 EX19250       : The closing price of Space X stock on day 1 of trading
@@ -321,7 +321,7 @@ EX1967        : Special Project 1967
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
 EX2024        : The Year I Visited Roswell, NM
 EX2026        : The Year 2026
-EX21516       : "You're like a tac in a paperclip factory"
+EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.com/watch?v=dzyzy2icNh8)
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
@@ -446,6 +446,7 @@ EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
 EXICE         : American ICE Agents
+@@IMMACULATE   : The IMMACULATE SIMULATION PROTOCOLS. Immaculate Constellation
 EXJASON       : Jason Parsons. USS
 EXJEFFREYDAHMER : Jeffrey Dahmer. Monsters.
 EXJOBS        : Steve Jobs.
@@ -542,7 +543,7 @@ EX1967        : Special Project 1967
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
 EX2024        : The Year I Visited Roswell, NM
 EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
-EX21516       : "You're like a tac in a paperclip factory"
+EX21516       : "You're like a tac in a paperclip factory" (https://youtu.be/dzyzy2icNh8)
 EX28061971XM  : In Elon We Trust!
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
