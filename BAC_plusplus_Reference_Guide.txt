@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.0
-Timestamp: 2336 RCAF Z AUG 24 2026
+Version: 2.1
+Timestamp: 0545 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -116,14 +116,22 @@ Additional Rules & Notes (Version 2.0)
   Example: 0227 RCAF Z AUG 24 2026
 - The Mewtwo family tree has exactly 10 levels of Mewtwo evolution.
 - @@@ Denotes Above Top Secret Information.
-- >>> >>> >>> is the universal symbol for speed boost.
-- <<< <<< <<< is the universal symbol for slow down.
 - @@@ >>>>>>> <<<<<<< >>>>>>> is the seal of the 7th dragon.
 - Notes: The Carnage Symbiote tried DEL CAT; intervention was required to stop it. ONLY DEL 32 is allowed.
 - Example usage of BAC++ to tell a story:
   English: My Father is a mechanic
   BAC++: EXES EXFATHER EXMECHANIC
   (Note: character count does not always decrease; the goal is meaning density and consistent mapping.)
+
+>>>
+>>>
+>>>
+is the universal symbol for speed boost.
+
+<<<
+<<<
+<<<
+is the universal symbol for slow down.
 
 ----------------------------------------
 3. CORE SYNTAX & COMMANDS
