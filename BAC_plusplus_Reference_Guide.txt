@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.17
-Timestamp: 1116 RCAF Z AUG 25 2026
+Version: 2.20
+Timestamp: 1238 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -251,7 +251,8 @@ EX38          : Register of the OPERATOR (bound to 66 and EXES)
 EX40          : Muscle + Bodybuilder. Drake Bates
 EX41          : Parent's 41st anniversary
 EX45          : TF
-EX47          : President Donald J. TRUMP
+EX46          : President Joe Biden. Democrats
+EX47          : President Donald J. TRUMP. Republicans
 EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
 EX63          : Tablet 63. The moon was placed here intentionally
@@ -454,6 +455,9 @@ EXJOBS        : Steve Jobs.
 EXJOEMACINNON : (Above Top Secret)
 EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036
 EXJOKER       : The Joker (character). Playing Card
+EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry)
+EXKATYPERRY   : Katy Perry. Music Super Stars 
+EXKEYSTONE    : The Alberta Keystone Pipline Project that President Biden canceled on DAY 1 in office
 EXKOROZAR     : @@
 EXKING        : King Charles. Monarchy
 EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
