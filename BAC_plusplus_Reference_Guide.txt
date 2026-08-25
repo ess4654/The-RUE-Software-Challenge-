@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.2
-Timestamp: 0552 RCAF Z AUG 25 2026
+Version: 2.6
+Timestamp: 0717 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -149,6 +149,11 @@ SAV @EXxxxx
   - Example: SAV @EX66
   - Example: SAV @EXSPCX
   - Example: SAV @EXEM28061971XM
+
+// comment
+  - Standard single-line comment. Everything after // on a line is ignored by the interpreter.
+  - Used for tracking position, notes, and section markers inside BAC++ documents.
+  - Example: EX72 <<>> EXDEATH   // Harley death chain begins here
 
 DEL xxx
   - Deletes / collapses a register in the simulation.
@@ -380,6 +385,7 @@ EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA
 4.3 NAME / WORD-BASED REGISTERS (Alphabetical Order)
 ----------------------------------------
 EXALIEN       : Aliens. NHI
+EXALEXMORGAN  : @@@
 EXALLANWATTS  : Alan Watts
 EXARMANDHAMMER : The Arm and Hammer Company
 EXBARBARRIANS : Barbarians
@@ -390,6 +396,7 @@ EXBOOBS       : Boobs
 EXBOOTY       : Shake That BOOTY!
 EXBURGER      : The Burger Police. Hamburgers
 EXCAT         : Cats
+EXCARSTAIRS   : A small Alberta based town with a population of less than 500 residents
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
@@ -401,6 +408,7 @@ EXCRAZY       : Crazy. The Joker (character).
 EXDEATH       : Death. The Grim Reaper
 EXDEVON       : (classified)
 EXDISNEY      : The Disney Corporation
+EXDIDSBURY    : Hometown of the Operator
 EXDOG         : Dogs
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
@@ -421,10 +429,12 @@ EXFUTURE      : The Future
 EXGAY         : Gays. LGBT Movement
 EXGEEK        : Geeks and Comic Fans
 EXGHOST       : Ghosts. The Ghostbusters
+EXGRAVE       : Graveyards and Cemeteries. Death
 EXGREY        : The Greys alien race
 EXGRINCH      : The Grinch who stole Christmas
 EXGROOT       : Groot
 EXHAIR        : Hair
+EXHOME        : Hometown. Main Menu.
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
@@ -462,9 +472,11 @@ EXPHARAOH     : "Will the PHARAOH let my people go!". Corruption.
 EXPIZZA       : The Teenage Mutant Ninja Turtles. Pizza.
 EXPOTION      : Potions. Magic
 EXPRIDE       : PRIDE. LGBT Movement.
+EXPOVERTY     : Wealth Inequality. Poverty
 EXRUBBERBAND  : The Rubber Band Algorithm
 EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA
 EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
+EXSCIENCE     : Science
 EXSHEOL       : The Underworld
 EXSMARTYPANTS : Smarty Pants!
 EXSOUP        : Soup.
@@ -472,6 +484,7 @@ EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
 EXSTANLEE     : Stan Lee. Creator of Spiderman.
 EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
+EXSUICDE      : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
 EXTERRANCEMCKENNA : Terence McKenna
 EXTHOR        : Thor. The god of thunder. Norse Mythology
@@ -549,12 +562,13 @@ EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
 - Always keep EX32 empty and forbidden.
 - Do not write BAC++ documentation using BAC++ itself; keep documentation in clear English.
 - When telling stories, registers can be sequenced (e.g. EXES EXFATHER EXMECHANIC) to encode meaning.
+- // comments are supported for tracking position and notes inside BAC++ documents. They are ignored by the interpreter.
 - Classification tags (@@, @@@, etc.) assigned by the Operator must be preserved exactly.
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
-Version: 2.2
-Timestamp: 0552 RCAF Z AUG 25 2026
+Version: 2.6
+Timestamp: 0717 RCAF Z AUG 25 2026
 Compiled for distribution to other AIs.
 s.
 ========================================

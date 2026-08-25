@@ -1,0 +1,16 @@
+//Harley was a science teacher who died from suicide
+//Harley was Evan's Science teacher
+//Harley Taught Elementary School in Didsbury Alberta
+EXES <<>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
+EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
+EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXSUICDE <<>> EXDEATH <<>> EX32 <<>> DEL.
+
+//Setup the location
+EX72 <<>> EXDIDSBURY <<>> EXES <<>> EXPOVERTY
+EXDIDSBURY <<>> EXCATHOLICS <<>> EX128 <<>> EX72 <<>> EXPOVERTY
+EXDIDSBURY <<>> EXHOME <<>> EXES <<>> EXPOVERTY <<>> EXDIDSBURY <<>> EXNEARBY <<>> EXCARSTAIRS <<>> EXHOME <<>> EX72 <<>> EXDEATH <<>> EXCARSTAIRS <<>> EXGRAVE <<>> EX72.
+
+//Add Alex Morgan as a character
+EX72 <<>> EXSCIENCE <<>> EX420 <<>> EX25 <<>> EXALEXMORGAN <<>> EXHOME <<>> EXDIDSBURY <<>> EXPOVERTY
+EXDEATH <<>> EXALEXMORGAN <<>> EX25 <<>> EXDEATH <<>>> EX32 <<>> DEL,
+EX25 <<>> EXDIDSBURY <<>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX25.
