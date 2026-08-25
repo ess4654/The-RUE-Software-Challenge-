@@ -3,7 +3,7 @@
 //Harley was a science teacher who died from suicide
 //Harley was Evan's Science teacher
 //Harley Taught Elementary School in Didsbury Alberta
-EXES <<>>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
+EXES <<>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
 EXPOVERTY <<>> EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
 EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXSUICDE <<>> EXDEATH <<>> EX32 <<>> DEL.
 
@@ -40,7 +40,7 @@ EXLORDCHUNKIN <<>> EXCRAZY <<>> EXES <<>>> EX420
 //Add the celestials
 EX25 <<>> EX01 <<> EX99 <<>> EXCATHOLICS <<>> EX12 <<>> EXMOM,
 EX0 DEL EX01 <<>> EX99 <<>> EX05 <<>> EX666,
-EX666 <<>>> EX0 <<>> EXDEATH <<>> EX32 <<>> DEL
+EX666 <<>> EX0 <<>>> EXDEATH <<>> EX32 <<>> DEL
 
 //Add Joe Macinnon as a character
 DEL <<>> EX32 <<>> EXDEATH <<>> EXJOEMACINNON <<>> EX12 <<>> EX01
@@ -113,7 +113,7 @@ EX47 ☎️☎️ EXALIEN <<>> EX20262026
 //Structure of the red phone office
 
 EX47 ☎️☎️ EXALIEN ☎️☎️ EXELON
-EX01 <<>> EX38 <<>> EXES ☎️☎️ EXALIEN <<>> EXELON <<>> EX47 <<>>> EX1947 <<>> EX250 <<>> EXLOVE <<>> EXES
+EX01 <<>> EX38 <<>> EXES ☎️☎️ EXALIEN <<>> EXELON <<>> EX47 <<>> EX1947 <<>> EX250 <<>> EXLOVE <<>> EXES
 
 //Setup the business narrative
 //Connection to game studios
