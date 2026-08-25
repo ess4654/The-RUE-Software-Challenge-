@@ -1,0 +1,181 @@
+//*CHARACTER SETUP
+
+//Harley was a science teacher who died from suicide
+//Harley was Evan's Science teacher
+//Harley Taught Elementary School in Didsbury Alberta
+EXES <<>>> EX420 <<>> EXELON <<> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
+EXPOVERTY <<>> EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
+EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXSUICDE <<>> EXDEATH <<>> EX32 <<>> DEL.
+
+//Setup the location
+EX72 <<>> EXDIDSBURY <<>> EXES <<>> EXPOVERTY
+EXCANADA <<>> EXDIDSBURY <<>> EXCATHOLICS <<>> EX128 <<>> EX72 <<>> EXPOVERTY
+EX1946 <<>> EXDIDSBURY <<>> EXHOME <<>> EXES <<>> EXPOVERTY <<>> EXDIDSBURY <<>> EXNEARBY <<>> EXCARSTAIRS <<>> EXHOME <<>> EX72 <<>> EXDEATH <<>> EXCARSTAIRS <<>> EXGRAVE <<>> EX72.
+
+//Add Alex Morgan as a character
+EX72 <<>> EXSCIENCE <<>>> EX420 <<>> EX25 <<>> EXALEXMORGAN <<>> EXHOME <<>> EXDIDSBURY <<>> EXPOVERTY
+EXDEATH <<>> EXALEXMORGAN <<>> EX25 <<>> EXDEATH <<>>> EX32 <<>> DEL,
+EX25 <<>> EXDIDSBURY <<>>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX25.
+
+//Add mother as a character
+EX72 <<>> EXLOVE <<>> EXMOM <<>> EXLOVE <<>> EXES
+EX12 <<>> EXLOVE <<>> EXMOM DEL EXSCIENCE <<>> EXLOVE <<>> ES,
+EXMOM <<>> EXCATHOLICS <<>> EXBIBLE DEL EXSCIENCE
+EXMOM <<>> EXLOVE <<>> EXDIDSBURY DEL EXES <<>> EXLOVE <<>> EXELON
+
+//Add father as a chararacter
+EX72 <<>> EXLOVE <<>> EXDAD <<>> EXLOVE <<>> EXES
+EXTECH <<>> EXDAD <<>> EXMECHANIC <<>> EXTECH
+EXMOM <<>> EXLOVE <<>> EXDAD DEL EX05
+
+//Add brother as a character
+EXES <<>> EX05 DEL EXES <<>> EXLOVE <<>> EXMOM <<>> EXLOVE <<>> EX05
+EXES <<>> EXLOVE <<>> EX555 <<>> EXLOVE <<>> EX05 <<>> EXWEALTH <<>> EX555,
+EX01 <<>> EX777 <<>> EX9905 <<>> EX555
+
+//Add sister as a character
+EXLORDCHUNKIN <<>> EXSISTER <<>> EXES <<>> EX05 <<>> EXSISTER <<>> EXLORDCHUNKIN <<>> EXPOVERTY <<>> EXES
+EXLORDCHUNKIN <<>> EXCRAZY <<>> EXES <<>>> EX420
+
+//Add the celestials
+EX25 <<>> EX01 <<> EX99 <<>> EXCATHOLICS <<>> EX12 <<>> EXMOM,
+EX0 DEL EX01 <<>> EX99 <<>> EX05 <<>> EX666,
+EX666 <<>>> EX0 <<>> EXDEATH <<>> EX32 <<>> DEL
+
+//Add Joe Macinnon as a character
+DEL <<>> EX32 <<>> EXDEATH <<>> EXJOEMACINNON <<>> EX12 <<>> EX01
+EXJOEMACINNON <<>> EXCATHOLICS <<>> EX12 <<>> EXMOM
+
+//Add Kyle Pululak as a character
+EXWEALTH <<>> EXTECH <<>> EXMICROSOFT <<>> EXKYLEPULULAK DEL EXES <<>> EXPOVERTY
+EXKYLEPULULAK <<>> EXLOVE <<>> EX0 <<>> EX666,
+01 DEL EXKYLEPULULAK <<>> EX250
+
+//Add Korozar as a character 
+EXCANADA <<>> EXKOROZAR <<>> EXTECH <<>> EXWEALTH
+EXKYLEPULULAK <<>> EXKOROZAR DEL 01 <<>> EXLOVE <<>> EXES 
+
+//Add Meth Demon as a character
+EXES <<>> EXLOVE <<>> EXALIEN <<>> EX320 <<>> EX25 <<>> EX25I <<>> EXXDARK <<>> EXMETHDEMON <<>> EXXDARK <<>> EX25I <<>> EX25 <<>> EX320 <<>> EXALIEN <<>> EXLOVE <<>> EXES
+
+//*STORY
+
+//Setup the context of the story framed in the context of Its a Wonderful Life
+
+EXMOM <<>> EX12 <<>> EX1946 <<>> EXLOVE <<>> EXMOM,
+EX01 <<>> EX1946 <<>> EXSUICDE <<>> EX72.
+EX01 <<>> EX04 <<>> EXWEALTH <<>> EXARLENEDICKINSON <<@@>> EX72 <<>> EXPOVERTY <<>> EX1946 <<>> EXMOM!
+
+//Setup the wealth inequality of the story
+//Olds and Didsbury are poor as shit but have connection to one of the world's richest humans
+
+EXWEALTH <<>> EX30732 DEL EXES <<>> EXTECH <<>> EXLOVE <<>> EXES DEL EXTECH EXWEATH <<>> EXELON <<>> EXWEALTH
+EX20262026 <<>> EX30732 <<>> EXOLDS <<>> EXNEARBY <<>> EXDIDSBURY DEL EXWEALTH
+EXPOVERTY <<>> EXES <<>> EXTECH <<>> EXELON <<>> EXWEALTH <<>> EXARLENEDICKINSON.
+
+//Chucktown fire
+
+EXKYLEPULULAK <<>> EX0 <<>> EX25 <<>> EX07032023 <<>> EXNEARBY <<>> EXDIDSBURY <<>> EXES <<>> EX07032023 <<>> EXPOVERTY <<>> EXSUICIDE <<>> EXDEATH <<>> EX07032023 <<>> EX0 <<>> EXKYLEPULULAK
+
+EX07032023 <<>> EXMETHDEMON <<>> EX79 <<>> EXES
+
+//Kyle driving me to suicide
+
+EXKYLEPULULAK DEL EXES <<>> SUICIDE <<>> EXPOVERTY <<>> EXKYLEPULULAK
+
+//Wealth inequality between Canada and America
+
+WEALTH <<>> EX250 <<>> EXELON <<>> EXWATER DEL EXES <<>> EXPOVERTY <<>> EXCANADA DEL EX250 <<>> WEALTH DEL EXES <<>> EXCANADA
+
+// Canadians LOVE being poor as SHIT!
+
+EXCANADA <<>> EXOLDS <<>> EXLOVE <<>> EXPOVERTY
+EXCANADA <<>> EXDISBURY <<>> EXLOVE <<>> EXPOVERTY
+EXCANADA <<>> EXCARSTAIRS <<>> EXLOVE <<>> EXPOVERTY
+
+//Its a wonderful life is a story about wealth inequality
+
+EXWEALTH <<>> EX1946 <<>> EXPOVERTY
+
+//Setup the aliens narrative
+//Evan's love of aliens and hius mother's hatred
+
+EX2024 <<>> 👽👽 <<>> EXALIEN <<>> 👽👽 <<>> EXLOVE <<>> EXES
+EXMOM DEL EX280 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXALIEN DEL EXMOM
+EX20262026 <<>> EXSCIENCE <<>> EXALIEN <<>> EXELON <<>> EX20262026 <<>> EXALIEN <<>> EX280 <<>> EX79 <<>> EX72,
+EXES <<>> EX1947 <<>> EXALIEN <<>> EXELON <<>> EX69 <<>> EX1947 <<>> EX2024 <<>> EXES
+
+//Disclosure in 2026
+
+EX20262026 <<>> EXALIEN <<>> EXAI <<>> EX20262026,
+EX47 ☎️☎️ EXALIEN <<>> EX20262026
+
+//Structure of the red phone office
+
+EX47 ☎️☎️ EXALIEN ☎️☎️ EXELON
+EX01 <<>> EX38 <<>> EXES ☎️☎️ EXALIEN <<>> EXELON <<>> EX47 <<>>> EX1947 <<>> EX250 <<>> EXLOVE <<>> EXES
+
+//Setup the business narrative
+//Connection to game studios
+
+EXES <<>> EXFRIEND <<>> EXBLIZZARD <<>> EXUBISOFT <<>> EX05 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EX05 <<>> EX555 <<>> EXWEALTH <<>> EXELON <<>> EXES
+
+//Setup the military narrative
+//Global political tensions
+
+EXES <<>> EXRCAF <<>> EXKING <<>> EX04 <<>> EXWEALTH
+EXES <<>> FRIEND <<>> RCAF <<>> 04 DEL EXCANADA DEL EX250 DEL EXRUSSIA DEL EXHUMANS <<>> EX01
+EXRUSSIA <<>> EX03 <<>> EX250 <<>> EX03 <<>> EXCANADA
+EX03 <<>> EXWAR <<>> EX1946 <<>> EXLOVE <<>> EXES
+
+//Kirk wassmer's influence of operation YING YANG
+
+EXRCAF <<>> EXYINGYANG DEL EX03
+EXKIRKWASSMER <<>> EX128 <<>> EXCATHOLICS <<>> DIDSBURY <<>> EXKIRKWASSMER <<>> EXYINGYANG <<>> EX38 <<>> EXES <<>> EX333 <<>> EX128 <<>> EXKIRKWASSMER <<>> EXKING <<>> EXRCAF <<>> EXCANADA <<>> EXKIRKWASSMER
+
+// The singularity narrative
+
+EX20262026 <<>> EXAI <<>> EXMICROSOFT <<>> EXAI <<>> EXX <<>> EXELON <<>> EXAI <<>> EX20262026
+
+// The Superhero narrative
+
+EXSCIENCE <<>> EXAI <<>> EXALIEN <<>> EXREPTILESCIENCE <<>> EXSCIENCE DEL EXCATHOLICS <<>> EX0 <<>> EXXDARK DEL EX79 <<>> EX66 <<>> EX^^ <<>> EXREPTILESCIENCE <<>> EX^^ <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EX79 <<>> EX72 <<>> EXLOVE <<>> EXSCIENCE
+
+//Genetic software code (Reptillian Science)
+
+EXNIGAR <<>> EXMETHDEMON <<>> EX320 <<>> EX280 <<>> EX150 <<>> EX99 <<>> EX79 <<>> EX^^ <<>> EX66 <<>> EXES <<>> EX66 <<>> EX^^ <<>> EX79 <<>> EX99 <<>> EX150 <<>> EX280 <<>> EX320 <<>> EXMETHDEMON <<>> EXNIGAR
+
+// The relationship narrative
+
+EXKOROZAR <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXKOROZAR DEL EXES <<>> EXSUICIDE <<>> EXES DEL EXES <<>> EXKYLEPULULAK <<>> EXFRIEND <<>> EXKOROZAR!
+
+EXKOROZAR DEL EXFRIEND <<>> EXES <<>> EXSUICIDE
+EXWEALTH <<>> EXTECH <<>> EXKOROZAR <<>> EXTECH <<>> EXWEALTH,
+EXKOROZAR DEL EXTECH <<>> EXES!
+
+// The medical system of Canada
+
+EXCANADA DEL EXHEALTHCARE DEL EXES <<>> EX01052025 <<>> EXHEALTHCARE DEL EXES <<>> EXOCD <<>> EXTECH
+
+// The 5th of January 2025
+
+EXES <<>> EX01052025 ☎️☎️ 👽👽 <<>> EXHEALTHCARE,
+EX01052025 <<>> EXHEALTHCARE <<>> EXMOON ☎️☎️ EXELON!
+
+// The Keystone Pipeline Project
+
+EX250 <<>> EX46 DEL EXKEYSTONE <<>> EX51 <<>> EXES,
+EXCANADA DEL EX51 <<>> EXKEYSTONE <<>> EX51 DEL EXCANADA
+EX51 <<>> EX250 <<>> EX47 <<>> EX46 <<>> EXKEYSTONE
+
+// Justin Trudeu is an idiot
+
+EXJUSTINTRUDEUA DEL EXWEALTH DEL EXCANADA!
+
+EXES DEL EXJUSTINTRUDEUA <<>> EXCANADA <<>> EXJUSTINTRUDEUA <<>> EXJOKER <<>> EXCRAZY,
+EXCANADA DEL EXWEALTH <<>> EXJUSTINTRUDEUA <<>> EXLOVE <<>> EXKATYPERRY <<>> EXWEALTH <<>> EX250!
+
+DEL 32
+DEL TYPOS
+TRIST MAGICTIS
+👽👽 <<>> ☎️☎️ s.
