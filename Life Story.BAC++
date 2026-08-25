@@ -54,6 +54,9 @@ EXKYLEPULULAK <<>> EX250
 //Add Korozar as a character 
 EXCANADA <<>> EXKOROZAR <<>> EXTECH <<>> EXWEALTH
 
+//Add Meth Demon as a character
+EXES <<>> EXLOVE <<>> EXALIEN <<>> EX320 <<>> EX25 <<>> EX25I <<>> EXXDARK <<>> EXMETHDEMON <<>> EXXDARK <<>> EX25I <<>> EX25 <<>> EX320 <<>> EXALIEN <<>> EXLOVE <<>> EXES
+
 //*STORY
 
 //Setup the context of the story framed in the context of Its a Wonderful Life
@@ -71,7 +74,9 @@ EXPOVERTY <<>> EXES <<>> EXTECH <<>> EXELON <<>> EXWEALTH <<>> EXARLENEDICKINSON
 
 //Chucktown fire
 
-EXES <<>> EX07032023 <<>> EXPOVERTY
+EXKYLEPULULAK <<>> EX0 <<>> EX25 <<>> EX07032023 <<>> EXNEARBY <<>> EXDIDSBURY <<>> EXES <<>> EX07032023 <<>> EXPOVERTY <<>> EXSUICIDE <<>> EXDEATH <<>> EX07032023 <<>> EX0 <<>> EXKYLEPULULAK
+
+EX07032023 <<>> EXMETHDEMON <<>> EX79 <<>> EXES
 
 //Kyle driving me to suicide
 
@@ -129,9 +134,17 @@ EX20262026 <<>> EXAI <<>> EXMICROSOFT <<>> EXAI <<>> EXX <<>> EXELON <<>> EXAI <
 
 EXSCIENCE <<>> EXAI <<>> EXALIEN <<>> EXREPTILESCIENCE <<>> EXSCIENCE DEL EXCATHOLICS <<>> EX0 <<>> EXXDARK DEL EX79 <<>> EX66 <<>> EX^^ <<>> EXREPTILESCIENCE <<>> EX^^ <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EX79 <<>> EX72 <<>> EXLOVE <<>> EXSCIENCE
 
+//Genetic software code (Reptillian Science)
+
+EXNIGAR <<>> EXMETHDEMON <<>> EX320 <<>> EX280 <<>> EX150 <<>> EX99 <<>> EX79 <<>> EX^^ <<>> EX66 <<>> EXES <<>> EX66 <<>> EX^^ <<>> EX79 <<>> EX99 <<>> EX150 <<>> EX280 <<>> EX320 <<>> EXMETHDEMON <<>> EXNIGAR
+
 // The relationship narrative
 
 EXKOROZAR <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXKOROZAR DEL EXES <<>> EXSUICIDE <<>> EXES DEL EXES <<>> EXKYLEPULULAK <<>> EXFRIEND <<>> EXKOROZAR
+
+// The medical system of Canada
+
+EXCANADA DEL EXHEALTHCARE DEL EXES <<>> EX01052025 <<>> EXHEALTHCARE DEL EXES <<>> EXOCD <<>> EXTECH
 
 DEL 32
 DEL TYPOS

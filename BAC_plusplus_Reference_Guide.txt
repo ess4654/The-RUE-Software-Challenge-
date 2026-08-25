@@ -289,6 +289,7 @@ EX221         : General WES "Genral Wes, Jackson has identified the 7th symbol" 
 EX243         : Retards
 EX250         : The United State of America
 EX280         : VENOM. WE ARE VENOM!
+EX320         : CARNAGE! THERE WILL BE CARNAGE!!!
 EX321         : The 321 Principle
 EX333         : Music. Operation YING YANG. The 3rd time now I've been interviewed for the news 
 EX342         : RD
@@ -441,6 +442,7 @@ EXGREY        : The Greys alien race
 EXGRINCH      : The Grinch who stole Christmas
 EXGROOT       : Groot
 EXHAIR        : Hair
+EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health
 EXHOME        : Hometown. Main Menu.
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
@@ -469,12 +471,14 @@ EXMAGICWIZARD : Wizards Bound to Magic <<>>
 EXMATRIX      : The Matrix. Any context or use of the word whether film or philosophy.
 EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
 EXMECHANIC    : Mechanics
+EXMETHDEMON   : The Meth Demon
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
 EXNEARBY      : Being close to. Distance. Relationship
 EXNERD        : Nerd and Geeks
 EXNINTENDO    : Nintendo
 EXNORDIC      : The Nordic Race of Aliens
+EXOCD         : Obsessive Compulsive Dissorder
 EXOLDS        : An Alberta based town with a population of ~10,000
 EXORANGE      : Orange Juice
 EXOREO        : OREO Cookies
