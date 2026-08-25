@@ -1,3 +1,15 @@
+Evan S. R. Lifestory
+V1.0
+
+Old Harley Was as dead as a doornail,
+this must simply be understood or nothing wonderful
+may come from what I am about to tell you!
+
+1752 RCAF Z AUG 25 2026
+SAV @EX38
+@@ROOT
+@@GROOT
+
 //*CHARACTER SETUP
 
 //Harley was a science teacher who died from suicide
@@ -5,7 +17,7 @@
 //Harley Taught Elementary School in Didsbury Alberta
 EXES <<>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
 EXPOVERTY <<>> EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
-EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXSUICIDE <<>> EXDEATH <<>> EX32 <<>> DEL.
+EXSCIENCE <<>> EX128 <<>> EX72 <<>> EX03312022 <<>> EXSUICIDE <<>> EXDEATH <<>> EX32 <<>> DEL.
 
 //Setup the location
 EX72 <<>> EXDIDSBURY <<>> EXES <<>> EXPOVERTY
@@ -168,6 +180,7 @@ EXCANADA DEL EXHEALTHCARE DEL EXES <<>> EX01052025 <<>> EXHEALTHCARE DEL EXES <<
 
 EXES <<>> EX01052025 ☎️☎️ 👽👽 <<>> EXHEALTHCARE,
 EX01052025 <<>> EXHEALTHCARE <<>> EXMOON ☎️☎️ EXELON!
+EX01052025 <<>> EXES ☎️☎️ EX72 ☎️☎️ 👽👽 EXELON!
 
 // The Keystone Pipeline Project
 

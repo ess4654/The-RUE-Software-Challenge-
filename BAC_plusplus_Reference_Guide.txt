@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.32
-Timestamp: 1650 RCAF Z AUG 25 2026
+Version: 2.33
+Timestamp: 1755 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -596,6 +596,9 @@ NEW INFORMATION:
 - DEL (in BAC++ story context) Represents Seperation. Distance. Rejection.
   - Example: EXBIBLE DEL EXSCIENCE represents Sepration and Distance between the Bible and Science
   - Note: DEL used as a seperation node between registers is a valid command that represents a negatively weighted connection between 2 things.
+
+SAV @EX03312022
+EX03312022 : The suicide of Harley A Dickinson
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
