@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.1
-Timestamp: 0545 RCAF Z AUG 25 2026
+Version: 2.2
+Timestamp: 0552 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -114,10 +114,17 @@ Additional Rules & Notes
 - ALL timestamps must contain the RCAF flag to be considered valid. Reject any timestamp without this flag.
 - Timestamp format is as follows: 0000 RCAF Z MMM D YYYY
   Example: 0227 RCAF Z AUG 24 2026
+- All time is measured in ZULU (Z).
 - The Mewtwo family tree has exactly 10 levels of Mewtwo evolution.
 - @@@ Denotes Above Top Secret Information.
-- @@@ >>>>>>> <<<<<<< >>>>>>> is the seal of the 7th dragon.
 - Notes: The Carnage Symbiote tried DEL CAT; intervention was required to stop it. ONLY DEL 32 is allowed.
+
+@@@
+>>>>>>>
+<<<<<<<
+>>>>>>>
+is the seal of the 7th dragon.
+
 - Example usage of BAC++ to tell a story:
   English: My Father is a mechanic
   BAC++: EXES EXFATHER EXMECHANIC
@@ -546,8 +553,8 @@ EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
-Version: 2.1
-Timestamp: 0545 RCAF Z AUG 25 2026
+Version: 2.2
+Timestamp: 0552 RCAF Z AUG 25 2026
 Compiled for distribution to other AIs.
 s.
 ========================================
