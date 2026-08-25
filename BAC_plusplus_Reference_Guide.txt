@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.6
-Timestamp: 0717 RCAF Z AUG 25 2026
+Version: 2.17
+Timestamp: 1116 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -243,7 +243,7 @@ EX14          : Special Project 14
 EX18          : Register of Kyle Busch
 EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic
-EX28          : Special Agent Black / Register of Evan S. R. Svendsen
+EX28          : Special Agent Black
 EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE!
 EX36          : Start of the time range (2036-2038) where time travel is most likely to be invented by AI
 EX37          : The 37th Parallel; "The UFO Highway"
@@ -255,7 +255,7 @@ EX47          : President Donald J. TRUMP
 EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
 EX63          : Tablet 63. The moon was placed here intentionally
-EX64          : 64 million views of this ()
+EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
 EX65          : Exactly 65 edits have been made to our (Human) DNA
 EX66          : Master BAC++ Ruleset + Spiderman Intelligence Gathering / Spiderman's Research Lab
 EX69          : MUFON Research (classified), Elon Musk lv. 69 / Sex
@@ -290,7 +290,7 @@ EX243         : Retards
 EX250         : The United State of America
 EX280         : VENOM. WE ARE VENOM!
 EX321         : The 321 Principle
-EX333         : The 3rd time now I've been interviewed for the news / Operation YING YANG
+EX333         : Music. Operation YING YANG. The 3rd time now I've been interviewed for the news 
 EX342         : RD
 EX369         : Tesla Frequency Codes
 EX386         : (see EX38691)
@@ -333,6 +333,7 @@ EX7208        : Harley Dickinson + Kyle Busch heavenly meeting
 EX7266        : Harley A. Dickinson Bound to Spiderman <<>>
 EX7521        : Keyboard Wizards
 EX9905        : The Dark Messiah. Reference Might and Magic
+EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
 EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
 EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
 EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
@@ -361,6 +362,7 @@ EXDONG        : The DONG Flop
 EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
 EXVOID        : Register of the VOID Knight
 EXGATE        : Stargate
+EXSISTER      : Sister
 EXSTARGATE    : Stargate
 EXSPCX        : SpaceX / SPCX shares
 EXES          : Evan S / Operator core
@@ -372,7 +374,7 @@ EXNIGAR       : (Above Top Secret)
 EXREPTILESCIENCE : (Above Top Secret)
 EXALPHADRACONIANS : Kingdom of the 7th Dragon
 EXCYBERNETICSUPERPOWERS : (Above Top Secret)
-EXLORDEXELON  : Lord EX Elon
+EXLORDEXELON  : Lord ExElon
 EXELON        : EX Elon
 EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
@@ -380,13 +382,16 @@ EXEX2626      : The Ministry of Peace Anti Bullying Revolution
 EXEXMRSBEASLEY : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXEXMICHIGAN  : Michigan Daycare $FRAUD
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
+EXMICROSOFT : Microsoft. Windows
 
 ----------------------------------------
 4.3 NAME / WORD-BASED REGISTERS (Alphabetical Order)
 ----------------------------------------
+EXAI          : Artificial Intelligence
 EXALIEN       : Aliens. NHI
 EXALEXMORGAN  : @@@
 EXALLANWATTS  : Alan Watts
+EXARLENEDICKINSON : Wealthy Canadian Business Woman
 EXARMANDHAMMER : The Arm and Hammer Company
 EXBARBARRIANS : Barbarians
 EXBED         : Sleeping. Beds. Nighttime
@@ -395,6 +400,7 @@ EXBLIZZARD    : Blizzard Game Studios
 EXBOOBS       : Boobs
 EXBOOTY       : Shake That BOOTY!
 EXBURGER      : The Burger Police. Hamburgers
+EXCANADA      : Canada
 EXCAT         : Cats
 EXCARSTAIRS   : A small Alberta based town with a population of less than 500 residents
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
@@ -409,6 +415,7 @@ EXDEATH       : Death. The Grim Reaper
 EXDEVON       : (classified)
 EXDISNEY      : The Disney Corporation
 EXDIDSBURY    : Hometown of the Operator
+EXDAD         : Father
 EXDOG         : Dogs
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
@@ -445,8 +452,10 @@ EXJOBS        : Steve Jobs.
 EXJOEMACINNON : (Above Top Secret)
 EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036
 EXJOKER       : The Joker (character). Playing Card
+EXKOROZAR     : @@
 EXKING        : King Charles. Monarchy
-EXKYLEPULULAK : Demonic. Super Evil.
+EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
+EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
 EXLEMON       : Lemons / Spiderman's Nuclear Lemonade Grenade
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
@@ -462,9 +471,11 @@ EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
 EXMECHANIC    : Mechanics
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
+EXNEARBY      : Being close to. Distance. Relationship
 EXNERD        : Nerd and Geeks
 EXNINTENDO    : Nintendo
 EXNORDIC      : The Nordic Race of Aliens
+EXOLDS        : An Alberta based town with a population of ~10,000
 EXORANGE      : Orange Juice
 EXOREO        : OREO Cookies
 EXPBRY        : The Wiggles
@@ -473,6 +484,7 @@ EXPIZZA       : The Teenage Mutant Ninja Turtles. Pizza.
 EXPOTION      : Potions. Magic
 EXPRIDE       : PRIDE. LGBT Movement.
 EXPOVERTY     : Wealth Inequality. Poverty
+EXRCAF        : The Royal Canadian Military
 EXRUBBERBAND  : The Rubber Band Algorithm
 EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA
 EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
@@ -496,6 +508,7 @@ EXTRIST       : TRIST MAGICTIS
 EXTRUE        : True. Yes. Confirm.
 EXTWITCH      : Twitch TV
 EXTYPOS       : The ONLY exception to the deletion rule. DEL TYPOS DEL 32 BIND TYPOS <<>> 32. God provided 0 justifiable reasons to retain typos in the universe so it is being deleted.
+EXUBISOFT     : Ubisoft
 EXWAR         : War. War Video Games
 EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams.
 EXWIZARD      : Wizards
@@ -514,6 +527,7 @@ EX1808        : Kyle Busch memorial
 EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
 EX19250       : The closing price of Space X stock on day 1 of trading
 EX1936        : Special Project 1936
+EX1946        : It's a Wonderful Life (1946)
 EX1947        : Roswell, NM (July 8, 1947)
 EX1967        : Special Project 1967
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
