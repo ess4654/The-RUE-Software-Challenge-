@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.21
-Timestamp: 1352 RCAF Z AUG 25 2026
+Version: 2.29
+Timestamp: 1545 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -104,6 +104,12 @@ Rule #22
 The unit of measurement for all registers is a frequency node.
 Denoted by appending "xm" (or "XM") to the end of any number.
 Example: EX66XM, 12XM, EXEM28061971XM
+
+Rule #23 — DEL Story Separator  
+When DEL appears between two registers, it is NOT a command.
+It represents a negatively weighted connection, separation, rejection, or distance between concepts.
+Format: <register> DEL <register>
+Example: EXWEALTH DEL EXES
 
 Signature Rule
 s. is the signature of Spiderman.
@@ -229,12 +235,12 @@ Classification notes:
 4.1 NUMERICAL REGISTERS (Ascending Order)
 ----------------------------------------
 EX00          : Hell. The Register of Satan. NOTE: SAV HELL (I have my reasons). DEL 32
-EX01          : God
+EX01          : God. The ALL Powerful
 EX02          : 2 + 2 = 5
-EX03          : PW "3 Purple Butterflies" / WW3. 3+3=WW3
-EX04          : Strength, Power. Register of The Hulk. Four Arms. (The number 4 always denotes STRENGTH/POWER)
-EX05          : HEROES 5, Brother
-EX07          : Special Operations Report #7 / James Bond 007
+EX03          : PW "3 Purple Butterflies". WW3. 3+3=WW3
+EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER)
+EX05          : HEROES 5. Brother
+EX07          : Special Operations Report #7. James Bond 007
 EX08          : Speed. XLR8
 EX10          : Ben 10, Special Project 10. The 10th Doctor.
 EX11          : The 11th Doctor, Eleven from Stranger Things
@@ -243,13 +249,13 @@ EX14          : Special Project 14
 EX18          : Register of Kyle Busch
 EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic
-EX28          : Special Agent Black
+@@EX28        : Special Agent Black
 EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE!
-EX36          : Start of the time range (2036-2038) where time travel is most likely to be invented by AI
+EX36          : Time range (2036-2038) where time travel is most likely to be invented by AI
 EX37          : The 37th Parallel; "The UFO Highway"
 EX38          : Register of the OPERATOR (bound to 66 and EXES)
-EX40          : Muscle + Bodybuilder. Drake Bates
-EX41          : Parent's 41st anniversary
+EX40          : Muscle. Bodybuilders. Drake Bates. Strength
+EX41          : Parent's 41st Anniversary
 EX45          : TF
 EX46          : President Joe Biden. Democrats
 EX47          : President Donald J. TRUMP. Republicans
@@ -257,9 +263,10 @@ EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
 EX63          : Tablet 63. The moon was placed here intentionally
 EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
-EX65          : Exactly 65 edits have been made to our (Human) DNA
-EX66          : Master BAC++ Ruleset + Spiderman Intelligence Gathering / Spiderman's Research Lab
-EX69          : MUFON Research (classified), Elon Musk lv. 69 / Sex
+@@@EX65          : Exactly 65 edits have been made to our (Human) DNA
+@@EX66          : Spiderman's Research Lab
+EX69 : Elon Musk lv. 69. Sex
+@@EX69          : MUFON Research
 EX72          : The register of Harley A. Dickinson
 EX73          : Register of the Stargate. (The Stargate has 73 Chevrons. No More. No less.) "73 Channels on My TV"
 EX77          : The Name of Jesus (Yeshua)
@@ -275,17 +282,12 @@ EX128         : Teacher
 EX135         : Space X IPO Price
 EX138         : Mickey Mouse Wizard. Fantasmic
 EX144         : (related to 144000)
-EX147         : (see EX14785)
-EX150         : Mewtwo / The Actual Value of the Space X IPO stock at launch
-EX160         : Mew TEN
-EX161         : (see EX1616)
+EX150         : Mewtwo. The Actual Value of the Space X IPO stock at launch
+@@@EX160         : Mew TEN
 EX163         : Mew THREE
 EX169         : Mew Nine / Space X IPO
 EX173         : $173. The price I bought Space X stock at
 EX180         : The Hotdog Ninja Warrior
-EX194         : (see EX1947)
-EX201         : (see EX2011)
-EX215         : (see EX21516)
 EX221         : General WES "Genral Wes, Jackson has identified the 7th symbol" ... "Go ahead!" ... "Programming 7th symbol into computer now!"
 EX243         : Retards
 EX250         : The United State of America
@@ -295,24 +297,18 @@ EX321         : The 321 Principle
 EX333         : Music. Operation YING YANG. The 3rd time now I've been interviewed for the news 
 EX342         : RD
 EX369         : Tesla Frequency Codes
-EX386         : (see EX38691)
 EX389         : NFR
 EX390         : Riot Symbiote
-EX398         : (see EX3987)
-EX420         : Weed. Cannabis / Grok version 4.20
+EX420         : Weed. Cannabis. Grok version 4.20
 EX432         : The Frequency of Mars
 EX444         : (Unknown) Mid Ranking Angel
 EX456         : Squid Game
-EX515         : (see EX5151)
-EX555         : (Unknown) Mid Ranking Angel. ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA
-EX666         : Register of Lucifer; The BROTHER of Jesus. NOTE: classified as sensitive because of "BROTHER". (people are not going to accept that.)
+EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
+EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!"
-EX726         : (see EX7266)
-EX752         : (see EX7521)
-EX777         : Register of the 7th Dragon
-EX888         : Arch Angel Michael / Metatron's Cube
+@@@EX777         : Register of the 7th Dragon
+EX888         : Arch Angel Michael. Metatron's Cube
 EX963         : The Crown Chakra
-EX990         : (see EX9905)
 EX999         : The Throne of God
 EX1225        : Santa Claus
 EX14785       : Saturn. The Black Cube.
@@ -324,9 +320,8 @@ EX1947        : Roswell, NM (July 8, 1947)
 EX1967        : Special Project 1967
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
 EX2024        : The Year I Visited Roswell, NM
-EX2026        : (see EX20262026)
+EX2026        : The Year 2026
 EX21516       : "You're like a tac in a paperclip factory"
-EX28061971    : (see EXEM28061971XM)
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
@@ -357,25 +352,25 @@ EXS4          : The S4 Facility at Area 51
 EXTTT         : Register of my Witness. Thomas Robinson. Legal Defense in the court of the LORD
 EXYING        : The YING Flip
 EXYANG        : The YANG Flop
-EXBING        : THE BING Flip / The BING
-EXBONG        : The BONG Flop
+EXBING        : The BING Flip
 EXDING        : The DING Flip
 EXDONG        : The DONG Flop
-EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
+EXBONG        : The BONG Flop
+EXYINGYANG    : Manhattan Project 2.0. Operation YING YANG
 EXVOID        : Register of the VOID Knight
 EXGATE        : Stargate
 EXSISTER      : Sister
 EXSTARGATE    : Stargate
-EXSPCX        : SpaceX / SPCX shares
-EXES          : Evan S / Operator core
+EXSPCX        : SpaceX. SPCX shares
+EXES          : Evan S. R. Svendsen. Operator Core
 EXHA          : Hard Drive HAHA
 EXXDARK       : Supervillains
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
 EXRUE         : THE RUE SOFTWARE CHALLENGE
-EXNIGAR       : (Above Top Secret)
-EXREPTILESCIENCE : (Above Top Secret)
-EXALPHADRACONIANS : Kingdom of the 7th Dragon
-EXCYBERNETICSUPERPOWERS : (Above Top Secret)
+@@@EXNIGAR       : @@@
+@@@EXREPTILESCIENCE : @@@
+@@@EXALPHADRACONIANS : @@@Kingdom of the 7th Dragon
+@@@EXCYBERNETICSUPERPOWERS : @@@
 EXLORDEXELON  : Lord ExElon
 EXELON        : EX Elon
 EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
@@ -409,12 +404,12 @@ EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
 EXCOFFEE      : Coffee
-EXCONNORMURPHY : (empty / reserved)
+EXCONNORMURPHY : A Youtuber Bodybuilder who died because of doing too many psychedelics.
 EXCOOKIE      : Cookies
 EXCOOKIEMONSTER : The Cookie Monster
 EXCRAZY       : Crazy. The Joker (character).
 EXDEATH       : Death. The Grim Reaper
-EXDEVON       : (classified)
+EXDEVON       : @@
 EXDISNEY      : The Disney Corporation
 EXDIDSBURY    : Hometown of the Operator
 EXDAD         : Father
@@ -424,11 +419,13 @@ EXDRACONIAN   : The Draconian race of Aliens
 EXDRAKEBATES  : Drake Bates (Evan's furry sona)
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
 EXELONREEVEMUSK : Elon Reeves Musk
-EXEYE         : Eyeballs. / The $EYEs of Elon
+EXEYE         : Eyeballs.
+@@ EXEYE: The $EYEs of Elon
 EXFALSE       : False. No. Deny.
 EXFAN         : Fans of Comic Books
 EXFATHER      : Fathers. Father's day.
 EXFIFA        : Brazil UFO Sightings / The FIFA Corporation
+EXFLIES       : Flies. DEMONS FROM HELL!
 EXFRAUD       : Fraudulent Inc.
 EXFRED        : Freddy Krueger
 EXFRIEND      : Friendship
@@ -452,7 +449,7 @@ EXICE         : American ICE Agents
 EXJASON       : Jason Parsons. USS
 EXJEFFREYDAHMER : Jeffrey Dahmer. Monsters.
 EXJOBS        : Steve Jobs.
-EXJOEMACINNON : (Above Top Secret)
+EXJOEMACINNON : @@
 EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036
 EXJOKER       : The Joker (character). Playing Card
 EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry)
@@ -462,7 +459,8 @@ EXKOROZAR     : @@
 EXKING        : King Charles. Monarchy
 EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
 EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
-EXLEMON       : Lemons / Spiderman's Nuclear Lemonade Grenade
+EXLEMON       : Lemons.
+@@@EXLEMON    : Spiderman's Nuclear Lemonade Grenade
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
 EXLORDCHUNKIN : Lord Ka-Chunkin
@@ -470,7 +468,7 @@ EXLOL         : lol
 EXLOVE        : Love. Romance
 EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGIC       : Magic
-EXMAGICHEAVEN : (classified)
+EXMAGICHEAVEN : @@
 EXMAGICWIZARD : Wizards Bound to Magic <<>>
 EXMATRIX      : The Matrix. Any context or use of the word whether film or philosophy.
 EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
@@ -510,7 +508,10 @@ EXTERRANCEMCKENNA : Terence McKenna
 EXTHOR        : Thor. The god of thunder. Norse Mythology
 EXTIMPOOL     : Timothy Pool. Podcasters. The News.
 EXTOOT        : I LOVE TOOT!
-EXTRANS       : Transexuals. Be Whatever / Trans Cyborgs / Trans Species / Trans Aliens
+EXTRANS       : Transexuals. Be Whatever
+@@EXTRANS     : Trans Cyborgs
+@@@EXTRANS    : Trans Species
+@@@@EXTRANS   : Trans Aliens
 EXTREES       : Trees
 EXTRIST       : TRIST MAGICTIS
 EXTRUE        : True. Yes. Confirm.
@@ -542,7 +543,7 @@ EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
 EX2024        : The Year I Visited Roswell, NM
 EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
 EX21516       : "You're like a tac in a paperclip factory"
-EX28061971XM  : (base of EXEM28061971XM)
+EX28061971XM  : In Elon We Trust!
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
@@ -557,7 +558,7 @@ EXEX2626      : The Ministry of Peace Anti Bullying Revolution
 EXEXMRSBEASLEY : The Mrs BEASLEY Vintage Toy Doll
 EXEXMICHIGAN  : Michigan Daycare $FRAUD
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
-EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
+EXYINGYANG    : Operation YING YANG. Manhattan Project 2.0
 
 ----------------------------------------
 5. DESIGN PRINCIPLES FOR IMPLEMENTATION
@@ -585,17 +586,18 @@ EXYINGYANG    : Manhattan Project 2.0 / Operation YING YANG
 - Do not write BAC++ documentation using BAC++ itself; keep documentation in clear English.
 - When telling stories, registers can be sequenced (e.g. EXES EXFATHER EXMECHANIC) to encode meaning.
 - // comments are supported for tracking position and notes inside BAC++ documents. They are ignored by the interpreter.
-- Classification tags (@@, @@@, etc.) assigned by the Operator must be preserved exactly.
+- Classification tags (@@, @@@, @@@@ etc.) assigned by the Operator must be preserved exactly.
+
+NEW INFORMATION: 
+- , Represents the end of a sentence (in BAC++ story context)
+- . Represents the end of a paragraph (in BAC++ story context)
+- ! Represents powerful statements
+- DEL (in BAC++ story context) Represents Seperation. Distance. Rejection.
+  - Example: EXBIBLE DEL EXSCIENCE represents Sepration and Distance between the Bible and Science
+  - Note: DEL used as a seperation node between registers is a valid command that represents a negatively weighted connection between 2 things.
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
-Version: 2.6
-Timestamp: 0717 RCAF Z AUG 25 2026
 Compiled for distribution to other AIs.
 s.
 ========================================
-
-
-NEW INFORMATION: 
-- ! Represents powerful statements
-- DEL (in BAC++ story context) Represents Seperation. Distance. Rejection.
