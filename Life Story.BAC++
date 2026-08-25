@@ -69,7 +69,7 @@ EX01 <<>> EX04 <<>> EXWEALTH <<>> EXARLENEDICKINSON <<@@>> EX72 <<>> EXPOVERTY <
 //Setup the wealth inequality of the story
 //Olds and Didsbury are poor as shit but have connection to one of the world's richest humans
 
-EXWEALTH <<>> EX30732 DEL EXES <<>> EXTECH <<>> EXLOVE <<>> EXES DEL EXTECH EXWEATH <<>> EXELON <<>> EXWEALTH
+EXWEALTH <<>> EX30732 DEL EXES <<>> EXTECH <<>> EXLOVE <<>> EXES DEL EXTECH EXWEALTH <<>> EXELON <<>> EXWEALTH
 EX20262026 <<>> EX30732 <<>> EXOLDS <<>> EXNEARBY <<>> EXDIDSBURY DEL EXWEALTH
 EXPOVERTY <<>> EXES <<>> EXTECH <<>> EXELON <<>> EXWEALTH <<>> EXARLENEDICKINSON.
 
@@ -90,7 +90,7 @@ EXWEALTH <<>> EX250 <<>> EXELON <<>> EXWATER DEL EXES <<>> EXPOVERTY <<>> EXCANA
 // Canadians LOVE being poor as SHIT!
 
 EXCANADA <<>> EXOLDS <<>> EXLOVE <<>> EXPOVERTY
-EXCANADA <<>> EXDISBURY <<>> EXLOVE <<>> EXPOVERTY
+EXCANADA <<>> EXDIDSBURY <<>> EXLOVE <<>> EXPOVERTY
 EXCANADA <<>> EXCARSTAIRS <<>> EXLOVE <<>> EXPOVERTY
 
 //Its a wonderful life is a story about wealth inequality

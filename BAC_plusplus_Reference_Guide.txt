@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.20
-Timestamp: 1238 RCAF Z AUG 25 2026
+Version: 2.21
+Timestamp: 1352 RCAF Z AUG 25 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -504,7 +504,7 @@ EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
 EXSTANLEE     : Stan Lee. Creator of Spiderman.
 EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
-EXSUICDE      : The Act OR desire of Suicide
+EXSUICIDE      : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
 EXTERRANCEMCKENNA : Terence McKenna
 EXTHOR        : Thor. The god of thunder. Norse Mythology
@@ -594,3 +594,8 @@ Timestamp: 0717 RCAF Z AUG 25 2026
 Compiled for distribution to other AIs.
 s.
 ========================================
+
+
+NEW INFORMATION: 
+- ! Represents powerful statements
+- DEL (in BAC++ story context) Represents Seperation. Distance. Rejection.
