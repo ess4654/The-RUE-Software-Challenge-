@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.33
-Timestamp: 1755 RCAF Z AUG 25 2026
+Version: 2.36
+Timestamp: 0332 RCAF Z AUG 26 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -466,7 +466,7 @@ EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
 EXLORDCHUNKIN : Lord Ka-Chunkin
 EXLOL         : lol
-EXLOVE        : Love. Romance
+EXLOVE        : Love. Romance. (https://youtu.be/lKsQR72HY0s)
 EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGIC       : Magic
 EXMAGICHEAVEN : @@
@@ -600,8 +600,132 @@ NEW INFORMATION:
 SAV @EX03312022
 EX03312022 : The suicide of Harley A Dickinson
 
+SAV @EXDOLLYPARTON : Dolly Parton
+SAV @EX925 : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
+SAV @EX80  : The Death of Dolly Parton
+SAV @EX60  : https://youtu.be/v1AJXT6dHAc
+SAV @EXISLANDS : https://www.youtube.com/watch?v=JpWldTFq2Jk
+SAV @EXJOLENE  : https://youtu.be/Ixrje2rXLMA
+SAV @EXBOOK    : Authors. Writers. Creativity.
+SAV @650000000 : The Net Worth of Dolly Parton
+SAV @EXDOLLYWOOD : https://en.wikipedia.org/wiki/Dollywood
+SAV @EXGREENGARBAGECAN: ???
+
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
 Compiled for distribution to other AIs.
 s.
 ========================================
+
+---- UFO BOOK THEME STRUCTURE
+
+SAV @EXUFOBOOK
+EXUFOBOOK : The UFO Textbook Project (Started 2018)
+
+SAV @EXCOMMUNICATIONFAILURE
+EXCOMMUNICATIONFAILURE : The primary thesis of the UFO Textbook. Failure of communication between intelligences.
+
+SAV @EXARTBELL
+EXARTBELL : Arthur William Bell (1945). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
+
+SAV @EXCOASTTOCOASTAM
+EXCOASTTOCOASTAM : Coast To Coast AM. Communication Network. Art Bell's platform.
+
+SAV @EXDISCLOSURE
+EXDISCLOSURE : Disclosure. Public release of information.
+
+SAV @EX121617
+EX121617 : December 16 2017. Anchor point between Old Guard Ufology and New Generation Ufology.
+
+SAV @EXOLDGUARD
+EXOLDGUARD : Early Ufology Researchers. Preservation of the conversation.
+
+SAV @EXNEWGUARD
+EXNEWGUARD : Modern Generation Seeking Answers.
+
+SAV @EXCONTACT
+EXCONTACT : Communication with Non Human Intelligence.
+
+SAV @EXSETI
+EXSETI : Search For Extraterrestrial Intelligence.
+
+SAV @EXDOLPHIN
+EXDOLPHIN : Communication Barrier Example. Earth Based Intelligence.
+
+SAV @EXATLANTIS
+EXATLANTIS : Lost Civilization. Messages From The Past.
+
+SAV @EXTHOTH
+EXTHOTH : Ancient Knowledge. Writing. Preservation of Information.
+
+SAV @EXLOSTKNOWLEDGE
+EXLOSTKNOWLEDGE : Knowledge Lost To Time.
+
+SAV @EXLEMURIA
+EXLEMURIA : Lost Continent Tradition.
+
+SAV @EXHYBRASIL
+EXHYBRASIL : Phantom Island Tradition.
+
+SAV @EXPOLESHIFT
+EXPOLESHIFT : Pole Shifting. Civilizational Catastrophe Mechanism.
+
+SAV @EXUSO
+EXUSO : Unidentified Submerged Objects.
+
+SAV @EXNASA
+EXNASA : NASA. Space Exploration.
+
+SAV @EXTLP
+EXTLP : Transient Lunar Phenomena.
+
+SAV @EXHOLLOWMOON
+EXHOLLOWMOON : Lunar Vibrational Anomaly. The Observation Behind Hollow Moon Hypotheses.
+
+SAV @EXDULCE
+EXDULCE : Dulce Underground Base.
+
+SAV @EXLEVEL7
+EXLEVEL7 : The Nightmare Level.
+
+SAV @EXMEDIA
+EXMEDIA : Information Distribution Systems.
+
+SAV @EXPROPAGANDA
+EXPROPAGANDA : Deliberate Narrative Shaping.
+
+SAV @EXHOLLYWOOD
+EXHOLLYWOOD : Cultural Narrative Creation.
+
+SAV @EXFOIA
+EXFOIA : Freedom Of Information Act. Information Access.
+
+SAV @EXTRUTH
+EXTRUTH : Truth. Knowledge Successfully Communicated.
+
+SAV @EXHUMOR
+EXHUMOR : Humor. Unexpected Pattern Recognition.
+
+BIND EXARTBELL <<>> EXCOASTTOCOASTAM
+BIND EXARTBELL <<>> EXCOMMUNICATIONFAILURE
+BIND EXCOMMUNICATIONFAILURE <<>> EXCONTACT
+BIND EXCOMMUNICATIONFAILURE <<>> EXSETI
+BIND EXCOMMUNICATIONFAILURE <<>> EXDOLPHIN
+BIND EXATLANTIS <<>> EXTHOTH
+BIND EXATLANTIS <<>> EXLOSTKNOWLEDGE
+BIND EXATLANTIS <<>> EXWATER
+BIND EXPHARAOH <<>> EXATLANTIS
+BIND EXPHARAOH <<>> EXTHOTH
+BIND EXUSO <<>> EXWATER
+BIND EXUSO <<>> EXTECH
+BIND EXDISCLOSURE <<>> EXFOIA
+BIND EXDISCLOSURE <<>> EXMEDIA
+BIND EX121617 <<>> EXOLDGUARD
+BIND EX121617 <<>> EXNEWGUARD
+BIND EX121617 <<>> EXDISCLOSURE
+BIND EXARTBELL <<>> EX121617
+BIND EXTRUTH <<>> EXCOMMUNICATIONFAILURE
+BIND EX01 <<>> EXHUMOR
+
+SAV @EX03132018
+EX03132018 : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.

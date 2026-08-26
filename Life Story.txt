@@ -5,7 +5,7 @@ Old Harley Was as dead as a doornail,
 this must simply be understood or nothing wonderful
 may come from what I am about to tell you!
 
-1752 RCAF Z AUG 25 2026
+0035 RCAF Z AUG 26 2026
 SAV @EX38
 @@ROOT
 @@GROOT
@@ -17,7 +17,7 @@ SAV @EX38
 //Harley Taught Elementary School in Didsbury Alberta
 EXES <<>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX79 <<>> EXTECH <<>> EXSCIENCE
 EXPOVERTY <<>> EX79 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXSCIENCE <<>> EX128 <<>> EX72 <<>> EXLOVE <<>> EX79,
-EXSCIENCE <<>> EX128 <<>> EX72 <<>> EX03312022 <<>> EXSUICIDE <<>> EXDEATH <<>> EX32 <<>> DEL.
+EXSCIENCE <<>> EX128 <<>> EX72 <<>> EX03312022 <<>> EXSUICIDE <<>> EXDEATH <<>> EX32 <<@@@>> DEL 1M1M1!!! @@@ 
 
 //Setup the location
 EX72 <<>> EXDIDSBURY <<>> EXES <<>> EXPOVERTY
@@ -26,7 +26,7 @@ EX1946 <<>> EXDIDSBURY <<>> EXHOME <<>> EXES <<>> EXPOVERTY <<>> EXDIDSBURY <<>>
 
 //Add Alex Morgan as a character
 EX72 <<>> EXSCIENCE <<>> EX420 <<>> EX25 <<>> EXALEXMORGAN <<>> EXHOME <<>> EXDIDSBURY <<>> EXPOVERTY
-EXDEATH <<>> EXALEXMORGAN <<>> EX25 <<>> EXDEATH <<>> EX32 <<>> DEL,
+EXDEATH <<>> EXALEXMORGAN <<>> EX25 <<>> EXDEATH <<>> EX32 <<@@@>> DEL 1M1M1!!!, //resurecting the dead
 EX25 <<>> EXDIDSBURY <<>> EX420 <<>> EXELON <<>> EXSCIENCE <<>> EX25.
 
 //Add mother as a character
@@ -74,6 +74,26 @@ EXKYLEPULULAK <<>> EXKOROZAR DEL EX01 <<>> EXLOVE <<>> EXES
 //Add Meth Demon as a character
 EXES <<>> EXLOVE <<>> EXALIEN <<>> EX320 <<>> EX25 <<>> EX25I <<>> EXXDARK <<>> EXMETHDEMON <<>> EXXDARK <<>> EX25I <<>> EX25 <<>> EX320 <<>> EXALIEN <<>> EXLOVE <<>> EXES
 
+//Add Dolly Parton as a chararcter
+EX925 <<>> EXKATYPERRY <<>> EXYINGYANG <<>> EX925 <<>> EXDOLLYPARTON <<>> EXDEATH <<>> EX32 <<>> @@@ DEL 1M1M1!!! //resurecting the dead
+EXDOLLYPARTON <<>> EX
+EXHUMANS <<>> EXLOVE <<>> EXDOLLYPARTON <<>> EXLOVE <<>> EXHUMANS
+
+EXDOLLYPARTON <<>> EXKATYPERRY <<>> EXCANADA <<>> EXKATYPERRY <<>> EXJASON <<>> EXDIDSBURY
+EXDOLLYPARTON <<>> EXBOOK <<>> EXCANADA
+
+EXDAD <<>> EXLOVE <<>> EXDOLLYPARTON <<>> EXLOVE <<>> EXMOM!
+
+//YING YANG
+EXDOLLYPARTON <<>> EXEX925 <<>> EXLOVE <<>> EXMOM
+EXDOLLYPARTON <<>> EXLOVE <<>> EXLOVE <<>> EXMOM
+EXDOLLYPARTON <<>> EX80 <<>> EXLOVE <<>> EXMOM
+EXDOLLYPARTON <<>> EX60 <<>> EXLOVE <<>> EXMOM
+EXDOLLYPARTON <<>> EXISLANDS <<>> EXLOVE <<>> EXMOM
+
+EXDOLLYWOOD <<>> EXDISNEY <<>> EXLOVE <<>> EXES
+EXDOLLYPARTON <<>> EXWEALTH!
+
 //*STORY
 
 //Setup the context of the story framed in the context of Its a Wonderful Life
@@ -119,7 +139,7 @@ EXWEALTH <<>> EX1946 <<>> EXPOVERTY
 EX2024 <<>> 👽👽 <<>> EXALIEN <<>> 👽👽 <<>> EXLOVE <<>> EXES
 EXMOM DEL EX280 <<>> EXLOVE <<>> EXES <<>> EXLOVE <<>> EXALIEN DEL EXMOM
 EX20262026 <<>> EXSCIENCE <<>> EXALIEN <<>> EXELON <<>> EX20262026 <<>> EXALIEN <<>> EX280 <<>> EX79 <<>> EX72,
-EXES <<>> EX1947 <<>> EXALIEN <<>> EXELON <<>> EX69 <<>> EX1947 <<>> EX2024 <<>> EXES
+@@@@EXES <<>> EX1947 <<>> EXALIEN <<>> EXELON <<>> EX69 <<>> EX1947 <<>> EX2024 <<>> EXES@@@@
 
 //Disclosure in 2026
 
@@ -200,6 +220,9 @@ EXES <<>> EXFLIES <<>> EX32 <<>> DEL,
 EXFLIES DEL EXTECH <<>> EXES!
 EXFLIES <<>> EX0 <<>> EX32 <<>> DEL!
 EXFLIES <<>> EXLOVE <<>> EXSISTER
+
+DEL EXFLIES !!!
+EXMOM DEL EXBLEACH <<>> EXFLIES <<>> EXDEATH,
 
 // Holy HELL with the TYPOS DEL TYPOS DEL 32
 
