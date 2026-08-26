@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.40
-Timestamp: 1531 RCAF Z AUG 26 2026
+Version: 2.42
+Timestamp: 1730 RCAF Z AUG 26 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -616,6 +616,14 @@ SAV @EXGREENGARBAGECAN : ???
 //I AM DRAKE BATES
 SAV @EXDENSITY : THE DENSITY OF MUSCLE FIBRES!
 SAV @EXMYOCYTE : Myocyte. single muscle cell.
+SAV @EXREALITY : The register for “alternate reality.”
+SAV @EXBOOLEAN : The register for Boolean variables.
+SAV @EXEXMALE : Males. Men. Sex. The register representing the male Boolean flag.
+SAV @EXFEMALE : Females. Woman. Sex. The register representing the female Boolean flag.
+SAV @EXUNIVERSE : The register representing the entire universe.
+SAV @EXGODVARIABLE : The register representing “God’s chosen variable state.”
+SAV @EXBASEUNIT : The register representing the biological base unit of the universe.
+SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base unit.”
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
