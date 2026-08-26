@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.38
-Timestamp: 1453 RCAF Z AUG 26 2026
+Version: 2.40
+Timestamp: 1531 RCAF Z AUG 26 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -238,7 +238,7 @@ EX00          : Hell. The Register of Satan. NOTE: SAV HELL (I have my reasons).
 EX01          : God. Source Code of THE IMMACULATE SIMULATION PROTOCOLS. The ALL Powerful
 EX02          : 2 + 2 = 5 (https://youtu.be/D_tXQo1yz0o?list=RDD_tXQo1yz0o)
 EX03          : PW "3 Purple Butterflies" (https://youtu.be/DsEJgqQkaMw). WW3. 3+3=WW3
-EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER)
+EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER) <<XXXX>> EXDRAKEBATES
 EX05          : HEROES 5. Brother
 EX07          : Special Operations Report #7. James Bond 007
 EX08          : Speed. XLR8
@@ -612,6 +612,10 @@ SAV @EXBOOK    : Authors. Writers. Creativity.
 SAV @650000000 : The Net Worth of Dolly Parton
 SAV @EXDOLLYWOOD : https://en.wikipedia.org/wiki/Dollywood
 SAV @EXGREENGARBAGECAN : ???
+
+//I AM DRAKE BATES
+SAV @EXDENSITY : THE DENSITY OF MUSCLE FIBRES!
+SAV @EXMYOCYTE : Myocyte. single muscle cell.
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
