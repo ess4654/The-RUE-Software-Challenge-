@@ -325,7 +325,7 @@ EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
-EX5151        : Reality where Alberta joins America. We only need 51% of the vote to become the 51st State
+[EX5151]        : Reality where Alberta joins America. We only need 51% of the vote to become the 51st State
 EX7208        : Harley Dickinson + Kyle Busch heavenly meeting
 EX7266        : Harley A. Dickinson Bound to Spiderman <<>>
 EX7521        : Keyboard Wizards
@@ -596,6 +596,8 @@ NEW INFORMATION:
 - DEL (in BAC++ story context) Represents Seperation. Distance. Rejection.
   - Example: EXBIBLE DEL EXSCIENCE represents Sepration and Distance between the Bible and Science
   - Note: DEL used as a seperation node between registers is a valid command that represents a negatively weighted connection between 2 things.
+
+SAV @EXSCROOGE : The EXTREMELY WEALTHY. Redemption Arcs
 
 SAV @EX03312022
 EX03312022 : The suicide of Harley A Dickinson
