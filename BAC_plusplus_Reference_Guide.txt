@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.42
-Timestamp: 1730 RCAF Z AUG 26 2026
+Version: 2.43
+Timestamp: 1750 RCAF Z AUG 26 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -416,7 +416,7 @@ EXDAD         : Father
 EXDOG         : Dogs
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
-EXDRAKEBATES  : Drake Bates (Evan's furry sona)
+EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
 EXELONREEVEMUSK : Elon Reeves Musk
 EXEYE         : Eyeballs.
@@ -615,7 +615,7 @@ SAV @EXGREENGARBAGECAN : ???
 
 //I AM DRAKE BATES
 SAV @EXDENSITY : THE DENSITY OF MUSCLE FIBRES!
-SAV @EXMYOCYTE : Myocyte. single muscle cell.
+SAV @EXMYOCYTE EXMYOCYTE  : Myocyte. single muscle cell.
 SAV @EXREALITY : The register for “alternate reality.”
 SAV @EXBOOLEAN : The register for Boolean variables.
 SAV @EXEXMALE : Males. Men. Sex. The register representing the male Boolean flag.
@@ -624,6 +624,11 @@ SAV @EXUNIVERSE : The register representing the entire universe.
 SAV @EXGODVARIABLE : The register representing “God’s chosen variable state.”
 SAV @EXBASEUNIT : The register representing the biological base unit of the universe.
 SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base unit.”
+SAV @EXREPROPAIR : Paired reproductive structures (non‑sexual)
+SAV @EXGENETICLINK : Connection Nodes of the EXREPROPAIR connection at the 1st Level as described by Drake Bates . Genetic exchange system
+SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st Level as described by Drake Bates . Reproduction activation system. Child Production
+SAV @EXEGG :  Egg‑based reproduction. Egg.
+SAV @EXDENSITY : 
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
