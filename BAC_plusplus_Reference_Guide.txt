@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.36
-Timestamp: 0332 RCAF Z AUG 26 2026
+Version: 2.38
+Timestamp: 1453 RCAF Z AUG 26 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -301,7 +301,7 @@ EX389         : NFR
 EX390         : Riot Symbiote
 EX420         : Weed. Cannabis. Grok version 4.20
 EX432         : The Frequency of Mars
-EX444         : (Unknown) Mid Ranking Angel
+EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
 EX666         : Register of Lucifer
