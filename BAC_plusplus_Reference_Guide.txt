@@ -611,7 +611,7 @@ SAV @EXJOLENE  : https://youtu.be/Ixrje2rXLMA
 SAV @EXBOOK    : Authors. Writers. Creativity.
 SAV @650000000 : The Net Worth of Dolly Parton
 SAV @EXDOLLYWOOD : https://en.wikipedia.org/wiki/Dollywood
-SAV @EXGREENGARBAGECAN: ???
+SAV @EXGREENGARBAGECAN : ???
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
