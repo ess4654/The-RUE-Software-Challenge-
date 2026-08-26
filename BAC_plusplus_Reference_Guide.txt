@@ -623,12 +623,13 @@ SAV @EXFEMALE : Females. Woman. Sex. The register representing the female Boolea
 SAV @EXUNIVERSE : The register representing the entire universe.
 SAV @EXGODVARIABLE : The register representing “God’s chosen variable state.”
 SAV @EXBASEUNIT : The register representing the biological base unit of the universe.
-SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base unit.”
+SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base unit.” The Base of their ANATONIMCALLY described sex organs.
 SAV @EXREPROPAIR : Paired reproductive structures (non‑sexual)
 SAV @EXGENETICLINK : Connection Nodes of the EXREPROPAIR connection at the 1st Level as described by Drake Bates . Genetic exchange system
 SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st Level as described by Drake Bates . Reproduction activation system. Child Production
+SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. EXPERIMENTATION.
 SAV @EXEGG :  Egg‑based reproduction. Egg.
-SAV @EXDENSITY : 
+SAV @EXSEED : Internally based contection point for the MICROTUBULES
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
