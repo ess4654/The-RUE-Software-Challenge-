@@ -615,7 +615,7 @@ SAV @EXGREENGARBAGECAN : ???
 
 //I AM DRAKE BATES
 SAV @EXDENSITY : THE DENSITY OF MUSCLE FIBRES!
-SAV @EXMYOCYTE EXMYOCYTE  : Myocyte. single muscle cell.
+SAV @EXMYOCYTE : Myocyte. single muscle cell.
 SAV @EXREALITY : The register for “alternate reality.”
 SAV @EXBOOLEAN : The register for Boolean variables.
 SAV @EXEXMALE : Males. Men. Sex. The register representing the male Boolean flag.
@@ -627,7 +627,7 @@ SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base 
 SAV @EXREPROPAIR : Paired reproductive structures (non‑sexual)
 SAV @EXGENETICLINK : Connection Nodes of the EXREPROPAIR connection at the 1st Level as described by Drake Bates . Genetic exchange system
 SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st Level as described by Drake Bates . Reproduction activation system. Child Production
-SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. EXPERIMENTATION.
+SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. https://youtu.be/Ty2tn4vrsP0. EXPERIMENTATION.
 SAV @EXEGG :  Egg‑based reproduction. Egg.
 SAV @EXSEED : Internally based contection point for the MICROTUBULES
 
