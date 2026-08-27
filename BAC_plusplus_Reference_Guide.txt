@@ -630,6 +630,7 @@ SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st
 SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. https://youtu.be/Ty2tn4vrsP0. EXPERIMENTATION.
 SAV @EXEGG :  Egg‑based reproduction. Egg.
 SAV @EXSEED : Internally based contection point for the MICROTUBULES
+SAV @EXSPERM : Spermatozoa. Sperm. Jizz <<>> EXPANTS
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
