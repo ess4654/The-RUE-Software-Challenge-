@@ -112,20 +112,18 @@ Format: <register> DEL <register>
 Example: EXWEALTH DEL EXES
 
 Rule #24 - DEL TYPOS (Dependency Preservation Rule)
-
 DEL TYPOS is a communication firewall.
-
 The purpose of DEL TYPOS is not merely correction of spelling or grammar.
-
 Its purpose is to preserve dependency chains between registers, concepts, symbols, stories, and bindings.
 
 A typo may:
-
 Break a register reference.
 Create unintended nodes.
 Corrupt symbolic relationships.
 Cause communication failure.
 Degrade story continuity.
+
+EXRUE <<>> EXTYPOS
 
 SIGNATURE RULE
 s. is the signature of Spiderman 🕸️🕸️EX79
