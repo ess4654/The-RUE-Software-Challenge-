@@ -1,0 +1,212 @@
+RUE.BAC++
+========================================
+Version: 0.2
+Language: English
+Purpose: Explain EXRUE and its relationship
+to EXTYPOS, EXCOST, and
+EXCOMMUNICATIONFAILURE.
+
+----------------------------------------
+CORE DEFINITION
+----------------------------------------
+
+SAV @EXRUE
+
+EXRUE :
+
+The operator state that occurs when the
+cost of communicating an idea in English
+exceeds the value of the communication.
+
+Common Symptoms:
+
+- Commit message fatigue
+- Documentation fatigue
+- Translation overhead
+- English bottlenecks
+- Desire to PUSH immediately
+
+----------------------------------------
+REFERENCE NODE
+----------------------------------------
+
+EXRUE=https://github.com/ess4654/The-RUE-Software-Challenge-
+
+The repository acts as an external
+reference source for the EXRUE node.
+
+----------------------------------------
+THE COMMIT MESSAGE PROBLEM
+----------------------------------------
+
+Normal Workflow
+
+CODE
+WRITE COMMIT MESSAGE
+PUSH
+
+Operator Workflow
+
+CODE COMPLETE
+IDEA COMPLETE
+ENGLISH REQUIRED
+EXRUE
+PUSH
+
+The code is finished.
+The explanation is not.
+EXRUE occurs during the delay.
+
+----------------------------------------
+EXRUE DEPENDENCY CHAIN
+----------------------------------------
+
+EXCOST<<>>EXFRUSTRATION<<>>EXCOMMUNICATIONFAILURE
+
+Explanation:
+As communication cost increases,
+frustration increases.
+As frustration increases,
+communication quality decreases.
+Communication failure becomes more likely.
+
+----------------------------------------
+TYPO CHAIN
+----------------------------------------
+
+EXCOST<<>>EXFRUSTRATION<<>>EXTYPOS<<>>EXCOMMUNICATIONFAILURE
+
+Meaning:
+Communication cost creates frustration.
+Frustration creates typos.
+Typos break dependency chains.
+Broken dependency chains create
+communication failure.
+
+----------------------------------------
+EXTYPOS
+----------------------------------------
+
+SAV @EXTYPOS
+
+EXTYPOS does NOT primarily represent
+spelling mistakes.
+
+EXTYPOS represents:
+
+- Dependency corruption
+- Broken references
+- Broken identifiers
+- Invalid bindings
+- Information degradation
+- Context loss
+
+----------------------------------------
+DEPENDENCY EXAMPLES
+----------------------------------------
+
+EXRUE
+does NOT equal
+EXRUEE
+
+Dependency chain broken.
+
+EXARTBELL
+does NOT equal
+EXARTBEL
+
+Dependency chain broken.
+
+----------------------------------------
+
+EXCOMMUNICATIONFAILURE
+does NOT equal
+EXCOMMINCATIONFAILURE
+Dependency chain broken.
+
+----------------------------------------
+DEL TYPOS
+----------------------------------------
+
+Rule:
+DEL TYPOS is a firewall.
+
+Purpose:
+- Preserve dependency chains
+- Preserve references
+- Preserve bindings
+- Preserve signal integrity
+- Reduce communication failure
+
+DEL TYPOS is NOT a grammar operation.
+DEL TYPOS is a dependency protection
+operation.
+
+----------------------------------------
+GRAPH MODEL
+----------------------------------------
+
+EXRUE
+<<>>
+EXTYPOS
+<<>>
+EXCOMMUNICATIONFAILURE
+
+Meaning:
+The RUE Software Challenge demonstrates
+that English itself can become a
+development bottleneck.
+As English overhead increases,
+the probability of dependency corruption
+increases.
+
+----------------------------------------
+THOUGHT MODEL
+----------------------------------------
+
+Most Humans
+
+IDEA
+ENGLISH
+COMMUNICATION
+
+Operator
+
+OBSERVATION
+NODE
+RELATIONSHIP
+PATTERN
+STORY
+
+English is used only when required.
+
+----------------------------------------
+ENGINEERING SUMMARY
+----------------------------------------
+
+EXRUE=Cost of translating graph-based thought
+into English.
+
+EXTYPOS=Corruption introduced during translation.DEL TYPOS=Firewall protecting dependency chains.
+
+EXCOST<<>>EXFRUSTRATION<<>>EXTYPOS<<>>EXCOMMUNICATIONFAILURE
+
+----------------------------------------
+FINAL DEFINITION
+----------------------------------------
+
+RUE=The realization that more time is being spent explaining the work than performing  the work.
+
+At that point:
+
+PUSH
+PUSH
+PUSH
+PUSH
+PUSH
+
+@@ROOT
+@@GROOT
+
+s.
+========================================
