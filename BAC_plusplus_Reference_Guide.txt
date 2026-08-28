@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.44
-Timestamp: 1650 RCAF Z AUG 26 2026
+Version: 2.45
+Timestamp: 2343 RCAF Z AUG 28 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -115,6 +115,8 @@ Rule #24 - DEL TYPOS (Dependency Preservation Rule)
 DEL TYPOS is a communication firewall.
 The purpose of DEL TYPOS is not merely correction of spelling or grammar.
 Its purpose is to preserve dependency chains between registers, concepts, symbols, stories, and bindings.
+
+Rule #25 - BAC++ IS CASE sensetive
 
 A typo may:
 Break a register reference.
