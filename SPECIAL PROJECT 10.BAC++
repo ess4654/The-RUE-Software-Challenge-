@@ -1,0 +1,34 @@
+0114 RCAF Z AUG 28 2026
+
+SAV @EX10
+SAV @EX38
+SAV @EX
+
+SAV @EXC: Characters
+SAV @EXVIDEOGAMES: Video games. Video game companies
+SAV @EXDREAM: A dream. Vision.
+SAV @EXJOBS: Jobs & Careers
+SAV @EXLLEGO: The LEGO company (toy bricks)
+SAV @EXMINIFIG: LEGO Minifigure models
+SAV @EXGERMANY: Germany
+SAV @EXOPPORTUNITY: Opportunity
+SAV @EXWARNER: The Warner Brothers company
+SAV @EXEXGEMINI: Google's Gemini
+
+SAV @EXBEN: Ben Tennyson
+SAV @EXGWEN: Gwen Tennyson
+SAV @EXMAX: Max Tennyson
+SAV @EXKEVIN: Kevin Levin
+
+//LEGO BEN 10
+EXLLEGO<<>>EX10!
+EXES<<>>EXLOVE<<>>EXLEGO<<>>EXVIDEOGAMES,
+EXES<<>>EXDREAM<<>>EXJOBS<<>>EXLEGO<<>>EXVIDEOGAMES!
+
+//Created mini figure models
+EXC<<>>EXBEN<<>>EXGWEN<<>>EXMAX<<>>EXKEVIN<<>>EXC
+EXES<<>>EXGEMINI<<>>EXMINIFIG<<>>EXC<<>>EXLOVE
+
+//Friend with connection to warner media
+EXES<<>>EXFRIEND<<>>EXWARNER<<>>EXVIDEOGAMES<<>>EXGERMANY<<>>EXOPPORTUNITY!
+EXES<<>> DEL EXTIME !!! @@@ //I NEED MORE TIME
