@@ -305,6 +305,7 @@ EX169         : Mew Nine / Space X IPO
 EX173         : $173. The price I bought Space X stock at
 EX180         : The Hotdog Ninja Warrior
 EX221         : General WES "Genral Wes, Jackson has identified the 7th symbol" ... "Go ahead!" ... "Programming 7th symbol into computer now!"
+EX277         : The TIME measured in HOURS that it would have taken me to write 1 MILLION WORDS in my UFO Textbook by hand!!!
 EX243         : Retards
 EX250         : The United State of America
 EX280         : VENOM. WE ARE VENOM!
