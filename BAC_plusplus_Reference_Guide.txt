@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.45
-Timestamp: 2343 RCAF Z AUG 28 2026
+Version: 2.46
+Timestamp: 1327 RCAF Z AUG 30 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -232,6 +232,10 @@ YUGE!
 
 PW
   - Enter a password into the quantum system. Wait for response.
+
+!-@@ means TEACHER is SPEAKING!
+
+!-@@-! teacher weilding dual lightsabers
 
 ----------------------------------------
 4. REGISTER SYSTEM
