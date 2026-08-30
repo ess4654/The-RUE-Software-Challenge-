@@ -356,6 +356,7 @@ EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 4.2 ASCII / SYMBOLIC & SPECIAL CHARACTER REGISTERS
 ----------------------------------------
 EXA           : The Alien drive A:/ on the hard drive of the universe
+EXAHAH        : Alien Human-Animal Hybrids
 EXE           : The E:/ Drive on the operating system of the universe
 EXX           : X (social media). Powerful companies. / X Axis of Movement
 EXY           : Y Axis of Movement
