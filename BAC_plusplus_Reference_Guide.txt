@@ -233,9 +233,11 @@ YUGE!
 PW
   - Enter a password into the quantum system. Wait for response.
 
-!-@@ means TEACHER is SPEAKING!
+!-@@
+  - means TEACHER is SPEAKING!
 
-!-@@-! teacher weilding dual lightsabers
+!-@@-!
+  - teacher weilding dual lightsabers
 
 ----------------------------------------
 4. REGISTER SYSTEM
