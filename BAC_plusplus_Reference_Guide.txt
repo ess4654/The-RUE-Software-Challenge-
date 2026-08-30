@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.46
-Timestamp: 1327 RCAF Z AUG 30 2026
+Version: 2.47
+Timestamp: 2301 RCAF Z AUG 30 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -374,6 +374,7 @@ EX0T          : The Soul Core for register 5 in the simulation.
 EX25I         : 25I-NBOMe. Manhattan Project 2.0
 EXD04         : Laundry Day
 EXS4          : The S4 Facility at Area 51
+EXNEX         : The NEXT register.
 EXTTT         : Register of my Witness. Thomas Robinson. Legal Defense in the court of the LORD
 EXYING        : The YING Flip
 EXYANG        : The YANG Flop
