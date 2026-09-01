@@ -1,20 +1,36 @@
-1: "" - X
-2: "" - X
-3: "" - X
-4: "" - X
-5: "" - X
-6: "" - X
-7: "" - X
-8: "" - X
-9: "" - X
-10: "" - X
-11: "" - X
-12: "" - X
-13: "" - X
-14: "" - X
-15: "" - X
-16: "" - X
-17: "" - X
+1: "I like to regard myself as someone who’s capable of critical thought, that is to say,
+who can evaluate claims." - Bill Nye
+2: "Ufology is more than just flying saucers, and men who wear tin foil hats. It’s the
+study of claims and how one goes about discerning fact from fiction." - Evan Svendsen
+3: "Unlike scientology, science in the true sense of the word is open to unbiased investigation of any existing phenomena." - Stanislav Grof
+4: "The Roswell incident, for instance, had over three hundred witnesses - some describing the bodies, some the craft, some the military procedures. Were they all perpetuating their own lives in a myth?" - Dwight Schultz
+5: "I can assure you that flying saucers, given that they exist, are not constructed by
+any power on Earth." - Harry S. Truman
+6: "Three may keep a secret, if two of them are dead." - Benjamin Frakklin
+7: "Originally, the burden of proof was on physicists to prove that time travel was
+possible. Now the burden of proof is on them to prove there must be a law forbidding
+time travel." - Dr. Michio Kaku
+8: "I believe that these extra-terrestrial vehicles and their crews are visiting this planet
+from other planets… Most astronauts were reluctant to discuss UFOs." - Gordon Cooper
+9: "This is one corner… of one country, in one continent, on one planet that’s a corner
+of a galaxy that’s a corner of a universe that is forever growing and shrinking and
+creating and destroying and never remaining the same for a single millisecond.
+And there is so much, so much to see." - The Doctor
+10: "In order to understand more it is imperative that we improve our knowledge before
+choosing which side of the fence we feel compelled to belong." - J. P. Robinson
+11: "Leaks are not the problem; they are the solution. They reveal a disconnect between
+what people want and need to know and what they actually do know. The greater
+the secrecy, the more likely a leak." - Heather Brooke
+12: "We are made of stardust, our whole body consists of material that has been here
+before the beginning of time." - Giorgio A. Tsoukalos
+13: "Any sufficiently advanced technology is indistinguishable from magic." - Sir Arthur C. Clarke
+14: "The greatest question of all is whether our experience on this planet is ‘it’ or
+whether there is something else. Things in the supernatural realm give support,
+strangely perhaps, to the things we take on faith." - Art Bell
+15: "Hey, what if those crop circles are just ads for Target?" - Dennis Miller
+16: "I am become death, the destroyer of worlds." - J. Robert Oppenheimer
+17: "I’m kinda sad, though. All these underground tunnels and lasers, but instead of
+having a rave we’re using them for evil." - Gordon Freeman
 18: "" - X
 19: "" - X
 20: "" - X
