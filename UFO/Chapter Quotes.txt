@@ -31,6 +31,8 @@ strangely perhaps, to the things we take on faith." - Art Bell
 16: "I am become death, the destroyer of worlds." - J. Robert Oppenheimer
 17: "I’m kinda sad, though. All these underground tunnels and lasers, but instead of
 having a rave we’re using them for evil." - Gordon Freeman
-18: "" - X
-19: "" - X
-20: "" - X
+18: "You know, there are four hundred billion stars out there, just in our galaxy alone. If only one out of a million of those had planets, and just of out of a million of those had life, and just one out of a million of those had intelligent life; there would be literally millions of civilizations out there." - Ellie Arroway
+19: "Afterwards there occurred violent earthquakes and floods; and in a single day and night of misfortune all your warlike men in a body sank into the earth, and the island of Atlantis in like manner disappeared into the depths of the sea" - Plato, 360 BC
+20: "The media’s the most powerful entity on earth. They have the power to make the
+innocent guilty and to make the guilty innocent, and that’s power. Because they
+control the minds of the masses." - Malcolm X
