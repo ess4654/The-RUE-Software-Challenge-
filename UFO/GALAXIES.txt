@@ -1,6 +1,8 @@
-I need you to create EXACTLY 20 EXPLANETPLATE pages now for Gallaxies and append this to the end of 9.2 - Cosmology. Use open source images from NASA for each gallaxy type. If you cant find any you'll have to substituate it for generated images from the description.
+I need you to create EXACTLY 10 EXPP pages now for Gallaxies and append this to the end of 9.2 - Cosmology. Use open source images from NASA for each gallaxy type. If you cant find any you'll have to substituate it for generated images from the description.
 
-This will add 20 new pages but thats fine because we still have ~50 more to play with to keep under the KDP limit.
+Youll need to split the page vertically in 2 in order to fit in all the gallaxies.
+
+This will add 10 new pages but thats fine because we still have a few more to play with to keep under the KDP limit and I am ALMOST done.
 
 ----
 
@@ -40,3 +42,5 @@ Galaxies defined by their unusual speed, color, or efficiency when creating new 
 - Starburst Galaxies: Systems undergoing a frantic, unsustainable explosion of new star formation, usually triggered by a collision.
 - Green Pea Galaxies: Small, compact, round green blobs lit up by intense oxygen radiation from frantic, rapid bursts of star creation.
 - Blue Compact Dwarfs (BCDs): Small, gas-rich galaxies dominated by clusters of hot, massive, young stars that tint the entire galaxy blue.
+
+----
