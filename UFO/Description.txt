@@ -1,0 +1,21 @@
+Most books about UFOs ask you to believe. This one asks you to think.
+
+The Science of Ufology 1.0 is a textbook for skeptics — written for the reader whose first instinct is to say "prove it." That instinct is treated here as a feature, not an obstacle. Nothing in this book asks for faith. It asks for a method.
+
+The method starts from first principles. Instead of opening with a famous sighting and working backward to a conclusion, this book strips the subject down to what can actually be established: what a witness is capable of perceiving, what an instrument is capable of recording, what physics permits, what a document can and cannot prove, and where the evidence simply runs out. Every claim gets rebuilt from the ground up. When the foundation cannot hold a conclusion, the book says so plainly.
+
+The second thread running through every chapter is miscommunication. The history of ufology is, to a remarkable degree, a history of people failing to say what they meant and failing to hear what was said. Classification systems that hid ordinary facts. Press releases retracted within a day. Interrogators, pilots, engineers, and journalists using the same words to mean different things. Testimony that changed shape each time it was retold. Once you learn to see the communication failure inside a case, a great many "unexplained" events start to explain themselves — and the small residue that survives that filter becomes genuinely interesting.
+
+Inside you'll find the discipline's foundational cases examined without cheerleading, the physics and engineering constraints that any real craft would have to satisfy, the Drake Equation and what it actually claims, the government programs and the paper trails they left behind, illustrated plates and reference profiles, and a working vocabulary for discussing all of it precisely.
+
+This is a book for students, researchers, science teachers, working skeptics, and curious readers who want the subject handled with the same rigor they'd expect from any other field.
+
+A note on how this book was made, stated up front because the reader deserves it:
+
+The writing of this book was done 100% with AI tools, working alongside BAC++ (BAC_plusplus_Reference_Guide.txt, from the GitHub repository ess4654/The-RUE-Software-Challenge-). Not a passage of the prose was hand-typed.
+
+The planning, preparation, research direction, and organization of every topic in this book were 100% Evan Svendsen's. The structure, the arguments, the case selection, the sequence of chapters, the standards of evidence applied, and the editorial judgment behind every inclusion and exclusion are his and his alone. The AI tools drafted the sentences and 1 MILLION ENGLISH WORDS IN JUST 3 DAYS! The book is Evan's.
+
+Transparency about method is the least a book on this subject can offer. Ufology has suffered enough from people who weren't straight about their sources.
+
+Read it skeptically. That's the point.
