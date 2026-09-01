@@ -1,5 +1,7 @@
 Ok very good THANK YOU. Document generation is done you've done all the heavy lifting for me. Now this is where the human element comes in. I did write numerous phrases in English because it had some humor in them I will give you the exact quotes and chapters I want you to find someplace. DO NOT: reword (EXCEPT FOR TYPOS) what I said make it EXACT but it has to fit into the larger sentence structure so you may have to write wrapper text around it or delete portions you wrote.
 
+Add a check to the verification process if these quotes dont appear in the book it is considered invalid!
+
 CHAPTER 1 QUOTES
 "It does not matter whether UFOs are result of government funding top-secret black budget projects, or aliens from a distant galaxy, time travelers from the year 2939, or simply hallucinations of the mind. In each case regardless of whether the explanation is the one true and genuine answer for the existence of UFO’s; all will open new areas of study and investigation."
 
