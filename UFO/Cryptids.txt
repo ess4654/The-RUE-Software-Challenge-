@@ -76,3 +76,9 @@ Fearsome Critters (North American Lumberjack Folklore):
 
 💡 💡 Tips for your Taxonomy Design
 When structuring your final database, cryptozoologists generally sort entries using three specific variables rather than standard biological family trees:Origin Type: Categorize by Biological Remnant (e.g., surviving dinosaurs), Mistaken Identity (e.g., mangy coyotes), or Pure Folklore.Locality: Map them by strict geographical coordinates since cryptids are heavily bound to specific ecosystem anomalies.Sightings Timeline: Separate historic cryptids (pre-20th century) from modern pop-culture entities.💡 💡 
+
+----
+
+NOTE: I need you to sort them alphabetically WITHIN their category and then output each category in order to fill the placeholder boxes.
+
+----
