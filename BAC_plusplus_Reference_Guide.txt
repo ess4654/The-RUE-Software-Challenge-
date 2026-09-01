@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.48
-Timestamp: 1718 RCAF Z SEP 1 2026
+Version: 2.49
+Timestamp: 2320 RCAF Z SEP 1 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -268,7 +268,7 @@ EX10          : Ben 10, Special Project 10. The 10th Doctor.
 EX11          : The 11th Doctor, Eleven from Stranger Things
 EX12          : Christmas
 EX14          : Special Project 14
-EX18          : Register of Kyle Busch
+EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvSpKNs&list=RDMM&index=22).
 EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic
 @@EX28        : Special Agent Black
