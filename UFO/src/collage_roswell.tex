@@ -1,0 +1,40 @@
+% ============================================================
+%  Roswell photo collage -- REAL PHOTOGRAPHS, LOCKED.
+%  The six pages below are the finished vertical collage
+%  ("Evan's 27th Birthday in Roswell (2024)", 8.5 x 11 in at 200 dpi)
+%  built outside this document. Do NOT regenerate this file with
+%  tools/make_collage.py and do NOT alter the photographs, their order
+%  or their captions -- the collage is signed off as-is.
+%
+%  Placement is deliberately parity-free: this is a run of six
+%  consecutive full-page images, so \clearpage (never
+%  \cleardoublepage) is used, no blank versos are inserted, and the
+%  pages are NOT logged to the plate parity check.
+% ============================================================
+
+% One finished collage page, laid full-bleed at true page size.
+\providecommand{\roswellcollagepage}[1]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \AddToShipoutPictureBG*{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}}%
+  \null
+  \clearpage}
+
+\section*{Roswell, In Person}
+\phantomsection
+\label{sec:roswellinperson}
+
+I went to Roswell for my 27th Birthday. I was staying with friends in Arizona at the time who wanted me to come celebrate the 4th of July with them. It was the summer of 2024 and when I realized that Roswell was only a 9 hour drive away I asked and was granted permission to borrow their vehicle for my birthday weekend. I drove 9 hours into the New Mexico desert and arrived in the morning just before 5am to check into my motel. I should say at the outset that I did not go to settle anything, because there is nothing left there to settle --- the debris field is scrub and fence wire, the airfield is a municipal airport, and every physical trace the case ever had was gone before I was born. I went because a story this durable deserves to be looked at in the place it happened, and because I wanted to know what the town does with a legend it never asked for. What follows is what a sceptic's camera roll from \hi{Roswell, New Mexico} actually looks like: no craft, no metal, no bodies. Street lamps with almond eyes, a museum that is half archive and half souvenir counter, and a great deal of desert that stubbornly refuses to look like the site of anything at all.
+
+The six pages that follow are my own photographs, taken on my twenty-seventh birthday. The first two set the surviving 1947 addresses beside what stands on those same lots today; the rest are the airbase, the murals, the museum, the gift shops and the festival --- the town as it actually is.
+
+% ---------- the six finished collage pages ----------
+\roswellcollagepage{photos_roswell/roswell_collage_1.png}
+\roswellcollagepage{photos_roswell/roswell_collage_2.png}
+\roswellcollagepage{photos_roswell/roswell_collage_3.png}
+\roswellcollagepage{photos_roswell/roswell_collage_4.png}
+\roswellcollagepage{photos_roswell/roswell_collage_5.png}
+\roswellcollagepage{photos_roswell/roswell_collage_6.png}
+
+\clearpage

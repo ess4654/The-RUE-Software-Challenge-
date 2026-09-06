@@ -1,0 +1,20 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=6.5in,paperheight=9.25in,top=0.85in,bottom=0.95in,inner=0.85in,outer=0.7in]{geometry}
+\usepackage[T1]{fontenc}\usepackage{newpxtext}
+\pdfmapline{+invunb8r Inversionz-Unboxed <invunb.ttf <T1-WGL4.enc}
+\DeclareFontFamily{T1}{invunb}{}
+\DeclareFontShape{T1}{invunb}{m}{n}{<-> invunb8t}{}
+\newcommand{\inv}{\fontfamily{invunb}\selectfont\def\&{{\normalfont\bfseries\char`\&}}}
+\pagestyle{empty}\raggedright
+\begin{document}
+\newcommand{\tst}[1]{\par\rule{\textwidth}{0.4pt}\par{\inv\Huge #1\par}\vspace{4pt}}
+\newcommand{\tsb}[1]{\par\rule{\textwidth}{0.4pt}\par{\inv\LARGE #1\par}\vspace{4pt}}
+\tst{The SCIENCE of ALTERNATIVE DIMENSIONS}
+\tst{Alien ABDUCTION \& PARAPSYCHOLOGY}
+\tst{ALIENS and UNDERGROUND BASES}
+\tsb{The SCIENCE of ALTERNATIVE DIMENSIONS}
+\tsb{Alien ABDUCTION \& PARAPSYCHOLOGY}
+\tsb{From ANCIENT to MODERN Times}
+\par\rule{\textwidth}{0.4pt}\par{\inv\large Why This Case Is Different, and Where It Is Weak\par}
+\par\rule{\textwidth}{0.4pt}\par{\inv\large 2.3 The Most Important Image Ever Taken By Mankind\par}
+\end{document}

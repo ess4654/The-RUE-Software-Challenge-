@@ -1,0 +1,64 @@
+% ---------------------------------------------------------------
+% fig_cescale.tex --- the close encounter scale as a left-to-right
+% progression, for Section~\ref{sec:closeencounters}. Drawn in TikZ so it
+% prints sharp at any size and carries no image credit.
+% Colour coding: green = Hynek's own three levels, amber = the two later
+% additions, red = the two internet-era additions.
+% ---------------------------------------------------------------
+\begingroup
+\sffamily
+\begin{center}
+\refstepcounter{figph}\label{fig:cescale}%
+% Drawn at a generous scale and squeezed to the measure on the way in, so the
+% chevron type lands at roughly 7pt on the printed page.
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm,
+  cesig/.style={signal,signal to=east,signal pointer angle=140,
+                draw=ufogreenink,line width=0.5pt,minimum width=3.0cm,
+                minimum height=1.6cm,inner sep=1pt,align=center,
+                text width=2.25cm,text=ufogreenink,
+                font=\fontsize{8.4}{9.6}\selectfont},
+  band/.style={draw=none,inner sep=0pt,anchor=south west},
+  bandtext/.style={anchor=north,text=steel,align=center,
+                font=\fontsize{8.2}{9.4}\selectfont},
+  axistext/.style={text=steel,font=\fontsize{8.6}{9.8}\selectfont}]
+
+% ---- direction of travel, above the row ----
+\draw[->,line width=0.9pt,ufogreendark] (-1.5,1.62) -- (17.76,1.62);
+\node[axistext,anchor=south] at (8.13,1.78)
+  {increasing claimed intimacy of contact \;---\; and, as a rule, decreasing evidential quality};
+
+% ---- the seven levels ----
+\node[cesig,signal from=nowhere,fill=ufogreen!55] at (0.00,0)
+  {\textbf{CE1}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont close sighting}};
+\node[cesig,signal from=west,fill=ufogreen!40] at (2.71,0)
+  {\textbf{CE2}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont physical trace}};
+\node[cesig,signal from=west,fill=ufogreen!26] at (5.42,0)
+  {\textbf{CE3}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont occupants seen}};
+\node[cesig,signal from=west,fill=amber!30] at (8.13,0)
+  {\textbf{CE4}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont abduction}};
+\node[cesig,signal from=west,fill=amber!18] at (10.84,0)
+  {\textbf{CE5}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont contact invited}};
+\node[cesig,signal from=west,fill=gapred!26] at (13.55,0)
+  {\textbf{CE6}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont injury or death}};
+\node[cesig,signal from=west,fill=gapred!42] at (16.26,0)
+  {\textbf{CE7}\\[-0.2ex]{\fontsize{7.6}{8.6}\selectfont hybrid child}};
+
+% ---- provenance bands beneath ----
+\fill[ufogreen!55]  (-1.50,-1.42) rectangle (6.775,-1.10);
+\fill[amber!30]     (6.775,-1.42) rectangle (12.195,-1.10);
+\fill[gapred!34]    (12.195,-1.42) rectangle (17.76,-1.10);
+\draw[midgrey,line width=0.3pt] (-1.50,-1.42) rectangle (17.76,-1.10);
+\draw[midgrey,line width=0.3pt] (6.775,-1.42) -- (6.775,-1.10);
+\draw[midgrey,line width=0.3pt] (12.195,-1.42) -- (12.195,-1.10);
+\node[bandtext] at (2.64,-1.54) {Hynek's original scale,\\\emph{The UFO Experience}, 1972};
+\node[bandtext] at (9.49,-1.54) {added later,\\not by Hynek};
+\node[bandtext] at (14.98,-1.54) {internet-era additions,\\no formal standing};
+\end{tikzpicture}}\par\vspace{4pt}
+{\footnotesize\color{steel}\textbf{\textcolor{ufogreenink}{Figure \thefigph.}} The close
+encounter scale read left to right. Only the first three levels are Hynek's; the fourth and
+fifth were bolted on by other hands, and the sixth and seventh were assembled on the open web
+without a traceable primary source. The evidential value of the scale runs in the opposite
+direction to its numbering.}
+\end{center}
+\endgroup

@@ -1,0 +1,1815 @@
+\documentclass[12pt,openany]{book}
+
+% ===================== PAGE SETUP =====================
+% KDP trim: 8.5 x 11 in (standard textbook). Interior is no-bleed; the
+% cover carries the bleed.
+%
+% ---- THE TWO SWITCHES -------------------------------------------------
+% \ufocompacttrue   widen the text block (outer margins pulled outward:
+%                   right margin of a recto further right, left margin of a
+%                   verso further left) so the same words occupy fewer pages.
+%                   \ufocompactfalse restores the original roomy block.
+% \ufoprinttrue     KDP PRINT layout: margins are MIRRORED, with the extra
+%                   allowance on the INNER edge so the gutter/spine does not
+%                   eat the text. Recto and verso are not identical.
+% \ufoprintfalse    KINDLE / screen layout: the same text block, but centred
+%                   on the page, because a screen has no spine. Every page
+%                   is identical, nothing looks shunted sideways.
+%
+% The text block WIDTH is deliberately the same in both modes, so the print
+% and the digital edition break lines and pages identically and the page
+% numbers agree between editions. Only the block's position changes.
+%
+% KDP minimum inside margin, 8.5x11 no-bleed: 0.75in up to 300 pages,
+% 0.875in to 500, 1.0in to 700, 1.125in to 828. Compact print mode uses
+% 1.0in inside, legal to 700 pages, and 0.65in outside against a 0.25in
+% no-bleed minimum.
+\newif\ifufocompact
+\ufocompacttrue
+\newif\ifufoprint
+\ufoprinttrue
+% The digital edition (digital.tex) is a screen document: centre it.
+\ifdefined\digitaledition\ufoprintfalse\fi
+% Retained legacy knob: only consulted when \ufocompactfalse.
+% \ufowideoutertrue gives the roomier outer margin, false the 1.45in block.
+\newif\ifufowideouter
+\ufowideouterfalse
+\ifufocompact
+  \def\ufoinner{0.752in}\def\ufoouter{0.378in}
+  \def\ufotop{0.85in}
+\else
+  \def\ufoinner{1.3in}\def\ufotop{1.0in}%
+  \ifufowideouter\def\ufoouter{1.75in}\else\def\ufoouter{1.45in}\fi
+\fi
+% Screen edition: keep the measured block width exactly, but split the
+% side margins evenly so the text sits dead centre on screen. Doing this
+% BEFORE geometry is loaded is the only way that survives twoside and any
+% later \newgeometry/\restoregeometry switch (roster pages etc.).
+\ifufoprint\else
+  \def\ufoinner{0.565in}\def\ufoouter{0.565in}
+\fi
+\usepackage[paperwidth=8.25in,paperheight=11in,
+            top=\ufotop,bottom=1.05in,inner=\ufoinner,outer=\ufoouter,
+            headsep=16pt,footskip=30pt]{geometry}
+
+% ---------- FONT MACHINERY ----------
+% The book is compiled with xelatex, so font selection goes through
+% fontspec and the OpenType/TrueType files themselves. inputenc and
+% fontenc are deliberately NOT loaded: the engine is Unicode-native and
+% asking for T1 only pushes LaTeX back onto legacy 8-bit metrics, which
+% is what silently killed the display face and Montserrat before.
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\usepackage{newpxtext,newpxmath}
+
+% ---------- TEXT SANS: MONTSERRAT ----------
+% Loaded by hand rather than via montserrat.sty, whose .fd files are
+% 8-bit only and produce no glyphs under a Unicode engine.
+\setsansfont{Montserrat}[
+  Extension      = .otf,
+  UprightFont    = *-Regular,
+  ItalicFont     = *-Italic,
+  BoldFont       = *-SemiBold,
+  BoldItalicFont = *-SemiBoldItalic]
+% Extra-bold cut, used for the borrowed ampersand in headings.
+\newfontfamily\ampfont{Montserrat}[Extension=.otf,UprightFont=*-ExtraBold]
+
+% ---------- DISPLAY FACE: INVERSIONZ UNBOXED ----------
+% Used for running heads, chapter names and every heading level.
+% The face is capitals-only and ships in a single weight, so no bold or
+% italic cuts are mapped and headings must not call \bfseries.
+\newfontfamily\displayface{invunb}[Path=./fonts/,Extension=.ttf]
+\usepackage{microtype}
+\usepackage[english]{babel}
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+% Diagrams that are drawn rather than photographed (the periodic table in
+% Section~\ref{sec:technologicalboom}) are built in TikZ, so they stay sharp at
+% print resolution and need no image credit.
+\usepackage{tikz}
+% shapes.symbols supplies the chevron (signal) node used by the close-encounter
+% progression chart in Section~\ref{sec:closeencounters}.
+\usetikzlibrary{shapes.symbols}
+% ---------------------------------------------------------------
+% IMAGE SETS. The artwork is kept in two pre-built folders so neither
+% edition carries pixels it cannot use:
+%   img_print/  full 300 dpi plates, efficiently re-encoded -> paperback
+%   img_screen/ long edge capped at 1650 px -> on-screen reading
+% The small ornaments live in the project root, which is searched last.
+% Files are referenced WITHOUT an extension so each folder can supply
+% whichever format suits it.
+% ---------------------------------------------------------------
+\ifdefined\digitaledition
+  \graphicspath{{img_screen/}{./}}
+\else
+  \graphicspath{{img_print/}{./}}
+\fi
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{epigraph}
+\usepackage{needspace}
+% ---------------------------------------------------------------
+% Two editions are produced from this single source file.
+%
+%   default build          -> PRINT interior (Amazon KDP paperback).
+%       hyperref is loaded in draft mode and bookmarks are switched
+%       off, so the file contains NO link annotations and NO outline
+%       tree.  These objects are exactly what KDP reports as
+%       "non-printable markup" and strips on upload; by never writing
+%       them the upload passes clean and no page can shift.
+%
+%   pdflatex "\def\digitaledition{}\input{main}"  -> DIGITAL edition
+%       with live, clickable, coloured hyperlinks and a full bookmark
+%       tree for on-screen reading.
+%
+% In BOTH editions every URL is also typeset as visible text, so the
+% book is complete on paper where nothing can be clicked.
+% ---------------------------------------------------------------
+\ifdefined\digitaledition
+  \usepackage{hyperref}
+  % Writes the outline entries direct to the PDF, which lets the sidebar
+  % bookmarks be pointed at the chapter art pages the same way the
+  % contents list is.
+  \usepackage{bookmark}
+\else
+  \usepackage[draft,bookmarks=false]{hyperref}
+\fi
+\usepackage{url}
+\usepackage{xurl}   % allows long URLs to break across lines
+\usepackage{soulutf8}
+\usepackage{adjustbox}
+\usepackage{wrapfig}
+% ---- wrapfig parshape scoping fix ---------------------------------------
+% wrapfig steers the text around a figure by installing \parshape from inside
+% \everypar. \parshape is a LOCAL assignment, and a paragraph that opens with
+% a group -- \textbf{...}, \emph{...}, \hi{...}, or a bare brace, which is how
+% every equipment entry, roster biography and highlighted lead sentence in this
+% book begins -- starts its first character INSIDE that group. \everypar then
+% fires inside the group too, so the \parshape is discarded at the closing
+% brace and TeX breaks the paragraph with no shape at all: the text is set at
+% the full measure straight across the picture, its caption and its credit line.
+% This is the single cause of both the "no wrap" and the "overprint" faults.
+% The cure is to make wrapfig's own \parshape assignments global, so a group
+% boundary cannot throw the shape away. \WF@finale (which ends the wrapping)
+% is made global to match, so nothing can leak past the figure either.
+\makeatletter
+\def\WF@wraphand{%
+\ifnum\c@WF@wrappedlines<\tw@ \WF@finale
+\else \begingroup
+ \@tempcnta\@ne \let\WF@wrapil\relax \gdef\WF@ps{}%
+ \@whilenum \@tempcnta<\c@WF@wrappedlines\do{%
+  \xdef\WF@ps{\WF@ps\WF@wrapil}\advance\@tempcnta\@ne
+ }\endgroup
+ \ifx\WF@pspars\@empty
+  \global\@@parshape\c@WF@wrappedlines \WF@ps \WF@noil
+ \else
+  \WF@modps
+\fi\fi}
+\def\WF@modps{\begingroup
+  \afterassignment\@tempdimb \@tempdima\WF@pspars
+  \advance\@tempdima-\WF@adjtlm \advance\@tempdimb\WF@adjlw
+  \let\WF@wrapil\WF@pspars
+  \edef\@tempb{\global\@@parshape\c@WF@wrappedlines \WF@ps
+     \the\@tempdima \the\@tempdimb}%
+  \expandafter\endgroup\@tempb}
+\def\WF@finale{\ifx\parshape\WF@fudgeparshape
+ \WF@restoretol \let\@setpar\@@setpar \let\par\WF@@par
+ \advance\linewidth\WF@adjlw \advance\@totalleftmargin-\WF@adjtlm
+ \WF@info{Finish wrapping text}%
+ \ifx\par\@@par \def\@par{\let\par\@@par\par}\else \let\@par\WF@@par \fi
+ \let\parshape\@@parshape
+ \global\parshape\ifx\WF@pspars\@empty \z@ \else \@ne \WF@pspars\fi \fi
+ \ifvoid\WF@box \ifx\everypar\WF@everypar
+  \let\everypar\WF@@everypar \everypar\expandafter{\the\WF@everypar}%
+ \fi\fi}
+\makeatother
+\usepackage{eso-pic}   % paper-relative placement for the full-bleed plates
+\usepackage{etoolbox}
+\usepackage{booktabs}   % proper rules for the data tables
+
+% ===================== COLOURS =====================
+% Primary accent, specified by the author.
+\definecolor{ufogreen}{HTML}{91F522}
+% Darkened companion of the same hue, for use where GREEN TEXT on white
+% would otherwise be unreadable (rules, small caps labels, captions).
+\definecolor{ufogreendark}{HTML}{4B7F0B}
+\definecolor{ufogreenink}{HTML}{27430A}
+\definecolor{inkblue}{HTML}{1B3A5C}
+\definecolor{steel}{HTML}{4A6785}
+\definecolor{amber}{HTML}{A8741A}
+\definecolor{softgrey}{HTML}{F2F1EE}
+\definecolor{midgrey}{HTML}{8C8C8C}
+\definecolor{gapred}{HTML}{9C3B2E}
+
+% ===================== LINKS =====================
+% Links are set as genuine, clickable hyperlinks and are also given a printed
+% colour, so that they read as links on paper as well as on screen. Print
+% interiors (KDP paperback) discard the clickable annotation layer but keep
+% this colour and the full URL text, so nothing is lost either way.
+\hypersetup{
+  colorlinks=true,
+  breaklinks=true,
+  allbordercolors=white,
+  pdfborder={0 0 0},
+  urlcolor=ufogreendark,
+  linkcolor=inkblue,
+  citecolor=inkblue,
+  filecolor=inkblue,
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  pdftitle={The Science of Ufology 1.0},
+  pdfauthor={Evan Svendsen},
+  pdfsubject={A Skeptic's Textbook for the Serious Study of the Unidentified},
+  pdfcreator={},
+  pdfproducer={}
+}
+% Long source URLs must be allowed to break rather than run into the margin.
+\setlength{\emergencystretch}{1.2em}
+
+% A source URL. In the digital edition it is a genuine clickable link
+% whose visible text is the URL itself; in the print interior it is the
+% same visible text, coloured, with no annotation attached.
+% A URL longer than the current line must NOT be split across lines by
+% hyperref, or the reader gets two (or three) separate half-links.  We
+% measure the URL first: if it does not fit on the remaining line we start
+% a fresh line and typeset the whole URL inside a single \parbox, so the
+% enclosing \href produces exactly ONE continuous hoverable annotation.
+\newsavebox{\srclinkbox}
+\makeatletter
+% Measure first; the glue that permits a line break sits OUTSIDE the link so a
+% page break can never cut the annotation in half either.
+%% Placeholder: injected by build script before final lualatex pass
+\newcommand{\totalwordcount}{245055}
+%% Language name for the disclaimer (swap for translations: French, Chinese, etc.)
+\newcommand{\booklanguage}{English}
+%% Comma-formatted word count for display — injected by build script as e.g. 242,509
+\newcommand{\fmtwordcount}{245,055}
+\newcommand{\srclink@wrap}[2]{%
+  \sbox{\srclinkbox}{\nolinkurl{#2}}%
+  \ifdim\wd\srclinkbox>\linewidth
+    \ifhmode\ifnum\lastnodetype>-1 \unskip\newline\fi\fi
+    #1{\parbox[t]{\dimexpr\linewidth-1em\relax}{\RaggedRight\sloppy\nolinkurl{#2}}}%
+    \hfill\penalty0\hfilneg
+  \else
+    \hfil\penalty0\hfilneg#1{\mbox{\nolinkurl{#2}}}%
+  \fi}
+\ifdefined\digitaledition
+  \newcommand{\srclink}[1]{\srclink@wrap{\href{#1}}{#1}}
+\else
+  \newcommand{\srclink}[1]{\srclink@wrap{\textcolor{ufogreendark}}{#1}}
+\fi
+\makeatother
+
+% ===================== HIGHLIGHTING =====================
+% Full-strength highlighter, for key claims and definitions.
+\sethlcolor{ufogreen}
+% soul's \hl builds one long unbreakable box-chain, which ignores the
+% \parshape that wrapfig installs beside a wrapped figure -- the highlighted
+% span then prints on top of the picture and its caption. When wrapping is in
+% force we therefore fall back to a flat green emphasis, which breaks across
+% lines normally and cannot collide with the figure.
+\makeatother
+\makeatletter
+\newcommand{\ufohiflat}[1]{{\bfseries\color{ufogreendark}#1}}
+% A figure held for floating placement (upper-case R/L) lives in \WF@box and
+% installs its \parshape later in the paragraph, which soul cannot survive
+% ("Reconstruction failed"): so a pending box counts as wrapping in force.
+% True when wrapfig has wrapping in force OR a figure pending for floating
+% placement: in both cases \hl must not be used.
+\newif\ifufo@wrapon
+\newcommand{\ufo@testwrap}{%
+  \ufo@wraponfalse
+  % A narrowed measure is the ground truth: whatever wrapfig's own counters say,
+  % if \parshape is in force this line is shorter than the text block and a
+  % soul box-chain built at full width will print across the picture.
+  \@ifundefined{@@parshape}{}{\ifnum\@@parshape>\z@ \ufo@wrapontrue\fi}
+  \@ifundefined{c@WF@wrappedlines}{}{%
+    \ifnum\c@WF@wrappedlines>\z@ \ufo@wrapontrue\fi
+    \ifvoid\WF@box\else\ufo@wrapontrue\fi}%
+  \@ifundefined{WF@pspars}{}{%
+    \ifx\WF@pspars\@empty\else\ufo@wrapontrue\fi}}
+\newcommand{\hi}[1]{%
+  \leavevmode
+  \ufo@testwrap
+  \ifufo@wrapon \ufohiflat{#1}\else \hl{#1}\fi}
+\makeatother
+% Softer tint, for key terms echoed in the glossary.
+\colorlet{ufogreensoft}{ufogreen!45!white}
+\makeatletter
+\newcommand{\hisoft}[1]{%
+  \leavevmode
+  \ufo@testwrap
+  \ifufo@wrapon
+    {\color{ufogreendark}#1}%
+  \else
+    {\sethlcolor{ufogreensoft}\hl{#1}\sethlcolor{ufogreen}}%
+  \fi}
+\makeatother
+% Short green accent bar used to open headings.
+\newcommand{\greenbar}{\textcolor{ufogreen}{\rule[-0.16em]{3.4pt}{1.06em}}\hspace{0.5em}}
+\newcommand{\greenbarsm}{\textcolor{ufogreen}{\rule[-0.12em]{2.6pt}{0.9em}}\hspace{0.42em}}
+% Stacked heavy-green-over-hairline rule used to close chapter titles.
+\newcommand{\greenrule}{%
+  \par\nointerlineskip
+  \noindent{\color{ufogreen}\rule{\textwidth}{4pt}}%
+  \par\nointerlineskip
+  \noindent{\color{inkblue}\rule{\textwidth}{0.7pt}}\par}
+
+% ===================== HEADERS =====================
+\setlength{\headheight}{22pt}
+\addtolength{\topmargin}{-10pt}
+\pagestyle{fancy}
+% Page number sits in a small green tab at the foot, flanked by the two
+% halves of the saucer ornament so the folio is wrapped by the graphic.
+% The halves are cut from sep_rule.png: saucer + two orbs on each side,
+% each turned to face inwards towards the tab.
+\newlength{\ornwing}\setlength{\ornwing}{0.62in}
+% The type block is not centred on the sheet, and the roster pages use a
+% different block again, so no fixed nudge can centre the folio everywhere.
+% Instead measure it: the footer slot is \headwidth wide and starts at the
+% text left edge (1in + \hoffset + side margin), so the distance from the
+% slot's centre to the centre of the physical sheet is known at shipout.
+% fancyhdr centres the C field between two \hfil glues, which absorb half
+% of any kern inserted here, hence the doubling.
+\newlength{\foliodim}
+\newcommand{\foliokern}{%
+  \setlength{\foliodim}{0.5\paperwidth}%
+  \addtolength{\foliodim}{-1in}%
+  \addtolength{\foliodim}{-\hoffset}%
+  \ifodd\value{page}%
+    \addtolength{\foliodim}{-\oddsidemargin}%
+  \else
+    \addtolength{\foliodim}{-\evensidemargin}%
+  \fi
+  \addtolength{\foliodim}{-0.5\headwidth}%
+  \hspace*{2\foliodim}}
+\newcommand{\foliobox}{%
+  \begingroup\setlength{\fboxsep}{3pt}%
+  \colorbox{ufogreen}{\footnotesize\bfseries\color{inkblue}\,\thepage\,}%
+  \endgroup}
+\newcommand{\pagetab}{%
+  \foliokern
+  \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_left.png}}%
+  \hspace{4pt}%
+  \foliobox
+  \hspace{4pt}%
+  \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_right.png}}}
+% All of the main running-head settings live in one macro. \pagestyle{fancy}
+% only re-activates whatever field definitions are current, so after a
+% starfield run (which overwrites them) the settings must be re-applied by
+% hand or the saucer ornaments never come back.
+\newcommand{\ufofancysetup}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  % Two-tone head rule: thick green over a hairline of ink.
+  \renewcommand{\headrule}{%
+    \hbox to\headwidth{\color{ufogreen}\leaders\hrule height 2.2pt\hfill}%
+    \nointerlineskip\vskip0.6pt
+    \hbox to\headwidth{\color{inkblue}\leaders\hrule height 0.3pt\hfill}%
+    \nointerlineskip}%
+  \fancyhead[LE]{\footnotesize\color{steel}\dispfont The Science of Ufology 1.0}%
+  \fancyhead[RO]{\footnotesize\color{steel}\dispfont\nouppercase{\leftmark}}%
+  \fancyfoot[C]{\pagetab}}
+\ufofancysetup
+\fancypagestyle{plain}{%
+  \fancyhf{}\renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\headrule}{}%
+  \fancyfoot[C]{\pagetab}}
+
+% ===================== CHAPTER / SECTION STYLE =====================
+% Chapter number sits in a solid green tab; title in ink; closed with a
+% heavy green rule shadowed by a hairline.
+\titleformat{\chapter}[display]
+  {\normalfont\filright}
+  {\vspace{-1.2em}%
+   \begingroup\setlength{\fboxsep}{5pt}%
+   \colorbox{ufogreen}{\dispfont\large\color{inkblue}\,CHAPTER \thechapter\,}%
+   \endgroup}
+  {0.5em}
+  {\color{inkblue}\dispfont\Huge}
+  [\vspace{5pt}\greenrule]
+\titlespacing*{\chapter}{0pt}{12pt}{28pt}
+
+% Unnumbered chapters (Preface, Introduction, Glossary...) keep the same look.
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\filright}
+  {}
+  {0pt}
+  {\color{inkblue}\dispfont\Huge}
+  [\vspace{5pt}\greenrule]
+
+\titleformat{\section}
+  {\dispfont\LARGE\color{inkblue}\filright}
+  {\greenbar\thesection}{0.55em}{}
+\titlespacing*{\section}{0pt}{6pt}{6pt}
+
+% ---- Section divider ornament -------------------------------------------
+% A small saucer-and-dots device set between sections inside a chapter. It is
+% injected automatically ahead of every \section, except the first one after a
+% \chapter, so no chapter ever opens with a floating ornament. The section's
+% own leading space is trimmed above to keep the extra ink space-neutral.
+\newif\ifufosep      \ufoseptrue      % master switch (off in the reference list)
+\newif\ifufosepskip  \ufosepskiptrue  % suppress the next one (start of chapter)
+\newcommand{\sectionsep}{%
+  \par\penalty-40
+  \Needspace*{5\baselineskip}%
+  \vspace{3pt}%
+  \noindent\hfill\includegraphics[width=1.45in]{sep_rule.png}\hfill\hbox{}%
+  \par\nopagebreak}
+\pretocmd{\chapter}{\global\ufosepskiptrue}{}{}
+\pretocmd{\section}{%
+  \ifufosep
+    \ifufosepskip\global\ufosepskipfalse\else\sectionsep\fi
+  \fi}{}{}
+
+% Subsections carry the same weight, size and colour as sections so every
+% heading in the book reads at one consistent scale.
+\titleformat{\subsection}
+  {\dispfont\LARGE\color{inkblue}\filright}
+  {\greenbar\thesubsection}{0.55em}{}
+\titlespacing*{\subsection}{0pt}{18pt}{7pt}
+
+% Sub-subsections are never numbered (secnumdepth stops at 2). They sit one
+% notch below a subsection in size but keep the same face and colour.
+\titleformat{\subsubsection}
+  {\dispfont\Large\color{inkblue}\filright}
+  {}{0em}{}
+\titleformat{name=\subsubsection,numberless}
+  {\dispfont\Large\color{inkblue}\filright}
+  {}{0em}{}
+\titlespacing*{\subsubsection}{0pt}{14pt}{6pt}
+
+\setcounter{secnumdepth}{2}
+% TOC lists chapters and sections only, matching the author's chapter list.
+\setcounter{tocdepth}{1}
+
+% ===================== TEXT BLOCK =====================
+\linespread{1.10}
+\setlength{\parindent}{1.4em}
+\setlength{\parskip}{0.15em}
+\raggedbottom
+
+% ===================== EPIGRAPH =====================
+\renewcommand{\epigraphflush}{center}
+\setlength{\epigraphwidth}{0.86\textwidth}
+\renewcommand{\textflush}{flushepinormal}
+\renewcommand{\epigraphrule}{0pt}
+\newcommand{\chapquote}[2]{%
+  \epigraph{\itshape #1}{\normalfont\footnotesize\scshape --- #2}}
+
+% ===================== CUSTOM ELEMENTS =====================
+
+% Fun Fact / callout sidebar. The label is a REAL tcolorbox title (not a TikZ
+% overlay node): a node has no width and long labels ran off the page edge.
+% The title background matches the body, so it still reads as a plain green
+% small-caps label sitting at the top of the panel -- but it now wraps.
+% Colour lightbulb PNG flanking the label. The one emoji this book uses.
+\newcommand{\lampglyph}{\raisebox{-1.6pt}{\includegraphics[height=8.5pt]{./img_print/lightbulb_color}}}
+
+\newtcolorbox{funfact}[1][Fun Fact]{%
+  breakable, enhanced, colback=ufogreen!8!white, colframe=ufogreen,
+  boxrule=0pt, leftrule=3.2pt, arc=1pt, outer arc=1pt,
+  left=9pt,right=9pt,top=3pt,bottom=8pt,
+  % Slightly smaller than the 12pt running text, deliberately not tiny:
+  % the box should read as an aside, not as fine print.
+  fontupper=\fontsize{10.4pt}{13.2pt}\selectfont,
+  before skip=11pt, after skip=11pt,
+  title={\lampglyph\ #1\ \lampglyph}, coltitle=ufogreenink,
+  fonttitle=\bfseries\footnotesize\scshape,
+  colbacktitle=ufogreen!8!white,
+  titlerule=0pt, toptitle=7pt, bottomtitle=1pt,
+  lefttitle=9pt, righttitle=9pt
+}
+
+% Simple bold-lead callout used where a titled box would be heavy
+\newcommand{\funfactlead}[1]{\textbf{\color{ufogreenink}#1}\ }
+
+% Author gap: preserves the XXXX fill-in-the-blank markers
+\newcommand{\gap}[1][text to be completed]{%
+  \begingroup\setlength{\fboxsep}{2pt}%
+  \colorbox{softgrey}{\color{gapred}\footnotesize\itshape\,[\,#1\,]\,}\endgroup}
+
+% Full-page chapter plate: a themed frontispiece that faces the opening of
+% each chapter. The art is laid in edge to edge as a single piece with NO
+% margins, rules or frame: the page IS the artwork. Placement is relative to
+% the paper corner rather than the text block, so the margin settings never
+% intrude. Carries no folio, head or caption, and is skipped by the
+% list-of-figures machinery on purpose.
+%
+% Each plate file is pre-cropped to the exact 8.5 x 11 page shape at 300 dpi,
+% so the graphic is placed at its true size and nothing is stretched.
+%
+% The plate counts as the FIRST page of the chapter it introduces, so the
+% contents list quotes the art page rather than the page the prose starts on.
+% \chapterplate records its own page number and a link anchor; the next
+% chapter-level contents entry is then written with those values in place of
+% the ones LaTeX would have supplied. In the digital edition this also makes
+% the contents link land on the art.
+% The blank verso that \cleardoublepage inserts to push a plate onto the right
+% must be genuinely blank -- book's default leaves the running head and folio
+% standing on an otherwise empty leaf, which reads like a printing fault when it
+% happens opposite full-bleed art.
+\makeatletter
+\renewcommand{\cleardoublepage}{%
+  \clearpage
+  \ifodd\c@page\else
+    \thispagestyle{empty}%
+    \null
+    \clearpage
+  \fi}
+\makeatother
+
+\newif\ifplatetoc
+% Consumes the plate page records written to the .aux file by the macros below;
+% the numbers are read out of the .aux by the build's parity check, not by TeX.
+\newcommand{\plateonpage}[1]{}
+\newcommand{\platepagenum}{}
+\newcommand{\plateanchorname}{}
+\makeatletter
+% Every plate must fall on a right-hand (odd) page, so the art is always the
+% page the reader is looking at when the leaf is turned. \cleardoublepage
+% inserts a blank verso first whenever the plate would otherwise land on the
+% left. The page number is logged to the .aux file so the build can verify it.
+\newcommand{\ufo@logplate}{%
+  \write\@auxout{\string\plateonpage{\thepage}}}
+\newcommand{\chapterplate}[1]{%
+  \cleardoublepage
+  \thispagestyle{empty}%
+  \ufo@logplate
+  \AddToShipoutPictureBG*{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}}%
+  \phantomsection
+  \xdef\platepagenum{\thepage}%
+  \xdef\plateanchorname{\@currentHref}%
+  \global\platetoctrue
+  \null
+  \clearpage}
+% Mid-chapter section plate: identical full-bleed treatment, but it introduces
+% a section rather than a chapter, so it must NOT touch the contents machinery.
+% (\chapterplate above sets \platetoctrue, which hijacks the next chapter-level
+% contents entry; used mid-chapter that would corrupt the following chapter's
+% page reference.)
+% Section plates are full-page art like the chapter plates, so they keep the
+% same recto-only placement: \cleardoublepage, not \clearpage. Dropping to
+% \clearpage saves up to four pages but lands four plates on a left-hand page,
+% which the build's parity check rejects.
+\newcommand{\sectionplate}[1]{%
+  \cleardoublepage
+  \thispagestyle{empty}%
+  \ufo@logplate
+  \AddToShipoutPictureBG*{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}}%
+  \null
+  \clearpage}
+\newcommand{\ufo@gobbletwo}[2]{}%
+\AtBeginDocument{%
+  % Point the PDF bookmark at the art page as well, so the sidebar and the
+  % contents list agree on where a chapter begins.
+  \let\ufo@writebookmark\Hy@writebookmark
+  \renewcommand{\Hy@writebookmark}[5]{%
+    \ifboolexpr{ bool {platetoc} and test {\ifnumequal{#4}{0}} }%
+      {\ufo@writebookmark{#1}{#2}{\plateanchorname}{#4}{#5}}%
+      {\ufo@writebookmark{#1}{#2}{#3}{#4}{#5}}}%
+  \let\ufo@addcontentsline\addcontentsline
+  \renewcommand{\addcontentsline}[3]{%
+    \ifboolexpr{ bool {platetoc}
+                 and test {\ifstrequal{#1}{toc}}
+                 and test {\ifstrequal{#2}{chapter}} }%
+      {\begingroup
+       % let hyperref create its bookmark (redirected to the plate above) but
+       % swallow the page number it would have written into the contents file
+       \let\addtocontents\ufo@gobbletwo
+       \ufo@addcontentsline{#1}{#2}{#3}%
+       \endgroup
+       \global\platetocfalse
+       \begingroup
+       \edef\ufo@tocline{\endgroup
+         \noexpand\addtocontents{toc}{%
+           \noexpand\protect\noexpand\contentsline{chapter}%
+             {\unexpanded{#3}}{\platepagenum}{\plateanchorname}}}%
+       \ufo@tocline}%
+      {\ufo@addcontentsline{#1}{#2}{#3}}}}
+\makeatother
+
+% Accent panel that sits behind every figure, portrait and collage cell, so
+% illustrations read as members of the same family as the Fun Fact box: the
+% same faint green wash, the same green west stripe, no heavy frame.
+\newtcolorbox{figpanel}[1][]{%
+  enhanced, colback=ufogreen!8!white, colframe=ufogreen,
+  boxrule=0pt, leftrule=2.6pt, arc=1pt, outer arc=1pt,
+  left=5pt, right=5pt, top=5pt, bottom=4pt,
+  before skip=0pt, after skip=0pt, #1}
+
+% Figure placeholder with source caption
+\newcounter{figph}[chapter]
+\renewcommand{\thefigph}{\thechapter.\arabic{figph}}
+\newcommand{\figplace}[3][0.55]{%
+  \begin{center}
+  \refstepcounter{figph}%
+  \begin{figpanel}[width=0.86\textwidth]
+  \centering
+  \begin{tcolorbox}[enhanced,width=\linewidth,colback=white,
+     colframe=ufogreen,boxrule=0.5pt,arc=2pt,
+     left=8pt,right=8pt,top=8pt,bottom=8pt,
+     halign=center,valign=center,height=#1\textwidth,
+     borderline={1.6pt}{0pt}{ufogreen,dashed}]
+    {\footnotesize\color{ufogreenink}\scshape Figure \thefigph\\[4pt]}
+    {\footnotesize\itshape\color{midgrey} #2}
+  \end{tcolorbox}\par\vspace{2pt}
+  {\footnotesize\color{steel}\textbf{\textcolor{ufogreenink}{Figure \thefigph.}} #2}\par\vspace{1pt}
+  {\scriptsize{\color{midgrey} Image sourced from:} \srclink{#3}}
+  \end{figpanel}
+  \end{center}
+}
+
+% Text-wrapped figure: a real photograph set into the outer margin of the
+% running text, the way a printed textbook sets its illustrations.
+%   #1 optional side (r/l), #2 width fraction of \textwidth,
+%   #3 caption, #4 fallback source URL, #5 label
+% The image file, credit line and source URL are looked up by label in
+% fig_data.tex. If a label has no picture yet the macro falls back to the
+% dashed placeholder box so the build never breaks.
+\input{fig_data}
+\newsavebox{\figwrapscratch}
+\newlength{\figwrapneed}
+% Tight vertical padding around wrapped illustrations. The book-class default
+% (12pt plus 2pt minus 2pt) is what made wrapfig reserve one text line more
+% than the picture actually occupies, leaving a blank line under every figure.
+\setlength{\intextsep}{6pt}
+% Optional one-off upward shift for a single wrapped figure, reset after use.
+\newlength{\figwraprise}
+\setlength{\figwraprise}{0pt}
+% Image height ceiling inside a wrapped box. This is a variable, not a constant:
+% see \ufo@fitpage below, which trims it so an illustration can stay on the page
+% it belongs to instead of being exiled to the top of the next one.
+\makeatletter
+\newdimen\ufo@ic
+\newdimen\ufo@icmax
+\newdimen\ufo@room
+\ufo@icmax=3.25in
+\ufo@ic=3.25in
+\makeatother
+\makeatletter
+\newcommand{\figw@body}[4]{% width, caption, side-effect free body
+  \begin{figpanel}[width=\linewidth]
+  \centering
+  \@ifundefined{figimg@#4}{%
+    \begin{tcolorbox}[enhanced,width=\linewidth,colback=white,
+       colframe=ufogreen,boxrule=0.5pt,arc=2pt,
+       left=5pt,right=5pt,top=5pt,bottom=5pt,
+       halign=center,valign=center,height=0.72\linewidth,
+       borderline={1.4pt}{0pt}{ufogreen,dashed}]
+      {\scriptsize\color{ufogreenink}\scshape Figure \figw@num\\[3pt]}
+      {\scriptsize\itshape\color{midgrey} #2}
+    \end{tcolorbox}}%
+   {\setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.5pt}%
+    \fcolorbox{ufogreen}{white}{\adjustimage{max size={\dimexpr\linewidth-2\fboxrule\relax}{\ufo@ic}}{\csname figimg@#4\endcsname}}}%
+  \par\vspace{2.5pt}
+  {\RaggedRight\scriptsize\color{steel}\textbf{\textcolor{ufogreenink}{Figure \figw@num.}} #2\par
+  % Original artwork carries a credit line only: there is no external source to
+  % point at, so the "Image sourced from" link is suppressed when the label is
+  % flagged with \csname fignosrc@<label>\endcsname in fig_data.tex.
+  \@ifundefined{fignosrc@#4}{%
+    \vspace{1pt}{\color{midgrey}\@ifundefined{figcred@#4}{}{\csname figcred@#4\endcsname\ ---\ }Image sourced from:} %
+    \srclink{\@ifundefined{figsrc@#4}{#3}{\csname figsrc@#4\endcsname}}\par}{%
+    \@ifundefined{figcred@#4}{}{\vspace{1pt}{\color{midgrey}\csname figcred@#4\endcsname}\par}}}%
+  \end{figpanel}}
+% Number of text lines a measured box needs, rounded UP. wrapfig's own
+% estimate divides and truncates, which is why captions and credit lines were
+% running past the last wrapped line and over the body text.
+\newcommand{\ufo@linesfor}[1]{%
+  \@tempdima=#1\relax
+  \@tempcnta=\@tempdima \@tempcntb=\baselineskip \divide\@tempcnta\@tempcntb
+  \ifdim\@tempcnta\baselineskip<\@tempdima \advance\@tempcnta\@ne \fi
+  \ifnum\@tempcnta<\tw@ \@tempcnta\tw@ \fi}
+% Bottom of the text block. A stationary wrapped figure (lower-case r/l) is
+% never postponed by wrapfig: if it starts too low it does not shrink, it
+% prints straight through the bottom margin and over the folio. Forcing a page
+% break instead only trades the overprint for a hand-sized hole at the foot of
+% the previous page.
+%
+% So: measure the space left, and when the illustration genuinely cannot fit,
+% hand it to wrapfig as a FLOATING figure (upper-case R/L). The running text
+% then keeps filling the current page to the last line and the picture is set
+% at the top of the next one -- no overprint and no hole.
+\newif\ifufo@floatit
+% The room left is \pagegoal-\pagetotal, but two things are missing from that
+% sum at the moment this macro expands: the line we are standing in the middle
+% of has not been contributed to the page yet, and neither has the paragraph
+% text that follows the figure. Both push the figure further down than the raw
+% arithmetic suggests, which is why a figure that "just fits" still spills off
+% the foot of the page. Pad the requirement, and when the page is still empty
+% (\pagegoal = \maxdimen) measure against the real text height instead of
+% assuming infinite room.
+% \ufofloatnext forces the next wrapped figure to be allowed to float, for the
+% rare spot where the arithmetic below is still too generous.
+\newif\ifufo@forcefloat
+\newcommand{\ufofloatnext}{\ufo@forcefloattrue}
+% Padding note: this allowance used to be six text lines, which floated almost
+% every illustration that began below mid-page. A floated wrapped figure is set
+% at the TOP of the next page, and if the paragraph beside it has already
+% finished there is nothing left to wrap -- which is exactly how portraits and
+% instrument photographs ended up sitting alone with a column of dead space
+% next to them. Two lines is enough to cover the line in progress plus the
+% first line of the following paragraph; the auto-widening below keeps the
+% boxes short enough that this no longer risks running off the foot of a page.
+\newcommand{\ufo@needsfloat}[1]{%
+  \ufo@floatitfalse
+  \ifufo@forcefloat \ufo@floatittrue \global\ufo@forcefloatfalse \fi
+  \dimen@\pagegoal
+  \ifdim\dimen@=\maxdimen \dimen@\dimexpr\textheight+\topskip\relax \fi
+  \ifdim\dimexpr\dimen@-\pagetotal\relax<\dimexpr#1+\intextsep+2\baselineskip\relax
+    \ufo@floatittrue
+  \fi}
+% ---- dynamic figure boxes ------------------------------------------------
+% A wrapped illustration is a fixed-width box of variable height: the narrower
+% the column, the more lines the caption and credit take, and a long caption in
+% a 0.28\textwidth box can end up taller than half the page. Such a box cannot
+% be wrapped by any real paragraph, so it floats, lands alone at the top of the
+% next page and leaves a hole.
+%
+% The cure is to let the box choose its own width. \ufo@grow measures the box,
+% and while it is taller than the ceiling it widens it in 4%-of-measure steps
+% (which shortens the caption) up to a hard cap. The requested width is a
+% MINIMUM, never reduced, so nothing already well set changes.
+\newdimen\ufo@wd
+\newcount\ufo@gcnt
+\newcommand*{\ufo@wfrac}{}
+\newcommand{\ufo@setwfrac}{\edef\ufo@wfrac{\strip@pt\ufo@wd}}
+\newcommand{\ufo@grow}[2]{% #1 height ceiling, #2 width-fraction cap (in pt)
+  \ufo@gcnt\z@
+  \@whilenum\ufo@gcnt<12\do{%
+    \advance\ufo@gcnt\@ne
+    \ifdim\figwrapneed>#1\relax
+      \ifdim\ufo@wd<#2\relax
+        \advance\ufo@wd 0.04\p@
+        \ufo@setwfrac
+        \ufo@measurebox
+      \fi
+    \fi}}
+% Hard height limiter. Widening shortens the caption but cannot help once the
+% caption is already one line: past that point the picture itself is what makes
+% the box tall. A wrapped box only works if the paragraph beside it is at least
+% as deep as the box, and the biographical entries in this book run about ten
+% lines. So clamp the box: shrink the image in 0.1in steps, down to a floor,
+% until the box is short enough for a normal paragraph to sit beside it.
+\newcommand{\ufo@shrinkto}[2]{% #1 height limit, #2 image-height floor
+  \ufo@gcnt\z@
+  \@whilenum\ufo@gcnt<14\do{%
+    \advance\ufo@gcnt\@ne
+    \ifdim\figwrapneed>#1\relax
+      \ifdim\ufo@ic>#2\relax
+        \advance\ufo@ic-0.1in
+        \ufo@measurebox
+      \fi
+    \fi}}
+% Second half of the dynamic behaviour: fit the box to the room actually left
+% on THIS page. Widening shortens the caption, but a box can still be too tall
+% simply because it was called eight lines from the bottom. Rather than let it
+% float away and leave the hole, shrink the picture -- in 0.15in steps, down to
+% a floor of 1.35in, which is still a legible portrait -- until the whole box
+% fits the space remaining. Only if even the floor will not fit does the figure
+% float, which is now genuinely rare.
+\newcommand{\ufo@fitpage}{%
+  \dimen@\pagegoal
+  \ifdim\dimen@=\maxdimen \dimen@\dimexpr\textheight+\topskip\relax \fi
+  \ufo@room=\dimexpr\dimen@-\pagetotal-\intextsep-2\baselineskip\relax
+  \ifdim\ufo@room>0.10\textheight
+    \ufo@gcnt\z@
+    \@whilenum\ufo@gcnt<16\do{%
+      \advance\ufo@gcnt\@ne
+      \ifdim\figwrapneed>\ufo@room
+        \ifdim\ufo@ic>1.0in
+          \advance\ufo@ic-0.1in
+          \ufo@measurebox
+        \fi
+      \fi}%
+  \fi}
+% Hard width cap. The requested width fraction is a REQUEST, and several
+% portrait and equipment entries ask for 0.36 or 0.40 of the measure. At that
+% width the panel reads as a banner with a small picture stranded inside it
+% rather than as an illustration set into a column of type, so every wrapped box
+% is clamped to a third of the measure. The picture is then sized up to fill
+% that narrower box (the image is limited by the box width, and the height cap
+% below is deliberately generous), which is what makes the photograph large and
+% the panel compact instead of the other way round.
+\newcommand{\ufo@clampwd}{\ifdim\ufo@wd>0.32\p@ \ufo@wd0.32\p@ \fi}
+% Placement letter handed to wrapfig: lower case = set here, upper case = may
+% float. \uppercase touches character tokens only, never the macro name.
+\newcommand{\ufo@setpl}[1]{%
+  \if l#1%
+    \ifufo@floatit \def\ufo@pl{L}\else \def\ufo@pl{l}\fi
+  \else
+    \ifufo@floatit \def\ufo@pl{R}\else \def\ufo@pl{r}\fi
+  \fi}
+% A wrapped panel handed to wrapfig as a float is set at the TOP of the next
+% page, and by then the paragraph that was meant to wrap it has usually already
+% finished -- which is how a picture ends up alone beside half a page of dead
+% space. Since a wrapped figure is always called between paragraphs, the cure is
+% to start the new page HERE instead: the panel then heads the next page as a
+% stationary figure with the following paragraph running around it, exactly as
+% intended. The break is only taken when the page is genuinely well filled, so a
+% heading is never left stranded at the foot.
+\newcommand{\ufo@breakinstead}{%
+  \ifufo@floatit
+    \ifdim\pagetotal>0.62\textheight
+      \newpage \ufo@floatitfalse
+    \else
+      % A deep panel left to float is the one that always lands alone beside a
+      % column of dead space, so it is worth the shorter page.
+      \ifdim\figwrapneed>0.28\textheight
+        \ifdim\pagetotal>0.40\textheight
+          \newpage \ufo@floatitfalse
+        \fi
+      \fi
+    \fi
+  \fi}
+\newcommand{\figwrap}[5][r]{%
+  \ufowrapclear
+  \refstepcounter{figph}\edef\figw@num{\thefigph}%
+  % Write the label HERE, in the running text, not inside the wrapfigure.
+  % A wrapped figure that wrapfig hands on as a deferred float can have its
+  % body box discarded, and then the \label inside it never reaches the .aux
+  % and every \ref to it stays undefined for good. The figure number comes
+  % from the counter above, so anchoring the label at the call site gives the
+  % same number and cannot be lost.
+  \label{#5}%
+  \def\ufo@measurebox{%
+    \sbox{\figwrapscratch}{\begin{minipage}{\ufo@wfrac\textwidth}%
+      \figw@body{\ufo@wfrac}{#3}{#4}{#5}\end{minipage}}%
+    \setlength{\figwrapneed}{\dimexpr\ht\figwrapscratch+\dp\figwrapscratch\relax}}%
+  \ufo@ic\ufo@icmax
+  \ufo@wd#2\p@ \ufo@clampwd \ufo@setwfrac
+  \ufo@measurebox
+  % Ceiling: a wrapped box is only wrappable if the paragraph beside it is at
+  % least as deep as the box. Widening is capped at a third of the measure (see
+  % \ufo@clampwd): beyond that the box stops looking like an illustration set
+  % into a column of type and starts looking like a banner with a small picture
+  % stranded in the middle of it. The picture's own height ceiling is generous,
+  % so within that narrow box the photograph is sized up to the full box width
+  % and only shrunk if the finished panel is genuinely too tall to wrap.
+  \ufo@grow{0.19\textheight}{0.32\p@}%
+  \ufo@shrinkto{0.25\textheight}{1.15in}%
+  % A handful of panels carry a caption so long that even at the image floor the
+  % box is still half a page deep. Widening the column is the only thing that
+  % shortens a caption, so those outliers are allowed past the one-third clamp.
+  \ufo@grow{0.25\textheight}{0.38\p@}%
+  \ufo@fitpage
+  \ufo@needsfloat{\figwrapneed}%
+  \ufo@breakinstead
+  % A fresh page has room for the picture at its full size again.
+  \ifufo@floatit\else
+    \ufo@ic\ufo@icmax
+    \ufo@wd#2\p@ \ufo@clampwd \ufo@setwfrac
+    \ufo@measurebox
+    \ufo@grow{0.19\textheight}{0.32\p@}%
+    \ufo@shrinkto{0.25\textheight}{1.15in}%
+    \ufo@grow{0.25\textheight}{0.38\p@}%
+    \ufo@fitpage
+  \fi
+  \ufo@setpl{#1}%
+  \ufo@linesfor{\dimexpr\figwrapneed+\intextsep+2pt-\figwraprise\relax}%
+  \edef\figw@lines{\the\@tempcnta}%
+  % Record where the bottom of this panel will fall, so that any block which
+  % cannot be wrapped (a callout, a list, a pull quote) can reserve exactly the
+  % distance still to go instead of guessing in whole lines.
+  \ifufo@floatit\else
+    \ufo@markfig{\dimexpr\figwrapneed+\intextsep\relax}%
+  \fi
+  \begin{wrapfigure}[\figw@lines]{\ufo@pl}{\ufo@wfrac\textwidth}%
+  \vspace{\dimexpr-6pt-\figwraprise\relax}%
+  \figw@body{\ufo@wfrac}{#3}{#4}{#5}%
+  \end{wrapfigure}%
+  \setlength{\figwraprise}{0pt}}
+\newcommand{\figwrapfix}[5][r]{%
+  \ufowrapclear
+  \refstepcounter{figph}\edef\figw@num{\thefigph}%
+  \label{#5}%
+  \def\ufo@measurebox{%
+    \sbox{\figwrapscratch}{\begin{minipage}{\ufo@wfrac\textwidth}%
+      \figw@body{\ufo@wfrac}{#3}{#4}{#5}\end{minipage}}%
+    \setlength{\figwrapneed}{\dimexpr\ht\figwrapscratch+\dp\figwrapscratch\relax}}%
+  \ufo@ic\ufo@icmax
+  \ufo@wd#2\p@ \ufo@setwfrac
+  \ufo@measurebox
+  \ufo@needsfloat{\figwrapneed}%
+  \ufo@breakinstead
+  \ufo@setpl{#1}%
+  \ufo@linesfor{\dimexpr\figwrapneed+\intextsep+2pt-\figwraprise\relax}%
+  \edef\figw@lines{\the\@tempcnta}%
+  \ifufo@floatit\else
+    \ufo@markfig{\dimexpr\figwrapneed+\intextsep\relax}%
+  \fi
+  \begin{wrapfigure}[\figw@lines]{\ufo@pl}{\ufo@wfrac\textwidth}%
+  \vspace{\dimexpr-6pt-\figwraprise\relax}%
+  \figw@body{\ufo@wfrac}{#3}{#4}{#5}%
+  \end{wrapfigure}%
+  \setlength{\figwraprise}{0pt}}
+% Full-measure centred illustration. Some figures are wide infographics whose
+% internal lettering becomes unreadable when the picture is squeezed into a
+% third of the measure by \figwrap. Those are set here instead: the same panel,
+% caption and credit line, but across the whole text block so the labels inside
+% the picture stay legible in print.
+%   #1 optional image-height ceiling, #2 caption, #3 fallback URL, #4 label
+\newdimen\ufo@fullwd \ufo@fullwd\z@
+\newcommand{\figfullnextwidth}[1]{\global\ufo@fullwd=#1\relax}
+\newcommand{\figfull}[4][4.6in]{%
+  \ufowrapclear
+  \refstepcounter{figph}\edef\figw@num{\thefigph}%
+  \label{#4}%
+  \par\medskip
+  \begingroup
+  \ufo@ic=#1\relax
+  \begin{center}
+  \begin{minipage}{\ifdim\ufo@fullwd>\z@ \ufo@fullwd\else\textwidth\fi}
+  \figw@body{1.0}{#2}{#3}{#4}%
+  \end{minipage}
+  \end{center}
+  \endgroup
+  \global\ufo@fullwd\z@
+  \par\medskip}
+\makeatother
+
+% ---- wrapfig leak guard -------------------------------------------------
+% wrapfig protects a wrapped figure with \parshape, not with real vertical
+% space. If the paragraph beside the figure runs out before the figure does
+% (short bio, then a box, a source list or a new subsection), the wrapping is
+% still notionally in force. Start a second wrapped figure in that state and
+% wrapfig reports a collision and takes its conflict branch, which leaves a
+% one-line \parshape installed permanently -- every later paragraph in the
+% book is then indented by the width of a figure that is no longer there.
+%
+% \ufowrapclear ends any wrapping still in force, but first reserves the
+% vertical space the unfinished figure still needed, so nothing overlaps, and
+% then clears \parshape by hand.
+\makeatletter
+% Two mechanisms are used, in order of reliability.
+%
+% (1) Geometric reservation. When a wrapped figure is set on the current page,
+% \figwrap records the vertical position of the BOTTOM of the panel. Any block
+% that cannot be wrapped then reserves exactly the distance still to go, and no
+% more: if the text beside the picture already ran past it the deficit is zero
+% and nothing is inserted, and if the text stopped short the block is pushed to
+% just below the credit line. This is what makes overprinting impossible while
+% still leaving no gratuitous whitespace.
+%
+% (2) Line-count fallback, used only when the panel was deferred as a float and
+% its position on the page is not knowable here. The reservation is then capped
+% at three lines, because reserving every remaining wrapped line verbatim is
+% what produced the tall blank blocks between a short biography and the next
+% heading.
+\newdimen\ufo@figbot  \ufo@figbot\z@
+\newcount\ufo@figpg   \ufo@figpg\m@ne
+\newdimen\ufo@figdeep \ufo@figdeep\z@
+\newcommand{\ufo@markfig}[1]{%
+  \global\ufo@figdeep#1\relax
+  \global\ufo@figbot\dimexpr\pagetotal+#1+\intextsep\relax
+  \global\ufo@figpg\value{page}}
+\newcommand{\ufo@clearfigmark}{\global\ufo@figbot\z@ \global\ufo@figpg\m@ne}
+\newcommand{\ufowrapclear}{%
+  \par
+  \ifvoid\WF@box\else\WFclear\fi
+  \ifnum\c@WF@wrappedlines>\@ne
+    \begingroup
+      \@tempdima\z@ \@tempswafalse
+      \ifdim\ufo@figbot>\z@
+        \ifnum\ufo@figpg=\value{page}
+          \@tempswatrue
+          \@tempdima\dimexpr\ufo@figbot-\pagetotal\relax
+          \ifdim\@tempdima>\ufo@figdeep \@tempdima\ufo@figdeep \fi
+        \fi
+      \fi
+      \if@tempswa
+        \ifdim\@tempdima>\z@ \vspace*{\@tempdima}\fi
+      \else
+        \@tempcnta\c@WF@wrappedlines \advance\@tempcnta-\@ne
+        \ifnum\@tempcnta>\z@
+          \vspace*{\dimexpr\@tempcnta\baselineskip\relax}%
+        \fi
+      \fi
+    \endgroup
+    \global\c@WF@wrappedlines\z@
+    \WF@finale
+  \fi
+  \ufo@clearfigmark
+  \let\WF@pspars\@empty
+  \ifnum\@@parshape>\z@ \global\@@parshape\z@ \fi}
+\makeatother
+
+% A leaked \parshape does not only indent body text: it also indents the next
+% heading, which is how "Credentials, Including Mine" ended up starting a third
+% of the way across the measure. Rather than patch each site by hand, every
+% sectional heading first closes out any figure wrapping still in force, so a
+% heading always starts flush at the left margin of the text block.
+\pretocmd{\section}{\ufowrapclear}{}{}
+\pretocmd{\subsection}{\ufowrapclear}{}{}
+\pretocmd{\subsubsection}{\ufowrapclear}{}{}
+
+% A framed callout is not a paragraph: wrapfig cannot wrap it, so a Fun Fact
+% box opened while a wrapped illustration is still in force is set at the full
+% measure straight across the picture. Close out any wrapping first, exactly as
+% the headings do, so a callout can never overprint a figure or its credit line.
+% The same is true of every other block that is not a plain paragraph: a list,
+% a displayed quotation, a centred box. wrapfig steers text with \parshape,
+% which only governs paragraph lines, so any of these opened while a wrapped
+% illustration is still in force is set at the full measure across the picture.
+% Every such environment therefore closes out the wrapping first, exactly as the
+% headings do, so nothing can ever overprint a figure, its caption or its
+% credit line.
+\AtBeginDocument{%
+  \BeforeBeginEnvironment{funfact}{\ufowrapclear}%
+  \BeforeBeginEnvironment{srcnotes}{\ufowrapclear}%
+  \BeforeBeginEnvironment{itemize}{\ufowrapclear}%
+  \BeforeBeginEnvironment{enumerate}{\ufowrapclear}%
+  \BeforeBeginEnvironment{description}{\ufowrapclear}%
+  \BeforeBeginEnvironment{quote}{\ufowrapclear}%
+  \BeforeBeginEnvironment{quotation}{\ufowrapclear}%
+  \BeforeBeginEnvironment{verse}{\ufowrapclear}%
+  \BeforeBeginEnvironment{tabular}{\ufowrapclear}%
+  \BeforeBeginEnvironment{longtable}{\ufowrapclear}%
+  \BeforeBeginEnvironment{tabularx}{\ufowrapclear}}
+
+% Portrait size for a run of biographical entries. The Ufologist roster in
+% Section 2.5 is fifteen short biographies in a row: a panel of the standard
+% size needs about a third of the page, so every entry that began below
+% mid-page was forced onto the next one and left a hand-sized hole behind it.
+% Inside \ufobioportraits the panels are set shorter, so a ten-line biography
+% is deep enough to wrap one and the text never has to be pushed.
+\makeatletter
+\newdimen\ufo@porcap  \ufo@porcap=3.1in
+\newcommand*{\ufo@porlimit}{0.29\textheight}
+\newcommand{\ufobioportraits}{%
+  \ufo@porcap=1.62in
+  \renewcommand*{\ufo@porlimit}{0.215\textheight}}
+\newcommand{\ufostdportraits}{%
+  \ufo@porcap=3.1in
+  \renewcommand*{\ufo@porlimit}{0.29\textheight}}
+\makeatother
+
+% Text-wrapped portrait: a real photograph set into the outer margin of a
+% biographical entry, with the body text running around it.
+%   #1 optional side (r/l), #2 width fraction of \textwidth, #3 image file,
+%   #4 credit line, #5 source URL
+% The macro first typesets the figure into a scratch box, measures its true
+% height (image + credit + source line) and reserves that much space plus two
+% text lines. Without this a portrait can begin two lines from the bottom of a
+% page and hang past the text block into the footer.
+\newsavebox{\portraitscratch}
+\newlength{\portraitneed}
+\makeatletter
+\newcommand{\ufoportraitbody}[4]{%
+  \begin{figpanel}[width=\linewidth]
+  \centering
+  \adjustimage{max size={\dimexpr\linewidth-1pt\relax}{\ufo@ic},center}{#2}\par\vspace{2pt}
+  {\RaggedRight\scriptsize\color{steel}#3\par
+  \vspace{1pt}{\color{midgrey} Image sourced from:} \srclink{#4}\par}%
+  \end{figpanel}}
+\newcommand{\portrait}[5][r]{%
+  \ufowrapclear
+  \def\ufo@measurebox{%
+    \sbox{\portraitscratch}{%
+      \begin{minipage}{\ufo@wfrac\textwidth}%
+      \ufoportraitbody{\ufo@wfrac}{#3}{#4}{#5}%
+      \end{minipage}}%
+    \setlength{\figwrapneed}{\dimexpr\ht\portraitscratch+\dp\portraitscratch\relax}}%
+  \ufo@ic\ufo@porcap
+  \ufo@wd#2\p@ \ufo@clampwd \ufo@setwfrac
+  \ufo@measurebox
+  \ufo@grow{0.20\textheight}{0.32\p@}%
+  \ufo@shrinkto{\ufo@porlimit}{1.15in}%
+  \ufo@fitpage
+  \setlength{\portraitneed}{\figwrapneed}%
+  \ufo@needsfloat{\portraitneed}%
+  \ufo@breakinstead
+  \ifufo@floatit\else
+    \ufo@ic\ufo@porcap
+    \ufo@wd#2\p@ \ufo@clampwd \ufo@setwfrac
+    \ufo@measurebox
+    \ufo@grow{0.20\textheight}{0.32\p@}%
+    \ufo@shrinkto{\ufo@porlimit}{1.15in}%
+    \ufo@fitpage
+    \setlength{\portraitneed}{\figwrapneed}%
+  \fi
+  \ufo@setpl{#1}%
+  \ufo@linesfor{\dimexpr\portraitneed+\intextsep-6pt\relax}%
+  \edef\ufopor@lines{\the\@tempcnta}%
+  \ifufo@floatit\else
+    \ufo@markfig{\dimexpr\portraitneed+\intextsep-6pt\relax}%
+  \fi
+  % Do not insist on the whole picture height: that turns every portrait that
+  % starts past mid-page into a forced page break and leaves a hand-sized hole
+  % at the foot of the previous page. Ask only for a fraction of it. If the
+  % picture itself will not fit in what is left, wrapfig defers it to the top of
+  % the next page by itself, and the running text keeps filling this one.
+  \begin{wrapfigure}[\ufopor@lines]{\ufo@pl}{\ufo@wfrac\textwidth}%
+  \vspace{-8pt}%
+  \ufoportraitbody{\ufo@wfrac}{#3}{#4}{#5}%
+  \end{wrapfigure}}
+\makeatother
+
+% Collage cell, defined here so the auto-generated collage file inherits the
+% same accent panel as every other figure (its own \providecommand stands down).
+\newcommand{\collagecell}[4]{%
+  \begin{minipage}[t]{#1}%
+    \begin{figpanel}[width=\linewidth]
+    \centering
+    \setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.5pt}%
+    \fcolorbox{ufogreen}{white}{%
+      \adjustimage{max size={\dimexpr\linewidth-2\fboxrule\relax}{#2}}{#3}}%
+    \par\vspace{2pt}%
+    {\RaggedRight\scriptsize\color{steel}#4\par}%
+    \end{figpanel}%
+  \end{minipage}%
+}
+
+% Section-level source note list
+\newenvironment{srcnotes}
+  {\par\vspace{9pt}\noindent\greenbarsm{\footnotesize\color{ufogreenink}\scshape Sources}\\[-4pt]
+   \begin{list}{}{\setlength{\leftmargin}{1.1em}\setlength{\itemsep}{0pt}
+   \setlength{\parsep}{0pt}\setlength{\topsep}{3pt}}\footnotesize}
+  {\end{list}\par\vspace{4pt}}
+
+% Pull quote
+% Pull quote, opened by a vertical green stripe
+\newcommand{\pullquote}[2][]{%
+  \ufowrapclear
+  \begin{center}
+  \begin{minipage}{0.86\textwidth}
+  \begin{tcolorbox}[enhanced,frame hidden,colback=white,
+    boxrule=0pt,leftrule=3.6pt,colframe=ufogreen,
+    borderline west={3.6pt}{0pt}{ufogreen},
+    left=11pt,right=2pt,top=3pt,bottom=3pt,
+    before skip=6pt,after skip=6pt]
+  \itshape\color{inkblue}\small #2
+  \ifx\relax#1\relax\else\\[3pt]\normalfont\footnotesize\color{steel}\hfill--- #1\fi
+  \end{tcolorbox}
+  \end{minipage}
+  \end{center}\vspace{2pt}}
+
+% The question-behind-the-question box. Everywhere this book replaces a
+% badly posed question with the one that can actually be answered, the swap
+% is set out here rather than buried in a paragraph. Same green west stripe
+% as the pull quote, so the two read as members of one family.
+%   [#1] the noun being corrected (question, problem, mystery, argument...)
+%   #2 the discarded version, set in muted steel
+%   #3 the version that survives, set in ink
+\newcommand{\actualq}[3][question]{%
+  \ufowrapclear
+  \begin{center}
+  \begin{minipage}{0.86\linewidth}
+  \begin{tcolorbox}[enhanced,frame hidden,colback=white,
+    boxrule=0pt,leftrule=3.6pt,colframe=ufogreen,
+    borderline west={3.6pt}{0pt}{ufogreen},
+    left=11pt,right=2pt,top=4pt,bottom=4pt,
+    before skip=8pt,after skip=8pt]
+  {\footnotesize\color{steel}The #1 is \textbf{NOT}:}\ {\small\itshape\color{steel}#2}\par
+  \vspace{2.5pt}
+  {\footnotesize\color{ufogreenink}The \textbf{ACTUAL} #1 is:}\ {\small\itshape\color{inkblue}#3}
+  \end{tcolorbox}
+  \end{minipage}
+  \end{center}\vspace{2pt}}
+
+% ===================== MOONWALKER PLATE =====================
+% One dedicated page per Apollo moonwalker: mission strap, name, closing
+% rule, portrait at a uniform height so every page matches, credit block,
+% then the assessment text.
+%   #1 name  #2 mission/role strap  #3 image file  #4 credit text
+%   #5 source URL  #6 body text
+% Double frame drawn around the portrait itself: a heavier green rule outside,
+% a fine black rule just inside it, with the picture inset from both. Nothing
+% is drawn at the page edges, so KDP's no-bleed safety margin is never in
+% question and no line of type can touch the frame.
+\newcommand{\plateframe}[1]{%
+  {\setlength{\fboxsep}{4pt}\setlength{\fboxrule}{2.6pt}%
+   \fcolorbox{ufogreen}{white}{%
+     \setlength{\fboxsep}{6pt}\setlength{\fboxrule}{0.8pt}%
+     \fcolorbox{black}{white}{#1}}}}
+
+\newcommand{\moonwalker}[6]{%
+  \clearpage
+  \begin{center}
+    {\footnotesize\color{ufogreenink}\scshape #2}\par\vspace{3pt}
+    {\dispfont\LARGE\color{inkblue}#1}\par\vspace{5pt}
+  \end{center}
+  \greenrule
+  \vspace{11pt}\par
+  \begin{center}
+    \plateframe{\adjustimage{max size={2.05in}{2.5in}}{#3}}
+  \end{center}
+  \vspace{2pt}\par
+  \noindent\begin{minipage}{\linewidth}
+    {\RaggedRight\scriptsize\color{steel}#4\par
+     \vspace{1pt}{\color{midgrey} Image sourced from:} \srclink{#5}\par}
+  \end{minipage}\par\vspace{9pt}
+  #6\par}
+
+% Same plate layout for a flown astronaut who never walked on the Moon
+% (Gordon Cooper). Identical geometry so the run of pages matches.
+\let\astroplate\moonwalker
+
+% ===================== PLANET PLATE =====================
+% One planet per page, art running to all four page edges. The plate files are
+% pre-composed onto black 8.5 x 11 canvases (tools/mkplanets.py), with the disc
+% centred in the upper three quarters and a black band left at the foot for the
+% caption, so the graphic is laid at its true size and nothing is stretched and
+% no type sits on top of the art.
+%
+% Deliberately NOT logged with \ufo@logplate and NOT preceded by
+% \cleardoublepage: this is a run of nine consecutive pages, so recto-only
+% placement is neither possible nor wanted, and the build's plate parity check
+% must not see them.
+%   #1 plate file  #2 planet name  #3 strap (class / position)
+%   #4 vital statistics line  #5 biosphere class (Rocky / Gaseous / Water /
+%      combinations) -- printed as an explicit labelled line so the nine pages
+%      can be read as a set at a glance  #6 biosphere verdict prose
+%   #7 image credit
+\newcommand{\planetplate}[7]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \AddToShipoutPictureBG*{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}%
+    \put(\LenToUnit{0.95in},\LenToUnit{0.62in}){%
+      \begin{minipage}[b]{\dimexpr\paperwidth-1.9in\relax}
+        {\footnotesize\color{ufogreen}\scshape #3}\par\vspace{3pt}
+        {\dispfont\Huge\color{white}#2}\par\vspace{6pt}
+        {\color{ufogreen}\rule{\linewidth}{1.1pt}}\par\vspace{6pt}
+        {\footnotesize\color{white}\RaggedRight #4\par}\vspace{4pt}
+        {\footnotesize\color{white}\RaggedRight
+           {\bfseries\color{ufogreen}Biosphere:}~{\bfseries #5}\par}\vspace{3pt}
+        {\footnotesize\itshape\color{ufogreen}\RaggedRight #6\par}\vspace{5pt}
+        {\scriptsize\color{midgrey}\RaggedRight #7\par}
+      \end{minipage}}}%
+  \null
+  \clearpage}
+
+% ===================== CROP FORMATION PLATE =====================
+% One crop formation photograph per page, pre-mounted on a cream 8.5 x 11
+% canvas (tools/mkcropplates.py): the picture sits inside a narrow cream
+% border with a deeper cream band left at the foot, and the caption, credit
+% and source line are set here as real type inside that band rather than
+% baked into the pixels, so they stay selectable, searchable and clickable.
+%
+% Like \planetplate this is a run of consecutive pages, so it uses \clearpage
+% rather than \cleardoublepage -- no blank verso is inserted between plates --
+% and it is deliberately NOT logged with \ufo@logplate, so the build's
+% recto-parity check for chapter and section plates never sees it.
+%   #1 plate file  #2 title  #3 strap (place / date)
+%   #4 caption prose  #5 image credit and licence  #6 source URL
+\newcommand{\cropplate}[6]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \AddToShipoutPictureBG*{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}%
+    \put(\LenToUnit{0.60in},\LenToUnit{0.52in}){%
+      \begin{minipage}[b]{\dimexpr\paperwidth-1.2in\relax}
+        {\footnotesize\color{ufogreenink}\scshape #3}\par\vspace{2pt}
+        {\dispfont\LARGE\color{inkblue}#2}\par\vspace{5pt}
+        {\color{ufogreen}\rule{\linewidth}{1.1pt}}\par\vspace{5pt}
+        {\footnotesize\color{black}\RaggedRight #4\par}\vspace{4pt}
+        {\scriptsize\color{steel}\RaggedRight #5\par}\vspace{1pt}
+        {\scriptsize\color{midgrey}\RaggedRight Image sourced from:\ \srclink{#6}\par}
+      \end{minipage}}}%
+  \null
+  \clearpage}
+
+% Display-font shorthand used by every heading level. The display face is
+% capitals-only and carries neither an ampersand nor an en/em dash of its own,
+% so all three are borrowed from the text face at matching weight. \ndash and
+% \mdash stay ordinary dashes everywhere else, so the same heading text still
+% sets correctly in the table of contents, the running heads and the PDF
+% bookmarks, where the text font is in force.
+\newcommand{\ndash}{\textendash}
+\newcommand{\mdash}{\textemdash}
+\newcommand{\dispfont}{%
+  \displayface
+  \protected\def\&{{\ampfont\char38\relax}}%
+  \renewcommand{\ndash}{{\ampfont\char"2013}}%
+  \renewcommand{\mdash}{{\ampfont\char"2014}}%
+  \hyphenpenalty=10000 \exhyphenpenalty=10000 }
+
+% Key term for glossary echo: bold, on a soft tint of the accent colour
+% NB: the bold must be applied OUTSIDE \hisoft. soul's \hl reconstructs any
+% font-switching group nested inside it and silently swallows the spaces
+% within that group, so \hisoft{\textbf{Project Blue Book}} sets as
+% "ProjectBlueBook". Bolding the highlight from outside keeps the spaces.
+\newcommand{\term}[1]{\textbf{\hisoft{#1}}}
+
+% ===================== ALIEN RACE ROSTER =====================
+% The A-Z roster in Chapter 9 is set two columns to a page over a
+% full-bleed starfield, with each entry in its own framed card:
+% portrait on the left, text on the right, and the verdict line
+% running the full width of the card underneath both.
+\usepackage{multicol}
+\setlength{\columnsep}{15pt}
+\setlength{\columnseprule}{0pt}
+
+% The roster pages run on a wider, taller text block than the rest of the
+% book so the cards and portraits can be as large as possible. The inner
+% margin stays at 0.9in, which still clears the KDP 0.875in gutter minimum
+% for a 301-500 page book; the outer, top and bottom margins give up about
+% half their width to the cards.
+\newcommand{\rosterwide}{%
+  \clearpage
+  \newgeometry{paperwidth=8.25in,paperheight=11in,
+     top=0.60in,bottom=0.62in,inner=0.9in,outer=0.65in,
+     headsep=12pt,footskip=20pt}%
+  % fancyhdr fixes \headwidth once at load time, so after a geometry switch
+  % the header/footer slot still believes it is the old width and everything
+  % centred in it lands off the page centre. Re-sync it.
+  \setlength{\headwidth}{\textwidth}%
+  % Two cards to a column, so each card takes half the text block less the
+  % inter-card skips. Derived from the live geometry rather than hard-coded,
+  % so every card on every roster page is exactly the same height.
+  % The roster title is set across both columns at the top of the first page,
+  % so the space it takes is subtracted from the grid on every page and each
+  % of the ten pages carries four cards of identical size.
+  \setlength{\raceheight}{0.5\dimexpr\textheight-24pt-\rosterheadh\relax}%
+  \setlength{\multicolsep}{0pt}}
+\newcommand{\rosternarrow}{%
+  \clearpage
+  \restoregeometry
+  \setlength{\headwidth}{\textwidth}%
+  \setlength{\multicolsep}{12pt}}
+
+% Full-page starfield laid behind a RUN of pages. Unlike \chapterplate
+% this uses the unstarred hook, so the art repeats on every page until
+% it is switched off again.
+\newcommand{\starfieldon}{%
+  \clearpage
+  \AddToShipoutPictureBG{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{starfield_page}}}%
+  \pagestyle{starnight}\thispagestyle{starnight}}
+\newcommand{\starfieldoff}{%
+  \clearpage
+  \ClearShipoutPictureBG
+  \pagestyle{fancy}\ufofancysetup}
+
+% The galaxy taxonomy run sits on the blue field used by the nine planet
+% plates, not on the violet alien starfield: the galaxies belong with the
+% astronomy pages, not with the claimed visitors. tools/mkgalaxyfield.py
+% grades the same sky master with the same constants \planetplate art uses,
+% so a galaxy page and a planet plate read as one sequence.
+\newcommand{\galaxyfieldon}{%
+  \clearpage
+  \AddToShipoutPictureBG{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{galaxyfield_page}}}%
+  \pagestyle{starnight}\thispagestyle{starnight}}
+\newcommand{\galaxyfieldoff}{%
+  \clearpage
+  \ClearShipoutPictureBG
+  \pagestyle{fancy}\ufofancysetup}
+
+% The same device for the cryptid roster, over the night-swamp plate. It is a
+% deliberately different setting from the alien pages: those creatures are
+% claimed to come from the sky, these from the treeline.
+\newcommand{\swampfieldon}{%
+  \clearpage
+  \AddToShipoutPictureBG{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{swampfield_page}}}%
+  \pagestyle{swampnight}\thispagestyle{swampnight}}
+\newcommand{\swampfieldoff}{%
+  \clearpage
+  \ClearShipoutPictureBG
+  \pagestyle{fancy}\ufofancysetup}
+
+% Running head and folio recoloured for the dark pages. The ornaments here
+% are the transparent, green-tinted cuts of the saucer artwork, so they sit
+% on the starfield instead of dropping a white block onto it.
+\fancypagestyle{starnight}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\headrule}{%
+    \hbox to\headwidth{\color{ufogreen}\leaders\hrule height 2.2pt\hfill}%
+    \nointerlineskip}%
+  \fancyhead[LE]{\footnotesize\color{white}\dispfont The Science of Ufology 1.0}%
+  \fancyhead[RO]{\footnotesize\color{white}\dispfont\nouppercase{\leftmark}}%
+  \fancyfoot[C]{\foliokern
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_left_night.png}}%
+    \hspace{4pt}\foliobox\hspace{4pt}%
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_right_night.png}}}}
+
+% Folio and running head for the swamp pages. Identical construction to
+% starnight so the two rosters read as a matched pair.
+\fancypagestyle{swampnight}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\headrule}{%
+    \hbox to\headwidth{\color{ufogreen}\leaders\hrule height 2.2pt\hfill}%
+    \nointerlineskip}%
+  \fancyhead[LE]{\footnotesize\color{white}\dispfont The Science of Ufology 1.0}%
+  \fancyhead[RO]{\footnotesize\color{white}\dispfont\nouppercase{\leftmark}}%
+  \fancyfoot[C]{\foliokern
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_left_night.png}}%
+    \hspace{4pt}\foliobox\hspace{4pt}%
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_right_night.png}}}}
+
+% A heading set light, for use on the starfield pages.
+% Height reserved for the roster title where it spans the two card columns.
+\newlength{\rosterheadh}\setlength{\rosterheadh}{38pt}
+
+% The roster title, set into a box of exactly \rosterheadh so that the space
+% it takes at the top of the first roster page is known in advance and can be
+% subtracted from the card height.
+\newcommand{\rosterhead}[1]{%
+  \vbox to \rosterheadh{%
+    \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+    \noindent{\dispfont\Large\color{ufogreen}#1}\par\vspace{2pt}%
+    \noindent{\color{ufogreen}\rule{\linewidth}{2.2pt}}\par\vspace{1pt}%
+    \noindent{\color{white}\rule{\linewidth}{0.5pt}}%
+    \vss}}
+
+% A heading set light, for use inline on the starfield pages.
+\newcommand{\starhead}[1]{%
+  \noindent{\dispfont\Large\color{ufogreen}#1}\par\vspace{2pt}%
+  \noindent{\color{ufogreen}\rule{\linewidth}{2.2pt}}\par\vspace{1pt}%
+  \noindent{\color{white}\rule{\linewidth}{0.5pt}}\par\vspace{5pt}}
+
+% One roster entry, set as a fixed-height card so that four of them fill a
+% two-column page exactly.
+%   #1 image file  #2 name  #3 claimed origin  #4 description
+%   #5 the terrestrial animal the description was assembled from
+%
+% The portrait sits centred at the top and the text runs full column width
+% beneath it. Text length varies a great deal from entry to entry, so the
+% text block is measured first and the picture is then given whatever height
+% is left inside the frame. An earlier version wrapped the text round the
+% picture; wrapfig and multicols do not co-operate, and the text landed on
+% top of the image.
+% How the portrait is placed inside a card. The four-to-a-page rosters set it
+% to one fixed height for the whole run, so every card matches; the six-to-a
+% -page cryptid grid has a much narrower column, so there the picture is
+% capped on width as well and \cryptidcard swaps this in.
+\newcommand{\ufophotobox}[1]{\includegraphics[height=\racephotoh]{#1}}
+\newsavebox{\racescratch}
+\newlength{\raceheight}\setlength{\raceheight}{4.35in}
+\newlength{\racephotoh}
+\newlength{\racetexth}
+\newlength{\racetextbudget}
+% One fixed portrait height for the whole roster.
+\newlength{\racephotomax}\setlength{\racephotomax}{1.90in}
+% Slack kept in hand so a card never overruns its frame.
+\newlength{\racefudge}\setlength{\racefudge}{6pt}
+% Sets the text block into the scratch box and measures it. The optional
+% argument is the body size for the description.
+% The label on the last line of a card. The alien roster asks which Earth
+% animal the description was assembled from; the cryptid roster asks which
+% Earth animal the sighting was most probably of.
+\newcommand{\racestocklabel}{Earth stock:}
+% The name line is set \large on the four-to-a-page rosters; the nine-to-a-page
+% shape cards renew this to something that fits a third-width column.
+\newcommand{\racenamesize}{\large}
+\newcommand{\racetextblock}[5][\footnotesize]{%
+  \sbox{\racescratch}{\begin{minipage}{\linewidth}%
+    \setlength{\parindent}{0pt}\RaggedRight
+    {\dispfont\racenamesize\color{inkblue}#2}\par\vspace{2.5pt}
+    {\scriptsize\itshape\color{steel}#3\par}\vspace{4pt}
+    {#1\color{inkblue}#4\par}\vspace{4pt}
+    {\color{ufogreen}\rule{\linewidth}{0.7pt}}\par\vspace{2.5pt}
+    {\scriptsize\color{ufogreenink}\textsc{\racestocklabel}\ {\color{inkblue}#5}\par}%
+  \end{minipage}}%
+  \setlength{\racetexth}{\dimexpr\ht\racescratch+\dp\racescratch\relax}}
+\newcommand{\racecard}[5]{%
+  \begin{tcolorbox}[enhanced,unbreakable,colback=white,colframe=ufogreen,
+     boxrule=0.8pt,arc=2pt,outer arc=2pt,
+     left=5pt,right=5pt,top=5pt,bottom=5pt,
+     borderline={0.3pt}{2.2pt}{inkblue},
+     height=\raceheight,valign=top,
+     before skip=5pt,after skip=5pt]
+  \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+  % Every portrait is the same height on every card, so the run of pages
+  % reads as one set. The text block is given the rest of the card, and an
+  % overlong entry is set a size down (and, if need be, two) rather than
+  % being allowed to shrink its picture.
+  \setlength{\racephotoh}{\racephotomax}%
+  \setlength{\racetextbudget}{\dimexpr\raceheight-11.6pt-\racephotoh-7pt-\racefudge\relax}%
+  \racetextblock{#2}{#3}{#4}{#5}%
+  \ifdim\racetexth>\racetextbudget
+    \racetextblock[\scriptsize]{#2}{#3}{#4}{#5}%
+  \fi
+  \ifdim\racetexth>\racetextbudget
+    \racetextblock[\tiny]{#2}{#3}{#4}{#5}%
+  \fi
+  % Tighter leading on the same \tiny body, for the one or two descriptions
+  % that still will not fit. Leading gives way, never the picture.
+  \ifdim\racetexth>\racetextbudget
+    \racetextblock[\tiny\linespread{0.90}\selectfont]{#2}{#3}{#4}{#5}%
+  \fi
+  \ifdim\racetexth>\racetextbudget
+    \racetextblock[\tiny\linespread{0.80}\selectfont]{#2}{#3}{#4}{#5}%
+  \fi
+  % Last resort. A very few entries are longer than a \tiny block of the
+  % standard budget can hold. The portrait must NOT be shrunk to buy the
+  % text room: a roster where fifteen of the sixty pictures are smaller than
+  % the other forty-five does not read as one set, which is the whole point
+  % of the plate. The cap is instead set low enough (per roster, in
+  % \rosterwidesix and friends) that the longest entry still fits at \tiny,
+  % so this branch is dead in a correctly tuned roster and only reports the
+  % shortfall in the log if a new entry ever outgrows it.
+  \ifdim\racetexth>\racetextbudget
+    \typeout{RACEOVF: \the\dimexpr\racetexth-\racetextbudget\relax\space [#2]}%
+  \fi
+  \noindent\hbox to \linewidth{\hfil\ufophotobox{#1}\hfil}\par\vspace{7pt}%
+  \usebox{\racescratch}%
+  \end{tcolorbox}}
+
+% One cryptid entry. Same card in every dimension as \racecard, so the two
+% rosters typeset as one system; only the closing label differs.
+%   #1 image file  #2 name  #3 claimed range and first report
+%   #4 description  #5 the known animal most likely behind the reports
+\newcommand{\cryptidcard}[5]{%
+  \begingroup
+  \renewcommand{\racestocklabel}{Known animal:}%
+  \racecard{#1}{#2}{#3}{#4}{#5}%
+  \endgroup}
+
+% ===================== GALAXY PLATE =====================
+% Row-based galaxy cards for Section 9.2 Cosmology.
+% Two cards per page (top row + bottom row), single column, full text width.
+% 21 entries: 9 pages x 2 cards + 1 page x 3 cards = exactly 10 pages.
+% Runs over the starfield plate, same as the alien-race roster.
+%   #1 image file  #2 galaxy name  #3 classification strap
+%   #4 description  #5 image credit  #6 source URL
+\newlength{\galaxyheight}
+\newlength{\galaxyphotoh}
+\newcommand{\galaxywide}{%
+  \clearpage
+  \newgeometry{paperwidth=8.25in,paperheight=11in,
+     top=0.60in,bottom=0.62in,inner=0.9in,outer=0.65in,
+     headsep=12pt,footskip=20pt}%
+  \setlength{\headwidth}{\textwidth}%
+  % Each card is half the text block less the inter-card skip.
+  % The roster head reserves space on page 1; later pages use the
+  % full block. Card height is set to the non-head-page size so all
+  % cards are identical; page 1 carries 2 cards + rosterhead.
+  \setlength{\galaxyheight}{0.5\dimexpr\textheight-24pt-\rosterheadh\relax}%
+  \setlength{\galaxyphotoh}{0.38\galaxyheight}%
+  \setlength{\multicolsep}{0pt}}
+% The final galaxy page carries three cards instead of two, so 21 entries
+% land on exactly ten pages. Same frame, one third of the block each, with
+% the photograph given a proportionally smaller slice.
+\newcommand{\galaxytrio}{%
+  \setlength{\galaxyheight}{0.3333\dimexpr\textheight-30pt\relax}%
+  \setlength{\galaxyphotoh}{0.34\galaxyheight}}
+% Deterministic page break between rows: the cards are fixed height, so a
+% flush after every pair guarantees two to a page for the first nine pages.
+\newcommand{\galaxybreak}{\clearpage}
+\newcommand{\galaxynarrow}{%
+  \clearpage
+  \restoregeometry
+  \setlength{\headwidth}{\textwidth}%
+  \setlength{\multicolsep}{12pt}}
+
+% The plate title, boxed to exactly \rosterheadh, matching the two rosters so
+% the space it eats at the top of the first galaxy page is already subtracted
+% from the card height and every card on every page comes out the same size.
+\newcommand{\galaxyhead}[1]{%
+  \vbox to \rosterheadh{%
+    \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+    \noindent{\dispfont\Large\color{ufogreen}#1}\par\vspace{2pt}%
+    \noindent{\color{ufogreen}\rule{\linewidth}{2.2pt}}\par\vspace{1pt}%
+    \noindent{\color{white}\rule{\linewidth}{0.5pt}}%
+    \vss}\par\nointerlineskip\vspace{4pt}}
+
+\newcommand{\galaxycredit}[2]{%
+  {\scriptsize\color{midgrey} Image:~\textit{#1}\par
+   \vspace{1pt}{\scriptsize\color{midgrey} \srclink{#2}}\par}}
+
+% The card is set on black rather than white. On the blue planet-plate field
+% a white box glares and cuts a hole in the sky; a black box reads as a
+% window onto deep space, which is what the photograph inside it is. Type is
+% therefore white, grey and green on black: name in white, classification
+% strap and rules in neon green, description in near-white grey, credit in
+% mid grey.
+\newcommand{\galaxycard}[6]{%
+  \begin{tcolorbox}[enhanced,unbreakable,colback=black,colframe=ufogreen,
+     boxrule=0.8pt,arc=2pt,outer arc=2pt,
+     left=5pt,right=5pt,top=5pt,bottom=5pt,
+     borderline={0.3pt}{2.2pt}{ufogreendark},
+     height=\galaxyheight,valign=top,
+     before skip=4pt,after skip=4pt]
+  \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+  \noindent\hbox to \linewidth{\hfil\includegraphics[height=\galaxyphotoh,width=\linewidth,keepaspectratio]{#1}\hfil}\par\vspace{4pt}%
+  {\dispfont\large\color{white}#2}\par\vspace{2pt}%
+  {\footnotesize\itshape\color{ufogreen}#3}\par\vspace{3pt}%
+  {\footnotesize\color{softgrey}#4}\par\vspace{3pt}%
+  {\color{ufogreen}\rule{\linewidth}{0.5pt}}\par\vspace{2pt}%
+  \galaxycredit{#5}{#6}%
+  \end{tcolorbox}}
+
+% ===================== UFO SHAPE TAXONOMY =====================
+% The shape taxonomy in Chapter 4 runs on the same card system as the two
+% rosters, but three columns to a page and three cards to a column, because
+% a shape class needs a diagram and a paragraph, not a portrait and a life
+% history. The plate behind it is neither the starfield nor the swamp: the
+% shapes are reported from the sky and interpreted from the ground, so the
+% run sits over an Earth centred in its own reflection.
+\input{ufo_glyphs}
+
+% Nine cards to a page: each card is a third of the text block less the
+% inter-card skips, derived from the live geometry exactly as \rosterwide
+% derives its halves.
+\newcommand{\rosterwidethree}{%
+  \rosterwide
+  \setlength{\raceheight}{0.3333\dimexpr\textheight-40pt-\rosterheadh\relax}}
+
+% Six cards to a page: three columns, two rows. The cryptid roster runs on
+% this grid, so sixty cards fall on ten pages instead of fifteen. The card
+% height is the same half-block \rosterwide computes; what changes is the
+% column width, so the portrait is capped on width as well as height and the
+% name line comes down a size to survive a two-inch measure.
+% The portraits are all the same 3:4 shape, so a picture capped on height at
+% the old 1.32in never reached the edges of a two-inch column and every card
+% carried a white margin either side of its subject. The cap is raised here so
+% the width is what binds: the portrait now runs the full measure of the card,
+% edge to edge, and the height follows from the shape of the file. Overlong
+% descriptions still step down in size inside \racecard rather than shrinking
+% the picture back.
+% At the full 2.55in cap the longest descriptions (Slenderman, Ogopogo, Buru)
+% ran past the bottom rule even after the automatic step-down, because the
+% smallest body size available is \tiny. Shrinking the picture on those cards
+% alone was the earlier fix, and it was wrong: the run then showed sixty
+% portraits at two different sizes. The cap is instead set to the height the
+% LONGEST entry can afford, and all sixty portraits print at exactly that
+% height, so the plate reads as one set. Every file shares the same 0.747
+% aspect ratio, so one height also means one width.
+\newcommand{\rosterwidesix}{%
+  \rosterwide
+  \setlength{\columnsep}{14pt}%
+  \setlength{\racephotomax}{1.45in}%
+  % A wider breathing space at the foot of the six-up card. The 6pt kept for
+  % the four-up rosters is not enough here: the last line of the closing
+  % \textsc{Known animal:} label was landing right on the rule.
+  \setlength{\racefudge}{12pt}%
+  \renewcommand{\racenamesize}{\normalsize}%
+  \renewcommand{\ufophotobox}[1]{%
+    \includegraphics[height=\racephotoh,width=\linewidth,keepaspectratio]{##1}}}
+
+\newcommand{\earthfieldon}{%
+  \clearpage
+  \AddToShipoutPictureBG{%
+    \put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{earthfield_page}}}%
+  \pagestyle{earthnight}\thispagestyle{earthnight}}
+\newcommand{\earthfieldoff}{%
+  \clearpage
+  \ClearShipoutPictureBG
+  \pagestyle{fancy}\ufofancysetup}
+
+% Folio and running head for the Earth pages, built exactly as starnight and
+% swampnight so all three dark runs read as one system.
+\fancypagestyle{earthnight}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\headrule}{%
+    \hbox to\headwidth{\color{ufogreen}\leaders\hrule height 2.2pt\hfill}%
+    \nointerlineskip}%
+  \fancyhead[LE]{\footnotesize\color{white}\dispfont The Science of Ufology 1.0}%
+  \fancyhead[RO]{\footnotesize\color{white}\dispfont\nouppercase{\leftmark}}%
+  \fancyfoot[C]{\foliokern
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_left_night.png}}%
+    \hspace{4pt}\foliobox\hspace{4pt}%
+    \raisebox{0.30ex}{\includegraphics[width=\ornwing]{orn_right_night.png}}}}
+
+% One shape entry. Same frame, same measuring logic and same automatic
+% step-down in body size as \racecard; the picture slot carries a drawn
+% glyph instead of a photograph.
+%   #1 glyph macro  #2 shape name  #3 class and canonical case
+%   #4 description  #5 what the shape most often turns out to be
+\newlength{\shapeglyphh}\setlength{\shapeglyphh}{0.72in}
+\newcommand{\ufoshapecard}[5]{%
+  \begin{tcolorbox}[enhanced,unbreakable,colback=white,colframe=ufogreen,
+     boxrule=0.8pt,arc=2pt,outer arc=2pt,
+     left=4pt,right=4pt,top=4pt,bottom=4pt,
+     borderline={0.3pt}{2.2pt}{inkblue},
+     height=\raceheight,valign=top,
+     before skip=4pt,after skip=4pt]
+  \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+  \begingroup
+  \renewcommand{\racestocklabel}{Usually:}%
+  \renewcommand{\racenamesize}{\normalsize}%
+  \setlength{\racetextbudget}{\dimexpr\raceheight-9.6pt-\shapeglyphh-5pt-\racefudge\relax}%
+  \racetextblock[\scriptsize]{#2}{#3}{#4}{#5}%
+  \ifdim\racetexth>\racetextbudget
+    \racetextblock[\tiny]{#2}{#3}{#4}{#5}%
+  \fi
+  \noindent\hbox to \linewidth{\hfil
+    \adjustbox{height=\shapeglyphh}{\shapeglyph{#1}}\hfil}\par\vspace{5pt}%
+  \usebox{\racescratch}%
+  \endgroup
+  \end{tcolorbox}}
+
+\begin{document}
+\frontmatter
+
+% ===================== DEDICATION (PAGE 1, ALONE) =====================
+\thispagestyle{empty}
+\null\vfill
+\begin{center}
+{\itshape\large
+This book has been dedicated to the life's work of}\\[14pt]
+{\scshape\LARGE\color{inkblue} Arthur William Bell}\\[9pt]
+{\large\color{ufogreenink} 1945 --- 2018}\\[18pt]
+{\color{ufogreen}\rule{0.42\textwidth}{2.4pt}}\\[18pt]
+% Photograph, unframed.
+\includegraphics[width=0.82\textwidth]{artbell}
+\vspace{14pt}
+
+{\footnotesize\itshape\color{steel} Broadcasting through the night, from the high desert.}\\[14pt]
+{\itshape\small ``Come take a ride on the wild side!''}
+\end{center}
+\vfill\null
+\clearpage
+
+% ===================== TITLE =====================
+\thispagestyle{empty}
+\begin{center}
+\vspace*{1.1in}
+{\color{ufogreen}\rule{\textwidth}{4.5pt}}\\[2pt]
+{\color{inkblue}\rule{\textwidth}{0.8pt}}\\[16pt]
+{\fontsize{28}{32}\selectfont\dispfont\color{inkblue} THE SCIENCE OF}\\[10pt]
+{\fontsize{45}{49}\selectfont\dispfont\color{inkblue} UFOLOGY}\\[10pt]
+{\begingroup\setlength{\fboxsep}{6pt}%
+ \colorbox{ufogreen}{\Large\dispfont\color{inkblue}\,1.0\,}\endgroup}\\[12pt]
+{\color{inkblue}\rule{\textwidth}{0.8pt}}\\[2pt]
+{\color{ufogreen}\rule{\textwidth}{4.5pt}}\\[26pt]
+{\large\itshape\color{steel} A Skeptic's Textbook for the\\ Serious Study of the Unidentified}\\[46pt]
+{\fontsize{25}{29}\selectfont\dispfont\color{inkblue} EVAN SVENDSEN}
+\vfill
+{\footnotesize\color{midgrey} First Edition}
+\end{center}
+\clearpage
+
+\input{front_preface}
+
+% ===================== CONTENTS =====================
+\clearpage
+\pdfbookmark[0]{Contents}{toc}
+\renewcommand{\contentsname}{Contents}
+{\hypersetup{linkcolor=black}
+\tableofcontents}
+\clearpage
+
+\mainmatter
+
+\chapterplate{pl_ch01.jpg}
+\input{ch01}
+\chapterplate{pl_ch02.jpg}
+\input{ch02}
+\addtocontents{toc}{\protect\newpage}
+\chapterplate{pl_ch04.jpg}
+\input{ch04}
+\chapterplate{pl_ch14.jpg}
+\input{ch14}
+\chapterplate{pl_ch12.jpg}
+\input{ch03}
+\chapterplate{pl_ch03.jpg}
+\input{ch12}
+\chapterplate{pl_ch05.jpg}
+\input{ch05}
+\chapterplate{pl_ch16.jpg}
+\input{ch16}
+\chapterplate{pl_ch06.jpg}
+\input{ch06}
+\chapterplate{pl_ch07.jpg}
+\input{ch07}
+\chapterplate{pl_ch08.jpg}
+\input{ch08}
+\chapterplate{pl_ch09.jpg}
+\input{ch09}
+\chapterplate{pl_ch10.jpg}
+\input{ch10}
+\chapterplate{pl_ch11.jpg}
+\input{ch11}
+\chapterplate{pl_ch13.jpg}
+\input{ch13}
+\chapterplate{pl_ch15.jpg}
+\input{ch15}
+\chapterplate{pl_ch17.jpg}
+\input{ch17}
+% Chapter order: Evan swapped Atlantis and Contact, so Atlantis (ch19.tex) is
+% now Chapter 18 and Contact (ch18.tex) is Chapter 19. Each chapter keeps its
+% own graphic plate, so the plates travel with the files, not with the numbers.
+\chapterplate{pl_ch19.jpg}
+\input{ch19}
+\chapterplate{pl_ch18.jpg}
+\input{ch18}
+\chapterplate{pl_ch20.jpg}
+\input{ch20}
+\chapterplate{pl_conclusion.jpg}
+\input{conclusion}
+
+\backmatter
+\input{back_glossary}
+\ufosepfalse   % the reference list is a plain run of headings, no ornaments
+\input{back_references}
+\sectionplate{pl_furbidden.jpg}
+\input{back_author}
+
+% closing plate: the book opens with Art Bell, so it closes with him too
+\sectionplate{pl_artbell.jpg}
+
+\end{document}

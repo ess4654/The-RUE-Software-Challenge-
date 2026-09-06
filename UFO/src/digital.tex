@@ -1,0 +1,13 @@
+% Digital edition. The only difference from the print interior is the flag on
+% the first line, which main.tex reads to switch to screen images, clickable
+% links and single-sided page geometry.
+%
+% Compression is deliberately turned down for this edition. LuaTeX's zlib pass
+% over a hundred-plus megabytes of screen imagery is the single most expensive
+% step in the build, and the delivered file is recompressed by Ghostscript
+% afterwards regardless, so squeezing the intermediate PDF buys nothing but
+% build time. Level 1 leaves the delivered file byte-for-byte equivalent in
+% quality while keeping the build inside the time it is allowed.
+\pdfvariable compresslevel=9
+\pdfvariable objcompresslevel=9
+\def\digitaledition{}\input{main}

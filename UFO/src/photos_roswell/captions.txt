@@ -1,0 +1,12 @@
+# One line per photograph:  filename | caption
+# Replace the placeholder names with the real files as they arrive; any photo
+# without a line here falls back to a caption made from its filename.
+placeholder_01.png | Main Street, Roswell, on an ordinary weekday afternoon.
+placeholder_02.png | The museum entrance --- part archive, part gift shop.
+placeholder_03.png | Newspaper facsimiles on the wall, 8 July 1947.
+placeholder_04.png | The ranch country north-west of town, where the debris field is said to lie.
+placeholder_05.png | Alien-eyed street lamps: the town has made its peace with the story.
+placeholder_06.png | Desert scrub and a fence line, which is all the site itself amounts to.
+placeholder_07.png | The old airfield perimeter, now unremarkable in every direction.
+placeholder_08.png | Festival bunting left up out of season.
+placeholder_09.png | Leaving town at dusk, still no wiser than when I arrived.

@@ -1,0 +1,13 @@
+\documentclass{article}\usepackage[T1]{fontenc}\usepackage{newpxtext}
+\usepackage[semibold]{montserrat}
+\pdfmapline{+invunb8r Inversionz-Unboxed <invunb.ttf <T1-WGL4.enc}
+\DeclareFontFamily{T1}{invunb}{}\DeclareFontShape{T1}{invunb}{m}{n}{<-> invunb8t}{}
+\newcommand{\invraw}{\fontfamily{invunb}\selectfont}
+\pagestyle{empty}
+\begin{document}\Huge
+{\invraw A {\normalfont\sffamily\bfseries\&} B\par}
+{\invraw A {\normalfont\sffamily\bfseries\scalebox{0.86}[1]{\&}} B\par}
+{\invraw A {\normalfont\ttfamily\bfseries\&} B\par}
+{\invraw A + B\par}
+{\invraw A \raisebox{0.06em}{\normalfont\sffamily\bfseries\footnotesize AND} B\par}
+\end{document}

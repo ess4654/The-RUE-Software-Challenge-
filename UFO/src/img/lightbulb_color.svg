@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="45%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="45%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </radialGradient>
+  </defs>
+  <!-- Clean bulb silhouette -->
+  <path d="M 130 268 C 85 235 62 170 82 115 C 102 52 155 22 206 22 C 257 22 310 52 330 115 C 350 170 327 235 282 268 L 282 318 L 130 318 Z"
+        fill="url(#glow)" stroke="#F9A825" stroke-width="4"/>
+  <!-- Simple screw base - 3 bands -->
+  <rect x="143" y="320" width="126" height="18" rx="3" fill="#B0BEC5" stroke="#78909C" stroke-width="2"/>
+  <rect x="148" y="340" width="116" height="16" rx="3" fill="#90A4AE" stroke="#78909C" stroke-width="2"/>
+  <rect x="158" y="358" width="96" height="18" rx="4" fill="#B0BEC5" stroke="#78909C" stroke-width="2"/>
+  <!-- Contact tip -->
+  <path d="M 190 376 L 190 395 Q 206 405 222 395 L 222 376 Z" fill="#78909C" stroke="#607D8B" stroke-width="2"/>
+</svg>
