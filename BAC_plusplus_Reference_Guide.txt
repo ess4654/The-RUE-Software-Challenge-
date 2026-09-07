@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.49
-Timestamp: 2320 RCAF Z SEP 1 2026
+Version: 2.50
+Timestamp: 1809 RCAF Z SEP 7 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -369,6 +369,7 @@ EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 4.2 ASCII / SYMBOLIC & SPECIAL CHARACTER REGISTERS
 ----------------------------------------
 EXA           : The Alien drive A:/ on the hard drive of the universe
+EXAAAAAAAAA   : The AAAAAAAAA register. Screaming into the void because nobody listens.
 EXAHAH        : Alien Human-Animal Hybrids
 EXE           : The E:/ Drive on the operating system of the universe
 EXX           : X (social media). Powerful companies. / X Axis of Movement
