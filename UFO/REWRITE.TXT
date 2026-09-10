@@ -1,12 +1,13 @@
-Ok now that you have completed everything the final remaining step is the hardest for you. How to cut content while retaining the fullness of information provided in each section. There are 20 chapters + a conclusion so you only have to remove roughly XXX pages worth of text per chapter to reduce the page count under compliance. Try nopt to strip too much from chapters that are already slim so they dont become a skeleton.
+Ok now that you have completed everything the final remaining step is the hardest for you. How to cut content while retaining the fullness of information provided in each section. There are 20 chapters + a conclusion so you only have to remove roughly 2.6 pages worth of text per chapter to reduce the page count under compliance. Try nopt to strip too much from chapters that are already slim so they dont become a skeleton.
 
 Here are the rules for the re-write:
-- You Can not touch anything after page XXX when the Glossary begins.
+- You Can not touch anything after page 553 when the Glossary begins.
 - You can not touch anything that comes before Chapter 1 The Importance of Skepticism.
 - All Fun Fact in the document remain.
 - All Question boxes remain.
 - All figures in the document remain.
 - Be mindful of where you position figures so they don't cause any unneccisary whitespace where we can't afford it.
+- Be mindful of uneeded whitespace.
 - All Chapters and sub chapters in the document remain.
 - All of Evan's quotes in the book remain.
 - None of the Taxonomy pages get cut.
@@ -17,5 +18,5 @@ Here are the rules for the re-write:
 - Do Not touch the scissors argument in Roswell thats the best line in the entire book: "An explanation
 that requires the eyewitnesses to be wrong about whether scissors work is not an explanation." SAV @EXHA
 - The book has to have less than or equal to 550 pages once finished.
-- There are exactly 20 chapters + 1 conclusion and XXXX pages worth of content to remove so you need to trim roughly YYY number of pages from each chapter while retaining its core thesis and argument.
+- There are exactly 20 chapters + 1 conclusion and 55 pages worth of content to remove so you need to trim roughly ~2.6 number of pages from each chapter while retaining its core thesis and argument.
 - You may turn thinking back on for this task we've reached the end of this SHIT SHOW!

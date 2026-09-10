@@ -285,10 +285,10 @@ EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
 EX63          : Tablet 63. The moon was placed here intentionally
 EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
-@@@EX65          : Exactly 65 edits have been made to our (Human) DNA
-@@EX66          : Spiderman's Research Lab
-EX69 : Elon Musk lv. 69. Sex
-@@EX69          : MUFON Research
+@@@EX65       : Exactly 65 edits have been made to our (Human) DNA
+@@EX66        : Spiderman's Research Lab
+EX69          : Elon Musk lv. 69. Sex
+@@EX69        : MUFON Research
 EX72          : The register of Harley A. Dickinson
 EX73          : Register of the Stargate. (The Stargate has 73 Chevrons. No More. No less.) "73 Channels on My TV"
 EX77          : The Name of Jesus (Yeshua)
@@ -307,7 +307,8 @@ EX135         : Space X IPO Price
 EX138         : Mickey Mouse Wizard. Fantasmic
 EX144         : (related to 144000)
 EX150         : Mewtwo. The Actual Value of the Space X IPO stock at launch
-@@@EX160         : Mew TEN
+EX1010        : Special Operation 1010
+@@@EX160      : Mew TEN
 EX163         : Mew THREE
 EX169         : Mew Nine / Space X IPO
 EX173         : $173. The price I bought Space X stock at
@@ -333,7 +334,7 @@ EX456         : Squid Game
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
 EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!"
-@@@EX777         : Register of the 7th Dragon
+@@@EX777      : Register of the 7th Dragon
 EX888         : Arch Angel Michael. Metatron's Cube
 EX963         : The Crown Chakra
 EX999         : The Throne of God
@@ -409,10 +410,10 @@ EXELON        : EX Elon
 EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
 EXEX2626      : The Ministry of Peace Anti Bullying Revolution
-EXEXMRSBEASLEY : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
+EXEXMRSBEASLEY: The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXEXMICHIGAN  : Michigan Daycare $FRAUD
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
-EXMICROSOFT : Microsoft. Windows
+EXMICROSOFT   : Microsoft. Windows
 
 ----------------------------------------
 4.3 NAME / WORD-BASED REGISTERS (Alphabetical Order)
@@ -480,7 +481,7 @@ EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
 EXICE         : American ICE Agents
-@@IMMACULATE   : The IMMACULATE SIMULATION PROTOCOLS. Immaculate Constellation
+@@IMMACULATE  : The IMMACULATE SIMULATION PROTOCOLS. Immaculate Constellation
 EXJASON       : Jason Parsons. USS
 EXJEFFREYDAHMER : Jeffrey Dahmer. Monsters.
 EXJOBS        : Steve Jobs.
@@ -537,8 +538,8 @@ EXSOUP        : Soup.
 EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
 EXSTANLEE     : Stan Lee. Creator of Spiderman.
-EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
-EXSUICIDE      : The Act OR desire of Suicide
+EXSTUPIDMONKEY: Humanity is the dumbest species in the universe
+EXSUICIDE     : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
 EXTERRANCEMCKENNA : Terence McKenna
 EXTHOR        : Thor. The god of thunder. Norse Mythology
