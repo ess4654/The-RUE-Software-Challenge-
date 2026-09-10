@@ -1,0 +1,1146 @@
+PROPOSITIONAL & AUTHORIAL-COMMITMENT STATEMENTS
+The Science of Ufology 1.0 - Evan Svendsen
+Extracted: 2026-09-08
+================================================================================
+CATEGORIES:
+  I-BELIEVE / MY-CONCLUSION / I-HOLD / I-THINK / I-FIND
+  MY-POSITION/ASSESSMENT/VIEW / I-ARGUE/CONCLUDE/ETC.
+  I-AM-CONVINCED/PERSUADED/ETC. / I-AGREE/DISAGREE
+  AUTHOR-ASSESSMENT/VIEW/ETC.
+  QUESTION-BOX  (actualq macro: NOT-question vs ACTUAL-question)
+  HIGHLIGHTED   (hi macro: key claims)
+================================================================================
+
+
+================================================================================
+FILE: back_author.tex  (1 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 193
+  alien human–animal hybrids
+
+
+================================================================================
+FILE: back_references.tex  (1 statements)
+================================================================================
+
+  [I-DISAGREE]  Line 5
+  Chapter-level source notes appear throughout the text. What follows is the consolidated list, plus recommendations
+  for going further. I have deliberately included work I disagree with, because you cannot evaluate an argument you
+  have only encountered in summary — least of all in a summary written by someone with a position.
+
+
+================================================================================
+FILE: ch01.tex  (7 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 15
+  One believer. One sceptic. One who had not made up his mind.
+
+  [I-THINK]  Line 304
+  solution. Eventually he would come to realise that the only thing he can know for certain in taking doubt of the
+  world around him was that he knew it. In other words: "I think therefore I am"—Ren'e Descartes (1637).
+
+  [I-THINK]  Line 512
+  intervention. I don't find the so-called aeroplane model found in the tomb to be particularly convincing evidence to
+  support the hypothesis, but I must admit the show tries really hard to persuade otherwise. I think Ancient Aliens
+  the show could otherwise benefit overall if they investigated and experimented with ideas that were perhaps not so
+  easily predictable. And furthermore, if any tests were
+
+  [I-THINK]  Line 519
+  many flaws. I will be making a more in-depth analysis of this show, and rather the ancient alien hypothesis itself,
+  in Section [ref] of this book, but for now I think I've said enough. As for the methodology of sceptical thinking
+  however, I believe that a balanced
+
+  [I-BELIEVE]  Line 521
+  I think I've said enough. As for the methodology of sceptical thinking however, I believe that a balanced approach
+  is needed. An approach that does not immediately reject certain ideas because they came from a crazy man or a crazy
+  show. An approach however that does
+
+  [I-FIND]  Line 635
+  beings. This personification of computer code is what I find especially fascinating since from a philosophical
+  standpoint there is not much that distinguishes these pixels on a screen from something like a small bug for
+  instance. We know from the scientists
+
+  [I-HOLD]  Line 738
+  feels balanced and reasonable, and it is also perfectly designed to survive any possible evidence, which should
+  worry you. A position that cannot lose is a position that cannot learn. I hold mine loosely and I invite you to hold
+  yours the same way. % —————————————————————
+
+
+================================================================================
+FILE: ch02.tex  (9 statements)
+================================================================================
+
+  [I-PROPOSE]  Line 162
+  quote "I propose that this idea may be the first ever scientifically structured method for the investigation of
+  UFOs! It is scientifically based because it solves the problem of un-falsifiability. We can make a hypothesis with
+  such technology that a UFO will appear over
+
+  [HIGHLIGHTED]  Line 181
+  This entire book was written with AI, from scratch.
+
+  [I-THINK]  Line 326
+  funfact The deeper criticism, and the one I think lands, is that SETI encodes a specific and questionable
+  hypothesis: that contact will arrive as a deliberate radio broadcast from a civilisation that wants to be found.
+  That is a narrow bet. It excludes probes, it
+
+  [I-AM-SURE]  Line 361
+  Passion is really all it takes. Think of other things in life for instance that one may be passionate about. If you
+  play an instrument for example, I am sure you have a passion for your music. But passion alone does not make you a
+  musician, you must also have the skill of playing said instrument. What about a doctor? Because you passionately
+  watch
+
+  [I-THINK]  Line 364
+  for your music. But passion alone does not make you a musician, you must also have the skill of playing said
+  instrument. What about a doctor? Because you passionately watch videos of open-heart surgery on YouTube? I think
+  I'll take my chances with the cancer. So, you're not a doctor, and I'm afraid you aren't The Doctor either! What
+  about Ufologist though? In terms of the skills; it's whatever you bring to the table, and that
+
+  [MY-ASSESSMENT]  Line 427
+  reputation and was changed by what happened there. My assessment is mixed and I want to be precise about which half
+  is which. To Fugal's credit, he has spent his own money on instrumentation, has hired people with real technical
+  credentials rather than psychics, and has kept the property under controlled
+
+  [I-HOLD]  Line 536
+  story of December 2017 that revealed AATIP and put the Navy videos in front of the public. Her later book Surviving
+  Death (2017) moved into mediums and reincarnation and is a different kind of exercise entirely, which some readers
+  hold against her. I hold her method against nobody: she names people and she prints the paperwork. That she also
+  finds the afterlife interesting tells you about her curiosity, not about her sourcing.
+
+  [I-THINK]  Line 628
+  genuine observation about the data and one the nuts-and-bolts school has never answered. What he built on it, the
+  control system hypothesis, holds that the phenomenon is a feedback mechanism conditioning human belief. I think the
+  observation is sound and the hypothesis is unfalsifiable: a control system that adapts its manifestations to the
+  beliefs it is shaping cannot be caught out by any measurement, and a proposition no measurement can embarrass is not
+  a
+
+  [QUESTION-BOX [question]]  Line 741
+    NOT: Did three teenagers really see an extraterrestrial in a vacant lot in Minas Gerais?
+    ACTUAL: Do hoaxes normally end in a death?
+
+
+================================================================================
+FILE: ch03.tex  (6 statements)
+================================================================================
+
+  [I-INSIST]  Line 132
+  funfact Which is why I insist that students of this subject learn aviation history properly, and not just the famous
+  version. A person who knows what a Skyhook balloon looks like at 90,!000 feet at sunset, or how a lenticular
+  contrail forms, or what a Blackbird's plume looks like from directly beneath,
+
+  [HIGHLIGHTED]  Line 187
+  outline was still lying on the apron
+
+  [HIGHLIGHTED]  Line 191
+  You cannot hide an object by hiding the object.
+
+  [I-HOLD]  Line 199
+  total, then the null hypothesis for any given unexplained aerial object over a testing range is: it is a black
+  programme. Not a probe. Not a visitor. A budget line nobody will admit to. That should be your starting position,
+  and I hold it myself. % —————————————————————
+
+  [HIGHLIGHTED]  Line 207
+  The base is real and important, which is exactly why the story attached itself there.
+
+  [I-FIND]  Line 436
+  before the CIA admitted the base existed. I find the whole arc instructive rather than annoying. Area 51 in 2026 is
+  not primarily a Ufological subject. It is a case study in how official silence becomes a canvas. The government's
+  refusal to acknowledge the base did not protect the secret — the aircraft
+
+
+================================================================================
+FILE: ch04.tex  (6 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 43
+  "will to disbelieve"
+
+  [HIGHLIGHTED]  Line 147
+  Hynek's categories rank your ability to know, not the object's appearance.
+
+  [HIGHLIGHTED]  Line 326
+  Without controls a laboratory result means nothing whatsoever.
+
+  [QUESTION-BOX [problem]]  Line 370
+    NOT: that the instruments are bad.
+    ACTUAL: that a reading means nothing without a baseline — and the field has an extraordinary appetite for readings without baselines.
+
+  [HIGHLIGHTED]  Line 775
+  A 1.2 per cent difference in sequence is already far too much.
+
+  [QUESTION-BOX [question]]  Line 830
+    NOT: whether interbreeding with non-human intelligences happened — that is a question about testimony, and testimony has been argued to a standstill for six decades without moving anybody.
+    ACTUAL: where the threshold between reproductive compatibility and incompatibility actually lies, and what a successful cross would therefore prove about shared ancestry. Viability is not a matter of degree. It is a boundary with a location, and the location is knowable.
+
+
+================================================================================
+FILE: ch05.tex  (7 statements)
+================================================================================
+
+  [MY-POSITION]  Line 141
+  it, is the subject of the next three sections. My position on Rendlesham: something happened in that forest, several
+  trained men were frightened by it, and Halt's contemporaneous recording is the closest thing this field has to an
+  honest primary document. The lighthouse and stellar explanations account for the
+
+  [QUESTION-BOX [question]]  Line 398
+    NOT: Did Jim Penniston receive a binary message from a craft in Rendlesham Forest?
+    ACTUAL: How did a man with no programming background, no ASCII table, and no reason to own one put roughly 2,400 binary digits on paper that decode to intelligible English at around 95 per cent fidelity?
+
+  [I-THINK]  Line 421
+  frivolously into a notebook without thought as Penniston claims he did is a task that would take him approximately
+  35 minutes to accomplish. Imagine that! Writing nothing but 1's and 0's at random onto the pages of a small notebook
+  for nearly a solid 40 minutes! I think given the accuracy of the translated text to convert to legible English
+  indicates it's obvious that such a task as writing over two thousand 1's and 0's was NOT done randomly!
+
+  [HIGHLIGHTED]  Line 503
+  a single point in space and time
+
+  [HIGHLIGHTED]  Line 554
+  An unfalsifiable claim is not a strong claim, it is an empty one
+
+  [I-FIND]  Line 681
+  Section [ref] tells you which of those is carrying the lighter load. I find I do not want to be glib about it,
+  though. Of everything in this chapter, Gernon's is the claim I would most like to be true, and he did something none
+  of the Triangle's authors did: he put his own name to a first-person report, described a mechanism, and invited
+  people to go and
+
+  [I-FIND]  Line 819
+  pages produced, and nothing on Kecksburg. What the search did produce is an inventory of absence, and this is the
+  part of the case I find genuinely unsatisfying. Two boxes catalogued 68A2062, covering 1962–67 and described as
+  containing analysis of fragments to determine national ownership — the so-called Fragology files, which is
+
+
+================================================================================
+FILE: ch06.tex  (13 statements)
+================================================================================
+
+  [QUESTION-BOX [question]]  Line 78
+    NOT: do other solar systems have planets?
+    ACTUAL: why are the gaseous planets the ones furthest out?
+
+  [HIGHLIGHTED]  Line 264
+  There is no such thing as an image of the universe as it is now
+
+  [I-HOLD]  Line 291
+  I will say, because honesty requires it, that the extra-tempestrial framing is not the outer edge of what I think.
+  There are positions I hold that I cannot yet argue in this volume because the ground has not been laid. By the end
+  of Volume 2 the reader will have spent half a book breaking down what consciousness actually is, and some of what
+  follows from that
+
+  [I-THINK]  Line 291
+  I will say, because honesty requires it, that the extra-tempestrial framing is not the outer edge of what I think.
+  There are positions I hold that I cannot yet argue in this volume because the ground has not been laid. By the end
+  of Volume 2 the reader will have spent half a book breaking down what consciousness actually is, and some of what
+  follows from that
+
+  [HIGHLIGHTED]  Line 364
+  The honest use of the equation is as a filter on other people's confidence.
+
+  [HIGHLIGHTED]  Line 508
+  Every one of these is a human being with a parameter adjusted.
+
+  [HIGHLIGHTED]  Line 541
+  The question is why the aliens are all Earth species.
+
+  [HIGHLIGHTED]  Line 606
+  they are illustrations of claims, not of evidence.
+
+  [HIGHLIGHTED]  Line 965
+  Suppose the bipedal monopoly is real.
+
+  [HIGHLIGHTED]  Line 973
+  God's First Principles:
+
+  [HIGHLIGHTED]  Line 979
+  One invention, modified forty times.
+
+  [I-BELIEVE]  Line 1013
+  coherent. I believe the taxonomy is real. I have spent this chapter explaining why I do. But I would rather leave
+  you with the harder question than the easy verdict, so here it is. Every being in this catalogue was drawn from a
+  single body plan, and either that tells you
+
+  [HIGHLIGHTED]  Line 1017
+  One body. Two arms, two legs. Modified at will.
+
+
+================================================================================
+FILE: ch07.tex  (20 statements)
+================================================================================
+
+  [MY-POSITION]  Line 52
+  funfact So here is my position, stated plainly, because it governs the rest of this chapter. Any account whose
+  content originates under hypnosis is not evidence about the world. It is evidence about the session. This is not a
+  claim that the witnesses are dishonest — almost
+
+  [QUESTION-BOX [question]]  Line 135
+    NOT: Did it happen?
+    ACTUAL: How was the star map produced so accurately?
+
+  [MY-VIEW]  Line 165
+  report; five of them passed a polygraph five days later; the family had no obvious way of knowing the story would
+  end well. It has a film, Fire in the Sky, discussed in Chapter [ref], and a book, and half a century of retelling.
+  It is also, in my view, the most instructive case in this chapter, because everyone argues about it in the wrong
+  currency.
+
+  [I-BELIEVE]  Line 172
+  In the summer of 2024 I got the chance to meet Travis Walton himself in Roswell, New Mexico, and he signed my Fire
+  in the Sky poster. I want to say plainly where I stand, because readers are entitled to know it: I believe Travis
+  Walton. I do not disagree with his account of his own life. He was generous with his time, and he has told the same
+  story, under pressure, for half a century, at considerable personal cost and with nothing much to show for it. What
+  follows in the
+
+  [QUESTION-BOX [question]]  Line 194
+    NOT: whether Travis Walton was abducted.
+    ACTUAL: what he drank. A man goes without water for about three days before it starts killing him — so who gave Travis Walton a cup of water for five days and six hours?
+
+  [HIGHLIGHTED]  Line 198
+  Wherever Walton was, he was somewhere with food and water.
+
+  [HIGHLIGHTED]  Line 209
+  That single result is the whole case.
+
+  [HIGHLIGHTED]  Line 554
+  Every one of them is assembled out of animals from this planet.
+
+  [QUESTION-BOX [question]]  Line 561
+    NOT: whether extraterrestrial reptiles are interbreeding with human beings.
+    ACTUAL: why the aliens are all hybrids of Earth-based species — why a life-form from another biosphere should turn out to be built from the animals outside our own window.
+
+  [I-FIND]  Line 584
+  funfact Which brings me to the explanation I find far more likely, and which is also considerably more respectful of
+  the witnesses than pretending to take the hybrid programme seriously. Sleep paralysis is a documented neurological
+  event experienced by something like 8 to 30 per cent of
+
+  [I-THINK]  Line 635
+  Missing 411 is a series of books by David Paulides, a former police detective, cataloguing disappearances in
+  national parks and wilderness areas that he argues share anomalous characteristics. He is careful — deliberately
+  and, I think, shrewdly — not to state a cause. The books present clusters, note recurring details, and leave the
+  reader to supply an explanation.
+
+  [MY-ASSESSMENT]  Line 770
+  man who produced most of those objects was Roger Leir, whose record is set out in Section [ref]: a podiatric surgeon
+  who between 1995 and his death in 2014 carried out some seventeen removals of foreign bodies from people who
+  believed they had been abducted. My assessment of his method there is unchanged — no independent surgical oversight,
+  no blinded pathology, no chain of custody worth the name, and analyses commissioned rather than replicated — and the
+
+  [QUESTION-BOX [question]]  Line 784
+    NOT: Do aliens implant human beings with tracking devices?
+    ACTUAL: Why does the body not reject these objects as foreign material — and why, in a number of the documented cases, does the surrounding tissue fuse to them rather than wall them off?
+
+  [MY-CONCLUSION]  Line 811
+  the field the one testable result the abduction corpus ever handed it. My conclusion, and I want to state it in a
+  way that does not insult anybody: the abduction experience is real. People are genuinely experiencing something, it
+  frightens them badly, and it is not fraud and not madness. The evidence that anybody has been physically removed
+  from
+
+  [HIGHLIGHTED]  Line 984
+  electromagnetism is the signature of the paranormal
+
+  [HIGHLIGHTED]  Line 1143
+  MEL, her initials
+
+  [QUESTION-BOX [question]]  Line 1208
+    NOT: whether something discarnate could switch a torch on — if a poltergeist can throw a chair across a kitchen, a marginal contact is nothing.
+    ACTUAL: why a marginal contact should keep time with the semantic content of a question, rather than with the thermal cycle of the barrel.
+
+  [I-THINK]  Line 1267
+  The Estes Method The Estes Method is the only thing in modern ghost hunting that I think is genuinely worth arguing
+  about, and the reason is that whoever designed it accidentally solved the problem I have just spent five pages
+  complaining about.
+
+  [HIGHLIGHTED]  Line 1281
+  That is a blinded protocol.
+
+  [I-THINK]  Line 1295
+  its words. Occasionally something about a person in the room that the receiver would have no obvious way to know. It
+  is compelling on screen and it is compelling for a reason, and I want to state plainly what I think that reason is,
+  because it is not ghosts. The Estes Method is remote viewing with extra steps, and the field that invented it does
+  not
+
+
+================================================================================
+FILE: ch08.tex  (14 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 85
+  blue-green first and then red
+
+  [QUESTION-BOX [case]]  Line 100
+    NOT: what Carter thought the light was
+    ACTUAL: where the rest of the witnesses went and whether any of them can still be found
+
+  [HIGHLIGHTED]  Line 105
+  "I'll never make fun of people who say they've seen unidentified objects in the sky."
+
+  [I-THINK]  Line 114
+  Ford, then House minority leader, wrote to the Armed Services Committee in March 1966 after the Michigan sightings
+  demanding hearings, "because I think we owe it to the people to establish credibility regarding UFOs." He got them:
+  the first congressional UFO hearing, April 1966, which produced the Condon Report of Section [ref]. A future
+
+  [HIGHLIGHTED]  Line 171
+  So the claim "the government can keep a secret this big" is not naive.
+
+  [QUESTION-BOX [lesson]]  Line 337
+    NOT: that the government would never run a secret programme against its own citizens.
+    ACTUAL: that we know it did — because a Senate committee documented it, which is precisely the procedure that fringe claims never survive.
+
+  [HIGHLIGHTED]  Line 381
+  The Condon Report is a 965-page document of BULLSHIT!
+
+  [I-THINK]  Line 391
+  internal: Condon expressed contempt for the subject publicly before the study concluded, and a project coordinator's
+  memo — the "Low memo", written by Robert Low before the project began — proposed that the study could be run so that
+  "the trick would be, I think, to describe the project so that, to the public, it would appear a totally objective
+  study but, to the scientific community, would present the image of a group of nonbelievers." That memo leaked.
+
+  [HIGHLIGHTED]  Line 677
+  compartmentalisation
+
+  [HIGHLIGHTED]  Line 738
+  There is no evidence whatsoever that Forrestal's death had anything to do with UFOs.
+
+  [HIGHLIGHTED]  Line 795
+  You do not need a conspiracy to lose the truth. Secrecy and a filing cabinet will do it.
+
+  [HIGHLIGHTED]  Line 898
+  Institutions leak, compete, and are bad at coordination.
+
+  [QUESTION-BOX [case]]  Line 959
+    NOT: a single mile-wide craft over Phoenix at ten o'clock at night
+    ACTUAL: why an entirely conventional formation flight at 8:30 and an entirely conventional flare drop at 10:00 produced the most reported UFO event in American history — and why the state's own governor lied about what he had seen.
+
+  [HIGHLIGHTED]  Line 993
+  The cost of testifying was, for him personally, career annihilation
+
+
+================================================================================
+FILE: ch09.tex  (1 statements)
+================================================================================
+
+  [QUESTION-BOX [problem]]  Line 140
+    NOT: that Sitchin was a kook, though mainstream Assyriology regarded him as one.
+    ACTUAL: that the translations are wrong — specifically, checkably wrong.
+
+
+================================================================================
+FILE: ch10.tex  (33 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 20
+  I am going to give him one.
+
+  [HIGHLIGHTED]  Line 129
+  determinative
+
+  [I-THINK]  Line 206
+  One Body, Borrowed Heads Now the part that I think actually matters, and the reason this section opens the chapter
+  rather than sitting politely in the middle of it.
+
+  [HIGHLIGHTED]  Line 291
+  But the Bible was not the first book, and it was not written into an empty room.
+
+  [HIGHLIGHTED]  Line 308
+  Genesis is a late entry in a long conversation.
+
+  [HIGHLIGHTED]  Line 407
+  All knowledge is imported.
+
+  [QUESTION-BOX [question]]  Line 420
+    NOT: What does the passage say?
+    ACTUAL: What did the passage assume I had already read?
+
+  [QUESTION-BOX [question]]  Line 515
+    NOT: whether spiritual beings bred with human women — Genesis 6 states that they did, the verse has been in the canon for two and a half thousand years, and nobody needs convincing that it is written there.
+    ACTUAL: what that makes us. If the offspring were viable, the two parents were the same kind of thing — so either the sons of God were flesh, or we are also, in whatever fraction, angels.
+
+  [HIGHLIGHTED]  Line 537
+  the interesting party in Genesis 6 is not them, it is us.
+
+  [I-FIND]  Line 636
+  the ten-foot stone man dug up in New York in 1869 and exhibited to enormous crowds, was carved to order by George
+  Hull, who admitted it. He made it to win an argument with a preacher about Genesis 6, which is a detail I find
+  almost too neat to be true. The destroyed-evidence story. The most widely circulated version of all — that a
+
+  [I-THINK]  Line 815
+  weather. And then there is the rest of the book, which is where I think the case collapses on its own terms. The
+  chariot occupies one chapter. The other forty-seven contain a man eating a scroll, lying on his left side for 390
+  days, shaving his head and weighing the hair in three portions,
+
+  [QUESTION-BOX [question]]  Line 836
+    NOT: What was Ezekiel looking at?
+    ACTUAL: What was Ezekiel arguing, and to whom, in the fifth year of the exile?
+
+  [QUESTION-BOX [question]]  Line 932
+    NOT: Is magic real?
+    ACTUAL: What would it look like if it were, and has anyone checked?
+
+  [I-THINK]  Line 1003
+  wide margin. And it is not a contact report. It is something far more interesting than that, and I think far more
+  impressive.
+
+  [HIGHLIGHTED]  Line 1021
+  L"owenmensch
+
+  [HIGHLIGHTED]  Line 1031
+  Leang Bulu' Sipong 4
+
+  [QUESTION-BOX [question]]  Line 1061
+    NOT: What did the Egyptians see?
+    ACTUAL: Why do unrelated populations, separated by oceans and by tens of thousands of years, with no possible line of transmission between them, all independently arrive at the same image — an animal's head on a human body?
+
+  [HIGHLIGHTED]  Line 1176
+  Opening of the Mouth
+
+  [I-THINK]  Line 1198
+  The Gods Were Local, and So Was Heaven Here is a pattern in Egyptian religion that ancient-astronaut writing never
+  mentions, and I think the reason is that it is fatal.
+
+  [HIGHLIGHTED]  Line 1210
+  Theology followed the tax base.
+
+  [HIGHLIGHTED]  Line 1247
+  Field of Reeds
+
+  [HIGHLIGHTED]  Line 1274
+  four million mummified ibises
+
+  [HIGHLIGHTED]  Line 1281
+  farmed for the purpose
+
+  [HIGHLIGHTED]  Line 1355
+  abolished by his successors
+
+  [HIGHLIGHTED]  Line 1418
+  The animal people were people.
+
+  [I-HOLD]  Line 1465
+  So, stated bluntly and without support: it is conceivable that composite anatomy of some kind occurred at some point
+  in the hominin or broader mammalian record, and left no trace we have yet recognised. That is the conjecture. I hold
+  it at low credence — lower than most readers who reach this page hoping for vindication will want — and I am
+  recording it because I think the question deserves an honest airing and because the alternative is pretending I
+  never entertained it,
+
+  [I-THINK]  Line 1466
+  kind occurred at some point in the hominin or broader mammalian record, and left no trace we have yet recognised.
+  That is the conjecture. I hold it at low credence — lower than most readers who reach this page hoping for
+  vindication will want — and I am recording it because I think the question deserves an honest airing and because the
+  alternative is pretending I never entertained it, which would be dishonest in a book whose whole argument is about
+  intellectual bookkeeping.
+
+  [I-THINK]  Line 1499
+  documented in a few dozen clinical cases. So we have an innate body schema capable of asserting limbs that never
+  existed, sitting on top of a genuine and recently-suppressed tail primordium. That explains the reports without
+  requiring anyone's ancestor to have been anything unusual, and I think it is a better story than the one it
+  replaces.
+
+  [QUESTION-BOX [question]]  Line 1902
+    NOT: do people build religions around UFOs? — we know they do
+    ACTUAL: why does knowledge about space travel keep arriving through channellers, contactees and cult leaders rather than through anybody who can show you their working?
+
+  [QUESTION-BOX [finding]]  Line 1992
+    NOT: that two unconnected men on two continents forty-five years apart independently reached the same fleet
+    ACTUAL: that the name was in the literature, and the literature is what people channel
+
+  [QUESTION-BOX [lesson]]  Line 2218
+    NOT: that occultism secretly built the space programme
+    ACTUAL: that in the 1930s, believing humans would reach space was itself a fringe belief — so the field recruited from the population already willing to hold fringe beliefs
+
+  [I-THINK]  Line 2220
+  that occultism secretly built the space programmethat in the 1930s, believing humans would reach space was itself a
+  fringe belief — so the field recruited from the population already willing to hold fringe beliefs That, I think, is
+  the real answer to the question I opened this section with, and it is a sociological answer rather than a cosmic
+  one. Before roughly 1945, proposing that people would leave the Earth got you the same reception as proposing that
+  you could talk to Venus. The
+
+  [QUESTION-BOX [mystery]]  Line 2337
+    NOT: what the ancients drew.
+    ACTUAL: what we can no longer read.
+
+
+================================================================================
+FILE: ch11.tex  (1 statements)
+================================================================================
+
+  [I-THINK]  Line 128
+  — Woit and Smolin most publicly — say that language oversells a mathematical programme that has yet to make a
+  falsifiable prediction, and some of his fellow physicists have said the same about his broadcasting more generally.
+  I think both things are true at once, and it costs nothing to say so: the field is unfinished, and the man who tells
+  the public it is beautiful is not lying to them about the mathematics. What he never does — not once, in any book or
+  broadcast — is
+
+
+================================================================================
+FILE: ch12.tex  (12 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 81
+  The question this section has to answer is not whether UFOs can fly.
+
+  [HIGHLIGHTED]  Line 95
+  It is what there was to hit.
+
+  [HIGHLIGHTED]  Line 127
+  It is a documented limitation of monocular distance estimation beyond a few hundred metres.
+
+  [HIGHLIGHTED]  Line 147
+  We have been assuming the object is solid.
+
+  [HIGHLIGHTED]  Line 156
+  A rigid airframe has exactly one shape.
+
+  [HIGHLIGHTED]  Line 177
+  And it says solid.
+
+  [I-HOLD]  Line 183
+  rests on: $n = 1$, and it nearly killed him. Anybody who tells you UFOs are solid craft is extrapolating from
+  Michalak's glove, and anybody who tells you they are immaterial has to explain the grid burned across his stomach. I
+  hold both, uncomfortably, and I would rather report the discomfort than resolve it for you.
+
+  [I-FIND]  Line 224
+  left unfamiliar signatures at night. What I find valuable about the foo fighters is not the identification. It is
+  the timing. These reports predate Kenneth Arnold in 1947, and they are noticeably different in content: lights that
+  pace, not discs that fly. Once the flying saucer template existed, the reports
+
+  [HIGHLIGHTED]  Line 355
+  Take Chicago O'Hare, 7 November 2006, the most cited airport case in the modern literature.
+
+  [MY-POSITION]  Line 488
+  footage everyone argues about is not the encounter everyone finds impressive. So my position: the Nimitz case is the
+  strongest single item in the modern corpus and it still gives us radar returns from an instrument with a known
+  fault, an infrared clip with a plausible mundane reading, and unverifiable testimony — excellent testimony, but
+  testimony. AARO's 2024 historical
+
+  [MY-ASSESSMENT]  Line 602
+  including the sampling map, and let other people repeat it. Until that happens my assessment is simple, and it is
+  not the exciting one. The most probable explanation of the Buga sphere is that it is a terrestrial artefact — quite
+  possibly an art object or a deliberately made curiosity — attached to a commercial promotion, and that the anomalous
+  readings
+
+  [I-HOLD]  Line 605
+  explanation of the Buga sphere is that it is a terrestrial artefact — quite possibly an art object or a deliberately
+  made curiosity — attached to a commercial promotion, and that the anomalous readings reported for it are artefacts
+  of testing arranged by people who needed a particular answer. I hold that position loosely, because unlike almost
+  every other case in this chapter it is falsifiable this year by anyone granted an hour with the object and a CT
+  scanner. That is a genuinely unusual situation in
+
+
+================================================================================
+FILE: ch13.tex  (19 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 40
+  Read this chapter as a single argument rather than a catalogue.
+
+  [HIGHLIGHTED]  Line 87
+  That last sentence is the one to slow down on, because it is the hinge of the entire subject.
+
+  [I-THINK]  Line 231
+  would otherwise have vanished. She has been consistent, public, and reachable for fifty years, which is more than
+  can be said for most of the anonymous sources in this book. Her interpretation of the evidence is, I think, wrong,
+  and wrong in a way that a working pathologist could have corrected in an afternoon. Those two judgements are
+  compatible, and holding both at once is roughly the whole skill this textbook is trying to teach.
+
+  [I-THINK]  Line 320
+  counterintelligence officer fed to a distressed civilian, the sole eyewitness cannot be shown ever to have existed,
+  and a facility of that scale cannot be built without leaving spoil, power lines and a payroll. What I want here is
+  narrower and, I think, more interesting. Suppose you had never heard of Paul Bennewitz. Suppose you knew nothing
+  about the provenance. Ask only the question this section is equipped to answer: could the room exist?
+
+  [HIGHLIGHTED]  Line 330
+  It is too competent to be true.
+
+  [I-THINK]  Line 336
+  Nightmare Hall is alleged to have gone very much further, using organisms from another biosphere, in a corridor, in
+  the
+  1970s.https://commons.wikimedia.org/wiki/File:Equidae_E._africanus_asinus_x_E._ferus_caballus_(Mule).jpgfig:mulehybrid
+  Which brings me to the question this whole chapter has been circling, and the reason I think 15.2 is the most
+  important section in the book.
+
+  [I-THINK]  Line 388
+  Prohibition Act on 9 July 2009 with twenty co-sponsors. The bill carried a ten-year maximum sentence, died in
+  committee, and was never voted
+  on.https://commons.wikimedia.org/wiki/File:Sam_Brownback_official_portrait_3.jpgfig:brownback The clearest specimen
+  I know of is a bill that never became law, and I think every ufologist who has ever repeated the Dulce story should
+  read it, because it is the closest the United States has yet come to legislating Nightmare Hall out of existence —
+  and it did so without once asking
+
+  [HIGHLIGHTED]  Line 422
+  A kind of thing that should not exist.
+
+  [I-THINK]  Line 426
+  What the bans actually protect Here is what I think is going on, and it is the argument I would most like to be
+  remembered for if this book is remembered for anything.
+
+  [HIGHLIGHTED]  Line 520
+  89% of them
+
+  [I-AM_ARGUING]  Line 571
+  I am not arguing that anyone should edit an embryo tomorrow. I want to be exact about the limits, because
+  overselling this hands the argument straight back to the people I am arguing with. Ninety percent accuracy is a
+  research result, not a clinical standard; the eleven percent of variants AlphaMissense could not call are precisely
+  the interesting ones. These models predict the effect of
+
+  [I-AM_ARGUING]  Line 583
+  never going to be answered by a computer. What I am arguing is smaller and, I think, unanswerable. The safe way to
+  test this now exists in silico, and the law forbids the paperwork rather than the experiment. A regime in which a
+  proposal must be accompanied by exhaustive computational prediction, adversarial review of that prediction,
+
+  [I-THINK]  Line 583
+  never going to be answered by a computer. What I am arguing is smaller and, I think, unanswerable. The safe way to
+  test this now exists in silico, and the law forbids the paperwork rather than the experiment. A regime in which a
+  proposal must be accompanied by exhaustive computational prediction, adversarial review of that prediction,
+
+  [QUESTION-BOX [assumption]]  Line 803
+    NOT: the geometry is too good for people to have made it
+    ACTUAL: people are extremely good at geometry when given rope, stakes, a straight edge and a reason — and the reason is usually other people looking
+
+  [I-FIND]  Line 1178
+  funfact I find Dyatlov Pass the most sobering case in this book, and not because of the mystery. Nine young people
+  died in the cold, badly, and their families spent sixty years being told the file was closed by a state that closed
+  files as a matter of habit. The secrecy produced the legend —
+
+  [MY-ASSESSMENT]  Line 1312
+  channel series began in 2020. My assessment, and I will be direct. The research problem is structural. Nearly all
+  reported phenomena come from residents and
+
+  [I-THINK]  Line 1335
+  bulb from a Pelican case into the loop to make the current visible. The bulb lit. Roughly a third of an amp was
+  crossing that stretch of Utah dirt. The moment was presented as evidence that something extraordinary lies beneath
+  that field. I think it is the single most important measurement anyone has taken on that property, and the programme
+  drew the one conclusion from it that cannot be right.
+
+  [QUESTION-BOX [question]]  Line 1357
+    NOT: Why did the bulb light — what is down there powering it?
+    ACTUAL: Is this dirt an insulator or not? The bulb lit because it is not, and saline shale soil never was.
+
+  [HIGHLIGHTED]  Line 1386
+  Skinwalker Ranch is that same instrument pointed at ground which genuinely does carry current.
+
+
+================================================================================
+FILE: ch14.tex  (11 statements)
+================================================================================
+
+  [QUESTION-BOX [question]]  Line 36
+    NOT: whether a frightened city can shoot at nothing.
+    ACTUAL: Do hoaxes normally result in DEATH?
+
+  [QUESTION-BOX [question]]  Line 74
+    NOT: What was over Los Angeles?
+    ACTUAL: Why did nothing come down?
+
+  [HIGHLIGHTED]  Line 87
+  for over an hour
+
+  [I-AM-SURE]  Line 175
+  And then the sentence that keeps the case alive. Brazel had found two weather balloons on that ranch before, and he
+  told the paper that what he picked up this time resembled neither of them: "I am sure that what I found was not any
+  weather observation balloon." A rancher's opinion is not a materials analysis, and he was never shown the radar
+  target Ramey's people laid out on the floor in Fort Worth
+
+  [I-THINK]  Line 355
+  drops conducted in New Mexico to test parachute systems — and this is the weakest part of the Air Force case,
+  because those drops occurred in the 1950s, which the report acknowledges while suggesting time compression in
+  witness memory. I think that is a genuine stretch, and I say so. But the debris explanation does not depend on the
+  dummies. It depends on: a classified programme,
+
+  [HIGHLIGHTED]  Line 357
+  But the debris explanation does not depend on the dummies.
+
+  [HIGHLIGHTED]  Line 511
+  Is the debris still buried in the back yard?
+
+  [QUESTION-BOX [experiment]]  Line 532
+    NOT: whether we can test for UFOs. We cannot, and every honest person in this field knows it.
+    ACTUAL: whether there is a parcel of 1947 material under one specific quarter-acre lot in Roswell, New Mexico — a question about soil, permits and a metal detector, which returns an answer either way.
+
+  [I-AM-WILLING]  Line 561
+  it is a quarter of an acre. So the residue I am willing to defend is not two percent of a flying saucer. It is one
+  buried parcel, one family who could not mark the material with anything in the house, and one press release from a
+  base commander I still cannot account for.
+
+  [HIGHLIGHTED]  Line 566
+  does Top Secret mean anything at all?
+
+  [I-THINK]  Line 669
+  The Roswell UFO Festival The festival is the part of all this you can actually attend, and I think it is the single
+  best place to watch what a UFO story turns into once it stops being about evidence. It began in 1996, five years
+  after Walter Haut and Glenn Dennis opened the museum, and the timing was not accidental: the golden
+
+
+================================================================================
+FILE: ch15.tex  (8 statements)
+================================================================================
+
+  [QUESTION-BOX [claim]]  Line 195
+    NOT: UFOs are drawn to our nuclear weapons
+    ACTUAL: a nuclear detonation is the only unmistakably artificial signal a young civilisation broadcasts, and nuclear sites are also the only places on Earth where somebody is contractually required to write down what they saw — until the second is subtracted from the first, the pattern proves nothing
+
+  [QUESTION-BOX [problem]]  Line 224
+    NOT: that faster-than-light travel is difficult.
+    ACTUAL: that it is equivalent to time travel, and therefore to causality violation.
+
+  [HIGHLIGHTED]  Line 261
+  The universe does not need breaking. It needs paying for.
+
+  [QUESTION-BOX [question]]  Line 269
+    NOT: whether anything could have travelled far enough to reach us by 1947.
+    ACTUAL: whether anything had to travel at all — or whether what we lit in the New Mexico desert two years earlier reached out to it.
+
+  [HIGHLIGHTED]  Line 382
+  We did not decide the higher-dimensional consequences were acceptable. We never asked.
+
+  [HIGHLIGHTED]  Line 436
+  Sad. Very sad.
+
+  [HIGHLIGHTED]  Line 561
+  This is the strongest medical case in the record and it is the reason I include it.
+
+  [MY-ASSESSMENT]  Line 638
+  which rules out a purely American institutional explanation. My assessment: the correlation is solid and the
+  documents are real. The mechanism is not established. The strongest mundane account combines mandatory reporting,
+  extreme observation density, genuine classified aircraft activity, electromagnetic interference from a very
+  electrically
+
+
+================================================================================
+FILE: ch16.tex  (12 statements)
+================================================================================
+
+  [I-BELIEVE]  Line 4
+  NASA's Unexplained FilesNASA's Unexplained Files "I believe that these extra-terrestrial vehicles and their crews
+  are visiting this planet from other planets Most astronauts were reluctant to discuss UFOs."Gordon Cooper %
+  —————————————————————
+
+  [HIGHLIGHTED]  Line 150
+  There are no stars because the exposure was set for a sunlit surface.
+
+  [QUESTION-BOX [question]]  Line 214
+    NOT: Did the Moon ring for an hour?
+    ACTUAL: Why is a body with almost no internal loss the one fact about the Moon that never gets chased — and would anyone accept the answer if the arithmetic came back the wrong way?
+
+  [HIGHLIGHTED]  Line 230
+  A long ring does not mean hollow. It means lossless.
+
+  [HIGHLIGHTED]  Line 275
+  So the thin empty shell is dead, and I am the one telling you it is dead.
+
+  [HIGHLIGHTED]  Line 350
+  What is the correct price of a thing that can never be made again?
+
+  [HIGHLIGHTED]  Line 368
+  Nine dollars won.
+
+  [HIGHLIGHTED]  Line 433
+  Every one of these "discoveries" is that system working exactly as evolved.
+
+  [HIGHLIGHTED]  Line 462
+  Gordon Cooper
+
+  [HIGHLIGHTED]  Line 501
+  The argument from authority fails here in a specific and instructive way.
+
+  [HIGHLIGHTED]  Line 543
+  He made two claims, and they are not the same kind of claim.
+
+  [HIGHLIGHTED]  Line 675
+  "somebody else, some other civilisation."
+
+
+================================================================================
+FILE: ch17.tex  (1 statements)
+================================================================================
+
+  [QUESTION-BOX [claim]]  Line 299
+    NOT: Byrd kept a hidden diary describing a warm land beyond the Pole, and it was suppressed.
+    ACTUAL: Byrd's papers are open. They fill hundreds of linear feet at the Byrd Polar and Climate Research Center at Ohio State University, they are catalogued and available to any researcher, and they contain no such account — while the one diary that genuinely was altered, the 1926 North Pole flight diary, was altered by Byrd himself and argues against him rather than for him.
+
+
+================================================================================
+FILE: ch18.tex  (15 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 62
+  Every single artefact and argument in this chapter is downstream of him.
+
+  [I-THINK]  Line 104
+  extraterrestrial life that are usually reported as a contradiction and are in fact a single coherent position. He
+  said the numbers make alien life plausible. And he said that if it exists, we should probably not advertise
+  ourselves, because "if aliens ever visit us, I think the outcome would be much as when Christopher Columbus first
+  landed in America, which didn't turn out very well for the Native Americans."
+
+  [I-THINK]  Line 199
+  tells you somebody is there, whatever else it fails to tell you, and that single bit of information is the most
+  consequential thing science could presently deliver. The barriers in this section are objections to a dialogue, not
+  to a detection. I think that is right, and I also think it is the reason SETI and the rest of this field talk past
+  each other so reliably — one of them is trying to establish a fact and the other is trying to have a relationship.
+
+  [I-THINK]  Line 253
+  some Nobel laureates, essentially none of them decoded it correctly. Human experts, told in advance that a message
+  was present and that it was decodable, mostly failed. That result is treated as an amusing anecdote and I think it
+  is the most important datum in the entire discipline. Third, our own recent history has quietly complicated the
+  picture. When we built machines to find
+
+  [I-THINK]  Line 274
+  first question had already changed history. Where does that leave the idea? I think mathematics is necessary and
+  insufficient: the only plausible foundation for a first exchange, and nowhere near enough for a conversation. It
+  gets you to "we are both here and we both count". Everything past that is unsolved.
+
+  [MY-VIEW]  Line 380
+  not the same thing as one confirmed measurement, and stacking anomalies raises the consequence score without moving
+  the credibility score at all. Loeb's insistence that the question be asked is defensible and, in my view, useful.
+  The tally of fifteen anomalies is not evidence, and the grid in Figure [ref] is the reason: 3I/ATLAS sits with the
+  rest of them, high on consequence and hard against the left-hand wall.
+
+  [I-THINK]  Line 417
+  seven months before the United Nations address: At our meeting in Geneva, the U.S. President said that if the earth
+  faced an invasion by extraterrestrials, the United States and the Soviet Union would join forces to repel such an
+  invasion. I shall not dispute the hypothesis, though I think it is early yet to worry about such an intrusion. So
+  the two men who between them controlled roughly sixty thousand nuclear warheads used a
+
+  [QUESTION-BOX [question]]  Line 440
+    NOT: are the governments working with aliens?
+    ACTUAL: what are governments actually DOING to prepare us for first contact?
+
+  [HIGHLIGHTED]  Line 466
+  Read the verbs. Nothing in Decision 33/426 is binding, funded, or staffed.
+
+  [QUESTION-BOX [argument]]  Line 638
+    NOT: whether they exist.
+    ACTUAL: whether we should be transmitting.
+
+  [I-THINK]  Line 721
+  America, which didn't turn out well for the Native Americans." There is one final scenario in this direction that I
+  think is underrated, and it is not military at all. The most destructive contact event in human history did not
+  involve weapons; it involved microorganisms and information. Contact between human cultures has repeatedly destroyed
+  the weaker
+
+  [HIGHLIGHTED]  Line 752
+  No shot was fired by the tape.
+
+  [I-FIND]  Line 756
+  dark. What happened next is the part I find genuinely instructive, and it is not the part the story is usually told
+  for. It largely did not work. Soldiers who worked out that they were listening to a loudspeaker did the obvious
+  thing and shot at it — which, as the Army's own assessment team noted
+
+  [I-FIND]  Line 816
+  reputation does not predict. Section [ref]'s post-detection protocols are in that tradition. They are unenforceable
+  and they were still written down, by people trying to get it right in advance. I find that more encouraging than
+  most of what is in this book. % —————————————————————
+
+  [HIGHLIGHTED]  Line 881
+  Two men are largely responsible for that culture
+
+
+================================================================================
+FILE: ch19.tex  (2 statements)
+================================================================================
+
+  [I-THINK]  Line 118
+  But the strong claim — an advanced, technological, metal-working, energy-generating civilisation — fails on a
+  specific and I think unanswerable point, which is worth learning because it applies far beyond this chapter.
+  Technology is not a single artefact. It is an infrastructure, and infrastructure leaves a fingerprint that cannot be
+  avoided or erased.
+
+  [QUESTION-BOX [answer]]  Line 381
+    NOT: a mystical one.
+    ACTUAL: the ideology required a history it did not have.
+
+
+================================================================================
+FILE: ch20.tex  (26 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 86
+  Fox's material is testimony, not data.
+
+  [HIGHLIGHTED]  Line 205
+  This is why one good story outperforms a hundred good studies.
+
+  [I-ARGUE]  Line 227
+  The Influence of Hollywood I should declare an interest before I argue anything in this section, because it would be
+  dishonest not to. I did not arrive at this subject through the archives. I arrived through screens. Superheroes,
+  cartoons and science fiction are the frame I have used my whole life to make sense of the world —
+
+  [QUESTION-BOX [problem]]  Line 321
+    NOT: that a television show made up a secret base.
+    ACTUAL: that it did not have to. The base was already there, already deep, already armoured, already run by men who genuinely could not tell you what was inside. Fiction only had to add one prop to a facility the public had been handed for free.
+
+  [HIGHLIGHTED]  Line 336
+  Project Star Gate
+
+  [AUTHOR-ASSESSMENT]  Line 490
+  is not a detached host curating the weird for an audience, but someone who lives it? Spaced Out Radio is, in the
+  author's assessment, the best nightly UFO show since Art Bell died. It broadcasts live weeknights at 9,p.m. Pacific
+  from spacedoutradio.com, out of British Columbia, and it covers the same territory Coast to Coast did — time travel,
+  Bigfoot, aliens,
+
+  [QUESTION-BOX [question]]  Line 523
+    NOT: whether experiencers should be given a platform
+    ACTUAL: what it means that the institutions which most loudly demand disclosure are the same ones most reluctant to hear from the people disclosure would actually affect
+
+  [HIGHLIGHTED]  Line 716
+  KNYE 95.1 FM
+
+  [HIGHLIGHTED]  Line 736
+  Dark Matter
+
+  [HIGHLIGHTED]  Line 740
+  Dark Matter Digital Network
+
+  [HIGHLIGHTED]  Line 743
+  Midnight in the Desert
+
+  [HIGHLIGHTED]  Line 761
+  First Time Caller
+
+  [HIGHLIGHTED]  Line 762
+  East of the Rockies
+
+  [HIGHLIGHTED]  Line 763
+  West of the Rockies
+
+  [HIGHLIGHTED]  Line 764
+  International
+
+  [HIGHLIGHTED]  Line 789
+  The Time Traveller line
+
+  [HIGHLIGHTED]  Line 792
+  The Men in Black line
+
+  [HIGHLIGHTED]  Line 794
+  The Werewolf line
+
+  [HIGHLIGHTED]  Line 796
+  The Ghost line
+
+  [HIGHLIGHTED]  Line 798
+  The Weird or Strange People line
+
+  [HIGHLIGHTED]  Line 800
+  The Whistleblower or Insider line
+
+  [HIGHLIGHTED]  Line 803
+  The Open Lines
+
+  [HIGHLIGHTED]  Line 1002
+  Art Bell Vault
+
+  [HIGHLIGHTED]  Line 1011
+  digital book burning
+
+  [HIGHLIGHTED]  Line 1167
+  That is the whole thesis of this textbook in one sentence.
+
+  [QUESTION-BOX [question]]  Line 1169
+    NOT: whether something is out there.
+    ACTUAL: whether we are willing to build the tools, the definitions and the discipline required to find out — and to accept the answer if it turns out to be boring.
+
+
+================================================================================
+FILE: collage_intro.tex  (1 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 1
+  Roswell, New Mexico
+
+
+================================================================================
+FILE: collage_roswell.tex  (1 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 28
+  Roswell, New Mexico
+
+
+================================================================================
+FILE: conclusion.tex  (6 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 38
+  it is the only link that touches every other one.
+
+  [QUESTION-BOX [investigator's problem]]  Line 71
+    NOT: that witnesses lie.
+    ACTUAL: that the sky over the American south-west genuinely did contain classified aircraft, unmarked airline fleets and radar-evading geometry no civilian had a vocabulary for.
+
+  [I-FIND]  Line 132
+  That is not a scandal about abductees. It is a general fact about human beings under questioning, and it applies to
+  every witness statement in this volume, including the ones I find persuasive. When the act of asking changes the
+  answer, the record you build is a record of the asking. Any investigative procedure that does not account for this
+  is generating literature, not data.
+
+  [HIGHLIGHTED]  Line 254
+  Bell's method was, in radio clothing, the method of this textbook.
+
+  [HIGHLIGHTED]  Line 334
+  That is the thesis, and it is a communication thesis to the last word.
+
+  [QUESTION-BOX [question]]  Line 336
+    NOT: whether something is out there.
+    ACTUAL: whether we are willing to build the vocabulary, the standards of evidence and the institutional plumbing required to find out — and then to accept the answer if the answer turns out to be boring.
+
+
+================================================================================
+FILE: front_preface.tex  (9 statements)
+================================================================================
+
+  [HIGHLIGHTED]  Line 76
+  This is not a UFO book.
+
+  [I-FIND]  Line 96
+  surprised that it does not survive scrutiny. At no point in that chain does anyone lie, necessarily. That is what I
+  find so interesting. You do not need liars to produce a lie; you only need enough people sincerely talking past one
+  another. Wrap that around a subject with a
+
+  [I-THINK]  Line 118
+  all. We cannot reliably transmit the contents of one human night sky across a single dinner table without it turning
+  into an argument. That is the skill we are short on. That is what I think is worth practising, and a disreputable
+  subject with a seventy-five-year paper trail turns out to be an excellent place to practise it.
+
+  [HIGHLIGHTED]  Line 122
+  A word about how this book found out it had to be a book.
+
+  [QUESTION-BOX [problem]]  Line 196
+    NOT: the structure of a cumulative argument.
+    ACTUAL: what that structure has been pointed at.
+
+  [HIGHLIGHTED]  Line 211
+  It reverses the effect.
+
+  [HIGHLIGHTED]  Line 221
+  Everything in this book was a lecture first.
+
+  [HIGHLIGHTED]  Line 233
+  the course material this textbook is built on is award-winning.
+
+  [I-FIND]  Line 393
+  that, you do not know that, and anyone who tells you they know that is selling something. Nor is it a debunking,
+  because debunking is just believing with the sign flipped, and I find it every bit as lazy. What this book is, is an
+  attempt to treat a disreputable subject with
+
+
+================================================================================
+FILE: new85.tex  (1 statements)
+================================================================================
+
+  [QUESTION-BOX [question]]  Line 14
+    NOT: Did the Moon ring for an hour?
+    ACTUAL: Will the people who own the instruments accept an answer the arithmetic forces on them, when accepting it costs them the model they built their careers inside?
+
+
+================================================================================
+FILE: ufo_shape_roster.tex  (1 statements)
+================================================================================
+
+  [MY-POSITION]  Line 395
+  Tic TacCylindrical; USS Nimitz FLIR, 2004A smooth rounded oblong with no wings, no rotor and no plume. This is the
+  modern flagship case, and my position on it is unchanged: the video is genuine, the interpretation is not settled,
+  and the sensor is not a witness.A distant aircraft with parallax and glare effects on an infrared sensor.
+
+
+================================================================================
+TOTAL: 244 propositional statements across 28 files
+================================================================================
