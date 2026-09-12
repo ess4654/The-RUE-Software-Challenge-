@@ -12,9 +12,9 @@ This is a book for students, researchers, science teachers, working skeptics, an
 
 A note on how this book was made, stated up front because the reader deserves it:
 
-The writing of this book was done 100% with AI tools, working alongside BAC++ (BAC_plusplus_Reference_Guide.txt, from the GitHub repository ess4654/The-RUE-Software-Challenge-). Not a passage of the prose was hand-typed.
+The writing of this book was done 100% with AI tools, working alongside BAC++ (BAC_plusplus_Reference_Guide.txt, from the GitHub repository ess4654/The-RUE-Software-Challenge-).
 
-The planning, preparation, research direction, and organization of every topic in this book were 100% Evan Svendsen's. The structure, the arguments, the case selection, the sequence of chapters, the standards of evidence applied, and the editorial judgment behind every inclusion and exclusion are his and his alone. The AI tools drafted the sentences and 1 MILLION ENGLISH WORDS IN JUST 3 DAYS! The book is Evan's.
+The planning, preparation, research direction, and organization of every topic in this book were 100% Evan Svendsen's. The structure, the arguments, the case selection, the sequence of chapters, the standards of evidence applied, and the editorial judgment behind every inclusion and exclusion are his and his alone. The AI tools drafted the sentences and 2 HUNDRED FIFTY THOUSAND ENGLISH WORDS IN JUST 2 WEEKS! The book is Evan's.
 
 Transparency about method is the least a book on this subject can offer. Ufology has suffered enough from people who weren't straight about their sources.
 
