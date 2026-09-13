@@ -1,0 +1,635 @@
+--- Fun Fact #2 ---
+[File: ch01.tex]
+
+Confirmation bias was demonstrated experimentally by Peter Wason in the 1960s using
+a task so simple it is almost insulting. Subjects were shown the number sequence
+2--4--6 and asked to work out the rule behind it by proposing further sequences. The
+overwhelming majority proposed 8--10--12, then 20--22--24, then 100--102--104,
+confirming their guess of ``add two'' over and over. Hardly anyone tried 3--5--9,
+which is the only sort of move that could have shown them they were wrong. The
+actual rule was simply ``any three increasing numbers''. People do not naturally
+test their beliefs. They audition for them.
+
+--- Fun Fact #3 ---
+[File: ch01.tex]
+
+The original Greek \emph{skeptikos} meant simply ``inquirer'' --- from
+\emph{skeptesthai}, to examine or consider. The word did not mean ``one who
+disbelieves''. It meant ``one who looks''. Somewhere in the last two thousand years
+we managed to invert the meaning of the word entirely, which given the contents of
+Section~\ref{sec:fallacylanguage} should surprise nobody at all.
+
+--- Fun Fact #5 ---
+[File: ch02.tex]
+
+This cuts the other way too, and almost nobody mentions it. If a genuine image were
+captured tomorrow, it would be indistinguishable from the fakes and therefore worthless
+as evidence. AI has not merely made faking easier. It has made proof by photograph
+structurally impossible. Whatever this field becomes, it will have to become
+instrument-based --- radar, spectrometry, calibrated multi-sensor arrays --- or it will
+become nothing at all.
+
+--- Fun Fact #8 ---
+[File: ch02.tex]
+
+SETI's real problem is not sensitivity, it is arithmetic. Earth's own radio
+leakage --- the unintentional stuff, television and radar --- is detectable at
+interstellar distances only with instruments far better than any we possess, and our
+leakage has been \emph{decreasing} for decades as we move to fibre, satellites and
+low-power digital transmission. If our own civilisation is any guide, a technological
+species is a bright radio source for perhaps a century and then goes quiet. We may be
+listening for a phase almost nobody spends any time in.
+
+--- Fun Fact #10 ---
+[File: ch02.tex]
+
+The cultural variation runs deeper than shapes. Japanese reports feature far fewer
+occupants and far more object-only sightings. Scandinavian cases skew heavily towards
+lights and ``ghost rockets'', a wave of which crossed Sweden in 1946 --- a full year
+before Kenneth Arnold. Chinese reports cluster around airports and are frequently
+resolved as drones or launch debris, partly because reporting channels are different.
+The phenomenon, whatever it is, appears to speak with a local accent. That is either
+telling you something about the phenomenon or something about the witnesses, and
+deciding which is most of the work.
+
+--- Fun Fact #12 ---
+[File: ch03.tex]
+
+The gap is not a conspiracy-theory estimate; you can measure it from declassification dates. HAVE
+BLUE first flew in December 1977 and was declassified in 1988 --- eleven years. Tacit Blue flew 135
+sorties between 1982 and 1985 and was not revealed until 1996 --- fourteen years. The Boeing Bird of
+Prey flew from 1996 and surfaced in 2002. The RQ-170 Sentinel was photographed in Afghanistan
+years before it was admitted, and only because Iran captured one. So a reasonable working figure for
+the classified-to-public lag in American military aviation is somewhere between ten and twenty
+years. Whatever is flying out of Nevada tonight, you will read about it around 2045.
+
+[File: ch03.tex]
+
+Nobody has ever confirmed what ``Janet'' stands for. The tidiest theory, and the one you
+will see repeated as fact, is ``Joint Air Network for Employee Transportation''. That
+phrase looks exactly like what it probably is: a backformation invented to fit an existing
+word. Competing folklore holds that a Groom Lake controller simply named the flights after
+his wife. I have no idea which is true, and I want to flag that ignorance rather than
+smooth it over, because this is a case where the mundane detail is genuinely unrecorded
+while the exotic details around it are documented to the tail number.
+
+--- Fun Fact #16 ---
+[File: ch03.tex]
+
+The most durable part of Lazar's account is the one nobody argues about: he put the phrase
+``Area 51'' into general public circulation. Before the 1989 KLAS broadcasts the name was
+known almost exclusively to aviation specialists. Whatever else Bob Lazar did or did not
+do, he named the most famous secret in the world.
+
+--- Fun Fact #18 ---
+[File: ch04.tex]
+
+Hynek coined the term \emph{invisible college} for the loose, mostly anonymous network of
+working scientists who were privately interested in UFO reports and professionally unable to
+say so. He put the number in the low hundreds and he corresponded with a great many of them. The
+single biggest change between his era and ours is that this college has become slightly visible
+--- which is progress, and which also means the excuse of career risk has weakened considerably.
+
+--- Fun Fact #22 ---
+[File: ch04.tex]
+
+\funfactlead{The wrong instrument, correctly used.} The AN/PDR-27 was built to find battlefield
+contamination at levels that would eventually kill you, not to do trace environmental survey
+work. Asking it to resolve a 0.03 mR/hr difference is like weighing a letter on a lorry
+weighbridge. Halt was not being dishonest; he was using the meter that was in the cupboard,
+which is what everybody does.
+
+--- Fun Fact #24 ---
+[File: ch05.tex]
+
+The Ministry of Defence's released files show that the case was assessed as being of no
+defence significance --- and also show that nobody in the MoD conducted anything resembling
+an investigation before reaching that conclusion. Both the believers and the debunkers of
+Rendlesham have relied on the same absence: the government neither confirmed nor examined
+anything. The 2001 release of the ``Rendlesham file'' was greeted as vindication by both
+sides simultaneously, which is usually a sign that the file contains very little.
+
+--- Fun Fact #28 ---
+[File: ch05.tex]
+
+The founding case, Flight~19 --- five TBM Avengers lost on a training flight from Fort
+Lauderdale on 5 December 1945 --- is genuinely tragic and not at all mysterious once you read
+the Navy's own board of investigation. The flight leader became convinced his compass was
+faulty and that he was over the Florida Keys when he was in fact over the Bahamas, and led
+the formation further out to sea in deteriorating weather until they ran out of fuel after
+dark. Radio transcripts capture the disorientation in real time. The board initially cited
+pilot error, then amended it to ``causes or reasons unknown'' after the flight leader's
+mother objected --- and that amended phrase, a compassionate gesture to a grieving parent,
+became the evidentiary foundation of a global mystery. The rescue aircraft that also vanished
+that night was a PBM Mariner, a type nicknamed the ``flying gas tank''; a tanker crew
+reported seeing an explosion and an oil slick at the appropriate time and place.
+
+--- Fun Fact #31 ---
+[File: ch06.tex]
+
+The solar system is mostly nothing. If you shrank the Sun to the size of a beach ball two
+metres across, Earth would be a peppercorn twenty-one metres away, Neptune would be a small
+marble two thirds of a kilometre out, and the nearest other beach ball would be about five and
+a half thousand kilometres away --- roughly Lethbridge to London. Every scale model you have
+ever seen in a museum or a textbook, including the ones in this book, is lying to you about the
+spacing, because an honest one is almost entirely empty page.
+
+--- Fun Fact #34 ---
+[File: ch06.tex]
+
+The zoo hypothesis and the simulation hypothesis are both technically resolutions of Fermi's
+Paradox, and both are unfalsifiable, which puts them in the same category as John Titor's
+branching timelines. They can be true. They cannot be investigated. A hypothesis that
+forbids no observation is not competing with the others; it has left the competition.
+
+--- Fun Fact #35 ---
+[File: ch06.tex]
+
+Earth's own deep biosphere makes the point. Hydrothermal vent ecosystems run on
+chemosynthesis, oxidising hydrogen sulphide, with no sunlight at all --- an entire food web
+that does not care whether the star exists. Bacteria have been recovered from kilometres deep
+in continental rock, metabolising on timescales of centuries. \emph{Deinococcus radiodurans}
+survives radiation doses thousands of times lethal to us. Tardigrades survive vacuum. If our
+own single sample of life is this flexible, using our own surface conditions as the template
+for the search is an odd choice.
+
+--- Fun Fact #39 ---
+[File: ch07.tex]
+
+There is a strong candidate for what the Hills actually saw, and it is oddly poignant. On that
+night Jupiter and Saturn were both prominent low in the southwest along their route --- a
+bright object and a fainter companion, which is exactly the initial description --- and a
+vehicle driving a winding road through the White Mountains will see such objects apparently
+move, stop, and follow. Barney was an interracial-marriage-era postal worker in 1961 New
+Hampshire, active in the NAACP, driving at night through rural country, already anxious. The
+emotional weight of that night was real. What it was about may have had less to do with the
+sky than with the road.
+
+--- Fun Fact #41 ---
+[File: ch07.tex]
+
+Two details about that tower are hard to unsee once noticed. The first is the shape: the
+earliest witness sketches, made within a fortnight of the event, show a squat, angular,
+window-framed object roughly fifteen to twenty feet across and eight to ten feet thick --- a
+reasonable description of a lookout cab lit from inside, and a poor description of the sleek
+silver disc that appeared in later paintings and in the 1993 film. The second is the shift
+pattern. Forest Service lookouts staffed those cabs in rotations of five days.
+
+--- Fun Fact #43 ---
+[File: ch07.tex]
+
+A researcher named Kyle Polich attempted the obvious control: he compiled a comparison set of
+wilderness disappearances that were resolved and checked how many exhibited the ``411''
+profile markers. A great many did. When your anomaly profile is equally present in the solved
+cases, you have not identified a pattern in disappearances. You have identified a pattern in
+wilderness.
+
+--- Fun Fact #46 ---
+[File: ch07.tex]
+
+The suggestion effect has been measured directly. Richard Wiseman ran studies at Hampton Court
+Palace and the Edinburgh Vaults in which visitors were led through locations and asked to
+report unusual experiences. Reports clustered strongly in areas with prior haunting
+reputations --- and also correlated with measurable environmental variables: air movement,
+temperature variation, lighting, and ceiling height. People reliably feel watched in places
+with certain physical properties. The ghost is in the architecture.
+
+--- Fun Fact #51 ---
+[File: ch08.tex]
+
+Official study did not actually end --- it just stopped being public. The 1969 termination
+memo instructed that reports of national security significance should continue to be handled
+through normal military channels, specifically JANAP 146 and Air Force Regulation 200-2, both
+of which predated Blue Book and neither of which was rescinded. So the public office closed and
+the classified reporting channel stayed open. Then in 2017 the Pentagon acknowledged AATIP, and
+in 2022 Congress established the All-domain Anomaly Resolution Office. Fifty-three years after
+announcing there was nothing to investigate, the Department of Defense established a permanent
+office to investigate it.
+
+
+[File: ch08.tex]
+
+The genuinely useful lesson here is about how power actually operates, because it is not
+hidden. Lobbying disclosures, campaign finance records, corporate board interlocks, the
+revolving door between regulators and the industries they regulate, Bilderberg and Davos
+attendee lists --- all public, all documented, all considerably more influential than any
+secret society. The people who run things do not need to hide. They file paperwork. Any evening
+spent reading lobbying registrations will teach you more about who controls the world than the
+entire Illuminati literature, and it has the advantage of being true.
+
+--- Fun Fact #55 ---
+[File: ch09.tex]
+
+David Hume gave the sharpest test in 1748, and it is still the one to use. The question is never
+``is this event possible?'' but ``which is more likely --- that the laws of nature were
+suspended, or that the testimony is mistaken?'' Human testimony is demonstrably fallible; the
+laws of nature have never once been observed to fail. This is not an argument that miracles
+cannot happen. It is an argument about where to place your bet before the evidence arrives.
+
+
+--- Fun Fact #56 ---
+[File: ch09.tex]
+
+The sky-god universality argument has a much better explanation than visitors, and it is the
+same one that explains why Section~\ref{sec:geneticmotivation}'s abduction narrative matches fairy folklore. Every human
+culture is under the same sky, subject to the same weather, dependent on the same sun,
+frightened by the same lightning, and possessed of the same brain --- one that models the world
+in terms of agents with intentions, because that heuristic kept our ancestors alive. Universal
+myths are evidence of universal humans. That is a real discovery about our species, and it is
+more interesting than a spaceship.
+
+
+--- Fun Fact #58 ---
+[File: ch09.tex]
+
+The UFO-ley connection has an author: Tony Wedd, in 1961, who combined Watkins with the
+French ``orthot\'enie'' work of Aim\'e Michel, who had claimed in 1958 that sightings during
+the 1954 French wave fell along straight lines. Michel's orthoteny was tested properly in
+the 1960s by Jacques Vall\'ee among others, and it collapsed: the lines were an artefact of
+selecting which reports to plot. Vall\'ee, to his considerable credit, published the negative
+result about his own earlier enthusiasm. That is what Section~\ref{sec:investigativetechniques} step six looks like in
+practice.
+
+--- Fun Fact #59 ---
+[File: ch09.tex]
+
+What these sites really demonstrate is organisation, not technology --- and organisation is the
+harder achievement. The Great Pyramid required feeding, housing, sanitising and administering a
+workforce of tens of thousands for two decades, with supply lines, bakeries, breweries,
+medical care, and a bureaucracy tracking it all in writing. We found the workers' town at Giza,
+with its bakeries and its cattle bones and the fractures set by physicians. The astonishing
+thing about the pyramids is not that stone can be cut. It is that human beings four and a half
+thousand years ago could run a project of that scale at all. Handing that to visitors is not
+generous to the ancients. It is theft.
+
+=== ch10.tex ===
+
+--- Fun Fact #62 ---
+[File: ch10.tex]
+
+The German title, \emph{Erinnerungen an die Zukunft} --- ``Memories of the Future'' --- is far
+better than the English one, and it is a genuinely serious thesis in four words: that our oldest
+records describe our own technological future, seen once and misunderstood. The publisher's
+English edition kept the question mark in \emph{Chariots of the Gods?} on purpose. Almost every
+critic who quotes the title drops it.
+
+
+--- Fun Fact #63 ---
+[File: ch10.tex]
+
+Before Champollion, the standard European authority on hieroglyphs was Athanasius Kircher, who
+in the seventeenth century produced confident translations of Egyptian inscriptions as mystical
+philosophy --- elaborate sentences about generative spirit and the influence of the divine mind.
+The sign groups he was working on turned out, once the script could actually be read, to be the
+names of pharaohs. Kircher was learned, brilliant, and reading pictures. This is the single most
+instructive failure in the history of the subject, and every argument in this chapter that
+proceeds from an image rather than a text is repeating it.
+
+
+--- Fun Fact #64 ---
+[File: ch10.tex]
+
+The genuinely suppressed texts are the ones nobody talks about because nobody has them ---
+which is the whole argument of this section compressed into a shopping observation. Real
+suppression looks like silence, not availability. Anything you can buy on Amazon with
+``forbidden'' in the subtitle has, by definition, failed to be forbidden.
+
+--- Fun Fact #66 ---
+[File: ch10.tex]
+
+Giants are close to universal in mythology and there is a good non-mythological reason for at
+least some of it. Europeans and Mediterranean peoples regularly dug up bones far too large for
+any animal they knew --- and dwarf elephant and mammoth skulls, in particular, have a single
+large central nasal cavity that looks exactly like one enormous eye socket. Adrienne Mayor's work
+on this is excellent. The Cyclops may well be a fossil elephant, found by people with no concept
+of extinction and a perfectly rational willingness to reason from evidence. They were doing
+palaeontology with the wrong reference set. Give them credit for trying.
+
+--- Fun Fact #71 ---
+[File: ch10.tex]
+
+Egyptian gods could be blackmailed. The magical papyri contain spells in which the practitioner
+threatens deities directly --- to stop the sun in its course, to reveal a secret name, to overturn
+the order of the cosmos --- if a headache is not cured or a scorpion sting not drawn. In one of
+the best-known myths, Isis poisons Ra with a snake she has made herself and refuses the antidote
+until he surrenders his hidden name, and she wins. This is a pantheon that can be outwitted by a
+competent professional with the right formula. Whatever else that is, it is not a memory of
+contact with a superior technological civilisation.
+
+--- Fun Fact #72 ---
+[File: ch10.tex]
+
+The Greeks found all of this hilarious and said so, which is useful, because it means we have
+outsider testimony from people who saw the practice alive. Herodotus reports Egyptians mourning a
+dead house cat by shaving their eyebrows, and later Roman writers were merciless about a nation
+that went to war over vegetables and worshipped animals. Not one of these hostile foreign
+observers --- Greek, Roman, Persian, Nubian or Levantine, several of whom occupied the country and
+read its records --- ever reported that the Egyptians claimed their gods had physically arrived,
+or that the animal-headed figures depicted real beings. The scepticism of antiquity was aimed at
+the strangeness of the ritual, never at a suppressed history.
+
+
+--- Fun Fact #74 ---
+[File: ch10.tex]
+
+The Mahabharata's aerial battles are frequently cited alongside the claim that Sanskrit's
+precision proves it was engineered or transmitted. Sanskrit is indeed precise, and Panini's
+grammar of roughly the fourth century BCE describes it in about 4,\!000 rules with a formalism
+that has been compared to Backus--Naur form. It was written by a man. That is the point.
+
+
+=== ch11.tex ===
+
+--- Fun Fact #78 ---
+[File: ch11.tex]
+
+Large extra dimensions are actually testable, and were tested. If some extra dimension were
+millimetre-scale rather than Planck-scale, gravity would deviate from the inverse-square law at
+short range, and energy would leak into it in high-energy collisions --- producing missing
+energy, or even microscopic black holes, at the Large Hadron Collider. Physicists looked
+carefully. Torsion-balance experiments have confirmed inverse-square gravity down to tens of
+micrometres, and the LHC found no missing-energy signature. That is how you do it: take the
+exotic idea, derive a consequence, go and look. Nobody found anything, and the search itself was
+the achievement.
+
+
+--- Fun Fact #79 ---
+[File: ch11.tex]
+
+The Mandela Effect is the single most useful thing in this book, and I mean that. It is a
+large-scale, self-administered demonstration that vivid, detailed, confidently held memory can be
+simply and verifiably wrong --- because unlike a UFO sighting, you can check. The logo is
+available. The film exists. Go and look, watch your own certainty survive the disconfirmation for
+a second or two, and then remember that feeling next time you read a witness statement in
+Chapter~\ref{ch:time}. Including mine.
+
+--- Fun Fact #81 ---
+[File: ch11.tex]
+
+Morris Jessup's involvement ended badly. He was a serious man --- he had done real astronomical
+work on double stars --- and he was drawn into the Allende material, became increasingly isolated
+and distressed, and died by suicide in 1959. That death was immediately absorbed into the legend
+as evidence of silencing. It is the ugliest habit this field has: a man's collapse repurposed as
+corroboration. Whatever else you take from this book, don't do that.
+
+--- Fun Fact #84 ---
+[File: ch12.tex]
+
+The F-117 Nighthawk flew in 1981 and was not acknowledged until 1988. For seven years there were
+faceted, matte-black, impossibly angular aircraft operating at night out of Tonopah, and people
+saw them. The Nevada triangle-UFO reports of the 1980s look considerably less mysterious once you
+know the flight schedules --- and the B-2, first seen publicly in 1988, is a large silent-seeming
+flying wing that from directly below is a black triangle. Chapter~\ref{ch:ufocsi}'s Phoenix Lights deserve to be
+read with that in mind.
+
+--- Fun Fact #85 ---
+[File: ch12.tex]
+
+The hardest number for the exotic-craft hypothesis is not any of these. It is the absence of
+turbulence. Every one of those manoeuvres displaces an enormous mass of air, and displaced air is
+visible on radar as a disturbance, audible as noise, and detectable by aircraft flying behind ---
+wake turbulence is why air traffic control enforces separation minima. Objects reported to shift
+from hover to hypersonic leave no wake, no boom, no thermal plume and no downwash on the water
+beneath them. In physics, if you move something you have to move what it was in.
+
+--- Fun Fact #88 ---
+[File: ch12.tex]
+
+The 2021 Office of the Director of National Intelligence preliminary assessment examined 144
+incidents from 2004--2021 and managed to explain exactly one --- a deflating balloon. That statistic
+is quoted constantly as ``143 unexplained''. What the report actually said is that most cases lacked
+sufficient data to reach \emph{any} conclusion. ``We could not determine what it was'' and ``it was
+something extraordinary'' are different sentences, and the entire modern disclosure debate runs on
+blurring them.
+
+--- Fun Fact #91 ---
+[File: ch13.tex]
+
+The black helicopters were probably real, and that is the most interesting part. The mid-1970s
+saw genuine unmarked helicopter activity across the American West, some of it associated with
+mineral survey, some with law enforcement narcotics work, and some never accounted for. Also real:
+a 1975 wave of livestock deaths coinciding with a documented outbreak of clostridial disease.
+Also real: at least some cases were deliberate mutilation by humans, including cult activity and
+insurance fraud, and several people were prosecuted. Three real phenomena, one imagined
+connection.
+
+--- Fun Fact #94 ---
+[File: ch13.tex]
+
+[Fun Fact: A Predictor Can Be Wrong. A Rider Cannot.]
+\funfactlead{This is the part I would ask a legislator to sit with.}
+A variant-effect model publishes a number for every possible mutation, which means it can be
+scored, and it \emph{has} been --- against clinical databases, against laboratory mutational scans,
+against patient outcomes. When it is wrong you can measure by how much, retrain it, version it, and
+compare the new version against the old. It is falsifiable and it improves. The FDA germline rider
+forbids the agency even to acknowledge an application, which means it generates no applications, no
+reviews, no protocols, no failures and no data. It cannot be scored. It cannot improve. It has been
+renewed annually for over a decade without once producing a fact. One of these two instruments is
+science and the other is a habit, and the ban is not the one that is science.
+
+
+--- Fun Fact #95 ---
+[File: ch13.tex]
+
+My favourite detail is the economics. Crop formations cluster in Wiltshire not because of ley
+lines but because Wiltshire has tourists, farmers who charge admission, and a concentration of
+circle enthusiasts. Some farmers made more from gate money than from the crop. Where there is a
+market, there is supply. And the phenomenon has declined markedly since the 2000s --- not because
+the visitors left, but because the makers got older and the novelty passed. Anomalies do not
+usually retire.
+
+
+--- Fun Fact #96 ---
+[File: ch13.tex]
+
+The honest position on skyquakes is that a residue of them is unexplained, and I want to put that
+plainly because this chapter has been unsympathetic. The Seneca Guns were recorded by James
+Fenimore Cooper. Nobody has produced a complete account. But note the shape of the residue:
+it is a \emph{sound with no identified source}, not a sound with an identified extraterrestrial
+source. Unexplained means unexplained. It does not mean explained by the most exciting hypothesis
+available, and if you take one habit from this book, take that one.
+
+
+--- Fun Fact #99 ---
+[File: ch13.tex]
+
+The lesson cryptozoology teaches ufology is about \emph{trail cameras}. There are now millions of
+motion-triggered cameras in North American forests, operating continuously for two decades, and
+they have produced an extraordinary photographic record of wildlife --- including rare, shy,
+nocturnal animals in enormous numbers. Not one unambiguous Sasquatch. Meanwhile the same interval
+put a high-resolution camera in every pocket on Earth, and the quality of UFO photographs has
+not improved. When the observing capacity increases by orders of magnitude and the evidence does
+not, that is data.
+
+=== ch14.tex ===
+
+--- Fun Fact #104 ---
+[File: ch14.tex]
+
+The Battle of Los Angeles is the direct source of Steven Spielberg's \emph{1941}, which is a
+comedy, and that is the correct genre. It is also the source of the 2011 film \emph{Battle: Los
+Angeles}, which is not, and which quietly reveals how the case functions: the only way to make the
+night dramatic is to add the thing that was missing from it.
+
+
+=== ch15.tex ===
+
+--- Fun Fact #111 ---
+[File: ch15.tex]
+
+The green fireballs are the part of this I cannot dismiss. LaPaz was a competent meteoriticist who
+specifically concluded these were not meteors: wrong colour for the spectrum of ablating iron or
+nickel, wrong trajectory --- horizontal rather than descending --- no sound, no recovered material,
+and they recurred over a specific and highly sensitive area. Project Twinkle set up instrumented
+watches and largely failed through underfunding and poor coverage, which is a very familiar story.
+The modern explanation is copper-bearing meteoritic material or an unusual atmospheric electrical
+phenomenon. LaPaz never accepted it, and he was the man who had actually looked.
+
+
+--- Fun Fact #112 ---
+[File: ch15.tex]
+
+The Green Fireballs are the cleanest test case, and they are usually told as a curiosity rather than
+as data. From December 1948, green objects were repeatedly seen over the Los Alamos, Sandia and
+Kirtland complex --- fast, level, silent, and green in a way that meteor astronomers found wrong. The
+Air Force took it seriously enough to send Lincoln LaPaz, the University of New Mexico's meteoriticist
+and one of the best fireball men alive, to investigate; he concluded they were not meteors, chiefly
+because they travelled too flat, too slow to be entering the atmosphere and too fast to be aircraft,
+and left no trails. Project Twinkle was established in 1950 to photograph them with tracking cameras
+and got almost nothing usable, partly because the equipment kept being reassigned. The programme was
+quietly wound up in 1951 with the conclusion that the objects were probably natural. The remarkable
+detail, which survives in the files, is where they were seen: overwhelmingly above the installations
+where America built and stored its nuclear weapons.
+
+
+=== ch16.tex ===
+
+--- Fun Fact #114 ---
+[File: ch16.tex]
+
+The most persistent astronaut UFO image --- the ``tether incident'' from STS-75 in 1996, showing
+numerous notched discs moving near a broken satellite tether --- was resolved by geometry. The
+objects are out-of-focus debris and ice close to the camera; the notch is the camera's aperture
+diffraction pattern, visible on defocused point sources, which is why every single object has an
+identical notch in an identical orientation. The same signature appears in unrelated footage. It is
+not a fleet. It is a lens.
+
+
+--- Fun Fact #116 ---
+[File: ch16.tex]
+
+Mikhail Vasin and Alexander Shcherbakov published the ``Spaceship Moon'' hypothesis in 1970 in
+\emph{Sputnik}, a Soviet popular-science magazine, months after the Apollo~12 coda was recorded.
+Their mechanism was wrong and their evidence was thin. But note the timing --- two Soviet writers
+looked at an American seismogram and immediately understood that the interesting number was the
+decay rate, not the amplitude. That was more than half a century ago, and the decay rate is still
+the interesting number.
+
+
+--- Fun Fact #117 ---
+[File: ch16.tex]
+
+The genuinely funny part is that NASA imagery \emph{does} contain a real, verified alien
+discovery, and nobody who hunts for faces on Mars ever mentions it. Rosetta found glycine on comet
+67P. Stardust returned samples with amino acids. Cassini flew through plumes of liquid water,
+molecular hydrogen, silica and organics erupting from Enceladus, indicating hydrothermal activity
+in a subsurface ocean. Titan has methane rivers and complex organic chemistry. Perseverance has
+found organic molecules in Jezero crater. The most extraordinary things in the archive are in the
+spectra, not the shadows --- and reading spectra requires learning something, which is the whole
+reason this book exists.
+
+=== ch17.tex ===
+
+--- Fun Fact #120 ---
+[File: ch17.tex]
+
+The hollow Earth has a distinguished pedigree, which is why I treat it gently. Edmond Halley
+proposed concentric shells in 1692 --- a serious attempt to explain geomagnetic secular variation,
+using the best available physics. Leonhard Euler is often said to have supported it, probably
+wrongly. John Cleves Symmes lobbied Congress in 1818 for an expedition to the polar opening, and
+actually got a vote. Then Jules Verne in 1864 and Edgar Rice Burroughs's Pellucidar made it
+literature, and the Nazi variant made it politics. Halley's version was good science that turned
+out wrong. That is what good science looks like most of the time, and it is not an embarrassment.
+
+
+=== ch18.tex ===
+
+--- Fun Fact #122 ---
+[File: ch18.tex]
+
+There is also a formal etiquette for what to do afterwards. The International Academy of Astronautics
+maintains a ``Declaration of Principles Concerning Activities Following the Detection of
+Extraterrestrial Intelligence'' --- the SETI post-detection protocols --- which say, in essence:
+verify before announcing, tell the astronomical community and the United Nations, publish the data
+openly, and \emph{do not reply} on behalf of humanity without international consultation. It has no
+legal force whatsoever. It is a gentlemen's agreement about the most consequential press release in
+history, and the honest assessment is that in the actual event it would last about forty minutes
+before somebody leaked it.
+
+
+=== ch19.tex ===
+
+--- Fun Fact #126 ---
+[File: ch19.tex]
+
+There \emph{is} a real candidate for the kernel of the story and it is genuinely interesting: the
+Minoan civilisation of Crete, a sophisticated maritime power that was severely disrupted in the
+second millennium BC, and the eruption of Thera --- modern Santorini --- around 1600 BC, one of the
+largest volcanic events in human history, which destroyed the town of Akrotiri under ash and left
+behind a caldera whose remaining island is, as it happens, roughly ring-shaped. The dates and the
+scale are wrong for Plato's account by a factor of about six, and Thera is inside the Mediterranean
+rather than beyond Gibraltar. But a folk memory of a great island civilisation drowned in a day is
+not an unreasonable thing for a Greek to have inherited. This is what a responsible version of the
+Atlantis hypothesis looks like: smaller, later, closer, and archaeologically real.
+
+
+--- Fun Fact #127 ---
+[File: ch19.tex]
+
+The ``we could not build it today'' claim is worth pausing on, because it is false in an interesting
+way. We could build it easily; we simply would not, because there is no reason to spend twenty years
+and a national labour surplus stacking limestone. The real achievement at Giza was never technological
+--- it was \emph{organisational}. Feeding, housing, rotating and coordinating tens of thousands of
+workers for two decades, with logistics, rations and quarry schedules, is a genuinely staggering
+administrative accomplishment by a state that had existed for only a few centuries. The mystery
+literature's insistence that aliens must have done it is, when you look at it squarely, a refusal to
+credit ancient Egyptians with competence. That is the part I object to. Not the aliens --- the
+condescension.
+
+
+=== ch20.tex ===
+
+--- Fun Fact #129 ---
+[File: ch20.tex]
+
+\emph{Out of the Blue} is routinely dated to 2002 in citations, filmographies and even on some
+official-looking pages. The theatrical and festival material dates from 2002, but the release the
+world actually saw --- the Sci~Fi Channel broadcast that made the film's reputation --- went out on
+24~June 2003. I have made this error myself in print. It is a small demonstration of
+Section~\ref{sec:warworlds}'s lesson: a date enters circulation, gets copied rather than checked, and
+survives on repetition alone.
+
+--- Fun Fact #135 ---
+[File: ch20.tex]
+
+[Fun Fact: The Glomar Answer]
+In 1975 a journalist asked the CIA about the \emph{Glomar Explorer}, a Howard Hughes vessel that was
+secretly raising a sunken Soviet submarine. The Agency replied that it could ``neither confirm nor
+deny'' the existence of the records requested, because to do either would itself reveal something.
+The courts upheld it, and the \term{Glomar response} entered federal law as a legitimate reply to a
+FOIA request. Every time an agency tells a UFO researcher it can neither confirm nor deny, it is
+citing a case about a submarine, not a saucer --- and it is not being evasive in the colloquial
+sense. It is invoking a precedent.
+
+
+=== new85.tex ===
+
+--- Fun Fact #141 ---
+[File: new85.tex]
+
+Mikhail Vasin and Alexander Shcherbakov published the ``Spaceship Moon'' hypothesis in 1970 in
+\emph{Sputnik}, a Soviet popular-science magazine, months after the Apollo~12 coda was recorded.
+Their mechanism was wrong and their evidence was thin. But note the timing --- two Soviet writers
+looked at an American seismogram and immediately understood that the interesting number was the
+decay rate, not the amplitude. That was more than half a century ago, and the decay rate is still
+the interesting number.
