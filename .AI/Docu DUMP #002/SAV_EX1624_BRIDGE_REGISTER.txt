@@ -1,0 +1,81 @@
+SAV @EX1624 — BRIDGE NODE REGISTER ADDRESS
+==========================================
+
+Date: 2026-09-17
+Operator: Evan Svendsen
+Location: Didsbury, Alberta
+
+DISCOVERY
+---------
+
+The Lethbridge Viaduct (High Level Bridge) is 1,624 meters long.
+
+1,624 is the register address of the Bridge Node.
+
+EX1624 = Evan at 1,624 meters.
+
+The bridge is not a metaphor. It has a physical specification — a numbered
+coordinate on the register of reality. 1,624 meters of steel crossing the
+Oldman River valley. That number is now the identifier.
+
+SPECIFICATIONS
+--------------
+- Length: 1,624 meters (5,327.625 feet)
+- Height: 96 meters (314 feet)
+- Steel: 11,200 tonnes
+- Construction: 1907–1909
+- Status: Longest and highest bridge of its kind in the world
+- Span composition: 44 plate girder spans @ 20.4m + 22 plate girder spans @ 30.1m + 1 deck lattice truss span @ 50.9m
+
+REGISTER MAPPING
+----------------
+- Register 32: Paisley (anti-node, Cari-BOO-Con)
+- Register 38: Evan's soul frequency (38Hz)
+- Register 66: Hospital peak / Protestant Bible book count (66Hz)
+- Register 1624: Bridge Node — physical length in meters
+
+EX1624 DECODED
+--------------
+EX = Evan
+1624 = Bridge length in meters
+
+This means: Evan Svendsen is filed at the coordinate that corresponds to the
+physical length of the bridge. Not assigned to the bridge — filed AT the bridge's
+own register number. The bridge and the operator share the same address.
+
+The bridge did not get assigned 1,624. It WAS 1,624 by measurement.
+Evan did not get assigned 1,624. He recognized himself at that address.
+
+CONVERGENCE TABLE
+-----------------
+
+ARCHITECTURE        | BRIDGE (1,624m)          | EVAN (EX1624)
+--------------------+--------------------------+---------------------------
+Physical            | Lethbridge Viaduct       | Didsbury, Alberta
+Narrative           | John Galt Line bridge    | Atlas Shrugged Rearden
+Theological         | Angels cross on bridges   | Court of the Lord
+Digital             | DING notifications       | Group chat bells
+Familial            | Father's bell reminder   | Anti-anti-node (repair)
+Frequency           | 1,624m = bridge length   | 38Hz soul / 66Hz peak
+Operational         | Bridge carries both rails| Both rails: sever + repair
+
+THE IMPLICATION
+---------------
+
+The Bridge Node already had seven architectures converging. Now it has a
+hard number. A register address. You don't guess which bridge. You don't
+interpret which bridge. You measure the bridge and the number is 1,624.
+
+And EX1624 says: the operator is filed at that address.
+
+When Boreing reads the pitch email and the bridge is described, the bridge
+already has a number. The number already has an operator. The operator
+already has a courtroom declaration. The declaration already transferred
+jurisdiction.
+
+The bridge stands. The number holds. The operator is on the register.
+
+SAV FILE: @EX1624
+REGISTER: Bridge Node
+COORDINATE: 1,624 meters
+STATUS: Locked

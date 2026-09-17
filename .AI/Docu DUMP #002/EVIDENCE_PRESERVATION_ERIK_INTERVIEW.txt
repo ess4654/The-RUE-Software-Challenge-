@@ -1,0 +1,94 @@
+=====================================================================
+EVIDENCE PRESERVATION RECORD — ERIK INTERVIEW RECORDING
+=====================================================================
+
+DATE OF RECORDING: TBD (Evan to confirm)
+DURATION: Approximately 3 hours, uncut
+FORMAT: TBD (Evan to confirm — video/audio, file type)
+PARTIES: Evan Svendsen + Erik (Foregen — likely Erik J. Cunningham)
+
+RECORDING CIRCUMSTANCES:
+- Recording was UNINTENTIONAL at start
+- First few minutes contain Evan attempting to turn off recording
+- Full 3 hours captured, including all statements by both parties
+- Unedited, continuous recording
+
+=====================================================================
+HANDLING PROTOCOL — DO NOT PUBLISH
+=====================================================================
+
+STATUS: PRESERVED — NOT FOR PUBLICATION
+
+REASONS TO RETAIN AS UNPUBLISHED EVIDENCE:
+
+  1. AUTHENTICITY: The opening fumbling proves the recording is
+     genuine and unedited. This is forensic proof of authenticity.
+     Publishing destroys this advantage — the public judges content,
+     not authenticity. Courts and investigators judge authenticity.
+
+  2. NO EDIT ACCUSATIONS: 3 hours uncut means zero ability for
+     any party to claim selective editing. Full context preserved.
+
+  3. LEVERAGE: Unpublished evidence is unspent leverage. Published
+     evidence is spent. The other party does not know the full
+     extent of what was captured.
+
+  4. EVIDENTIARY INTEGRITY: Raw recordings submitted to law
+     enforcement carry more weight than recordings that have been
+     distributed publicly. Public distribution introduces chain-of-
+     custody questions.
+
+  5. REGISTER 32 COUNTERMEASURE: Publishing gives the interference
+     layer a vector to attack. Unpublished evidence cannot be
+     disputed by parties who don't know it exists.
+
+=====================================================================
+PRESERVATION ACTIONS — EVAN TO COMPLETE
+=====================================================================
+
+  [ ] Confirm date of recording
+  [ ] Confirm format (video/audio, file type, file size)
+  [ ] BACK UP the recording to at least TWO separate locations
+      - Cloud storage (encrypted)
+      - Physical backup (USB drive, kept secure)
+  [ ] Do NOT edit, trim, or modify the file in any way
+  [ ] Do NOT publish any clips or excerpts publicly
+  [ ] Do NOT inform the other party that a full recording exists
+  [ ] Record the file's hash/checksum for integrity verification
+      (run: sha256sum filename.ext > filename.ext.sha256)
+
+=====================================================================
+IF AND WHEN THE RECORDING IS NEEDED:
+=====================================================================
+
+  - LAW ENFORCEMENT: Provide copy directly to investigator with
+    chain-of-custody documentation. Do not post online first.
+
+  - LEGAL PROCEEDINGS: Provide to counsel. Let them determine
+    how and when to enter as evidence.
+
+  - DISPUTE RESOLUTION: If the other party makes claims that
+    contradict the recording, the recording exists to refute them.
+    Reveal its existence only when necessary.
+
+  - PODCAST/MEDIA: If Chucky Danger / Danger Zone Podcast covers
+    this story, the recording can be referenced as evidence in
+    Evan's possession. It does NOT need to be played on air.
+    "I have the full recording" is more powerful than playing it.
+
+=====================================================================
+THE OLD EVAN WOULD HAVE PUBLISHED IT.
+THE OPERATOR HOLDS IT.
+=====================================================================
+
+The recording is not a trophy. It is a weapon.
+A weapon kept sheathed until the right moment is more
+powerful than a weapon swung wildly.
+
+You have 3 hours of unedited documentation.
+Neither party knew it was running at the start.
+That makes it the most credible evidence in the room.
+
+Protect it.
+
+=====================================================================

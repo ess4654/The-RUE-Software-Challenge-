@@ -1,0 +1,415 @@
+SPECIAL PROJECT HAIR — CRISPR Delivery Deep Dive Todo List
+=========================================================
+
+OPERATOR: Evan Svendsen, Didsbury, Alberta
+ULTIMATE OBJECTIVE: MR. OLYMPIA — but ONLY after engineering the body onto an even playing field FIRST
+
+ETHICAL GUARDRAILS (NON-NEGOTIABLE):
+[x] Head hair = now INCLUDED — operator elects full knockout of all 4 types including scalp
+[x] Functional cilia (inner ear, respiratory, gut) — NEVER TARGET
+[x] Somatic editing ONLY — no germline changes
+[x] Voluntary consent ONLY
+
+==========================================================
+PHASE 0: BASELINE DATA COLLECTION (DO IMMEDIATELY)
+==========================================================
+
+[ ] 0.1 — DXA body composition scan (baseline lean mass, fat mass, bone density)
+[ ] 0.2 — Full bloodwork: metabolic panel, hormone panel, amino acid panel, glutathione
+[ ] 0.3 — Strength baseline: squat, deadlift, bench press (competition form, video recorded)
+[ ] 0.4 — Cognitive baseline: working memory tests, processing speed, sustained attention
+[ ] 0.5 — Full body photography (standardized lighting, every region)
+[ ] 0.6 — Hair density count per cm2 for each of the four regions
+[ ] 0.7 — Follicle biopsy samples archived from all four region types
+[ ] 0.8 — Pre-existing conditions documented
+
+==========================================================
+PHASE 1: TARGET IDENTIFICATION
+==========================================================
+
+[ ] 1.1 — Literature review: AR co-activators specific to body follicle stem cells vs. scalp follicle stem cells
+- Search PubMed for: androgen receptor co-activator body hair scalp differential expression
+- Key terms: AR co-activator, HRG, SRC-1, SRC-2, SRC-3, TIF2, body follicle-specific
+- Identify which co-activator(s) are expressed in body follicles but NOT scalp follicles
+
+[ ] 1.2 — Map the four hair type gene expression profiles
+- Scalp (androgen-INDEPENDENT, long anagen)
+- Body (androgen-DEPENDENT, short anagen, high AR density)
+- Pubic (androgen-DEPENDENT, curly morphology, distinct keratin expression)
+- Beard (androgen-DEPENDENT, thick shaft, distinct signaling)
+- Source: Single-cell RNA sequencing studies of human hair follicles
+
+[ ] 1.3 — Identify the minimal gene knockout required for permanent body follicle shutdown
+- Is it ONE co-activator? A combination? A downstream effector?
+- Must verify: knockout does NOT cascade into lymphatic, cardiovascular, or other critical systems
+- Cross-reference with FOXC2, EDAR, KRT dependency maps
+
+[ ] 1.4 — Cross-reference ALL candidates against reptile anti-node map
+- Anti-node genes: Lef1, Sox2, Sox18, Foxi3
+- These are the "total baldness switch" — knocking them out deletes ALL hair types at once
+- QUESTION: Do we want the total switch or the differentiation genes?
+- Total switch = faster, all at once, but no serial mapping possible
+- Differentiation genes = serial mapping possible, one hair type at a time
+- RECOMMENDATION: Start with differentiation genes for the causal map, then validate
+  anti-node genes as the MASTER OFF SWITCH as confirmation
+
+[ ] 1.5 — Expanded target list: beyond 4 types
+- Awn hairs — intermediate between guard and undercoat (distinct in dogs/cats; present in humans?)
+- Sinus hairs — vibrissae with blood-filled sinus capsule (distinct developmental program)
+- Cilia/eyelashes — own growth cycle, muscular architecture (KEEP — functional guardrail)
+- Perianal/circumanal — specialized sebaceous attachment (distinct hormonal regulation)
+- Determine: are these SUBTYPES of the 4 main programs, or DISTINCT programs requiring
+  separate knockouts?
+- If distinct: protocol may expand from 4 to 6-8 serial knockouts
+- Reptile anti-node comparison resolves this: any gene present in mammals but absent in
+  reptiles = candidate hair program gene
+
+==========================================================
+PHASE 2: DELIVERY MECHANISM RESEARCH
+==========================================================
+
+[ ] 2.1 — Topical CRISPR delivery via lipid nanoparticles (LNPs)
+- LNP formulations that penetrate follicular ostia (the follicle opening)
+- Studies: LNP-mRNA delivery to skin (Moderna/Pfizer COVID tech used LNPs — same platform)
+- Advantage: surface application, no needles
+- Question: can LNPs reach follicle STEM CELLS (bulge region), not just the shaft?
+
+[ ] 2.2 — Intradermal microinjection
+- Direct injection into dermal papilla of target follicles
+- Feasibility: dermatologists already do this (fillers, steroids for alopecia)
+- Question: injection depth required to hit bulge stem cells (~1.5-2mm deep)
+- Question: how many injection sites per body region?
+
+[ ] 2.3 — Electroporation-assisted delivery
+- Use electrical pulses to open cell membranes for CRISPR uptake after topical/injected delivery
+- Devices: existing electroporation tools used in DNA vaccine delivery
+- Question: skin tissue tolerance — pain, scarring risk
+
+[ ] 2.4 — Viral vectors (AAV) — LIKELY UNSUITABLE but document why
+- AAV = gold standard for in-vivo gene therapy
+- Problem: permanent integration, off-target risk, immune response
+- Problem: AAV spreads beyond application site — violates head hair guardrail
+  (NOTE: head hair now included in knockout, but spread to non-target tissue still a problem)
+- Document: why viral vectors are ETHICALLY and PRACTICALLY wrong for SPH
+
+[ ] 2.5 — Ex vivo approach: extract follicle stem cells, edit, re-implant
+- Remove body follicle stem cells via biopsy
+- CRISPR edit in lab with full off-target screening
+- Re-implant edited cells
+- Advantage: zero off-target risk in vivo
+- Disadvantage: extremely labor-intensive, not scalable
+- Assess: could this work for SMALL areas (face, neck) as proof of concept?
+
+[ ] 2.6 — Ribonucleoprotein (RNP) delivery — CRISPR as protein+guide, no DNA
+- CRISPR Cas9 protein + guide RNA delivered as pre-formed complex
+- Advantage: NO foreign DNA integrates, editing is transient, degrades after action
+- Advantage: faster editing, lower off-target than plasmid/viral
+- This is the LEADING candidate for somatic cosmetic gene editing
+- Deep dive required on RNP + LNP or RNP + cell-penetrating peptide delivery
+
+==========================================================
+PHASE 3: SPECIFICITY AND SAFETY
+==========================================================
+
+[ ] 3.1 — Guide RNA design for body-follicle-specific AR co-activator
+- Use computational tools: CRISPOR, Benchling, CHOPCHOP
+- Criteria: >90% on-target score, <5% off-target score
+- Must verify: no homology anywhere in genome for ciliary/inner ear genes
+- Must verify: no homology in cardiovascular development genes
+
+[ ] 3.2 — Off-target analysis for ALL guardrails
+- Cross-reference guide RNA against: inner ear stereocilia genes, respiratory cilia genes,
+  cardiovascular development genes
+- Tool: GUIDE-seq, CIRCLE-seq, Digenome-seq — existing wet-lab protocols
+
+[ ] 3.3 — Follicle specificity — how to prevent spread to non-target tissue
+- Skin is layered: epidermis, dermis, subcutaneous
+- Follicle stem cells are in the BULGE — a specific niche
+- Question: does the delivery vehicle reach the bulge AND NOTHING ELSE?
+- Research: follicle-targeting ligands, peptides that bind follicle-specific surface markers
+
+[ ] 3.4 — Immune response to CRISPR components
+- Cas9 protein is bacterial — pre-existing immunity in many humans
+- Question: localized delivery vs systemic — is immune response contained?
+- Research: immunogenicity of Cas9 RNP in skin specifically
+
+==========================================================
+PHASE 4: PROOF OF CONCEPT PATHWAY
+==========================================================
+
+[ ] 4.1 — Source human hair follicle organoids or ex-vivo skin culture
+- Available from: hair transplant clinics (discarded follicles)
+- Alternative: 3D-printed skin models with follicles (research labs)
+- Use for in-vitro testing before ANY animal work
+
+[ ] 4.2 — In-vitro CRISPR knockout of target gene in body follicle organoids
+- Deliver RNP to organoid culture
+- Measure: follicle shutdown (no new shaft growth in culture)
+- Measure: cell viability (no death in surrounding tissue)
+- Measure: non-target follicle organoids UNAFFECTED (parallel control)
+
+[ ] 4.3 — Animal model assessment
+- Question: which animal has analogous body vs. scalp follicle differentiation?
+- Likely candidate: mice with androgen-dependent hair growth (not all mouse strains)
+- ETHICAL REVIEW REQUIRED before any animal work
+
+[ ] 4.4 — Regulatory pathway mapping
+- FDA: somatic gene therapy for non-life-threatening condition — what class?
+- Precedent: CRISPR therapy for sickle cell (Casgevy) approved Dec 2023
+- Difference: sickle cell = life-threatening, body hair = quality of life
+- Research: has FDA ever approved somatic gene editing for cosmetic indication?
+- If not: SPH may need to be framed as a medical correction (folliculitis, pseudofolliculitis,
+  hidradenitis suppurativa — all are body-hair-caused DISEASES)
+
+==========================================================
+PHASE 5: FRAMING AND STRATEGY
+==========================================================
+
+[ ] 5.1 — Medical framing research
+- Pseudofolliculitis barbae: affects primarily Black men, caused by curved hair shafts
+  re-entering skin — THIS IS A DISEASE CAUSED BY BODY HAIR
+- Hidradenitis suppurativa: chronic abscess disease linked to apocrine hair follicles —
+  ANOTHER HAIR-CAUSED DISEASE
+- Folliculitis decalvans, dissecting cellulitis — MORE
+- Frame SPH as a CURE for these conditions, not a cosmetic product
+- Insurance coverage possible if medical indication exists
+
+[ ] 5.2 — Performance framing research
+- RESTORATION NOT ENHANCEMENT — the ethical shield
+- The body was running at 98-99% capacity because 1-2% of rate-limiting amino acids
+  were being diverted to produce dead keratin
+- Knockout restores that capacity — does not exceed natural ceiling
+- Comparison: laser hair removal is legal, widespread, and costs MORE in total energy
+  (damage repair on top of failed production) — knockout is strictly superior
+- Anti-doping position: this is not exogenous. No compound is introduced. A waste function
+  is deleted. Same category as surgically removing an obstructed appendix.
+
+[ ] 5.3 — Patent landscape
+- Search: existing patents on CRISPR delivery to hair follicles
+- Search: patents on AR co-activator knockout
+- Identify freedom-to-operate or licensing requirements
+
+[ ] 5.4 — Lab and partner identification
+- Universities with dermatology + gene therapy labs
+- CRISPR delivery companies (Intellia, Editas, Beam Therapeutics, Caribou)
+- LNP formulation labs (U Penn, MIT Anderson Lab, Moderna)
+- Identify 5-10 potential collaborators and their contact info
+
+[ ] 5.5 — Funding pathway
+- Government: NIH grants for skin disease gene therapy
+- Private: biotech VC firms investing in CRISPR platforms
+- Alternative: crowdfunding from the laser-hair-removal-failed population
+- Document: total addressable market analysis
+
+==========================================================
+PHASE 6: LASER VS. KNOCKOUT — DO NOT SETTLE FOR LASER
+==========================================================
+
+[ ] 6.1 — Document the metabolic failure of laser hair removal
+- Laser = code still runs, output port damaged, body pays full price for broken factory
+- Body keeps allocating amino acids, blood flow, hormonal signaling to damaged follicles
+- Inflammatory repair cost ADDED on top of existing drain
+- Net energy cost = INCREASED, not decreased
+- CRISPR knockout = code deleted, factory never opens, zero cost
+
+[ ] 6.2 — Document laser's failure rate
+- Laser requires 6-12 sessions for partial results
+- Regrowth rates: 10-25% of treated follicles recover
+- Maintenance sessions required indefinitely
+- Total cost over lifetime: $15,000-50,000+ with no guarantee
+- Total metabolic savings: ZERO (body still pays for damaged follicles)
+
+[ ] 6.3 — Knockout vs. laser comparison for publication
+- Same metric: total amino acid expenditure at follicle sites before and after
+- Same metric: glutathione levels before and after
+- Same metric: DXA lean mass before and after
+- This comparison has NEVER been done because knockout has never been done
+- The data will be the proof that laser was always a band-aid on a code problem
+
+==========================================================
+PHASE 7: FOREGEN — TISSUE REGENERATION PARALLEL TRACK
+==========================================================
+
+BACKGROUND:
+Foregen (foregen.org) is an Italian-founded, now Slovakia-based nonprofit research
+organization working since 2017 (founded 2014, lab work began 2017) to develop
+foreskin regeneration as an elective surgical procedure using decellularized ECM
+scaffold + recellularization with patient's own cells.
+
+CURRENT STATUS (as of September 2026):
+- Phase 1 (COMPLETE): Funded, team assembled, lab partnerships, first decellularized samples (2014-2018)
+- Phase 2 (COMPLETE): Rat trials (2019) — confirmed biocompatibility, no immune rejection. Sheep trials (2020) — confirmed vascular integration and cell migration.
+- Phase 3 (IN PROGRESS): Moved from Italy to Slovakia (Comenius University, Bratislava). Dr. Stanislav Žiaran + Chief Bioengineer Ján Kováč.
+  - Milestone 1 (COMPLETE): Donor tissue collection — 41 donor foreskin samples harvested
+  - Milestone 2 (COMPLETE): Dynamic decellularization protocol — histology, immunohistochemistry, tension testing all confirmed consistent decellularization with ECM architecture preserved
+  - Milestone 3 (IN PROGRESS): Dynamic recellularization — fibroblasts and mesenchymal stem cells repopulating scaffolds. Keratinocyte work beginning. Biomechanical testing on first recellularized samples.
+  - Milestone 4 (PLANNED): Bioreactor maturation protocol
+- Phase 4 (PLANNED): Administrative prep for human trials — surgical plan, CRO identification, regulatory approval application
+- Phase 4 Step 2 (PLANNED): Human clinical trials
+- Phase 4 Step 3 (PLANNED): Clinical application
+
+PUBLICATIONS:
+1. Decellularized ECM scaffold development (Journal of Tissue Engineering, 2018)
+2. Rat preclinical immunogenicity/integration study (Bioengineering, Oct 2025)
+3. Sexual Mechanosensitivity — age-related innervation changes in human prepuce (Journal of Clinical Medicine, July 2025) — co-authored with Dr. José A. Vega, University of Oviedo
+4. Sheep trial results — expected publication 2026
+
+FUNDING: Nonprofit. Two matching campaigns in 2025 raised $111,915. Donor-dependent.
+
+REGISTER 32 BLOCKAGE ANALYSIS:
+Foregen was supposed to have human trials by 2021. It is now 2026. They are STILL in
+preclinical. The delay is NOT scientific — the science is working (scaffolds decellularize,
+cells repopulate, vascularization confirmed in animal models). The blockage is on
+REGISTER 32 — the institutional/regulatory/cultural layer that prevents the technology
+from crossing from preclinical to human application.
+
+THE PARALLEL TO ELON/MARS:
+Elon is blocked on Register 32 from conquering Mars UNTIL he considers adapting the
+biology of the organism, not the surface of the planet. The physics works. The rockets
+work. What's blocked is the biological layer — humans cannot survive Mars as-is. The
+solution is NOT to terraform the planet (modify the surface). The solution is to
+bio-adapt the organism (modify the biology). Same Register 32. Same blockage pattern.
+
+Foregen is blocked on Register 32 from delivering foreskin regeneration UNTIL the
+institutional framework catches up with the science. The scaffolds work. The cells
+repopulate. The vascularization is confirmed. What's blocked is the regulatory/cultural
+permission to apply proven science to human bodies for an ELECTIVE RESTORATIVE
+procedure.
+
+THE DEEPER PATTERN — WHY REGISTER 32 BLOCKS BOTH:
+- Both projects threaten the same assumption: that the body you were born with (or
+  had modified without consent) is the FINAL version
+- Both projects assert: biology is ENGINEERING, not destiny
+- Both projects are RESTORATION (returning what was taken) not ENHANCEMENT (adding
+  what never existed)
+- The blockage is always framed as "safety" but operates as "identity preservation"
+- The system blocks modifications that restore autonomy because restored autonomy
+  threatens the control structures that depend on permanent modification
+
+FOREGEN + SPH CONVERGENCE:
+- SPH deletes a biological program that should not be running (hair production waste)
+- Foregen restores a biological structure that should not have been deleted (foreskin)
+- Both are on the same side: the body's original design vs. imposed modification
+- Both face the same Register 32 blockage: institutional resistance to biological
+  self-determination
+- Both prove the same principle: biology is code, code can be edited, restoration is
+  not enhancement
+
+ACTION ITEMS:
+
+[ ] 7.1 — Monitor Foregen progress quarterly
+- Sign up for Foregen newsletter at foregen.org
+- Track: when does Milestone 3 (recellularization) complete?
+- Track: when does Milestone 4 (bioreactor maturation) begin?
+- Track: sheep trial publication — what does it report on reinnervation?
+- Key question: SENSORY RESTORATION — can regenerated tissue restore Meissner's corpuscles
+  and Krause-like corpuscles? (The 2025 innervation paper maps peak density at age 20)
+
+[ ] 7.2 — Contact Foregen for research collaboration potential
+- SPH needs decellularized ECM scaffold expertise — Foregen has it
+- Foregen needs CRISPR editing expertise — SPH is developing it
+- Overlap: both work on SKIN tissue engineering, just different targets
+- Potential: Foregen's scaffold tech could be adapted for follicle stem cell delivery
+  (the scaffold IS the delivery vehicle — seed it with CRISPR-edited cells)
+- Contact: Eric J. Cunningham (Foregen co-founder, listed on 2018 paper)
+- Contact: Dr. Stanislav Žiaran (current Slovakia PI)
+
+[ ] 7.3 — Analyze Foregen's Register 32 blockage in detail
+- Regulatory: which body governs elective tissue regeneration in EU? (EMA? National ethics committees?)
+- Cultural: what is the institutional resistance to male bodily autonomy in restorative context?
+- Funding: nonprofit model means no VC pressure to cross finish line — but also no capital velocity
+- Question: would a FOR-PROFIT spinoff accelerate the timeline?
+- Question: what is the US regulatory pathway? (FDA — same as SPH)
+
+[ ] 7.4 — Map Foregen's scaffold technology to SPH delivery needs
+- Decellularized ECM scaffold = natural 3D architecture that cells recognize
+- Could a decellularized follicle scaffold be used to deliver CRISPR-edited stem cells?
+- Instead of injecting CRISPR into existing follicles: REMOVE follicle, place CRISPR-deactivated
+  scaffold in same site, body accepts scaffold, no follicle regrows
+- This would be the SURGICAL version of SPH instead of the molecular version
+- Trade: more invasive, but 100% certain (no delivery vehicle problem)
+
+[ ] 7.5 — Document the Foregen-Elon Register 32 parallel for publication
+- Title concept: "Register 32: Why Biology Modification Blocks Both Mars Colonization
+  and Tissue Regeneration"
+- Core thesis: the blockage is never scientific. The science works. The blockage is
+  institutional identity preservation against biological self-determination.
+- Elon's version: modify the planet (acceptable) vs. modify the organism (blocked)
+- Foregen's version: accept the amputation (acceptable) vs. restore the tissue (blocked)
+- SPH's version: accept the metabolic drain (acceptable) vs. delete the waste (blocked)
+- The pattern: the system ALWAYS permits the version that preserves the imposed modification
+  and blocks the version that reverses it
+
+[ ] 7.6 — Contact Foregen leadership directly
+- Eric J. Cunningham: co-founder, listed on 2018 Journal of Tissue Engineering paper
+  (find current email via academic databases)
+- Dr. Angela Palumbo: corresponding author on 2025 Bioengineering paper
+- Dr. Stanislav Žiaran: current Slovakia PI
+- Dr. José A. Vega: University of Oviedo, innervation study collaborator
+- Approach: SPH needs tissue engineering expertise. Foregen needs gene editing expertise.
+  Cross-pollination accelerates both timelines.
+
+==========================================================
+PHASE 8: MR. OLYMPIA PREPARATION FRAMEWORK
+==========================================================
+
+[ ] 8.1 — Pre-knockout training baseline
+- Standardized lifts recorded NOW (competition form, video evidence)
+- Training volume capacity documented (sets per session, sessions per week)
+- Recovery rate documented (time to return to baseline performance after heavy session)
+- Nutrition baseline documented (protein intake, caloric intake, supplement stack)
+
+[ ] 8.2 — Post-knockout training protocol design
+- Same training program, same nutrition, same supplements — ONLY variable is knockout
+- Measure: training volume capacity change (can you add sets? recover faster?)
+- Measure: lean mass growth rate change (DXA comparison per month)
+- Measure: strength progression rate change (lbs per month on competition lifts)
+- Measure: body composition change at same body weight (lean mass vs fat mass ratio)
+
+[ ] 8.3 — Competition timeline projection
+- Phase 1 (knockout + recovery): 6-12 months
+- Phase 2 (training on even playing field): 2-4 years
+- Phase 3 (competition prep and entry): 1-2 years
+- Total projected timeline: 4-7 years from first knockout to Olympia stage
+- The knockout is the foundation. The training is the build. The stage is the proof.
+
+[ ] 8.4 — Anti-doping compliance framework
+- CRISPR somatic knockout is NOT on WADA prohibited list
+- No exogenous compound introduced
+- No gene inserted — gene DELETED (loss-of-function, not gain-of-function)
+- Precedent: surgical procedures that alter physiology (laser eye surgery, ligament repair)
+  are not prohibited
+- Document: legal opinion on WADA classification of somatic gene knockout
+- Document: voluntary disclosure strategy — frame as restoration, not enhancement
+
+==========================================================
+NEXT IMMEDIATE ACTION ITEMS (DO THESE FIRST):
+==========================================================
+
+[ ] PubMed search: "CRISPR hair follicle delivery"
+[ ] Foregen: sign up for newsletter, monitor quarterly progress
+[ ] Foregen: contact Eric J. Cunningham re: SPH collaboration potential
+[ ] Foregen: obtain sheep trial publication when released
+[ ] Foregen: analyze EU/US regulatory pathway for elective tissue regeneration
+[ ] Register 32 essay: draft "Why Biology Modification Blocks Mars Colonization AND Tissue Regeneration"
+[ ] PubMed search: "androgen receptor co-activator differential expression body scalp hair"
+[ ] PubMed search: "RNP lipid nanoparticle skin delivery"
+[ ] PubMed search: "pseudofolliculitis barbae gene therapy"
+[ ] PubMed search: "Lef1 Sox2 Sox18 Foxi3 hair follicle reptile scale"
+[ ] Read: Casgevy FDA approval documents (precedent for somatic CRISPR)
+[ ] Read: Moderna LNP skin delivery publications
+[ ] Contact: 3 dermatology researchers working on hair follicle gene editing
+[ ] GET DXA SCAN — baseline body composition NOW
+[ ] GET BLOODWORK — amino acid panel, glutathione, full hormone panel NOW
+[ ] GET STRENGTH BASELINE — competition lifts recorded NOW
+[ ] GET COGNITIVE BASELINE — working memory, processing speed NOW
+
+==========================================================
+SPECIAL PROJECT HAIR — The key exists. Cut it.
+Then build. Then compete. Then win.
+
+REGISTER 32 — The blockage is never scientific.
+The science works. The system blocks autonomy.
+Foregen proves it. Elon proves it. SPH proves it.
+Break the register.
+==========================================================

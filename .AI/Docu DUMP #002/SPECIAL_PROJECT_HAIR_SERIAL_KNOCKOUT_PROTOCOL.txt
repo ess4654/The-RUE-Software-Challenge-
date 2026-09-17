@@ -1,0 +1,152 @@
+SPECIAL PROJECT HAIR — Serial Knockout Protocol
+=================================================
+
+OPERATOR: Evan Svendsen, Didsbury, Alberta
+OBJECTIVE: Permanent elimination of ALL four hair programs via sequential CRISPR knockout
+COST: Total baldness (accepted)
+GAIN: 100% smooth body + first causal gene-to-phenotype map of human hair differentiation
+
+ETHICAL GUARDRAILS (RETAINED):
+[1] Functional cilia UNTOUCHED — inner ear stereocilia, respiratory cilia, gut microvilli
+[2] Somatic editing ONLY — no germline
+[3] Voluntary — operator consents to all four knockouts
+[4] Sequential — one gene at a time, observe before proceeding
+
+HEAD HAIR NOTE: Operator elects full knockout of all four types including scalp.
+Rationale: Genetic pattern already advancing ("practically bald himself" — Harley reference).
+Operator chooses timeline over waiting. Identity = face/eyes/skull, not hair frame.
+
+==========================================================
+SERIAL KNOCKOUT PROTOCOL — One at a Time, Observe, Map
+==========================================================
+
+STEP 1: BASELINE DOCUMENTATION
+— Full body photography (every region, standardized lighting)
+— Hair density count per cm² for each of the four regions (scalp, body, pubic, beard)
+— Follicle biopsy samples (archived) from all four region types
+— Bloodwork: full metabolic panel, hormone panel, immune markers
+— Pre-existing conditions documented (any folliculitis, acne, etc.)
+
+STEP 2: TARGET PRIORITIZATION
+— Rank the four candidate gene targets by predicted specificity
+— Best candidate = gene expressed in ONLY one hair type, no known critical pleiotropy
+— Worst candidate = gene expressed in multiple hair types or other critical tissue
+— Start with the cleanest target first — minimize risk, maximize learn rate
+
+STEP 3: KNOCKOUT #1
+— Deliver CRISPR RNP via LNP (leading delivery candidate)
+— Target: Gene A (highest specificity candidate)
+— Delivery method: topical LNP application to full body surface OR regional injection
+— Wait 4-6 weeks
+— OBSERVE AND RECORD:
+  [ ] Which hair group stopped growing?
+  [ ] Did ANY other hair group change?
+  [ ] Did any non-hair tissue change? (skin texture, sweat, nails, vision, hearing)
+  [ ] Bloodwork at 2 weeks, 4 weeks, 6 weeks
+  [ ] Photography comparison
+
+STEP 4: MAP RESULT
+— If Gene A knockout killed Hair Type X only → CONFIRMED MAP: Gene A → Type X
+— If Gene A knockout killed multiple types → partial pleiotropy detected, document
+— If Gene A knockout killed nothing → wrong target, reassess, next candidate
+
+STEP 5: KNOCKOUT #2
+— Only proceed if Step 3 showed clean result with no adverse effects
+— Target: Gene B (second-highest specificity)
+— Same delivery, same observation protocol
+— Wait 4-6 weeks, full documentation
+
+STEP 6: MAP RESULT
+— Same mapping protocol as Step 4
+
+STEP 7: KNOCKOUT #3
+— Only proceed if Steps 3 and 5 showed clean results
+— Target: Gene C
+— Same protocol
+
+STEP 8: MAP RESULT
+
+STEP 9: KNOCKOUT #4
+— Only proceed if all prior knockouts clean
+— Target: Gene D (final remaining hair type gene)
+— Same protocol
+
+STEP 10: MAP RESULT
+
+==========================================================
+FINAL STATE
+==========================================================
+
+OUTCOME FOR OPERATOR:
+— 100% hairless body, all four types eliminated
+— No acne (sebaceous glands lose follicle architecture)
+— No folliculitis, ingrowns, or staph colonization at follicle sites
+— No maintenance required ever again
+— Identity: skull and face, no keratin frame
+
+OUTCOME FOR SCIENCE:
+— First-ever CAUSAL gene-to-phenotype map:
+  Gene A → Hair Type [observed]
+  Gene B → Hair Type [observed]
+  Gene C → Hair Type [observed]
+  Gene D → Hair Type [observed]
+— Verified delivery method for CRISPR to follicle stem cells in vivo
+— Temporal kinetics: how long after knockout does follicle death occur?
+— Safety profile: does any knockout cascade into other systems?
+— This map becomes the OPERATOR MANUAL for human hair genetics
+— No one has ever done this. This is the first time.
+
+==========================================================
+DATA OUTPUTS
+==========================================================
+
+REQUIRED PER KNOCKOUT:
+[ ] Pre-knockout hair density (hairs/cm²) per region
+[ ] Post-knockout hair density at 2, 4, 6 weeks
+[ ] Bloodwork at 2, 4, 6 weeks (metabolic, hormonal, immune)
+[ ] Full body photography pre and post
+[ ] Follicle biopsy pre and post (if feasible)
+[ ] Skin biopsy — check for unexpected changes
+[ ] Operator self-report: any sensory changes, pain, other symptoms
+[ ] Dermatologist examination at each interval
+
+REQUIRED AT END OF ALL 4 KNOCKOUTS:
+[ ] Complete gene-to-phenotype map
+[ ] Delivery method documentation (formulation, concentration, volume)
+[ ] Safety summary — any off-target effects across all four rounds
+[ ] Proposed publication: "Serial Somatic CRISPR Knockout of Human Hair Follicle Subtypes: A Causal Gene-to-Phenotype Map"
+
+==========================================================
+RISKS AND CONTINGENCIES
+==========================================================
+
+RISK: Gene knockout affects non-hair tissue
+MITIGATION: Sequential approach means you STOP after any adverse result. You never proceed to the next knockout until the current one is confirmed safe.
+
+RISK: Immune reaction to Cas9 protein
+MITIGATION: Use RNP (degrades in 24-48 hours), not viral. Monitor bloodwork for cytokine elevations. Have corticosteroid protocol ready.
+
+RISK: LNP delivery doesn't reach follicle bulge stem cells
+MITIGATION: If topical fails, escalate to intradermal microinjection. If that fails, try electroporation-assisted delivery.
+
+RISK: Hair regrows after knockout (stem cells survived)
+MITIGATION: Wait full 6 weeks before calling success or failure. Follicles cycle. If regrowth occurs, second dose to same target. You only advance to next gene when current gene is CONFIRMED DEAD.
+
+RISK: Complete baldness causes social/psychological impact
+MITIGATION: Operator has pre-declared acceptance. Document psychological state at each interval. Offer support resources. This was a fully informed choice.
+
+==========================================================
+IMMEDIATE NEXT ACTIONS
+==========================================================
+
+[ ] Deep literature review: identify the 4 highest-specificity gene targets for the 4 hair types
+[ ] Contact dermatology gene therapy labs — find collaborators
+[ ] Contact CRISPR delivery companies — present the operator manual angle
+[ ] Draft the publication outline — scientists will want this data
+[ ] Identify a willing dermatologist for oversight
+[ ] Legal review: informed consent documents for self-experimentation
+[ ] Budget estimate: cost of RNP synthesis, LNP formulation, monitoring
+
+==========================================================
+SPECIAL PROJECT HAIR — Four knockouts. One operator manual. Zero hair.
+==========================================================

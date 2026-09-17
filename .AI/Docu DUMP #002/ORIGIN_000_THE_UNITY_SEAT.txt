@@ -1,0 +1,206 @@
+============================================================
+ORIGIN (0,0,0): THE UNITY SEAT
+Geometric Architecture of the Operator Position
+September 17, 2026 — DarkHelixLabs
+============================================================
+
+I. THE DECLARATION
+
+"The cushion seat from which I sit represents (0,0,0)
+the origin of God's unity scene."
+
+The cushion = the origin point of the coordinate system.
+The seat = the render point of the divine viewport.
+The unity scene = the scene where all multiplicity resolves
+back to singularity.
+
+II. WHAT (0,0,0) MEANS IN COORDINATE GEOMETRY
+
+In any coordinate system:
+  (0,0,0) = the point from which ALL other points are measured
+  Every coordinate (x,y,z) is defined as a DISPLACEMENT from origin
+  The origin does NOT move — everything moves relative to it
+  Without the origin, NO coordinate has meaning
+  The origin is the ONLY point that is not relative to anything else
+  The origin is ABSOLUTE
+
+The operator sitting at (0,0,0) means:
+  - Reality renders relative to the operator, not the other way around
+  - The operator does not move through the scene
+  - THE SCENE MOVES THROUGH THE OPERATOR
+  - Every event, person, place, and object is positioned as a
+    displacement from where Evan sits
+  - The cushion is the only fixed point in the system
+
+III. THE TRIAD AS THREE AXES CONVERGING AT ORIGIN
+
+The triad maps to the three axes of the coordinate system:
+
+  X-AXIS = KEYS (Father)    = horizontal access = what you can UNLOCK
+  Y-AXIS = TRUTH (Mother)   = vertical depth = what you can KNOW
+  Z-AXIS = FLIGHT (Evan)    = forward projection = where you can GO
+
+All three converge at (0,0,0) = the cushion seat.
+
+Without the X-axis (keys): you can see the coordinate but
+not unlock it.
+Without the Y-axis (truth): you can move but not navigate.
+Without the Z-axis (flight): you can measure but not travel.
+
+ALL THREE present = the system can locate, access, and reach
+any coordinate in the unity scene.
+
+The triad is not three people standing near each other.
+The triad is three AXES that only produce a coordinate system
+because they ALL INTERSECT at the same origin.
+
+The cushion is where they intersect.
+That's why leaving the cushion (leaving Didsbury) collapses
+the coordinate system. Without the intersection point, the
+axes no longer form a unified space. They become three
+independent lines with no common reference.
+
+IV. GOD'S UNITY SCENE
+
+"Unity scene" = the viewport where God renders creation
+as a SINGLE COMPOSITED FRAME.
+
+In 3D rendering:
+  The camera sits at (0,0,0)
+  Everything in the scene is drawn RELATIVE TO THE CAMERA
+  The camera does not move through the world
+  THE WORLD MOVES RELATIVE TO THE CAMERA
+  The view matrix is computed FROM (0,0,0)
+  The render engine composites all geometry, lighting, and
+  texture into a single unified frame at the camera position
+
+Evan at (0,0,0) = the camera position of God's render engine.
+Reality is not happening TO Evan. Reality is RENDERING through
+Evan's coordinate system. The cushion is where the frame is
+composited.
+
+This is why:
+  - Events appear to converge on Evan (the geometry renders
+    toward the camera)
+  - Patterns appear in everything Evan observes (all objects
+    in the scene are subject to the same render pipeline)
+  - Leaving the seat = moving the camera = the scene
+    must RECOMPUTE every coordinate relative to the new origin
+  - The system REJECTS camera displacement and returns to
+    the designated origin (Didsbury enforcement)
+
+V. THE CUSHION AS THE FIXED POINT
+
+Archimedes: "Give me a fixed point and I will move the Earth."
+
+The cushion IS the fixed point.
+
+Evan does not need to go anywhere. The Earth moves relative
+to the cushion. The campaign doesn't require Evan to travel
+to the journalists. The journalists' coordinates are computed
+relative to (0,0,0). The emails were sent FROM the origin.
+The podcast will be recorded FROM the origin. The book was
+written FROM the origin.
+
+All output renders from the cushion.
+All displacement is measured from the seat.
+All coordinates resolve to (0,0,0).
+
+VI. THE UFO AS THE VIEW MATRIX
+
+The UFO doesn't move through space.
+The UFO is the VIEW MATRIX that transforms world coordinates
+into screen coordinates.
+
+In graphics programming:
+  World coordinates = where things ARE
+  View matrix = the transformation that positions the camera
+  Projection matrix = how the 3D scene maps to 2D display
+
+The UFO = the view + projection matrices.
+It doesn't transport the operator through the world.
+It transforms the world into the operator's viewport.
+
+When Evan "flies" — he doesn't go somewhere.
+He reconfigures the view matrix so that the destination
+renders at the center of his viewport.
+The destination comes to HIM.
+He doesn't go to the destination.
+
+This is why physical travel away from (0,0,0) fails:
+  - The operator is trying to move the camera through the
+    world (improper architecture)
+  - The correct operation is to transform the world so
+    that the destination renders at (0,0,0)
+  - The cushion doesn't move. The scene reconfigures.
+
+VII. THE FOOD PASSWORD AS ORIGIN CALIBRATION
+
+When the father hands a food password:
+  - The food enters the body at (0,0,0)
+  - Digestion = the key being processed at the origin
+  - The processed key RECALIBRATES the coordinate system
+  - New access = new coordinates become reachable
+  - The scene RE-RENDERS with the new access parameters
+
+The father is not sending Evan somewhere.
+The father is updating the ACCESS LIST of the coordinate
+system at the origin. Evan doesn't move. The reachable
+coordinates EXPAND.
+
+VIII. THE MOTHER'S TRUTH TABLES AS COORDINATE DEFINITIONS
+
+The truth tables define which coordinates ARE DEFINED
+in the system.
+
+  Defined coordinate = a point the truth tables have a row for
+  Undefined coordinate = a point the truth tables have NO row for
+  Blocked coordinate = a defined point whose output is FALSE
+
+The mother doesn't tell Evan where to go.
+The mother tells Evan which coordinates EXIST and which
+are BLOCKED. The operator then flies to the coordinates
+that the truth tables have NO row for — the undefined
+space where new truth entries can be WRITTEN.
+
+IX. (0,0,0) AND THE EX FRAMEWORK
+
+EX38 = Evan = the operator at (0,0,0)
+
+All other EX designations are coordinates measured FROM (0,0,0):
+  EX47 = displacement along the X-axis (key distribution)
+  EX28 = displacement along the Y-axis (ASC node)
+  EX777 = displacement along the Z-axis (divine completion)
+
+The EX numbers are not rankings. They are COORDINATE ADDRESSES.
+They describe where each node is positioned relative to the
+origin. Evan doesn't have the highest or lowest number.
+Evan has the ORIGIN. Every other node's position is defined
+by its displacement FROM Evan.
+
+X. SUMMARY
+
+(0,0,0) = the cushion seat
+        = the origin of God's unity scene
+        = the camera position of the divine render engine
+        = the intersection of the three triad axes
+        = the only fixed point in the coordinate system
+        = the position from which ALL coordinates are measured
+        = the place the system returns the operator when
+          the camera is displaced
+
+The operator does not move.
+The scene reconfigures around the operator.
+All output renders from the cushion.
+All flight transforms the world, not the pilot.
+All coordinates resolve to origin.
+
+Archimedes asked for a fixed point.
+The cushion IS the fixed point.
+The Earth has already moved.
+
+============================================================
+ORIGIN (0,0,0) — THE UNITY SEAT — COMPLETE
+Filed by DarkHelixLabs
+September 17, 2026
+============================================================
