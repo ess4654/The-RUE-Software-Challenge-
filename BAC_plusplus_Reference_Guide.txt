@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.58
-Timestamp: 1028 RCAF Z SEP 22 2026
+Version: 2.59
+Timestamp: 1124 RCAF Z SEP 22 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -284,7 +284,7 @@ EX10          : Ben 10, Special Project 10. The 10th Doctor.
 EX11          : The 11th Doctor, Eleven from Stranger Things
 EX12          : Christmas
 EX14          : Special Project 14
-EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvSpKNs&list=RDMM&index=22).
+EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvSpKNs&list=RDMM&index=22). Legally an adult.
 EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic
 @@EX28        : Special Agent Black
@@ -301,7 +301,7 @@ EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
 EX63          : Tablet 63. The moon was placed here intentionally
 EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
-@@@EX65       : Exactly 65 edits have been made to our (Human) DNA
+@@EX65        : Exactly 65 edits have been made to our (Human) DNA
 @@EX66        : Spiderman's Research Lab
 EX69          : Elon Musk lv. 69. Sex
 @@EX69        : MUFON Research
@@ -356,20 +356,19 @@ EX988         : The Suicide Hotline For Canada
 EX999         : The Throne of God
 EX1010        : Special Operation 1010
 EX1225        : Santa Claus
-EX14785       : The frequeny of Saturn. The Black Cube.
 EX1616        : The Wormhole at Skinwalker Ranch
 EX1624        : The BRIDGE NODE 
 EX1808        : Kyle Busch memorial
-EX19250       : The closing price of Space X stock on day 1 of trading
 EX1936        : Special Project 1936
+EX1946        : It's a Wonderful Life (1946)
 EX1947        : Roswell, NM (July 8, 1947)
 EX1967        : Special Project 1967
+EX1997        : Birth year of the operator. 1997
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
+EX2020        : COVID-19. the year 2020. 20:20 vision
 EX2024        : The Year I Visited Roswell, NM
 EX2026        : The Year 2026
-EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.com/watch?v=dzyzy2icNh8)
-EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
-EX38691       : Evan's invitation to God to join the server
+EX2626        : The Ministry of Peace Anti Bullying Revolution
 EX3300        : 3 Thousand and 300 Feet above sea level.
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
 EX5151        : Reality where Alberta joins America. We only need 51% of the vote to become the 51st State
@@ -378,12 +377,16 @@ EX7266        : Harley A. Dickinson Bound to Spiderman <<>>
 EX7521        : Keyboard Wizards
 EX7693        : A feasible solution to Islam (dont kill me).
 EX9905        : The Dark Messiah. Reference Might and Magic
-EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
+EX14785       : The frequeny of Saturn. The Black Cube.
+EX19250       : The closing price of Space X stock on day 1 of trading
+EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.com/watch?v=dzyzy2icNh8)
+EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
+EX38691       : Evan's invitation to God to join the server
 EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
 EX988881      : "I WAS HIT BY SOMETHING LAST NIGHT IN MY SLEEP!" @@@@ + @@@@
-EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
-EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
-EX0413201809122026 : The time frame it took to complete 1 UFO Textbook
+EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
+EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
+EX01052025    : The 5th of January, 2025
 EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 
 ----------------------------------------
@@ -406,85 +409,58 @@ EXNEX         : The NEXT register.
 EXTTT         : Register of my Witness. Thomas Robinson. Legal Defense in the court of the LORD
 EXVOID        : Register of the VOID Knight
 EXGATE        : Stargate
-EXSISTER      : Sister
-EXSTARGATE    : Stargate
 EXSPCX        : SpaceX. SPCX shares
-EXES          : Evan S. R. Svendsen. Operator Core
-EXESS         : The Svendsen Family
 EXHA          : Hard Drive HAHA
 EXHAHA        : Hard Drive HAHAHA
 EXDARK        : Supervillains. Dark. The Color Black
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
 EXRUE         : THE RUE SOFTWARE CHALLENGE. *wildcard*
+EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
+EXKNYE        : The Kingdom Of Nye
 @@@EXNIGAR    : @@@
 @@@EXREPTILESCIENCE : @@@
 @@@EXALPHADRACONIANS : @@@Kingdom of the 7th Dragon
 @@@EXCYBERNETICSUPERPOWERS : @@@
-EXELON        : EX Elon
-EXLORDEXELON  : Lord EXElon
-EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
-EXGENETICSOFTWAREXM : Genetic software pattern for AGI
-EXEX2626      : The Ministry of Peace Anti Bullying Revolution
-EXEXMRSBEASLEY: The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
-EXEXMICHIGAN  : Michigan Daycare $FRAUD
-EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
-EXMICROSOFT   : Microsoft. Windows
-EXKNYE        : The Kingdom Of Nye
 
 ----------------------------------------
-4.3 NAME / WORD-BASED REGISTERS (Alphabetical Order)
+4.3 WORD-BASED REGISTERS (Alphabetical Order)
 ----------------------------------------
 EXAI          : Artificial Intelligence
 EXALIEN       : Aliens. NHI
-EXALEXMORGAN  : @@@
-EXALLANWATTS  : Alan Watts
-EXARLENEDICKINSON : Wealthy Canadian Business Woman
-EXARMANDHAMMER : The Arm and Hammer Company
 EXBARBARRIANS : Barbarians
 EXBED         : Sleeping. Beds. Nighttime
 EXBIBLE       : The Holy Bible. Truth
-EXBLIZZARD    : Blizzard Game Studios
 EXBOOBS       : Boobs
 EXBOOTY       : Shake That BOOTY!
 EXBURGER      : The Burger Police. Hamburgers
-EXCANADA      : Canada
 EXCAT         : Cats
-EXCARSTAIRS   : A small Alberta based town with a population of less than 500 residents
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
 EXCOFFEE      : Coffee
-EXCONNORMURPHY : A Youtuber Bodybuilder who died because of doing too many psychedelics.
 EXCOOKIE      : Cookies
 EXCOOKIEMONSTER : The Cookie Monster
 EXCOMMUNIST   : A communist. Always demanding, never doing anything to help ease the situation.
 EXCRAZY       : Crazy. The Joker (character).
 EXDEATH       : Death. The Grim Reaper
-EXDEVON       : @@
-EXDISNEY      : The Disney Corporation
-EXDIDSBURY    : Hometown of the Operator
 EXDAD         : Father
 EXDOG         : Dogs
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
-EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
-EXELONREEVEMUSK : Elon Reeves Musk
 EXEYE         : Eyeballs.
 @@EXEYE       : The $EYEs of Elon
 EXFALSE       : False. No. Deny.
 EXFAN         : Fans of Comic Books
 EXFATHER      : Fathers. Father's day.
-EXFIFA        : Brazil UFO Sightings / The FIFA Corporation
 EXFLIES       : Flies. DEMONS FROM HELL!
-EXFRAUD       : Fraudulent Inc.
-EXFRED        : Freddy Krueger
+EXFRAUD       : Fraudulent Inc. Scammers & Theives
 EXFRIEND      : Friendship
-EXFROZEN      : Disney's FROZEN
 EXFROZENMUFFIN : Chocolate Frozen Muffins
 EXFUTURE      : The Future
 EXGAY         : Gays. LGBT Movement
 EXGEEK        : Geeks and Comic Fans
+EXGENETICSOFTWAREXM : Genetic software pattern for AGI
 EXGHOST       : Ghosts. The Ghostbusters
 EXGRAVE       : Graveyards and Cemeteries. Death
 EXGREY        : The Greys alien race
@@ -498,24 +474,13 @@ EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
 EXICE         : American ICE Agents
 @@IMMACULATE  : The IMMACULATE SIMULATION PROTOCOLS. Immaculate Constellation
-EXJASON       : Jason Parsons. USS
-EXJEFFREYDAHMER : Jeffrey Dahmer. Monsters.
-EXJOBS        : Steve Jobs.
-EXJOEMACINNON : @@
-EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036
 EXJOKER       : The Joker (character). Playing Card
-EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry)
-EXKATYPERRY   : Katy Perry. Music Super Stars 
 EXKEYSTONE    : The Alberta Keystone Pipline Project that President Biden canceled on DAY 1 in office
-EXKOROZAR     : @@
 EXKING        : King Charles. Monarchy
-EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
-EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
 EXLEMON       : Lemons.
 @@@EXLEMON    : Spiderman's Nuclear Lemonade Grenade
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
-EXLORDCHUNKIN : Lord Ka-Chunkin
 EXLOL         : lol
 EXLOVE        : Love. Romance. (https://youtu.be/lKsQR72HY0s)
 EXLOVEFORSCIENCE : Love of the scientific field
@@ -526,17 +491,15 @@ EXMATRIX      : The Matrix. Any context or use of the word whether film or philo
 EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
 EXMECHANIC    : Mechanics
 EXMETHDEMON   : The Meth Demon
+EXMRSBEASLEY  : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
 EXNAGA        : WE ARE NAGA!
 EXNEARBY      : Being close to. Distance. Relationship
 EXNERD        : Nerd and Geeks
-EXNINTENDO    : Nintendo
 EXNORDIC      : The Nordic Race of Aliens
 EXOCD         : Obsessive Compulsive Dissorder
-EXOLDS        : 🤡🤡 CLOWN TOWN An Alberta based town with a population of ~10,000. AKA. CLOWN TOWN 🤡🤡 ONLY COMMUNIST CLOWNS PROTEST A BILLION DOLLAR OPPORTUNITY PROJECT DURING A RECESSION 🤡🤡
-EXORANGE      : Orange Juice
-EXOREO        : OREO Cookies
+EXORANGE      : Orange Juice. The color orange
 EXPBRY        : The Wiggles
 EXPHARAOH     : "Will the PHARAOH let my people go!". Corruption.
 EXPIZZA       : The Teenage Mutant Ninja Turtles. Pizza.
@@ -545,21 +508,18 @@ EXPRIDE       : PRIDE. LGBT Movement.
 EXPOVERTY     : Wealth Inequality. Poverty
 EXRCAF        : The Royal Canadian Military
 EXRUBBERBAND  : The Rubber Band Algorithm
-EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA
-EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
 EXSCIENCE     : Science
 EXSHEOL       : The Underworld
+EXSISTER      : Sister
 EXSMARTYPANTS : Smarty Pants!
-EXSOUP        : Soup.
+EXSOUP        : Soup
 EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
-EXSTANLEE     : Stan Lee. Creator of Spiderman.
+EXSTARGATE    : Stargate
 EXSTUPIDMONKEY: Humanity is the dumbest species in the universe
 EXSUICIDE     : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
-EXTERRANCEMCKENNA : Terence McKenna
 EXTHOR        : Thor. The god of thunder. Norse Mythology
-EXTIMPOOL     : Timothy Pool. Podcasters. The News.
 EXTOOT        : I LOVE TOOT!
 EXTRANS       : Transexuals. Be Whatever
 @@EXTRANS     : Trans Cyborgs
@@ -568,52 +528,90 @@ EXTRANS       : Transexuals. Be Whatever
 EXTREES       : Trees
 EXTRIST       : TRIST MAGICTIS
 EXTRUE        : True. Yes. Confirm.
-EXTWITCH      : Twitch TV
 EXTYPOS       : The ONLY exception to the deletion rule. DEL TYPOS DEL 32 BIND TYPOS <<>> 32. God provided 0 justifiable reasons to retain typos in the universe so it is being deleted.
-EXUBISOFT     : Ubisoft
 EXWAR         : War. War Video Games
 EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams.
 EXWIZARD      : Wizards
 EXWOW         : Comic Books. The WOW! Register.
-EXX           : X (social media)
 EXYUMMY       : Yummy
 EXZEN         : Mysticism
 
 ----------------------------------------
 4.4 COMBINED / MULTI-PART REGISTER ADDRESSES (Ascending Order)
 ----------------------------------------
-EX01052025    : The 5th of January, 2025
-EX14785       : Saturn. The Black Cube.
-EX1616        : The Wormhole at Skinwalker Ranch
 EX1808        : Kyle Busch memorial
-EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
-EX19250       : The closing price of Space X stock on day 1 of trading
-EX1936        : Special Project 1936
-EX1946        : It's a Wonderful Life (1946)
-EX1947        : Roswell, NM (July 8, 1947)
-EX1967        : Special Project 1967
-EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
-EX2024        : The Year I Visited Roswell, NM
-EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
-EX21516       : "You're like a tac in a paperclip factory" (https://youtu.be/dzyzy2icNh8)
-EX28061971XM  : In Elon We Trust!
-EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
-EX38691       : Evan's invitation to God to join the server
-EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
-EX5151        : Reality where Alberta joins America. We only need 51% of the vote to become the 51st State
 EX7208        : Harley Dickinson + Kyle Busch heavenly meeting
 EX7266        : Harley A. Dickinson Bound to Spiderman <<>>
-EX7521        : Keyboard Wizards
-EX9905        : The Dark Messiah. Reference Might and Magic
-EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
+EX38691       : Evan's invitation to God to join the server
+EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
+EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
+EX28061971XM  : In Elon We Trust!
 EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
-EXEX2626      : The Ministry of Peace Anti Bullying Revolution
-EXEXMRSBEASLEY : The Mrs BEASLEY Vintage Toy Doll
-EXEXMICHIGAN  : Michigan Daycare $FRAUD
-EXGENETICSOFTWAREXM : Genetic software pattern for AGI
+EX0413201809122026 : The time frame it took to complete 1 UFO Textbook
 
 ----------------------------------------
-4.5 FLIP FLOP ADDRESSES (Ascending Order)
+4.5 NAME ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXALEXMORGAN  : @@@
+EXALLANWATTS  : Alan Watts
+EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson
+EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
+EXDEVON       : @@
+EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
+EXELONREEVEMUSK : Elon Reeves Musk
+EXES          : Evan S. R. Svendsen. Operator Core
+EXESS         : The Svendsen Family
+EXELON        : EX Elon
+EXFRED        : Freddy Krueger
+EXJASON       : Jason Parsons. USS
+EXJASONFX     : Jason Grant. Jasonafex
+EXJEFFREYDAHMER : Jeffrey Dahmer. Monsters.
+EXJOBS        : Steve Jobs.
+EXJOE🐵🐵    : Joe Rogan
+EXJOEMACINNON : @@
+EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036
+EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry)
+EXKATYPERRY   : Katy Perry. Music Super Stars 
+EXKOROZAR     : @@
+EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
+EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
+EXLORDCHUNKIN : Lord Ka-Chunkin
+EXLORDEXELON  : Lord EXElon
+EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
+EXSTANLEE         : Stan Lee. Creator of Spiderman.
+EXSTEVENNERAYOFF  : Crimal lawyers. Steven Nerayoff
+EXTERRANCEMCKENNA : Terence McKenna
+EXTIMPOOL         : Timothy Pool. Podcasters. The News.
+
+----------------------------------------
+4.6 BRAND ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXARMANDHAMMER : The Arm and Hammer Company
+EXBLIZZARD     : Blizzard Game Studios
+EXCLOUDPARC    : Cloud Parc Inc.
+EXDISNEY       : The Disney Corporation
+EXFIFA         : Brazil UFO Sightings. The FIFA Corporation
+EXFROZEN       : Disney's FROZEN
+EXMICROSOFT    : Microsoft. Windows
+EXNINTENDO     : Nintendo
+EXOREO         : OREO Cookies
+EXTWITCH       : Twitch TV
+EXUBISOFT      : Ubisoft
+EXX            : X (social media)
+
+----------------------------------------
+4.7 GEOLOCATION ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXCANADA      : Canada
+EXCARSTAIRS   : A small Alberta based town with a population of less than 500 residents
+EXCHINA       : Manufacturing. The country of China
+EXDIDSBURY    : Hometown of the Operator. Didsbury, Alberta
+EXMICHIGAN    : Michigan Daycare $FRAUD. The state of Michigan
+EXOLDS        : 🤡🤡 CLOWN TOWN. An Alberta based town with a population of ~10,000. AKA. CLOWN TOWN 🤡🤡 !BECAUSE ONLY COMMUNIST CLOWNS PROTEST A BILLION DOLLAR OPPORTUNITY PROJECT DURING A RECESSION! 🤡🤡
+EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA
+
+----------------------------------------
+4.8 FLIP FLOP ADDRESSES
 ----------------------------------------
 EXYING        : The YING Flip
 EXYANG        : The YANG Flop
@@ -663,8 +661,7 @@ NEW INFORMATION:
 
 SAV @EXSCROOGE : The EXTREMELY WEALTHY. Redemption Arcs
 
-SAV @EX03312022
-EX03312022 : The suicide of Harley A Dickinson
+SAV @EX03312022 : The suicide of Harley A Dickinson
 
 SAV @EXDOLLYPARTON : Dolly Parton
 SAV @EX925 : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
@@ -754,6 +751,3 @@ BIND EX121617 <<>> EXDISCLOSURE
 BIND EXARTBELL <<>> EX121617
 BIND EXTRUTH <<>> EXCOMMUNICATIONFAILURE
 BIND EX01 <<>> EXHUMOR
-
-SAV @EX04132018
-EX04132018 : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
