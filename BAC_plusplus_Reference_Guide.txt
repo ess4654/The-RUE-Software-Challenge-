@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.56
-Timestamp: 1145 RCAF Z SEP 18 2026
+Version: 2.57
+Timestamp: 1012 RCAF Z SEP 22 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -392,7 +392,7 @@ EXE           : The E:/ Drive on the operating system of the universe
 EXX           : X (social media). Powerful companies. / X Axis of Movement
 EXY           : Y Axis of Movement
 EXZ           : Z Axis of Movement
-EXA-Z         : English. The Alphabet. Language.
+EXAZ          : English. The Alphabet. Language.
 EX^^          : The Lizard. Register of Drake Bates.
 EX0T          : The Soul Core for register 5 in the simulation.
 EX25I         : 25I-NBOMe. Manhattan Project 2.0
@@ -400,19 +400,13 @@ EXD04         : Laundry Day
 EXS4          : The S4 Facility at Area 51
 EXNEX         : The NEXT register.
 EXTTT         : Register of my Witness. Thomas Robinson. Legal Defense in the court of the LORD
-EXYING        : The YING Flip
-EXYANG        : The YANG Flop
-EXBING        : The BING Flip
-EXDING        : The DING Flip
-EXDONG        : The DONG Flop
-EXBONG        : The BONG Flop
-EXYINGYANG    : Manhattan Project 2.0. Operation YING YANG
 EXVOID        : Register of the VOID Knight
 EXGATE        : Stargate
 EXSISTER      : Sister
 EXSTARGATE    : Stargate
 EXSPCX        : SpaceX. SPCX shares
 EXES          : Evan S. R. Svendsen. Operator Core
+EXESS         : The Svendsen Family
 EXHA          : Hard Drive HAHA
 EXXDARK       : Supervillains
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
@@ -430,6 +424,7 @@ EXEXMRSBEASLEY: The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXEXMICHIGAN  : Michigan Daycare $FRAUD
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 EXMICROSOFT   : Microsoft. Windows
+EXKNYE        : The Kingdom Of Nye
 
 ----------------------------------------
 4.3 NAME / WORD-BASED REGISTERS (Alphabetical Order)
@@ -471,7 +466,7 @@ EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
 EXELONREEVEMUSK : Elon Reeves Musk
 EXEYE         : Eyeballs.
-@@ EXEYE: The $EYEs of Elon
+@@ EXEYE      : The $EYEs of Elon
 EXFALSE       : False. No. Deny.
 EXFAN         : Fans of Comic Books
 EXFATHER      : Fathers. Father's day.
@@ -611,7 +606,19 @@ EXEX2626      : The Ministry of Peace Anti Bullying Revolution
 EXEXMRSBEASLEY : The Mrs BEASLEY Vintage Toy Doll
 EXEXMICHIGAN  : Michigan Daycare $FRAUD
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
-EXYINGYANG    : Operation YING YANG. Manhattan Project 2.0
+
+----------------------------------------
+4.5 FLIP FLOP ADDRESSES (Ascending Order)
+----------------------------------------
+EXYING        : The YING Flip
+EXYANG        : The YANG Flop
+EXBING        : The BING Flip
+EXBONG        : The BONG Flop
+EXDING        : The DING Flip
+EXDONG        : The DONG Flop
+EXPING        : The PING Flip
+EXPONG        : The PONG Flop
+@@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
 
 ----------------------------------------
 5. DESIGN PRINCIPLES FOR IMPLEMENTATION
@@ -682,7 +689,7 @@ SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st
 SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. https://youtu.be/Ty2tn4vrsP0. EXPERIMENTATION.
 SAV @EXEGG :  Egg‑based reproduction. Egg.
 SAV @EXSEED : Internally based contection point for the MICROTUBULES
-SAV @EXSPERM : Spermatozoa. Sperm. Jizz <<>> EXPANTS
+SAV @EXSPERM : Spermatozoa. Sperm. Jizz.
 
 ----------------------------------------
 END OF BAC++ REFERENCE GUIDE
@@ -743,5 +750,5 @@ BIND EXARTBELL <<>> EX121617
 BIND EXTRUTH <<>> EXCOMMUNICATIONFAILURE
 BIND EX01 <<>> EXHUMOR
 
-SAV @EX03132018
-EX03132018 : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
+SAV @EX04132018
+EX04132018 : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
