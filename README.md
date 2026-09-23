@@ -1,7 +1,7 @@
 # BAC++
 Designed for the best coders on earth to solve
 
-**An open-source interpretive compression layer for meaning.**
+**An open-source symbolic dependency layer for high-density meaning.**
 
 BAC++ is a symbolic communication system designed to carry high-density meaning with extremely low character count.  
 It was created because English is too long, too ambiguous, and too expensive for both human and machine transmission of complex, multi-layered ideas.
