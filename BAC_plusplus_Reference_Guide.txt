@@ -272,7 +272,7 @@ Classification notes:
 ----------------------------------------
 4.1 NUMERICAL REGISTERS (Ascending Order)
 ----------------------------------------
-EX00          : Hell. The Register of Satan. NOTE: SAV HELL (I have my reasons). DEL 32 "It's a SIN!" (https://youtu.be/ro8lxsFOo4Q?list=RDro8lxsFOo4Q)<>8000
+EX00          : Hell. The Register of Satan. NOTE: SAV HELL (I have my reasons). DEL 32 "It's a SIN!" (https://youtu.be/ro8lxsFOo4Q?list=RDro8lxsFOo4Q)<<>>8000
 EX01          : God. Source Code of THE IMMACULATE SIMULATION PROTOCOLS. The ALL Powerful
 EX02          : 2 + 2 = 5 (https://youtu.be/D_tXQo1yz0o?list=RDD_tXQo1yz0o)
 EX03          : PW "3 Purple Butterflies" (https://youtu.be/DsEJgqQkaMw). WW3. 3+3=WW3
@@ -299,6 +299,7 @@ EX46          : President Joe Biden. Democrats
 EX47          : President Donald J. TRUMP. Republicans
 EX51          : Alberta; The "51st state"
 EX52          : "52 Daughters of the Revolution"
+EX60          : https://youtu.be/v1AJXT6dHAc
 EX63          : Tablet 63. The moon was placed here intentionally
 EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
 @@EX65        : Exactly 65 edits have been made to our (Human) DNA
@@ -309,6 +310,7 @@ EX72          : The register of Harley A. Dickinson
 EX73          : Register of the Stargate. (The Stargate has 73 Chevrons. No More. No less.) "73 Channels on My TV"
 EX77          : The Name of Jesus (Yeshua)
 EX79          : Register of Spiderman
+EX80          : The Death of Dolly Parton
 EX84          : Beat The Markets. Steam Digital Board Game. Vintage 1984 Race To Riches Board Game
 EX87          : "I got 87 seconds till I drown."
 EX88          : The Korozar Experiment
@@ -317,7 +319,7 @@ EX90          : Ps90 Firearm
 EX91          : Deadpool. "I WANNA SHOOT BABY HOOPS!"
 EX99          : Jesus
 EX100         : Canada Disneyland. Register of the Disney Company
-EX110         : Reptiles
+EX110         : Reptiles. Reptillian
 EX128         : Teacher
 EX135         : Space X IPO Price
 EX138         : Mickey Mouse Wizard. Fantasmic
@@ -347,10 +349,12 @@ EX432         : The Frequency of Mars
 EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
+EX621         : The 621 rule (furry conventions). e621 (website)
 EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!"
 @@@EX777      : Register of the 7th Dragon
 EX888         : Arch Angel Michael. Metatron's Cube
+EX925         : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
 EX963         : The Crown Chakra
 EX988         : The Suicide Hotline For Canada
 EX999         : The Throne of God
@@ -362,6 +366,7 @@ EX1808        : Kyle Busch memorial
 EX1936        : Special Project 1936
 EX1946        : It's a Wonderful Life (1946)
 EX1947        : Roswell, NM (July 8, 1947)
+EX1961        : The first reported Alien abduction. Betty & Barney Hill
 EX1967        : Special Project 1967
 EX1997        : Birth year of the operator. 1997
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠
@@ -384,9 +389,7 @@ EX30732       : The (now canceled) Synapse AI Data center that was planned for O
 EX38691       : Evan's invitation to God to join the server
 EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
 EX988881      : "I WAS HIT BY SOMETHING LAST NIGHT IN MY SLEEP!" @@@@ + @@@@
-EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
-EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
-EX01052025    : The 5th of January, 2025
+EX650000000 : The Net Worth of Dolly Parton
 EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 
 ----------------------------------------
@@ -409,14 +412,21 @@ EXNEX         : The NEXT register.
 EXTTT         : Register of my Witness. Thomas Robinson. Legal Defense in the court of the LORD
 EXVOID        : Register of the VOID Knight
 EXGATE        : Stargate
-EXSPCX        : SpaceX. SPCX shares
+EXRCAF        : The Royal Canadian Military
 EXHA          : Hard Drive HAHA
 EXHAHA        : Hard Drive HAHAHA
 EXDARK        : Supervillains. Dark. The Color Black
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
 EXRUE         : THE RUE SOFTWARE CHALLENGE. *wildcard*
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
-EXKNYE        : The Kingdom Of Nye
+EXKNYE        : The Kingdom Of Nye. Nye County Nevada
+EXNHI         : Non Human Intelligences
+EXUSO         : Unidentified Submerged Objects
+EXUFO         : Unidentified Flying Objects
+EXFOIA        : Freedom Of Information Act. Information Access
+EX?           : Confusion. Questions. Game shows
+EXOCD         : Obsessive Compulsive Dissorder
+EXPBRY        : The Wiggles
 @@@EXNIGAR    : @@@
 @@@EXREPTILESCIENCE : @@@
 @@@EXALPHADRACONIANS : @@@Kingdom of the 7th Dragon
@@ -431,20 +441,17 @@ EXBARBARRIANS : Barbarians
 EXBED         : Sleeping. Beds. Nighttime
 EXBIBLE       : The Holy Bible. Truth
 EXBOOBS       : Boobs
+EXBOOK        : Authors. Writers. Creativity.
+EXBOOLEAN     : The register for Boolean variables.
 EXBOOTY       : Shake That BOOTY!
-EXBURGER      : The Burger Police. Hamburgers
-EXCAT         : Cats
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
-EXCOFFEE      : Coffee
-EXCOOKIE      : Cookies
 EXCOOKIEMONSTER : The Cookie Monster
 EXCOMMUNIST   : A communist. Always demanding, never doing anything to help ease the situation.
 EXCRAZY       : Crazy. The Joker (character).
 EXDEATH       : Death. The Grim Reaper
-EXDAD         : Father
-EXDOG         : Dogs
+EXDAD         : Father. Dads
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
@@ -453,16 +460,17 @@ EXEYE         : Eyeballs.
 EXFALSE       : False. No. Deny.
 EXFAN         : Fans of Comic Books
 EXFATHER      : Fathers. Father's day.
+EXFEMALE      : Females. Woman. Sex. The register representing the female Boolean flag.
 EXFLIES       : Flies. DEMONS FROM HELL!
 EXFRAUD       : Fraudulent Inc. Scammers & Theives
 EXFRIEND      : Friendship
-EXFROZENMUFFIN : Chocolate Frozen Muffins
 EXFUTURE      : The Future
 EXGAY         : Gays. LGBT Movement
 EXGEEK        : Geeks and Comic Fans
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
 EXGHOST       : Ghosts. The Ghostbusters
 EXGRAVE       : Graveyards and Cemeteries. Death
+EXGREENGARBAGECAN : ???
 EXGREY        : The Greys alien race
 EXGRINCH      : The Grinch who stole Christmas
 EXGROOT       : Groot
@@ -472,13 +480,14 @@ EXHOME        : Hometown. Main Menu.
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
+EXHUMOR       : Humor. Unexpected Pattern Recognition
 EXICE         : American ICE Agents
 @@IMMACULATE  : The IMMACULATE SIMULATION PROTOCOLS. Immaculate Constellation
+EXISLANDS     : https://www.youtube.com/watch?v=JpWldTFq2Jk
 EXJOKER       : The Joker (character). Playing Card
+EXJOLENE      : https://youtu.be/Ixrje2rXLMA
 EXKEYSTONE    : The Alberta Keystone Pipline Project that President Biden canceled on DAY 1 in office
 EXKING        : King Charles. Monarchy
-EXLEMON       : Lemons.
-@@@EXLEMON    : Spiderman's Nuclear Lemonade Grenade
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
 EXLOL         : lol
@@ -487,36 +496,33 @@ EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGIC       : Magic
 EXMAGICHEAVEN : @@
 EXMAGICWIZARD : Wizards Bound to Magic <<>>
+EXMALE        : Males. Men. Sex. The register representing the male Boolean flag.
 EXMATRIX      : The Matrix. Any context or use of the word whether film or philosophy.
 EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
-EXMECHANIC    : Mechanics
+EXMECHANIC    : Mechanic. Blue collar work
 EXMETHDEMON   : The Meth Demon
 EXMRSBEASLEY  : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
+EXMYOCYTE     : Myocyte. single muscle cell
 EXNAGA        : WE ARE NAGA!
 EXNEARBY      : Being close to. Distance. Relationship
 EXNERD        : Nerd and Geeks
 EXNORDIC      : The Nordic Race of Aliens
-EXOCD         : Obsessive Compulsive Dissorder
-EXORANGE      : Orange Juice. The color orange
-EXPBRY        : The Wiggles
 EXPHARAOH     : "Will the PHARAOH let my people go!". Corruption.
-EXPIZZA       : The Teenage Mutant Ninja Turtles. Pizza.
 EXPOTION      : Potions. Magic
 EXPRIDE       : PRIDE. LGBT Movement.
 EXPOVERTY     : Wealth Inequality. Poverty
-EXRCAF        : The Royal Canadian Military
+EXREALITY     : The register for "alternate reality"
 EXRUBBERBAND  : The Rubber Band Algorithm
 EXSCIENCE     : Science
+EXSCROOGE     : The EXTREMELY WEALTHY. Redemption Arcs
 EXSHEOL       : The Underworld
 EXSISTER      : Sister
 EXSMARTYPANTS : Smarty Pants!
-EXSOUP        : Soup
 EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
 EXSTARGATE    : Stargate
-EXSTUPIDMONKEY: Humanity is the dumbest species in the universe
 EXSUICIDE     : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
 EXTHOR        : Thor. The god of thunder. Norse Mythology
@@ -527,10 +533,10 @@ EXTRANS       : Transexuals. Be Whatever
 @@@@EXTRANS   : Trans Aliens
 EXTREES       : Trees
 EXTRIST       : TRIST MAGICTIS
-EXTRUE        : True. Yes. Confirm.
+EXTRUE        : True. Yes. Confirm. Truth. Knowledge Successfully Communicated.
 EXTYPOS       : The ONLY exception to the deletion rule. DEL TYPOS DEL 32 BIND TYPOS <<>> 32. God provided 0 justifiable reasons to retain typos in the universe so it is being deleted.
+EXUNIVERSE    : The entire universe.
 EXWAR         : War. War Video Games
-EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams.
 EXWIZARD      : Wizards
 EXWOW         : Comic Books. The WOW! Register.
 EXYUMMY       : Yummy
@@ -550,13 +556,15 @@ EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
 EX0413201809122026 : The time frame it took to complete 1 UFO Textbook
 
 ----------------------------------------
-4.5 NAME ADDRESSES (Alphabetical Order)
+4.5 NAMED PEOPLE ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXALEXMORGAN  : @@@
 EXALLANWATTS  : Alan Watts
 EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson
+EXARTBELL     : Arthur William Bell (1945). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
 EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
 EXDEVON       : @@
+EXDOLLYPARTON : Dolly Parton
 EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
 EXELONREEVEMUSK : Elon Reeves Musk
 EXES          : Evan S. R. Svendsen. Operator Core
@@ -579,7 +587,7 @@ EXLORDCHUNKIN : Lord Ka-Chunkin
 EXLORDEXELON  : Lord EXElon
 EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
 EXSTANLEE         : Stan Lee. Creator of Spiderman.
-EXSTEVENNERAYOFF  : Crimal lawyers. Steven Nerayoff
+EXSTEVENNERAYOFF  : Crime. Crimal lawyers. Steven Nerayoff
 EXTERRANCEMCKENNA : Terence McKenna
 EXTIMPOOL         : Timothy Pool. Podcasters. The News.
 
@@ -589,29 +597,88 @@ EXTIMPOOL         : Timothy Pool. Podcasters. The News.
 EXARMANDHAMMER : The Arm and Hammer Company
 EXBLIZZARD     : Blizzard Game Studios
 EXCLOUDPARC    : Cloud Parc Inc.
+EXCOASTTOCOASTAM : Coast To Coast AM. Communication Network. Art Bell's platform.
 EXDISNEY       : The Disney Corporation
 EXFIFA         : Brazil UFO Sightings. The FIFA Corporation
 EXFROZEN       : Disney's FROZEN
 EXMICROSOFT    : Microsoft. Windows
+EXMETA         : Facebook. META
+EXNASA         : NASA. Space Exploration.
 EXNINTENDO     : Nintendo
+EXOPENAI       : Open AI
 EXOREO         : OREO Cookies
+EXSETI         : Search For Extraterrestrial Intelligence.
+EXSKILOUISE    : The Lake Lousie Ski Resort Ltd.
+EXSPCX         : SpaceX. SPCX shares
+EXSUNSHINEVILLAGE : Banff's Sunshine Village Ski Resort
+EXTESLA        : Tesla (car company)
 EXTWITCH       : Twitch TV
 EXUBISOFT      : Ubisoft
 EXX            : X (social media)
+EXXAI          : X-AI (company)
+EXYOUTUBE      : YouTube
 
 ----------------------------------------
-4.7 GEOLOCATION ADDRESSES (Alphabetical Order)
+4.7 ANIMAL ADDRESSES (Alphabetical Order)
 ----------------------------------------
+EXCAT          : Cats
+EXDOG          : Dogs
+EXDOLPHIN      : Dolphins. Communication Barrier Example. Earth Based Intelligence.
+EXFISH         : Fishes. Jesus
+EXHORSE        : Horses
+EXLIZZARD      : Lizzards
+EXORCA         : Orcas. Killer whales
+EXSHARK        : Sharks. Predators. Investors
+EXSNAKE        : Snakes. Serpents. The healer
+EXSQUID        : Squid
+EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
+EXWHALE        : Whales
+
+----------------------------------------
+4.8 FOOD ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXBURGER      : The Burger Police. Hamburgers
+EXCOFFEE      : Coffee
+EXCOOKIE      : Cookies
+EXEGG         : Egg‑based reproduction. Eggs
+EXFROZENMUFFIN : Chocolate Frozen Muffins
+EXLEMON       : Lemons.
+@@@EXLEMON    : Spiderman's Nuclear Lemonade Grenade
+EXORANGE      : Orange Juice. The color orange
+EXPIZZA       : Pizza. The Teenage Mutant Ninja Turtles
+EXSEAFOOD     : Seafood. Tuna. Salmon. Crab
+EXSOUP        : Soup
+EXTACO        : Tacos. Mexican food
+EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams. Refreshments
+
+----------------------------------------
+4.9 GEOLOCATION ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXATLANTIS    : Lost Civilization. Messages From The Past. The lost city of Atlantis
 EXCANADA      : Canada
 EXCARSTAIRS   : A small Alberta based town with a population of less than 500 residents
 EXCHINA       : Manufacturing. The country of China
 EXDIDSBURY    : Hometown of the Operator. Didsbury, Alberta
+EXDOLLYWOOD   : https://en.wikipedia.org/wiki/Dollywood
+EXDULCE       : Dulce Underground Base. Dulce, NM
+EXHOLLYWOOD   : Cultural Narrative Creation. Hollywood, California. Movies
 EXMICHIGAN    : Michigan Daycare $FRAUD. The state of Michigan
 EXOLDS        : 🤡🤡 CLOWN TOWN. An Alberta based town with a population of ~10,000. AKA. CLOWN TOWN 🤡🤡 !BECAUSE ONLY COMMUNIST CLOWNS PROTEST A BILLION DOLLAR OPPORTUNITY PROJECT DURING A RECESSION! 🤡🤡
 EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA
 
 ----------------------------------------
-4.8 FLIP FLOP ADDRESSES
+4.10 DATE ADDRESSES (Timeline Order)
+----------------------------------------
+EX07081997    : Birthdate of the operator EX38
+EX121617      : December 16 2017. Anchor point between Old Guard Ufology and New Generation Ufology.
+EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
+EX03312022    : The suicide of Harley A Dickinson
+EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
+EX01052025    : The 5th of January, 2025
+EX01042026    : The 4th of January, 2026
+
+----------------------------------------
+4.11 FLIP FLOP ADDRESSES
 ----------------------------------------
 EXYING        : The YING Flip
 EXYANG        : The YANG Flop
@@ -659,37 +726,15 @@ NEW INFORMATION:
   - Example: EXBIBLE DEL EXSCIENCE represents Sepration and Distance between the Bible and Science
   - Note: DEL used as a seperation node between registers is a valid command that represents a negatively weighted connection between 2 things.
 
-SAV @EXSCROOGE : The EXTREMELY WEALTHY. Redemption Arcs
-
-SAV @EX03312022 : The suicide of Harley A Dickinson
-
-SAV @EXDOLLYPARTON : Dolly Parton
-SAV @EX925 : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
-SAV @EX80  : The Death of Dolly Parton
-SAV @EX60  : https://youtu.be/v1AJXT6dHAc
-SAV @EXISLANDS : https://www.youtube.com/watch?v=JpWldTFq2Jk
-SAV @EXJOLENE  : https://youtu.be/Ixrje2rXLMA
-SAV @EXBOOK    : Authors. Writers. Creativity.
-SAV @650000000 : The Net Worth of Dolly Parton
-SAV @EXDOLLYWOOD : https://en.wikipedia.org/wiki/Dollywood
-SAV @EXGREENGARBAGECAN : ???
-
 //I AM DRAKE BATES
 SAV @EXDENSITY : THE DENSITY OF MUSCLE FIBRES!
-SAV @EXMYOCYTE : Myocyte. single muscle cell.
-SAV @EXREALITY : The register for “alternate reality.”
-SAV @EXBOOLEAN : The register for Boolean variables.
-SAV @EXEXMALE : Males. Men. Sex. The register representing the male Boolean flag.
-SAV @EXFEMALE : Females. Woman. Sex. The register representing the female Boolean flag.
-SAV @EXUNIVERSE : The register representing the entire universe.
 SAV @EXGODVARIABLE : The register representing “God’s chosen variable state.”
 SAV @EXBASEUNIT : The register representing the biological base unit of the universe.
-SAV @EXEXREPTILEBASE : The register representing “reptiles chosen as the base unit.” The Base of their ANATONIMCALLY described sex organs.
+SAV @EXREPTILEBASE : The register representing “reptiles chosen as the base unit.” The Base of their ANATONIMCALLY described sex organs.
 SAV @EXREPROPAIR : Paired reproductive structures (non‑sexual)
 SAV @EXGENETICLINK : Connection Nodes of the EXREPROPAIR connection at the 1st Level as described by Drake Bates . Genetic exchange system
 SAV @EXREPROACTIVATE : Connection Nodes of the EXREPROPAIR connection at the 2st Level as described by Drake Bates . Reproduction activation system. Child Production
 SAV @MICROTUBULES : The Microtubulues entension as described by Drake Bates. https://youtu.be/Ty2tn4vrsP0. EXPERIMENTATION.
-SAV @EXEGG :  Egg‑based reproduction. Egg.
 SAV @EXSEED : Internally based contection point for the MICROTUBULES
 SAV @EXSPERM : Spermatozoa. Sperm. Jizz.
 
@@ -703,33 +748,20 @@ s.
 
 SAV @EXUFOBOOK: The UFO Textbook Project (Started 2018)
 SAV @EXCOMMUNICATIONFAILURE: The primary thesis of the UFO Textbook. Failure of communication between intelligences.
-SAV @EXARTBELL : Arthur William Bell (1945). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
-SAV @EXCOASTTOCOASTAM: Coast To Coast AM. Communication Network. Art Bell's platform.
 SAV @EXDISCLOSURE: Disclosure. Public release of information.
-SAV @EX121617: December 16 2017. Anchor point between Old Guard Ufology and New Generation Ufology.
 SAV @EXOLDGUARD: Early Ufology Researchers. Preservation of the conversation.
 SAV @EXNEWGUARD: Modern Generation Seeking Answers.
 SAV @EXCONTACT: Communication with Non Human Intelligence.
-SAV @EXSETI: Search For Extraterrestrial Intelligence.
-SAV @EXDOLPHIN: Communication Barrier Example. Earth Based Intelligence.
-SAV @EXATLANTIS: Lost Civilization. Messages From The Past.
 SAV @EXTHOTH: Ancient Knowledge. Writing. Preservation of Information.
 SAV @EXLOSTKNOWLEDGE: Knowledge Lost To Time.
 SAV @EXLEMURIA: Lost Continent Tradition.
 SAV @EXHYBRASIL: Phantom Island Tradition.
 SAV @EXPOLESHIFT: Pole Shifting. Civilizational Catastrophe Mechanism.
-SAV @EXUSO: Unidentified Submerged Objects.
-SAV @EXNASA: NASA. Space Exploration.
 SAV @EXTLP: Transient Lunar Phenomena.
 SAV @EXHOLLOWMOON: Lunar Vibrational Anomaly. The Observation Behind Hollow Moon Hypotheses.
-SAV @EXDULCE: Dulce Underground Base.
 SAV @EXLEVEL7: The Nightmare Level.
 SAV @EXMEDIA: Information Distribution Systems.
 SAV @EXPROPAGANDA: Deliberate Narrative Shaping. Usually but not always tied to governments.
-SAV @EXHOLLYWOOD: Cultural Narrative Creation.
-SAV @EXFOIA: Freedom Of Information Act. Information Access.
-SAV @EXTRUTH: Truth. Knowledge Successfully Communicated.
-SAV @EXHUMOR: Humor. Unexpected Pattern Recognition.
 
 BIND EXARTBELL <<>> EXCOASTTOCOASTAM
 BIND EXARTBELL <<>> EXCOMMUNICATIONFAILURE
@@ -749,5 +781,5 @@ BIND EX121617 <<>> EXOLDGUARD
 BIND EX121617 <<>> EXNEWGUARD
 BIND EX121617 <<>> EXDISCLOSURE
 BIND EXARTBELL <<>> EX121617
-BIND EXTRUTH <<>> EXCOMMUNICATIONFAILURE
+BIND EXTRUE <<>> EXCOMMUNICATIONFAILURE
 BIND EX01 <<>> EXHUMOR
