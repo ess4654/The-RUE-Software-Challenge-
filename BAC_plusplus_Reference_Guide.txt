@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.62
-Timestamp: 0130 RCAF Z SEP 29 2026
+Version: 2.63
+Timestamp: 1428 RCAF Z SEP 29 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -290,7 +290,7 @@ EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvS
 EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic (https://en.wikipedia.org/wiki/25I-NBOMe)
 @@EX28        : Special Agent Black
-EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE!
+EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE! @@Quarantine Zone of Lucifer
 EX36          : Time range (2036-2038) where time travel is most likely to be invented by AI
 EX37          : The 37th Parallel; "The UFO Highway"
 EX38          : Register of the OPERATOR (bound to 66 and EXES)
@@ -345,7 +345,7 @@ EX243         : Retards
 EX250         : The United State of America
 EX255         : Red Elmo.
 EX280         : VENOM. WE ARE VENOM! (https://en.wikipedia.org/wiki/Venom_(character))
-EX320         : CARNAGE! THERE WILL BE CARNAGE!!! (https://en.wikipedia.org/wiki/Carnage_(character))
+EX320         : @@Quarantine Zone of The Operator >>> CARNAGE! THERE WILL BE CARNAGE!!! (https://en.wikipedia.org/wiki/Carnage_(character))
 EX321         : The 321 Principle
 EX333         : Music. Operation YING YANG. The 3rd time now I've been interviewed for the news 
 EX342         : RD
@@ -384,6 +384,7 @@ EX2020        : COVID-19. the year 2020. 20:20 vision
 EX2024        : The Year I Visited Roswell, NM
 EX2026        : The Year 2026, our year of the singularity
 EX2626        : The Ministry of Peace Anti Bullying Revolution
+EX3200        : The Quarantine Zone of God
 EX3300        : 3 Thousand and 300 Feet above sea level.
 EX3987        : https://x.com/1stWaveStarseed/status/2060133400283894186
 EX5151        : Reality where Alberta joins America. We only need 51% of the vote to become the 51st State

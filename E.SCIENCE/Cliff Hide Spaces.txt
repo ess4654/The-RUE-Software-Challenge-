@@ -1,0 +1,4 @@
+CLIFF HIDE SPACES
+- ModelSpace
+- FoodSpace
+- public mind space
