@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.61
-Timestamp: 1102 RCAF Z SEP 24 2026
+Version: 2.62
+Timestamp: 0130 RCAF Z SEP 29 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -441,6 +441,7 @@ EXPBRY        : The Wiggles (https://en.wikipedia.org/wiki/The_Wiggles)
 EXGG          : Good Game
 EXLOL         : lol
 EXFBI         : The Federal Bureau of Investigation (https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation)
+EXVP          : V is for Victory. P is for Prime Minister.
 @@@EXNIGAR    : @@@
 @@@EXREPTILESCIENCE : @@@
 @@@EXALPHADRACONIANS : @@@Kingdom of the 7th Dragon
