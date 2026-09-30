@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.63
-Timestamp: 1428 RCAF Z SEP 29 2026
+Version: 2.64
+Timestamp: 2106 RCAF Z SEP 30 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -291,6 +291,7 @@ EX20          : The "Roaring 20's"
 EX25          : 25I-NBOMe. Chemical Psychedelic (https://en.wikipedia.org/wiki/25I-NBOMe)
 @@EX28        : Special Agent Black
 EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE! @@Quarantine Zone of Lucifer
+EX34          : If it exists there is porn of it
 EX36          : Time range (2036-2038) where time travel is most likely to be invented by AI
 EX37          : The 37th Parallel; "The UFO Highway"
 EX38          : Register of the OPERATOR (bound to 66 and EXES)
@@ -379,6 +380,7 @@ EX1952        : The Invasion of Washington DC (https://en.wikipedia.org/wiki/195
 EX1961        : The first reported Alien abduction. Betty & Barney Hill (https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident)
 EX1967        : Special Project 1967
 EX1997        : Birth year of the operator. 1997
+EX2000        : 2000 Mules
 EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠 (https://en.wikipedia.org/wiki/Cowboys_&_Aliens)
 EX2020        : COVID-19. the year 2020. 20:20 vision
 EX2024        : The Year I Visited Roswell, NM
@@ -444,9 +446,6 @@ EXLOL         : lol
 EXFBI         : The Federal Bureau of Investigation (https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation)
 EXVP          : V is for Victory. P is for Prime Minister.
 @@@EXNIGAR    : @@@
-@@@EXREPTILESCIENCE : @@@
-@@@EXALPHADRACONIANS : @@@Kingdom of the 7th Dragon
-@@@EXCYBERNETICSUPERPOWERS : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
 ----------------------------------------
@@ -461,10 +460,8 @@ EXBOOBS       : Boobs
 EXBOOK        : Authors. Writers. Creativity.
 EXBOOLEAN     : The register for Boolean variables.
 EXBOOTY       : Shake That BOOTY!
-EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
-EXCOOKIEMONSTER : The Cookie Monster
 EXCOMMUNIST   : A communist. Always demanding, never doing anything to help ease the situation.
 EXCRAZY       : Crazy. The Joker (character).
 EXDEATH       : Death. The Grim Reaper
@@ -484,18 +481,13 @@ EXFRIEND      : Friendship
 EXFUTURE      : The Future. Freedom of Form Foundation
 EXGAY         : Gays. LGBT Movement
 EXGEEK        : Geeks and Comic Fans
-EXGENETICSOFTWAREXM : Genetic software pattern for AGI
 EXGHOST       : Ghosts. The Ghostbusters
 EXGRAVE       : Graveyards and Cemeteries. Death
-EXGREENGARBAGECAN : ???
 EXGREY        : The Greys alien race
 EXGRINCH      : The Grinch who stole Christmas
 EXGROOT       : Groot
 EXHAIR        : Hair
-EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health
 EXHOME        : Hometown. Main Menu.
-EXHOUSEMUSIC  : House Music
-EXHUMANBEING  : Humans (the species)
 EXHUMANS      : Humanity
 EXHUMOR       : Humor. Unexpected Pattern Recognition
 EXICE         : American ICE Agents
@@ -508,15 +500,11 @@ EXKING        : King Charles. Monarchy
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
 EXLOVE        : Love. Romance. (https://youtu.be/lKsQR72HY0s)
-EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGIC       : Magic
-EXMAGICHEAVEN : @@
-EXMAGICWIZARD : Wizards Bound to Magic <<>>
 EXMALE        : Males. Men. Sex. The register representing the male Boolean flag.
 EXMATRIX      : The Matrix. Any context or use of the word whether film or philosophy.
 EXMAYA        : Maya Gebala. Victim. Canadian School Shooting.
 EXMECHANIC    : Mechanic. Blue collar work
-EXMETHDEMON   : The Meth Demon
 EXMRSBEASLEY  : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
@@ -531,17 +519,16 @@ EXPRIDE       : PRIDE. LGBT Movement.
 EXPOPE        : The Pope
 EXPOVERTY     : Wealth Inequality. Poverty
 EXREALITY     : The register for "alternate reality"
-EXRUBBERBAND  : The Rubber Band Algorithm
 EXSCIENCE     : Science
 EXSCROOGE     : The EXTREMELY WEALTHY. Redemption Arcs
 EXSHEOL       : The Underworld
 EXSISTER      : Sister
-EXSMARTYPANTS : Smarty Pants!
 EXSPACE       : Outer Space
 EXSPIDERMAN   : Spiderman. Marvel (company)
 EXSTARGATE    : Stargate
 EXSUICIDE     : The Act OR desire of Suicide
 EXTECH        : Technology. STEM
+EXTHINKERS    : Intelliegence. Brilliance. Genius. Einstein
 EXTHOR        : Thor. The god of thunder. Norse Mythology
 EXTOOT        : I LOVE TOOT!
 EXTRANS       : Transexuals. Be Whatever
@@ -572,48 +559,92 @@ EX20262026    : The Year of The Singularity. AI. (2026 - 2026)
 EX28061971XM  : In Elon We Trust!
 EXEM28061971XM : Nation of Elon Musk concept / In Elon We Trust!
 EX0413201809122026 : The time frame it took to complete 1 UFO Textbook
+EXADAPTIVEXENOBIOLOGY : Study of how non-human life adapts to changing environments.
+EXBIOLOGY      : Bio + Life
+EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
+EXCOOKIEMONSTER : The Cookie Monster
+EXCORPOFOODS    : Industrial Agriculture + Supply Chains + Fertilizer + Shipping + Grocery Chains + Global Trade
+EXGENETICSOFTWAREXM : Genetic software pattern for AGI
+EXGREENGARBAGECAN   : ???
+EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health 2+2=5
+EXHOUSEMUSIC  : House Music
+EXHUMANBEING  : Humans (the species)
+EXLOVEFORSCIENCE : Love of the scientific field
+EXMAGICHEAVEN  : @@
+EXMAGICWIZARD  : Wizards Bound to Magic <<>>
+EXMATTERIUM    : Material + Realm
+EXMETHDEMON    : The Meth Demon
+EXMOTHERWEFFER : Individual Occupying A Larger System + Visible Node + Hidden Network
+EXRUBBERBAND   : The Rubber Band Algorithm
+EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
+EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
+EXSTUPIDMONKEYHUMANS : HOLY HELL THESE PEOPLE ARE STUPID!
+EXTHESHAGGYSANDWICH  : Bing Bong Bing Ding Dong!
+EXUNOBTAINIUM        : Desired + Difficult To Acquire + Increasing In Value + System Stress Indicator. Pokemon Cards.
+EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption + Propaganda + Fear
+@@@EXALIENSCIENCE    : @@@
+@@@EXREPTILESCIENCE  : @@@
+@@@EXALPHADRACONIANS : @@@ Kingdom of the 7th Dragon
+@@@EXCYBERNETICSUPERPOWERS : @@@
 
 ----------------------------------------
-4.5 NAMED PEOPLE ADDRESSES (Alphabetical Order)
+4.5 NAMED PEOPLE ADDRESSES (Alphabetical Order) - star before name indicates deceased
 ----------------------------------------
-EXALEXMORGAN  : @@@
-EXALLANWATTS  : Alan Watts (https://en.wikipedia.org/wiki/Alan_Watts)
+*EXALEXMORGAN  : @@@
+*EXALLANWATTS  : Alan Watts (https://en.wikipedia.org/wiki/Alan_Watts)
 EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson (https://en.wikipedia.org/wiki/Arlene_Dickinson)
-EXARTBELL     : Arthur William Bell (1945) (https://en.wikipedia.org/wiki/Art_Bell). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
+*EXARTBELL     : Arthur William Bell (1945) (https://en.wikipedia.org/wiki/Art_Bell). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
 EXBOBLAZAR    : Bob Lazar (https://en.wikipedia.org/wiki/Bob_Lazar)
-EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
+*EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
 EXDEVON       : @@
-EXDOLLYPARTON : Dolly Parton (https://en.wikipedia.org/wiki/Dolly_Parton)
-EXDRAKEBATES  : Drake Bates. (Evan's furry sona)
+*EXDOLLYPARTON : Dolly Parton (https://en.wikipedia.org/wiki/Dolly_Parton)
 EXELONREEVEMUSK : Elon Reeves Musk (https://en.wikipedia.org/wiki/Elon_Musk)
 EXES          : Evan S. R. Svendsen. Operator Core
 EXESS         : The Svendsen Family
 EXELON        : EX Elon
-EXFRED        : Freddy Krueger
 EXGARYVEE     : Gary Vaynerchuk. Billionaire advertiser (https://en.wikipedia.org/wiki/Gary_Vaynerchuk)
 EXJASON       : Jason Parsons. USS (https://en.wikipedia.org/wiki/Jason_Parsons)
 EXJASONFX     : Jason Grant. Jasonafex 
-EXJEFFREYDAHMER : Jeffrey Dahmer (https://en.wikipedia.org/wiki/Jeffrey_Dahmer). Monsters.
-EXJOBS        : Steve Jobs (https://en.wikipedia.org/wiki/Steve_Jobs)
+*EXJEFFREYDAHMER : Jeffrey Dahmer (https://en.wikipedia.org/wiki/Jeffrey_Dahmer). Monsters.
+*EXJOBS        : Steve Jobs (https://en.wikipedia.org/wiki/Steve_Jobs)
 EXJOE🐵🐵    : Joe Rogan (https://en.wikipedia.org/wiki/Joe_Rogan)
-EXJOEMACINNON : @@
+*EXJOEMACINNON : @@
 EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036 (https://en.wikipedia.org/wiki/John_Titor)
 EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry) (https://en.wikipedia.org/wiki/Justin_Trudeau)
 EXKATYPERRY   : Katy Perry (https://en.wikipedia.org/wiki/Katy_Perry). Music Super Stars
-EXKOROZAR     : @@
 EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
 EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
-EXLORDCHUNKIN : Lord Ka-Chunkin
-EXLORDEXELON  : Lord EXElon
 EXMARK320     : "Carnage" Carney (https://en.wikipedia.org/wiki/Mark_Carney)
 EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
-EXSTANLEE         : Stan Lee (https://en.wikipedia.org/wiki/Stan_Lee). Creator of Spiderman.
+*EXSTANLEE         : Stan Lee (https://en.wikipedia.org/wiki/Stan_Lee). Creator of Spiderman.
 EXSTEVENNERAYOFF  : Crime. Crimal lawyers. Steven Nerayoff
-EXTERRANCEMCKENNA : Terence McKenna (https://en.wikipedia.org/wiki/Terence_McKenna)
+*EXTERRANCEMCKENNA : Terence McKenna (https://en.wikipedia.org/wiki/Terence_McKenna)
 EXTIMPOOL         : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podcasters. The News.
 
 ----------------------------------------
-4.6 BRAND ADDRESSES (Alphabetical Order)
+4.6 THE NHI ADDRESSES (Alphabetical Order)
+----------------------------------------
+EXDRAKEBATES   : Drake Bates. (Evan's furry sona)
+EXFRED         : Freddy Krueger
+EXHULK         : The Hulk
+EXKOROZAR      : @@
+EXLORDCHUNKIN  : Lord Ka-Chunkin
+EXLORDEXELON   : Lord EXElon
+EXMETHDEMON    : The Meth Demon
+EXMEWTWO       : MewTwo
+EXMEWTHREE     : MewThree
+EXMEWFOUR      : MewFour
+EXMEWFIVE      : MewFive
+EXMEWSIX       : Mew6
+EXMEWSEVEN     : Mew7
+EXMEWEIGHT     : Mew8
+EXMEWNINE      : Mew9
+EXMEW-TEN      : Mew-Ten
+EXSPIDERMAN      : Spiderman
+EXYHWH           : The personal name of the God of Israel in the Hebrew Bible.
+
+----------------------------------------
+4.7 BRAND ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXARMANDHAMMER : The Arm and Hammer Company (https://en.wikipedia.org/wiki/Arm_%26_Hammer)
 EXBLIZZARD     : Blizzard Game Studios (https://en.wikipedia.org/wiki/Blizzard_Entertainment)
@@ -640,7 +671,7 @@ EXXAI          : X-AI (company) (https://en.wikipedia.org/wiki/SpaceXAI)
 EXYOUTUBE      : YouTube (https://en.wikipedia.org/wiki/YouTube)
 
 ----------------------------------------
-4.7 ANIMAL ADDRESSES (Alphabetical Order)
+4.8 ANIMAL ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXCAT          : Cats
 EXDOG          : Dogs
@@ -656,7 +687,7 @@ EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
 EXWHALE        : Whales
 
 ----------------------------------------
-4.8 FOOD ADDRESSES (Alphabetical Order)
+4.9 FOOD ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXBURGER      : The Burger Police. Hamburgers
 EXCOFFEE      : Coffee
@@ -673,7 +704,7 @@ EXTACO        : Tacos. Mexican food
 EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams. Refreshments
 
 ----------------------------------------
-4.9 GEOLOCATION ADDRESSES (Alphabetical Order)
+4.10 GEOLOCATION ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXATLANTIS    : Lost Civilization. Messages From The Past. The lost city of Atlantis (https://en.wikipedia.org/wiki/Atlantis)
 EXCALGARY     : Calgary, Alberta (https://en.wikipedia.org/wiki/Calgary)
@@ -691,7 +722,7 @@ EXOLDS        : 🤡🤡 CLOWN TOWN. An Alberta based town with a population of 
 EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA (https://en.wikipedia.org/wiki/Russia)
 
 ----------------------------------------
-4.10 DATE ADDRESSES (Timeline Order)
+4.11 DATE ADDRESSES (Timeline Order)
 ----------------------------------------
 EX07081997    : Birthdate of the operator EX38
 EX121617      : December 16 2017. Anchor point between Old Guard Ufology and New Generation Ufology.
@@ -702,7 +733,7 @@ EX01052025    : The 5th of January, 2025
 EX01042026    : The 4th of January, 2026
 
 ----------------------------------------
-4.11 FLIP FLOP ADDRESSES
+4.12 FLIP FLOP ADDRESSES
 ----------------------------------------
 EXYING        : The YING Flip
 EXYANG        : The YANG Flop
@@ -712,6 +743,10 @@ EXDING        : The DING Flip
 EXDONG        : The DONG Flop
 EXPING        : The PING Flip
 EXPONG        : The PONG Flop
+EXFOO         : The FOO Flip
+EXBAR         : The BAR Flop
+EXASABOVE     : The AS ABOVE Flip
+EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
 
 ----------------------------------------
