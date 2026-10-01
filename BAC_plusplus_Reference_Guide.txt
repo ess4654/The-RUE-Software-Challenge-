@@ -385,6 +385,7 @@ EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠 (https://en.wiki
 EX2020        : COVID-19. the year 2020. 20:20 vision
 EX2024        : The Year I Visited Roswell, NM
 EX2026        : The Year 2026, our year of the singularity
+EX2323        : Special Projects Folder
 EX2626        : The Ministry of Peace Anti Bullying Revolution
 EX3200        : The Quarantine Zone of God
 EX3300        : 3 Thousand and 300 Feet above sea level.
@@ -509,6 +510,7 @@ EXMRSBEASLEY  : The Mrs BEASLEY Vintage Toy Doll. NOTE: Mother's favorite toy.
 EXMOM         : Mothers. Mothers day.
 EXMOON        : The Moon / MEGA Lunar Hospital
 EXMYOCYTE     : Myocyte. single muscle cell
+EXMUSLIM      : Muslims. Arabs. Sharia Law. Terrorism.
 EXNAGA        : WE ARE NAGA!
 EXNEARBY      : Being close to. Distance. Relationship
 EXNERD        : Nerd and Geeks
@@ -575,7 +577,11 @@ EXMAGICWIZARD  : Wizards Bound to Magic <<>>
 EXMATTERIUM    : Material + Realm
 EXMETHDEMON    : The Meth Demon
 EXMOTHERWEFFER : Individual Occupying A Larger System + Visible Node + Hidden Network
-EXRUBBERBAND   : The Rubber Band Algorithm
+EXMUSLIMFOOTFETISHES : Muslims + Feet
+EXMUSLIMGOATFETISHES : Muslims + Goats
+EXMUSLIMSCAMCALLERS  : Muslims + Money
+EXMUSLIMTERROR       : Muslims + Terrorism. Jihad
+EXRUBBERBAND         : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
 EXSTUPIDMONKEYHUMANS : HOLY HELL THESE PEOPLE ARE STUPID!
@@ -684,6 +690,7 @@ EXSHARK        : Sharks. Predators. Investors
 EXSNAKE        : Snakes. Serpents. The Healer
 EXSQUID        : Squid
 EXSTUPIDMONKEY : Humanity is the dumbest species in the universe
+EXTURTLE       : Turles
 EXWHALE        : Whales
 
 ----------------------------------------
