@@ -581,6 +581,7 @@ EXMUSLIMFOOTFETISHES : Muslims + Feet
 EXMUSLIMGOATFETISHES : Muslims + Goats
 EXMUSLIMSCAMCALLERS  : Muslims + Money
 EXMUSLIMTERROR       : Muslims + Terrorism. Jihad
+EXREPTILIANCELLREPLICATION : @@@ (https://youtu.be/yor71FdV4TI)
 EXRUBBERBAND         : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
@@ -737,6 +738,7 @@ EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Fi
 EX03312022    : The suicide of Harley A Dickinson
 EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
 EX01052025    : The 5th of January, 2025
+EX05232025    : The 23rd of May, 2025 (Employee Appriciation Day)
 EX01042026    : The 4th of January, 2026
 
 ----------------------------------------
