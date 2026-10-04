@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.65
-Timestamp: 0828 RCAF Z OCT 1 2026
+Version: 2.66
+Timestamp: 0251 RCAF Z OCT 4 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -315,7 +315,7 @@ EX77          : The Name of Jesus (Yeshua)
 EX79          : Register of Spiderman
 EX80          : The Death of Dolly Parton
 EX84          : Beat The Markets. Steam Digital Board Game. Vintage 1984 Race To Riches Board Game
-EX87          : "I got 87 seconds till I drown."
+EX87          : "I got 87 seconds till I drown." (https://youtu.be/bqHdZneBiMo?list=RDSnhb-97lMcQ)
 EX88          : The Korozar Experiment
 EX89          : "Send me an angel. Send me an angel. Right now. Right now! Dont Tell A lie Dont Be False or Untrue it all comes back to $YOU"
 EX90          : Ps90 Firearm
@@ -359,10 +359,11 @@ EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game. (https://en.wikipedia.org/wiki/Squid_Game). Predatory game shows
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
 EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org/wiki/E621_(website))
+EX639         : House of the PINK Dragon (https://youtu.be/4QgAoc4kpk4)
 EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!" (https://en.wikipedia.org/wiki/Ubiquitous_Synergy_Seeker)
 @@@EX777      : Register of the 7th Dragon
-EX888         : Arch Angel Michael. Metatron's Cube ()
+EX888         : Arch Angel Michael. Metatron's Cube
 EX911         : 9-11 terrorist attacks. The emergency contact number 911
 EX925         : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
 EX963         : The Crown Chakra (https://en.wikipedia.org/wiki/Sahasrara)
@@ -414,6 +415,7 @@ EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 EXA           : The Alien drive A:/ on the hard drive of the universe
 EXAA          : Abbed Anthros Gym & Lifestyle Center
 EXAAAAAAAAA   : The AAAAAAAAA register. Screaming into the void because nobody listens.
+EXAI          : Accidental Insanity. Artificial Intlliegence. The Borg
 EXAHAH        : Alien Human-Animal Hybrids
 EXE           : The E:/ Drive on the operating system of the universe
 EXX           : X (social media). Powerful companies. / X Axis of Movement
@@ -567,11 +569,14 @@ EXBIOLOGY      : Bio + Life
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCOOKIEMONSTER : The Cookie Monster
 EXCORPOFOODS    : Industrial Agriculture + Supply Chains + Fertilizer + Shipping + Grocery Chains + Global Trade
+EXEXOPOLITICS       : Human - Alien Diplomacy
+EXXENOPOLITICS      : The Politics of Alien races. The Galactic Federation
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
-EXGREENGARBAGECAN   : ???
+EXGREENGARBAGECAN   : Rocket The Racoon
 EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health 2+2=5
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
+EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
 EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGICHEAVEN  : @@
 EXMAGICWIZARD  : Wizards Bound to Magic <<>>
@@ -587,6 +592,7 @@ EXRUBBERBAND         : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
 EXSTUPIDMONKEYHUMANS : HOLY HELL THESE PEOPLE ARE STUPID!
+EXSYMBIOTRIX         : The fusion of Galvan nanites with Venom symbiote goo
 EXTHESHAGGYSANDWICH  : Bing Bong Bing Ding Dong!
 EXUNOBTAINIUM        : Desired + Difficult To Acquire + Increasing In Value + System Stress Indicator. Pokemon Cards.
 EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption + Propaganda + Fear
