@@ -282,7 +282,7 @@ EX07          : Special Operations Report #7. The 7 seals of Revelation. James B
 EX08          : Speed. XLR8
 EX10          : Ben 10, Special Project 10. The 10th Doctor. 10 Commandments
 EX11          : The 11th Doctor, Eleven from Stranger Things
-EX12          : Christmas (https://en.wikipedia.org/wiki/Christmas)
+EX12          : The MAJESTIC-12. Christmas (https://en.wikipedia.org/wiki/Christmas)
 EX13          : Bad Luck. Curses & Hexes
 EX14          : Special Project 14
 EX16          : Skinwalker Ranch (https://en.wikipedia.org/wiki/Skinwalker_Ranch)
@@ -353,18 +353,20 @@ EX342         : RD
 EX369         : Tesla Frequency Codes (https://youtu.be/-uMGMmqMleM)
 EX389         : NFR
 EX390         : Riot Symbiote
+EX417         : House of the ORANGE Dragon (https://youtu.be/8AqbSAlSnpk)
 EX420         : Weed. Cannabis. Grok version 4.20
 EX432         : The Frequency of Mars (https://en.wikipedia.org/wiki/Mars)
 EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game. (https://en.wikipedia.org/wiki/Squid_Game). Predatory game shows
+EX528         : House of the RAINBOW Dragon (https://youtu.be/u4t1G6G2PQ4). GAY!
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
 EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org/wiki/E621_(website))
 EX639         : House of the PINK Dragon (https://youtu.be/4QgAoc4kpk4)
 EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!" (https://en.wikipedia.org/wiki/Ubiquitous_Synergy_Seeker)
-EX741         : House of The BLUE DRAGON (https://youtu.be/k3WB3Q7wIjc)
+EX741         : House of The BLUE Dragon (https://youtu.be/k3WB3Q7wIjc)
 @@@EX777      : Register of the 7th Dragon
-EX888         : Arch Angel Michael. Metatron's Cube
+EX888         : House of the GOLD Dragon (https://youtu.be/QOfVAfr946c). Arch Angel Michael. Metatron's Cube
 EX911         : 9-11 terrorist attacks. The emergency contact number 911
 EX925         : https://youtu.be/UbxUSsFXYo4. (https://youtu.be/Ixrje2rXLMA). Dolly Parton
 EX963         : The Crown Chakra (https://en.wikipedia.org/wiki/Sahasrara)
@@ -451,6 +453,7 @@ EXGG          : Good Game
 EXLOL         : lol
 EXFBI         : The Federal Bureau of Investigation (https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation)
 EXVP          : V is for Victory. P is for Prime Minister.
+EXPL          : Prairie Lanes the Canadian underground railway
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
@@ -762,6 +765,7 @@ EXDING        : The DING Flip
 EXDONG        : The DONG Flop
 EXPING        : The PING Flip
 EXPONG        : The PONG Flop
+EXPOW         : The POW Flop
 EXFOO         : The FOO Flip
 EXBAR         : The BAR Flop
 EXZIP         : The ZIP Flip
