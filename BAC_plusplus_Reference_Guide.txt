@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.66
-Timestamp: 0251 RCAF Z OCT 4 2026
+Version: 2.67
+Timestamp: 0215 RCAF Z OCT 5 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -362,6 +362,7 @@ EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org
 EX639         : House of the PINK Dragon (https://youtu.be/4QgAoc4kpk4)
 EX666         : Register of Lucifer
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!" (https://en.wikipedia.org/wiki/Ubiquitous_Synergy_Seeker)
+EX741         : House of The BLUE DRAGON (https://youtu.be/k3WB3Q7wIjc)
 @@@EX777      : Register of the 7th Dragon
 EX888         : Arch Angel Michael. Metatron's Cube
 EX911         : 9-11 terrorist attacks. The emergency contact number 911
@@ -371,6 +372,7 @@ EX988         : The Suicide Hotline For Canada
 EX999         : The Throne of God
 EX1010        : Special Operation 1010
 EX1225        : Santa Claus (https://en.wikipedia.org/wiki/Santa_Claus)
+@@EX1313      : DreamLand Adventure Park (Scandia, Alberta)
 EX1616        : The Wormhole at Skinwalker Ranch
 EX1624        : The BRIDGE NODE 
 EX1808        : Kyle Busch memorial
@@ -457,7 +459,7 @@ EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA
 ----------------------------------------
 EXAI          : Artificial Intelligence
 EXALIEN       : Aliens. NHI
-EXBARBARRIANS : Barbarians
+EXBARBARRIANS : Barbarians. Iran
 EXBED         : Sleeping. Beds. Nighttime
 EXBIBLE       : The Holy Bible. Truth. "BASIC Instructions Before Leaving Earth"
 EXBOOBS       : Boobs
@@ -616,6 +618,7 @@ EXELONREEVEMUSK : Elon Reeves Musk (https://en.wikipedia.org/wiki/Elon_Musk)
 EXES          : Evan S. R. Svendsen. Operator Core
 EXESS         : The Svendsen Family
 EXELON        : EX Elon
+EXEVAN        : Eternal Vector Ascension Node. God Is Good, God is GREAT!
 EXGARYVEE     : Gary Vaynerchuk. Billionaire advertiser (https://en.wikipedia.org/wiki/Gary_Vaynerchuk)
 EXJASON       : Jason Parsons. USS (https://en.wikipedia.org/wiki/Jason_Parsons)
 EXJASONFX     : Jason Grant. Jasonafex 
@@ -764,6 +767,12 @@ EXBAR         : The BAR Flop
 EXZIP         : The ZIP Flip
 EXZAP         : The ZAP Flop
 EZOOP         : The ZOOP Flip
+EXTIC         : The TIC Flip
+EXTAC         : The TAC Flop
+EXTIK         : The TIK Flip
+EXTOK         : The TOK Flop
+EXFIZZ        : The FIZZ Flip
+EXJIZZ        : The JIZZ Flop
 EXASABOVE     : The AS ABOVE Flip
 EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
