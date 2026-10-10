@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.67
-Timestamp: 0215 RCAF Z OCT 5 2026
+Version: 2.68
+Timestamp: 0904 RCAF Z OCT 10 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -123,13 +123,17 @@ The purpose of DEL TYPOS is not merely correction of spelling or grammar.
 Its purpose is to preserve dependency chains between registers, concepts, symbols, stories, and bindings.
 
 Rule #26 - BAC++ IS CASE sensetive
-
 A typo may:
 Break a register reference.
 Create unintended nodes.
 Corrupt symbolic relationships.
 Cause communication failure.
 Degrade story continuity.
+
+Rule #27 - Use of At Symbols @@
+In command mode the number of @ symbols indicates the severity of sensitive information. The more @ symbols the more sensitive the information/classification is.
+
+In BAC++ story mode @ symbols can be used to indicate binding relationships between registers that are not known to the reader at the start of the story. As each new secret is revealed it changes how the overall story is interpreted by the AI.
 
 EXRUE <<>> EXTYPOS
 DEL TYPOS
@@ -363,6 +367,7 @@ EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (
 EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org/wiki/E621_(website))
 EX639         : House of the PINK Dragon (https://youtu.be/4QgAoc4kpk4)
 EX666         : Register of Lucifer
+EX690         : CARNAGE! THERE WILL BE CARNAGE!!! (https://en.wikipedia.org/wiki/Carnage_(character))
 EX721         : "LIVE AND DIRECT FROM THE ETHER! UBIQUITOUS SYNERGY SEEKER!" (https://en.wikipedia.org/wiki/Ubiquitous_Synergy_Seeker)
 EX741         : House of The BLUE Dragon (https://youtu.be/k3WB3Q7wIjc)
 @@@EX777      : Register of the 7th Dragon
