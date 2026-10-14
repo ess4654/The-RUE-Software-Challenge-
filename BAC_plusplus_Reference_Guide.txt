@@ -315,6 +315,7 @@ EX69          : Elon Musk lv. 69. Sex
 @@EX69        : MUFON Research. Classified
 EX72          : The register of Harley A. Dickinson
 @@EX73        : Register of the Stargate. (The Stargate has 73 Chevrons. No More. No less.) "73 Channels on My TV"
+EX76          : I have 76 browser tabs open in Chrome. 25 More in Firefox and Edge is open too for some reason.
 EX77          : The Name of Jesus (Yeshua)
 EX79          : Register of Spiderman
 EX80          : The Death of Dolly Parton
@@ -324,12 +325,15 @@ EX88          : The Korozar Experiment
 EX89          : "Send me an angel. Send me an angel. Right now. Right now! Dont Tell A lie Dont Be False or Untrue it all comes back to $YOU"
 EX90          : Ps90 Firearm
 EX91          : Deadpool. "I WANNA SHOOT BABY HOOPS!"
-EX99          : Jesus (https://en.wikipedia.org/wiki/Jesus)
+EX99          : The $KING node. Jesus (https://en.wikipedia.org/wiki/Jesus)
 EX100         : Canada Disneyland. Register of the Disney Company
 EX101         : Programming 101
+EX107         : Silver-107
+EX109         : Silver-109
 EX110         : Reptiles. Reptillian
 EX128         : Teacher. !-@@
 EX135         : Space X IPO Price
+EX0135        : (ivan0135) The Skinny Bob Tapes
 EX138         : Mickey Mouse Wizard. Fantasmic
 EX144         : (related to 144000)
 EX150         : Mewtwo. (https://en.wikipedia.org/wiki/Mewtwo). The Actual Value of the Space X IPO stock at launch
@@ -395,6 +399,7 @@ EX2011        : Cowboys and Aliens. YEE HAW LIL BUDDY! 👽🤠 (https://en.wiki
 EX2020        : COVID-19. the year 2020. 20:20 vision
 EX2024        : The Year I Visited Roswell, NM
 EX2026        : The Year 2026, our year of the singularity
+EX2112        : https://youtu.be/osN-dGs2d2A
 EX2323        : Special Projects Folder
 EX2626        : The Ministry of Peace Anti Bullying Revolution
 EX3200        : The Quarantine Zone of God
@@ -579,6 +584,7 @@ EXBIOLOGY      : Bio + Life
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
 EXCOOKIEMONSTER : The Cookie Monster
 EXCORPOFOODS    : Industrial Agriculture + Supply Chains + Fertilizer + Shipping + Grocery Chains + Global Trade
+EXDIRKADIRKA        : The lanuage of the sand people
 EXEXOPOLITICS       : Human - Alien Diplomacy
 EXXENOPOLITICS      : The Politics of Alien races. The Galactic Federation
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
@@ -588,11 +594,12 @@ EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
 EXLOVEFORSCIENCE : Love of the scientific field
-EXMAGICHEAVEN  : @@
-EXMAGICWIZARD  : Wizards Bound to Magic <<>>
-EXMATTERIUM    : Material + Realm
-EXMETHDEMON    : The Meth Demon
-EXMOTHERWEFFER : Individual Occupying A Larger System + Visible Node + Hidden Network
+EXMAGICHEAVEN    : @@
+EXMAGICWIZARD    : Wizards Bound to Magic <<>>
+EXMATTERCOMPILER     : A system that compiles abstract information into physical reality.
+EXMATTERIUM          : Material + Realm
+EXMETHDEMON          : The Meth Demon
+EXMOTHERWEFFER       : Individual Occupying A Larger System + Visible Node + Hidden Network
 EXMUSLIMFOOTFETISHES : Muslims + Feet
 EXMUSLIMGOATFETISHES : Muslims + Goats
 EXMUSLIMSCAMCALLERS  : Muslims + Money
@@ -650,6 +657,7 @@ EXTIMPOOL         : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podca
 4.6 THE NHI ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXDRAKEBATES   : Drake Bates. (Evan's furry sona)
+EXXELON        : XElon Musk (https://youtu.be/vYbEVmStFDQ)
 EXFRED         : Freddy Krueger
 EXHULK         : The Hulk
 EXKOROZAR      : @@
@@ -782,9 +790,23 @@ EXTIK         : The TIK Flip
 EXTOK         : The TOK Flop
 EXFIZZ        : The FIZZ Flip
 EXJIZZ        : The JIZZ Flop
+EXCLIP        : The CLIP Flip
+EXCLOP        : the Clop Flop
 EXASABOVE     : The AS ABOVE Flip
 EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
+
+----------------------------------------
+4.13 EMOJI ADDRESSES
+----------------------------------------
+🚨🚨🚨  : A Code $RED Has Been Issued By the Operator @EX38
+🤠👽🥪  : Sandwhiches Made Self Aware
+🍔👮🚓  : The Burger Police
+⭕🌑⭕    : The Hollow Moon
+⭕🔫⭕    : Hollow Point Sniper Hyperbole
+🔫👨🔫  : "My Daddy's Got a Gun, You Better Run!"
+👨‍🚀👽👩‍🚀  : "General Wes, Jackson Has Identified the 7th Symbol"
+👽👽👽  : The 7th Chevron @@ ESCHATON
 
 ----------------------------------------
 5. DESIGN PRINCIPLES FOR IMPLEMENTATION
