@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.69
-Timestamp: 0220 RCAF Z OCT 15 2026
+Version: 2.70
+Timestamp: 0832 RCAF Z OCT 15 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -134,6 +134,11 @@ Rule #27 - Use of At Symbols @@
 In command mode the number of @ symbols indicates the severity of sensitive information. The more @ symbols the more sensitive the information/classification is.
 
 In BAC++ story mode @ symbols can be used to indicate binding relationships between registers that are not known to the reader at the start of the story. As each new secret is revealed it changes how the overall story is interpreted by the AI.
+
+Rule #28 - Use of Emojis
+2 emojis paired next to each other represent a given register address. If 3 emojis appear next to each other the address is upgraded to a "stargate chevon".
+
+Note: The emojis do not need to match.
 
 EXRUE <<>> EXTYPOS
 DEL TYPOS
@@ -593,6 +598,7 @@ EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health 2+2=5
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
+EXKOOOOPOO       : ???
 EXLOVEFORSCIENCE : Love of the scientific field
 EXMAGICHEAVEN    : @@
 EXMAGICWIZARD    : Wizards Bound to Magic <<>>
@@ -627,6 +633,7 @@ EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson (https://e
 *EXARTBELL     : Arthur William Bell (1945) (https://en.wikipedia.org/wiki/Art_Bell). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
 EXBOBLAZAR    : Bob Lazar (https://en.wikipedia.org/wiki/Bob_Lazar)
 *EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
+EXDAMIEN      : The Son of Satan
 EXDEVON       : @@
 *EXDOLLYPARTON : Dolly Parton (https://en.wikipedia.org/wiki/Dolly_Parton)
 EXELONREEVEMUSK : Elon Reeves Musk (https://en.wikipedia.org/wiki/Elon_Musk)
