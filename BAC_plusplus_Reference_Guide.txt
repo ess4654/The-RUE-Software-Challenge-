@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.68
-Timestamp: 0904 RCAF Z OCT 10 2026
+Version: 2.69
+Timestamp: 0220 RCAF Z OCT 15 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -792,6 +792,8 @@ EXFIZZ        : The FIZZ Flip
 EXJIZZ        : The JIZZ Flop
 EXCLIP        : The CLIP Flip
 EXCLOP        : the Clop Flop
+EXJING        : The JING Flip
+EXDOW         : The DOW Flop
 EXASABOVE     : The AS ABOVE Flip
 EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
