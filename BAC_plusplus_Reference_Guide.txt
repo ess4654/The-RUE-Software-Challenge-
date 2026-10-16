@@ -387,6 +387,7 @@ EX963         : Dragon Light Codes (https://youtu.be/XDTEeGZ9Cl0?list=RDXDTEeGZ9
 EX988         : The Suicide Hotline For Canada
 EX999         : The Throne of God
 EX1010        : Special Operation 1010
+EX1031        : All Hallows Eve
 EX1225        : Santa Claus (https://en.wikipedia.org/wiki/Santa_Claus)
 @@EX1313      : DreamLand Adventure Park (Scandia, Alberta)
 EX1616        : The Wormhole at Skinwalker Ranch
