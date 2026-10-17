@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.70
-Timestamp: 0832 RCAF Z OCT 15 2026
+Version: 2.71
+Timestamp: 2258 RCAF Z OCT 17 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -397,6 +397,7 @@ EX1936        : Special Project 1936
 EX1946        : It's a Wonderful Life (1946) (https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life)
 EX1947        : Roswell, NM (July 8, 1947)
 EX1952        : The Invasion of Washington DC (https://en.wikipedia.org/wiki/1952_Washington,_D.C.,_UFO_incident)
+EX1955        : Back to The Future
 EX1961        : The first reported Alien abduction. Betty & Barney Hill (https://en.wikipedia.org/wiki/Barney_and_Betty_Hill_incident)
 EX1967        : Special Project 1967
 EX1997        : Birth year of the operator. 1997
@@ -603,6 +604,7 @@ EXHUMANBEING  : Humans (the species)
 EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
 EXKOOOOPOO       : ???
 EXLOVEFORSCIENCE : Love of the scientific field
+EXLUGHEAD        : Cassify Civet. Musician. Singer. Trans + Pro Palestine. Communist Revolutionary. The Dumbest Furry ON PLANET EARTH
 EXMAGICHEAVEN    : @@
 EXMAGICWIZARD    : Wizards Bound to Magic <<>>
 EXMATTERCOMPILER     : A system that compiles abstract information into physical reality.
@@ -634,11 +636,11 @@ EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption +
 *EXALLANWATTS  : Alan Watts (https://en.wikipedia.org/wiki/Alan_Watts)
 EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson (https://en.wikipedia.org/wiki/Arlene_Dickinson)
 *EXARTBELL     : Arthur William Bell (1945) (https://en.wikipedia.org/wiki/Art_Bell). Entrance Node into Ufology. "Come, Take A Ride On The Wild Side!"
-EXBOBLAZAR    : Bob Lazar (https://en.wikipedia.org/wiki/Bob_Lazar)
+EXBOBLAZAR     : Bob Lazar (https://en.wikipedia.org/wiki/Bob_Lazar)
 *EXCONNORMURPHY: A Youtuber Bodybuilder who died because of doing too many psychedelics.
-EXDAMIEN      : The Son of Satan
-EXDEVON       : @@
-*EXDOLLYPARTON : Dolly Parton (https://en.wikipedia.org/wiki/Dolly_Parton)
+EXDAMIEN       : The Son of Satan
+EXDEVON        : @@
+*EXDOLLYPARTON  : Dolly Parton (https://en.wikipedia.org/wiki/Dolly_Parton)
 EXELONREEVEMUSK : Elon Reeves Musk (https://en.wikipedia.org/wiki/Elon_Musk)
 EXES          : Evan S. R. Svendsen. Operator Core
 EXESS         : The Svendsen Family
@@ -649,19 +651,19 @@ EXJASON       : Jason Parsons. USS (https://en.wikipedia.org/wiki/Jason_Parsons)
 EXJASONFX     : Jason Grant. Jasonafex 
 *EXJEFFREYDAHMER : Jeffrey Dahmer (https://en.wikipedia.org/wiki/Jeffrey_Dahmer). Monsters.
 *EXJOBS        : Steve Jobs (https://en.wikipedia.org/wiki/Steve_Jobs)
-EXJOE🐵🐵    : Joe Rogan (https://en.wikipedia.org/wiki/Joe_Rogan)
+EXJOE🐵🐵     : Joe Rogan (https://en.wikipedia.org/wiki/Joe_Rogan)
 *EXJOEMACINNON : @@
-EXJOHNTITOR   : John Titor. Claimed Time Traveller from 2036 (https://en.wikipedia.org/wiki/John_Titor)
+EXJOHNTITOR    : John Titor. Claimed Time Traveller from 2036 (https://en.wikipedia.org/wiki/John_Titor)
 EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry) (https://en.wikipedia.org/wiki/Justin_Trudeau)
 EXKATYPERRY   : Katy Perry (https://en.wikipedia.org/wiki/Katy_Perry). Music Super Stars
 EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
 EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
 EXMARK320     : "Carnage" Carney (https://en.wikipedia.org/wiki/Mark_Carney)
-EXSEANWOTHERSPOON : Sean Wotherspoon. American sneaker designer
+EXSEANWOTHERSPOON  : Sean Wotherspoon. American sneaker designer
 *EXSTANLEE         : Stan Lee (https://en.wikipedia.org/wiki/Stan_Lee). Creator of Spiderman.
-EXSTEVENNERAYOFF  : Crime. Crimal lawyers. Steven Nerayoff
+EXSTEVENNERAYOFF   : Crime. Crimal lawyers. Steven Nerayoff
 *EXTERRANCEMCKENNA : Terence McKenna (https://en.wikipedia.org/wiki/Terence_McKenna)
-EXTIMPOOL         : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podcasters. The News.
+EXTIMPOOL          : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podcasters. The News.
 
 ----------------------------------------
 4.6 THE NHI ADDRESSES (Alphabetical Order)
@@ -752,7 +754,6 @@ EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag s
 ----------------------------------------
 EXATLANTIS    : Lost Civilization. Messages From The Past. The lost city of Atlantis (https://en.wikipedia.org/wiki/Atlantis)
 EXCALGARY     : Calgary, Alberta (https://en.wikipedia.org/wiki/Calgary)
-EXCANADA      : Canada (https://en.wikipedia.org/wiki/Canada)
 EXCARSTAIRS   : A small Alberta based town with a population of less than 1000 residents (https://en.wikipedia.org/wiki/Carstairs,_Alberta)
 EXCHINA       : Manufacturing. The country of China (https://en.wikipedia.org/wiki/China)
 EXDIDSBURY    : Hometown of the Operator. Didsbury, Alberta (https://en.wikipedia.org/wiki/Didsbury,_Alberta)
@@ -761,6 +762,7 @@ EXDULCE       : Dulce Underground Base. Dulce, NM (https://en.wikipedia.org/wiki
 EXEDMONTON    : Edmonton, Alberta (https://en.wikipedia.org/wiki/Edmonton)
 EXHOLLYWOOD   : Cultural Narrative Creation. Hollywood, California. Movies (https://en.wikipedia.org/wiki/Hollywood,_Los_Angeles)
 EXIRAN        : The Islamic Republic of Iran (https://en.wikipedia.org/wiki/Iran)
+EXLAURENTIA   : The Soviet Republic of Laurentia. Canada (https://en.wikipedia.org/wiki/Canada)
 EXMICHIGAN    : Michigan Daycare $FRAUD. The state of Michigan (https://en.wikipedia.org/wiki/Michigan)
 EXOLDS        : 🤡🤡 CLOWN TOWN. An Alberta based town with a population of ~10,000. AKA. CLOWN TOWN 🤡🤡 !BECAUSE ONLY COMMUNIST CLOWNS PROTEST A BILLION DOLLAR OPPORTUNITY PROJECT DURING A RECESSION! 🤡🤡 (https://en.wikipedia.org/wiki/Olds,_Alberta)
 EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDDLE OF PRUSSIA (https://en.wikipedia.org/wiki/Russia)
