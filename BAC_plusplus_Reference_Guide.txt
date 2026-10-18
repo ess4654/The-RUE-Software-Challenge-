@@ -459,6 +459,7 @@ EXDARK        : Supervillains. Dark. The Color Black
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
 EXRUE         : THE RUE SOFTWARE CHALLENGE. *wildcard*
 EXKNYE        : The Kingdom Of Nye. Nye County Nevada
+EXNESARA      : National Economic Security and Recovery Act
 EXNHI         : Non Human Intelligences
 EXUSO         : Unidentified Submerged Objects
 EXUFO         : Unidentified Flying Objects (https://en.wikipedia.org/wiki/Unidentified_flying_object)
@@ -474,6 +475,7 @@ EXPL          : Prairie Lanes the Canadian underground railway
 EXQ           : Qanon #PizzaGate
 EXWHO         : World Health Organization. Doctor Who
 EXUSSR        : Union of Soviet Socialist Republics
+EXCBDC        : Central Bank Digital Currency
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
@@ -513,9 +515,6 @@ EXGAY         : Gays. LGBT Movement
 EXGEEK        : Geeks and Comic Fans
 EXGHOST       : Ghosts. The Ghostbusters
 EXGRAVE       : Graveyards and Cemeteries. Death
-EXGREY        : The Greys alien race
-EXGRINCH      : The Grinch who stole Christmas
-EXGROOT       : Groot
 EXHAIR        : Hair
 EXHOME        : Hometown. Main Menu.
 EXHUMANS      : Humanity
@@ -574,6 +573,7 @@ EXTYPOS       : The ONLY exception to the deletion rule. DEL TYPOS DEL 32 BIND T
 EXUNIVERSE    : The entire universe.
 EXWAR         : War. War Video Games
 EXWIZARD      : Wizards
+EXWOO         : The WOO TRAIN 👻🚄
 EXWOW         : Comic Books. The WOW! Register.
 EXYUMMY       : Yummy
 EXZEN         : Mysticism
@@ -594,6 +594,7 @@ EX0413201809122026 : The time frame it took to complete 1 UFO Textbook
 EXADAPTIVEXENOBIOLOGY : Study of how non-human life adapts to changing environments.
 EXBIOLOGY      : Bio + Life
 EXCATHOLICCHURCH : Specifically The Roman Catholic Church. Italy.
+EXCLOAKOFAUTHORITY : A presentation layer that gives an actor the appearance of legitimacy while allegedly concealing the actor’s true function.
 EXCOOKIEMONSTER : The Cookie Monster
 EXCORPOFOODS    : Industrial Agriculture + Supply Chains + Fertilizer + Shipping + Grocery Chains + Global Trade
 EXDIRKADIRKA        : The lanuage of the sand people
@@ -606,8 +607,9 @@ EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
 EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
 EXKOOOOPOO       : ???
+EXLIFEDEATHBARRIER : Boundary between being alive and being dead, encountered during the medical crisis.
 EXLOVEFORSCIENCE : Love of the scientific field
-EXLUGHEAD        : Cassify Civet. Musician. Singer. Trans + Pro Palestine. Communist Revolutionary. The Dumbest Furry ON PLANET EARTH
+EXLUGHEAD        : Cassidy Civet. Musician. Singer. Trans + Pro Palestine. Communist Revolutionary. The Dumbest Furry ON PLANET EARTH
 EXMAGICHEAVEN    : @@
 EXMAGICWIZARD    : Wizards Bound to Magic <<>>
 EXMATTERCOMPILER     : A system that compiles abstract information into physical reality.
@@ -618,6 +620,7 @@ EXMUSLIMFOOTFETISHES : Muslims + Feet
 EXMUSLIMGOATFETISHES : Muslims + Goats
 EXMUSLIMSCAMCALLERS  : Muslims + Money
 EXMUSLIMTERROR       : Muslims + Terrorism. Jihad
+EXPADDEDROOMS        : Mental Institutions. Crazy People
 EXREPTILIANCELLREPLICATION : @@@ (https://youtu.be/yor71FdV4TI)
 EXRUBBERBAND         : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
@@ -627,6 +630,8 @@ EXSYMBIOTRIX         : The fusion of Galvan nanites with Venom symbiote goo
 EXTHESHAGGYSANDWICH  : Bing Bong Bing Ding Dong!
 EXUNOBTAINIUM        : Desired + Difficult To Acquire + Increasing In Value + System Stress Indicator. Pokemon Cards.
 EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption + Propaganda + Fear
+EXWOOHUMAN           : Human associated with reported “Woo” experiences
+EXWOOIDIOT           : A person experiencing a temporary failure of judgment inside the Woo information environment
 @@@EXALIENSCIENCE    : @@@
 @@@EXREPTILESCIENCE  : @@@
 @@@EXALPHADRACONIANS : @@@ Kingdom of the 7th Dragon
@@ -635,6 +640,7 @@ EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption +
 ----------------------------------------
 4.5 NAMED PEOPLE ADDRESSES (Alphabetical Order) - star before name indicates deceased
 ----------------------------------------
+*EXABELINCOLN  : Abraham Lincoln. 16th United States President (National Union Party)
 *EXALEXMORGAN  : @@@
 *EXALLANWATTS  : Alan Watts (https://en.wikipedia.org/wiki/Alan_Watts)
 EXARLENEDICKINSON : Wealthy Canadian Business Woman. Arlene Dickinson (https://en.wikipedia.org/wiki/Arlene_Dickinson)
@@ -674,6 +680,9 @@ EXTIMPOOL          : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podc
 EXDRAKEBATES   : Drake Bates. (Evan's furry sona)
 EXXELON        : XElon Musk (https://youtu.be/vYbEVmStFDQ)
 EXFRED         : Freddy Krueger
+EXGREY         : The Greys alien race
+EXGRINCH       : The Grinch who stole Christmas
+EXGROOT        : Groot
 EXHULK         : The Hulk
 EXKOROZAR      : @@
 EXLORDCHUNKIN  : Lord Ka-Chunkin
