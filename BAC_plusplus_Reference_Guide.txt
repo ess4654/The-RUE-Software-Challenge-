@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.71
-Timestamp: 2258 RCAF Z OCT 17 2026
+Version: 2.72
+Timestamp: 0329 RCAF Z OCT 18 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -288,10 +288,11 @@ EX03          : PW "3 Purple Butterflies" (https://youtu.be/DsEJgqQkaMw). WW3. 3
 EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER) <<XXXX>> EXDRAKEBATES
 EX05          : HEROES 5. Brother (https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V)
 EX07          : Special Operations Report #7. The 7 seals of Revelation. James Bond 007
+EX7M8         : Earth
 EX08          : Speed. XLR8
 EX10          : Ben 10, Special Project 10. The 10th Doctor. 10 Commandments
 EX11          : The 11th Doctor, Eleven from Stranger Things
-EX12          : The MAJESTIC-12. Christmas (https://en.wikipedia.org/wiki/Christmas)
+EX12          : The MAJESTIC-12. Christmas (https://en.wikipedia.org/wiki/Christmas). The 12 Tribes of Isreal
 EX13          : Bad Luck. Curses & Hexes
 EX14          : Special Project 14
 EX16          : Skinwalker Ranch (https://en.wikipedia.org/wiki/Skinwalker_Ranch)
@@ -446,6 +447,9 @@ EXAZ          : English. The Alphabet. Language.
 EX^^          : The Lizard (https://en.wikipedia.org/wiki/Lizard_(character)). Register of Drake Bates.
 EX0T          : The Soul Core for register 5 in the simulation.
 EX25I         : 25I-NBOMe. Manhattan Project 2.0 (https://en.wikipedia.org/wiki/25I-NBOMe)
+EXC           : The Speed of Light (299,792,458 m/s)
+EXC++         : The creation of something new (by whatever means)
+EXC--         : The destruction of something existing (by whatever means)
 EXD04         : Laundry Day
 EXS4          : The S4 Facility at Area 51
 EXNEX         : The NEXT register.
@@ -476,6 +480,9 @@ EXQ           : Qanon #PizzaGate
 EXWHO         : World Health Organization. Doctor Who
 EXUSSR        : Union of Soviet Socialist Republics
 EXCBDC        : Central Bank Digital Currency
+EXQFS         : Quantum Financial System
+EXBTC         : Bitcoin. Cryptocurrency
+EXNFT         : Non Fungible Token
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
@@ -490,6 +497,10 @@ EXBIBLE       : The Holy Bible. Truth. "BASIC Instructions Before Leaving Earth"
 EXBOOBS       : Boobs
 EXBOOK        : Authors. Writers. Creativity.
 EXBOOLEAN     : The register for Boolean variables.
+EXBOOM        : Explosion
+EXBOOM!       : Explosions of large magnitude
+EXBOOM!!      : Nukes
+EXBOOM!!!     : The Big Bang
 EXBOOTY       : Shake That BOOTY!
 EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
@@ -584,6 +595,7 @@ EXZEN         : Mysticism
 EX1808        : Kyle Busch memorial
 EX7208        : Harley Dickinson + Kyle Busch heavenly meeting
 EX7266        : Harley A. Dickinson Bound to Spiderman <<>>
+EX79432       : Spider Beings From Mars
 EX9905        : The Dark Messiah. Reference Might and Magic (https://en.wikipedia.org/wiki/Dark_Messiah_of_Might_and_Magic)
 EX38691       : Evan's invitation to God to join the server
 EX18087208    : Combined memorial register (Kyle Busch + Harley Akinson)
@@ -598,6 +610,7 @@ EXCLOAKOFAUTHORITY : A presentation layer that gives an actor the appearance of 
 EXCOOKIEMONSTER : The Cookie Monster
 EXCORPOFOODS    : Industrial Agriculture + Supply Chains + Fertilizer + Shipping + Grocery Chains + Global Trade
 EXDIRKADIRKA        : The lanuage of the sand people
+EXEXPLODINGMEMES    : Claims, images, phrases, explanations, or evidence fragments that reproduce rapidly through public networks and generate more attention than institutions can contain.
 EXEXOPOLITICS       : Human - Alien Diplomacy
 EXXENOPOLITICS      : The Politics of Alien races. The Galactic Federation
 EXGENETICSOFTWAREXM : Genetic software pattern for AGI
@@ -605,6 +618,7 @@ EXGREENGARBAGECAN   : Rocket The Racoon
 EXHEALTHCARE  : Hospitals & Healthcare. Wellbeing. Mental Health 2+2=5
 EXHOUSEMUSIC  : House Music
 EXHUMANBEING  : Humans (the species)
+EXINFOBOMB    : Information, misinformation, imagery, testimony, or framing deployed to change perception, behaviour, loyalty, or policy without conventional physical force.
 EXJACKBOX        : https://youtu.be/MOnrMImVwQU?list=RDMOnrMImVwQU
 EXKOOOOPOO       : ???
 EXLIFEDEATHBARRIER : Boundary between being alive and being dead, encountered during the medical crisis.
@@ -621,8 +635,9 @@ EXMUSLIMGOATFETISHES : Muslims + Goats
 EXMUSLIMSCAMCALLERS  : Muslims + Money
 EXMUSLIMTERROR       : Muslims + Terrorism. Jihad
 EXPADDEDROOMS        : Mental Institutions. Crazy People
+EXPLEIADIANSTORYTELLERS    : A person who presents narratives involving alleged beings identified as Pleiadians.
 EXREPTILIANCELLREPLICATION : @@@ (https://youtu.be/yor71FdV4TI)
-EXRUBBERBAND         : The Rubber Band Algorithm
+EXRUBBERBAND      : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
 EXSTUPIDMONKEYHUMANS : HOLY HELL THESE PEOPLE ARE STUPID!
@@ -632,14 +647,17 @@ EXUNOBTAINIUM        : Desired + Difficult To Acquire + Increasing In Value + Sy
 EXWARPIGS    : War + Debt + Banking + Military Industry + Resource Consumption + Propaganda + Fear
 EXWOOHUMAN           : Human associated with reported “Woo” experiences
 EXWOOIDIOT           : A person experiencing a temporary failure of judgment inside the Woo information environment
-@@@EXALIENSCIENCE    : @@@
-@@@EXREPTILESCIENCE  : @@@
-@@@EXALPHADRACONIANS : @@@ Kingdom of the 7th Dragon
-@@@EXCYBERNETICSUPERPOWERS : @@@
+EXWOOSHILLS          : Persons operating within the Woo information ecosystem who knowingly promote extraordinary, paranormal, extraterrestrial, financial-reset, or hidden-program narratives while concealing an incentive, affiliation, strategic purpose, or awareness that the promoted claims lack sufficient verification.
+@@@ EXALIENSCIENCE    : @@@
+@@@ EXREPTILESCIENCE  : @@@
+@@@ EXALPHADRACONIANS : @@@ Kingdom of the 7th Dragon
+@@@ EXCYBERNETICSUPERPOWERS : @@@
 
 ----------------------------------------
 4.5 NAMED PEOPLE ADDRESSES (Alphabetical Order) - star before name indicates deceased
 ----------------------------------------
+*EXADAM        : "Adamu" The First Man on Earth
+*EXEVE         : The First Woman on Earth
 *EXABELINCOLN  : Abraham Lincoln. 16th United States President (National Union Party)
 *EXALEXMORGAN  : @@@
 *EXALLANWATTS  : Alan Watts (https://en.wikipedia.org/wiki/Alan_Watts)
@@ -678,7 +696,7 @@ EXTIMPOOL          : Timothy Pool (https://en.wikipedia.org/wiki/Tim_Pool). Podc
 4.6 THE NHI ADDRESSES (Alphabetical Order)
 ----------------------------------------
 EXDRAKEBATES   : Drake Bates. (Evan's furry sona)
-EXXELON        : XElon Musk (https://youtu.be/vYbEVmStFDQ)
+EXELOHIM       : A Hebrew biblical term whose referent must be determined individually from grammar, literary context, textual history, and the entity described in each occurrence.
 EXFRED         : Freddy Krueger
 EXGREY         : The Greys alien race
 EXGRINCH       : The Grinch who stole Christmas
@@ -697,8 +715,9 @@ EXMEWSEVEN     : Mew7
 EXMEWEIGHT     : Mew8
 EXMEWNINE      : Mew9
 EXMEW-TEN      : Mew-Ten
-EXSPIDERMAN      : Spiderman
-EXYHWH           : The personal name of the God of Israel in the Hebrew Bible.
+EXSPIDERMAN    : Spiderman
+EXXELON        : XElon Musk (https://youtu.be/vYbEVmStFDQ)
+EXYHWH         : The personal name of the God of Israel in the Hebrew Bible.
 
 ----------------------------------------
 4.7 BRAND ADDRESSES (Alphabetical Order)
@@ -759,7 +778,7 @@ EXPIZZA       : Pizza. The Teenage Mutant Ninja Turtles
 EXSEAFOOD     : Seafood. Tuna. Salmon. Crab
 EXSOUP        : Soup
 EXTACO        : Tacos. Mexican food
-EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams. Refreshments
+EXWATER       : The price of $WATER is "TOO DAMN HIGH!". Note: Twitter Cashtag scams. Refreshments. Water
 
 ----------------------------------------
 4.10 GEOLOCATION ADDRESSES (Alphabetical Order)
@@ -782,10 +801,12 @@ EXRUSSIA      : "Mother Russia Rein Down Down DOWN!". PW WHITE HOUSE IN THE MIDD
 ----------------------------------------
 4.11 DATE ADDRESSES (Timeline Order)
 ----------------------------------------
+EX07081947    : Roswell UFO Crash Newspaper. The Roswell Daily Record.
 EX07081997    : Birthdate of the operator EX38
 EX121617      : December 16 2017. Anchor point between Old Guard Ufology and New Generation Ufology.
 EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Final Chapter Activated.
 EX03312022    : The suicide of Harley A Dickinson
+EX05172022    : Public UAP hearing held by a subcommittee of the U.S. House Permanent Select Committee on Intelligence
 EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
 EX01052025    : The 5th of January, 2025
 EX05232025    : The 23rd of May, 2025 (Employee Appriciation Day)
@@ -830,7 +851,7 @@ EXSOBELOW     : The SO BELOW Flop
 🍔👮🚓  : The Burger Police
 ⭕🌑⭕    : The Hollow Moon
 ⭕🔫⭕    : Hollow Point Sniper Hyperbole
-🔫👨🔫  : "My Daddy's Got a Gun, You Better Run!"
+👨🔫👨  : "My Daddy's Got a Gun, You Better Run!"
 👨‍🚀👽👩‍🚀  : "General Wes, Jackson Has Identified the 7th Symbol"
 👽👽👽  : The 7th Chevron @@ ESCHATON
 
