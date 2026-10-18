@@ -472,6 +472,8 @@ EXFBI         : The Federal Bureau of Investigation (https://en.wikipedia.org/wi
 EXVP          : V is for Victory. P is for Prime Minister.
 EXPL          : Prairie Lanes the Canadian underground railway
 EXQ           : Qanon #PizzaGate
+EXWHO         : World Health Organization. Doctor Who
+EXUSSR        : Union of Soviet Socialist Republics
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
@@ -564,6 +566,7 @@ EXTRANS       : Transexuals. Be Whatever
 @@EXTRANS     : Trans Cyborgs
 @@@EXTRANS    : Trans Species
 @@@@EXTRANS   : Trans Aliens
+EXTREASON     : The constitutional and criminal-law concept of betraying one’s state by levying war against it or knowingly adhering to its recognized enemies by providing aid and comfort.
 EXTREES       : Trees
 EXTRIST       : TRIST MAGICTIS
 EXTRUE        : True. Yes. Confirm. Truth. Knowledge Successfully Communicated.
