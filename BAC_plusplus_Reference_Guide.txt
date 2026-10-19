@@ -298,6 +298,7 @@ EX14          : Special Project 14
 EX16          : Skinwalker Ranch (https://en.wikipedia.org/wiki/Skinwalker_Ranch)
 EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvSpKNs&list=RDMM&index=22). Legally an adult.
 EX20          : The "Roaring 20's"
+EX24          : The Period of one 24 hour day on Earth
 EX25          : 25I-NBOMe. Chemical Psychedelic (https://en.wikipedia.org/wiki/25I-NBOMe)
 @@EX28        : Special Agent Black
 EX32          : FORBIDDEN – RESERVED BY THE OPERATOR AND SCHEDULED FOR DELETION BY GOD. DO NOT SAVE! @@Quarantine Zone of Lucifer
@@ -437,8 +438,9 @@ EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 EXA           : The Alien drive A:/ on the hard drive of the universe
 EXAA          : Abbed Anthros Gym & Lifestyle Center
 EXAAAAAAAAA   : The AAAAAAAAA register. Screaming into the void because nobody listens.
-EXAI          : Accidental Insanity. Artificial Intlliegence. The Borg
 EXAHAH        : Alien Human-Animal Hybrids
+EXAI          : Accidental Insanity. Artificial Intlliegence. The Borg
+EXD           : D is for Deport 
 EXE           : The E:/ Drive on the operating system of the universe
 EXX           : X (social media). Powerful companies. / X Axis of Movement
 EXY           : Y Axis of Movement
@@ -459,7 +461,7 @@ EXGATE        : Stargate (https://en.wikipedia.org/wiki/Stargate)
 EXRCAF        : The Royal Canadian Air Force (https://en.wikipedia.org/wiki/Royal_Canadian_Air_Force)
 EXHA          : Hard Drive HAHA
 EXHAHA        : Hard Drive HAHAHA
-EXDARK        : Supervillains. Dark. The Color Black
+EXDARK        : Supervillains. Darkness. The Color Black
 EXBTS         : Tell The Office of the Red Phone to Pick Up the Phone (specific media reference)
 EXRUE         : THE RUE SOFTWARE CHALLENGE. *wildcard*
 EXKNYE        : The Kingdom Of Nye. Nye County Nevada
@@ -506,8 +508,8 @@ EXCATHOLICS   : Catholics. Religion. Institutions.
 EXCE5         : Steven Greer's CE5 Program
 EXCOMMUNIST   : A communist. Always demanding, never doing anything to help ease the situation.
 EXCRAZY       : Crazy. The Joker (character).
-EXDEATH       : Death. The Grim Reaper
 EXDAD         : Father. Dads
+EXDEATH       : Death. The Grim Reaper
 EXDORK        : Dorks & Nerds
 EXDRACONIAN   : The Draconian race of Aliens
 EXEDEN        : The Garden of Eden. Claimed origin of humanity
@@ -539,6 +541,7 @@ EXKEYSTONE    : The Alberta Keystone Pipline Project that President Biden cancel
 EXKING        : King Charles. Monarchy
 EXLFG         : LFG!!!
 EXLIES        : Lies. Scammers. Thieves. Criminals. Demons.
+EXLORD        : To Lord/Rule over
 EXLOVE        : Love. Romance. (https://youtu.be/lKsQR72HY0s)
 EXMAGIC       : Magic
 EXMALE        : Males. Men. Sex. The register representing the male Boolean flag.
@@ -852,8 +855,28 @@ EXSOBELOW     : The SO BELOW Flop
 ⭕🌑⭕    : The Hollow Moon
 ⭕🔫⭕    : Hollow Point Sniper Hyperbole
 👨🔫👨  : "My Daddy's Got a Gun, You Better Run!"
+☀️☀️☀️  : Daytime / Sunlight
+🌑🌑🌑  : Nighttime / Moonlight
+💧💧💧    : A Body of Water
+🌲🌴🌳  : Forrests & Jungles
+☀️🌙⭐  : Carriers or governors of light
+🌑🌙🌑 : Seasons
 👨‍🚀👽👩‍🚀  : "General Wes, Jackson Has Identified the 7th Symbol"
 👽👽👽  : The 7th Chevron @@ ESCHATON
+♾️♾️    : Infinity
+📢📢    : Spoken (loudly)
+👁️👁️    : Sight. The Act of Seeing
+☀️☀️    : The Sun. Solas Maximus
+☀️🌑    : The relational singularity generated at the centre of the bidirectional mutual separation between EXC and EXDARK.
+⭐⭐      : Constellations. Signs
+🔨🔨    : Pounding / Firmament
+🌊🌊    : Oceans. Centrally located bodies of water
+🏝️🏝️    : Beaches. Dry Lands. Islands
+🌿🌿    : Grass. Vegetation
+🌱🌱    : Plants
+🌴🌴    : Trees
+🍏🍏    : Fruit
+🌰🌰    : Seeds
 
 ----------------------------------------
 5. DESIGN PRINCIPLES FOR IMPLEMENTATION
