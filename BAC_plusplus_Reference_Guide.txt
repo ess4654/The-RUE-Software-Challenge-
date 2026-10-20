@@ -342,6 +342,7 @@ EX128         : Teacher. !-@@
 EX135         : Space X IPO Price
 EX0135        : (ivan0135) The Skinny Bob Tapes
 EX138         : Mickey Mouse Wizard. Fantasmic
+EX142         : The price of gasoline in Calgary ($1.42)
 EX144         : (related to 144000)
 EX150         : Mewtwo. (https://en.wikipedia.org/wiki/Mewtwo). The Actual Value of the Space X IPO stock at launch
 @@@EX153      : Mew THREE
