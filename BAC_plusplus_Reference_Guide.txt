@@ -297,7 +297,7 @@ EX13          : Bad Luck. Curses & Hexes
 EX14          : Special Project 14
 EX16          : Skinwalker Ranch (https://en.wikipedia.org/wiki/Skinwalker_Ranch)
 EX18          : Register of Kyle Busch. (https://www.youtube.com/watch?v=5kOwZvSpKNs&list=RDMM&index=22). Legally an adult.
-EX20          : The "Roaring 20's"
+EX20          : Queen Elizabeth II. The "Roaring 20's"
 EX24          : The Period of one 24 hour day on Earth
 EX25          : 25I-NBOMe. Chemical Psychedelic (https://en.wikipedia.org/wiki/25I-NBOMe)
 @@EX28        : Special Agent Black
