@@ -489,6 +489,7 @@ EXCBDC        : Central Bank Digital Currency
 EXQFS         : Quantum Financial System
 EXBTC         : Bitcoin. Cryptocurrency
 EXNFT         : Non Fungible Token
+EXWWOTW       : The Wicked Witch of The West A.K.A. Danielle Smith
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
 
