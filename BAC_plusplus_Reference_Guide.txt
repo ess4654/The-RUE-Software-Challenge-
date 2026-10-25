@@ -311,7 +311,7 @@ EX37          : The 37th Parallel; "The UFO Highway"
 EX38          : Register of the OPERATOR (bound to 66 and EXES)
 EX40          : Muscle. Bodybuilders. Drake Bates. Strength
 EX41          : Parent's 41st Anniversary
-EX45          : TF
+EX45          : The 45 Policies of the Alberta Infrastructure Party. TF
 EX46          : President Joe Biden. Democrats (https://en.wikipedia.org/wiki/Joe_Biden)
 EX47          : President Donald J. TRUMP. Republicans (https://en.wikipedia.org/wiki/Donald_Trump)
 EX51          : Alberta; The "51st state" (https://en.wikipedia.org/wiki/Alberta). Area 51
@@ -857,6 +857,8 @@ EXSOBELOW     : The SO BELOW Flop
 🚨🚨🚨  : A Code $RED Has Been Issued By the Operator @EX38
 🤠👽🥪  : Sandwhiches Made Self Aware
 🍔👮🚓  : The Burger Police
+💩🧠💩  : A head diaper is required when you have SHIT FOR BRAINS. Sub 60 IQ levels detected.
+🤡👑🤡  : The Hidden King. AKA "The Fake King" Paul Fischer
 ⭕🌑⭕    : The Hollow Moon
 ⭕🔫⭕    : Hollow Point Sniper Hyperbole
 👨🔫👨  : "My Daddy's Got a Gun, You Better Run!"
