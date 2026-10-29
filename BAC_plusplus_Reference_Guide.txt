@@ -849,6 +849,8 @@ EXCLIP        : The CLIP Flip
 EXCLOP        : the Clop Flop
 EXJING        : The JING Flip
 EXDOW         : The DOW Flop
+EXBEEP        : The BEEP Flip
+EXBOP         : The BOP Flop
 EXASABOVE     : The AS ABOVE Flip
 EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
