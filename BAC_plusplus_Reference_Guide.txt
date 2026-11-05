@@ -432,6 +432,8 @@ EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
 EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
+EX511210      : Software Publishers
+EX513212      : Video Game Publishers
 EX988881      : "I WAS HIT BY SOMETHING LAST NIGHT IN MY SLEEP!" @@@@ + @@@@
 EX01160320    : WE ARE GOD! Dark Helix Labratories
 EX650000000   : The Net Worth of Dolly Parton
@@ -490,6 +492,7 @@ EXCBDC        : Central Bank Digital Currency
 EXQFS         : Quantum Financial System
 EXBTC         : Bitcoin. Cryptocurrency
 EXNFT         : Non Fungible Token
+EXYALL        : Short for You-All
 EXWWOTW       : The Wicked Witch of The West A.K.A. Danielle Smith
 @@@EXNIGAR    : @@@
 EXTE9HR0VELUlOLU1JWC01LjE5IChBdG1vc3BoZXJpYyAvIEFtYmllbnQgLyBEbkIgLyBKdW5nbGUpIA : https://www.youtube.com/watch?v=N7YgLfU_aGE
@@ -880,6 +883,7 @@ EXSOBELOW     : The SO BELOW Flop
 🤠👽    : YIEEE HAW LIL BUDDY!
 🛡🛡     : The Iris (Firewall register)
 ♾️♾️    : Infinity
+🤡🤡    : HONK! HONK!
 📢📢    : Spoken (loudly)
 👁️👁️    : Sight. The Act of Seeing
 ☀️☀️    : The Sun. Solas Maximus
