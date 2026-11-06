@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.74
-Timestamp: 2303 RCAF Z OCT 28 2026
+Version: 2.75
+Timestamp: 0546 RCAF Z NOV 6 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -291,7 +291,7 @@ EX03          : PW "3 Purple Butterflies" (https://youtu.be/DsEJgqQkaMw). WW3. 3
 EX04          : Strength, Power. Register of The Hulk. Four Arms. (Note: The number 4 always denotes STRENGTH/POWER) <<XXXX>> EXDRAKEBATES
 EX05          : HEROES 5. Brother (https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V)
 EX07          : Special Operations Report #7. The 7 seals of Revelation. James Bond 007
-EX7M8         : Earth
+EX7M8         : The frequency of COOL 😎😎 Also the frequency of brain dead stupid monkey humans! Earth
 EX08          : Speed. XLR8
 EX10          : Ben 10, Special Project 10. The 10th Doctor. 10 Commandments
 EX11          : The 11th Doctor, Eleven from Stranger Things
@@ -647,8 +647,10 @@ EXMUSLIMGOATFETISHES : Muslims + Goats
 EXMUSLIMSCAMCALLERS  : Muslims + Money
 EXMUSLIMTERROR       : Muslims + Terrorism. Jihad
 EXPADDEDROOMS        : Mental Institutions. Crazy People
+EXPIPELINEPIGS       : Oil rigs with a trash mouth who think the world revolves around oil & gas
 EXPLEIADIANSTORYTELLERS    : A person who presents narratives involving alleged beings identified as Pleiadians.
 EXREPTILIANCELLREPLICATION : @@@ (https://youtu.be/yor71FdV4TI)
+EXRIGPIGS         : Oil rigs with a trash mouth who think the world revolves around oil & gas
 EXRUBBERBAND      : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
