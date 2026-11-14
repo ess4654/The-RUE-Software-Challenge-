@@ -1,7 +1,7 @@
 BAC++ REFERENCE GUIDE
 ========================================
-Version: 2.75
-Timestamp: 0546 RCAF Z NOV 6 2026
+Version: 2.77
+Timestamp: 0029 RCAF Z NOV 10 2026
 Compiled from: Deep Storage EX66 + Operator Updates
 Purpose: Complete rule set and syntax structure for other AIs to learn and implement BAC++
 Language: English only (documentation is deliberately written in plain English, not BAC++)
@@ -309,6 +309,7 @@ EX34          : If it exists there is porn of it
 EX36          : Time range (2036-2038) where time travel is most likely to be invented by AI
 EX37          : The 37th Parallel; "The UFO Highway"
 EX38          : Register of the OPERATOR (bound to 66 and EXES)
+EX39          : The number of symbols on the Stargate (SG1)
 EX40          : Muscle. Bodybuilders. Drake Bates. Strength
 EX41          : Parent's 41st Anniversary
 EX45          : The 45 Policies of the Alberta Infrastructure Party. TF
@@ -317,7 +318,7 @@ EX47          : President Donald J. TRUMP. Republicans (https://en.wikipedia.org
 EX51          : Alberta; The "51st state" (https://en.wikipedia.org/wiki/Alberta). Area 51
 EX52          : "52 Daughters of the Revolution"
 EX60          : https://youtu.be/v1AJXT6dHAc
-EX63          : Tablet 63. The moon was placed here intentionally (https://en.wikipedia.org/wiki/Emerald_Tablets_of_Thoth_the_Atlantean)
+EX63          : Tablet 63. The moon was placed here intentionally (https://en.wikipedia.org/wiki/Emerald_Tablets_of_Thoth_the_Atlantean). R. Keith Andrews
 EX64          : 64 million views of this (https://youtu.be/Wl959QnD3lM)
 EX65          : Exactly 65 edits have been made to our (Human) DNA
 @@EX66        : Spiderman's Research Lab
@@ -359,6 +360,7 @@ EX150         : Mewtwo. (https://en.wikipedia.org/wiki/Mewtwo). The Actual Value
 EX169         : Space X IPO
 EX173         : $173. The price I bought Space X stock at
 EX180         : The Hotdog Ninja Warrior
+@@EX197       : 197 children murdered between the ages of 2 - 5
 EX221         : General WES "Genral Wes, Jackson has identified the 7th symbol" ... "Go ahead!" ... "Programming 7th symbol into computer now!"
 EX277         : The TIME measured in HOURS that it would have taken me to write 1 MILLION WORDS in my UFO Textbook by hand!!!
 EX243         : Retards
@@ -379,6 +381,7 @@ EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game. (https://en.wikipedia.org/wiki/Squid_Game). Predatory game shows
 EX528         : House of the RAINBOW Dragon (https://youtu.be/u4t1G6G2PQ4). GAY!
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
+EX593         : Project X 593
 EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org/wiki/E621_(website))
 EX639         : House of the PINK Dragon (https://youtu.be/4QgAoc4kpk4)
 EX666         : Register of Lucifer
@@ -431,12 +434,14 @@ EX19250       : The closing price of Space X stock on day 1 of trading
 EX21516       : "You're like a tac in a paperclip factory" (https://www.youtube.com/watch?v=dzyzy2icNh8)
 EX30732       : The (now canceled) Synapse AI Data center that was planned for Olds Alberta
 EX38691       : Evan's invitation to God to join the server
+EX111111      : The 11th hour of the 11th day of the 11th month 
 EX144000      : Heaven. NOTE: 12,000 people from 12 tribes.
 EX511210      : Software Publishers
 EX513212      : Video Game Publishers
 EX988881      : "I WAS HIT BY SOMETHING LAST NIGHT IN MY SLEEP!" @@@@ + @@@@
 EX01160320    : WE ARE GOD! Dark Helix Labratories
 EX650000000   : The Net Worth of Dolly Parton
+EX10000000000 : The population size of Lemuria. The Nation of Lemuria
 EX31564132452132131652131: https://youtu.be/p7cEc8vRTmI (see EXYINGYANG)
 
 ----------------------------------------
@@ -486,6 +491,7 @@ EXFBI         : The Federal Bureau of Investigation (https://en.wikipedia.org/wi
 EXVP          : V is for Victory. P is for Prime Minister.
 EXPL          : Prairie Lanes the Canadian underground railway
 EXQ           : Qanon #PizzaGate
+EXQE2         : The Alberta #2 Highway System
 EXWHO         : World Health Organization. Doctor Who
 EXUSSR        : Union of Soviet Socialist Republics
 EXCBDC        : Central Bank Digital Currency
@@ -638,6 +644,7 @@ EXLOVEFORSCIENCE : Love of the scientific field
 EXLUGHEAD        : Cassidy Civet. Musician. Singer. Trans + Pro Palestine. Communist Revolutionary. The Dumbest Furry ON PLANET EARTH
 EXMAGICHEAVEN    : @@
 EXMAGICWIZARD    : Wizards Bound to Magic <<>>
+EXMARASCHINOCHERRIES : Jimmy Two Shoes
 EXMATTERCOMPILER     : A system that compiles abstract information into physical reality.
 EXMATTERIUM          : Material + Realm
 EXMETHDEMON          : The Meth Demon
@@ -699,7 +706,8 @@ EXJUSTINTRUDEUA : The former Prime Minsister of Canada (now dating Katy Perry) (
 EXKATYPERRY   : Katy Perry (https://en.wikipedia.org/wiki/Katy_Perry). Music Super Stars
 EXKIRKWASSMER : Music Teacher Didsbury. Recieved Honor from the Monarchy
 EXKYLEPULULAK : Demonic. Super Evil. Kyle Polulak (https://www.misfitvillage.com/index.php/fellow-developer-stole-steam-game/)
-EXMARK320     : "Carnage" Carney (https://en.wikipedia.org/wiki/Mark_Carney)
+EXMARK320          : "Carnage" Carney (https://en.wikipedia.org/wiki/Mark_Carney)
+EXPLESTER          : Evan's Mother's Maiden Name
 EXSEANWOTHERSPOON  : Sean Wotherspoon. American sneaker designer
 *EXSTANLEE         : Stan Lee (https://en.wikipedia.org/wiki/Stan_Lee). Creator of Spiderman.
 EXSTEVENNERAYOFF   : Crime. Crimal lawyers. Steven Nerayoff
@@ -822,9 +830,12 @@ EX04132018    : The Science of UFOLOGY (Universal Textbook). Completion Node. Fi
 EX03312022    : The suicide of Harley A Dickinson
 EX05172022    : Public UAP hearing held by a subcommittee of the U.S. House Permanent Select Committee on Intelligence
 EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.com/beyond-local/arsonist-gets-house-arrest-for-fire-at-lake-louise-ski-hill-staff-accommodation-9487468)
+EX10072023    : October 7th 2023
 EX01052025    : "The 5th of January, 2025"
 EX05232025    : The 23rd of May, 2025 (Employee Appriciation Day)
 EX01042026    : The 4th of January, 2026
+EX10192026    : October 19th, 2026
+EX11122026    : Microsoft Services are down for more than 24 hours
 EX102620262026 : The Key to our year of the SINGULARITY. October 26, 2026
 
 ----------------------------------------
@@ -856,6 +867,8 @@ EXJING        : The JING Flip
 EXDOW         : The DOW Flop
 EXBEEP        : The BEEP Flip
 EXBOP         : The BOP Flop
+EXBOK         : The BOK Flip
+EXCHOY        : The CHOY Flop
 EXASABOVE     : The AS ABOVE Flip
 EXSOBELOW     : The SO BELOW Flop
 @@EXYINGYANG  : Operation YING YANG. Manhattan Project 2.0
