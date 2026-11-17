@@ -833,9 +833,10 @@ EX07032023    : Chucktown Fire (Lake Louise 2023) (https://www.stalbertgazette.c
 EX10072023    : October 7th 2023
 EX01052025    : "The 5th of January, 2025"
 EX05232025    : The 23rd of May, 2025 (Employee Appriciation Day)
-EX01042026    : The 4th of January, 2026
+EX01042026    : The 4th of January, 2026 Year of the Singularity
 EX10192026    : October 19th, 2026
 EX11122026    : Microsoft Services are down for more than 24 hours
+EX11132026    : FAA Issues Grounding orders for all departure flights from American airports
 EX102620262026 : The Key to our year of the SINGULARITY. October 26, 2026
 
 ----------------------------------------
