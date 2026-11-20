@@ -380,6 +380,7 @@ EX432         : The Frequency of Mars (https://en.wikipedia.org/wiki/Mars)
 EX444         : <<EX40>>EXTREMELY MUSCULAR<<EX40>>. (Unknown) Mid Ranking Angel.
 EX456         : Squid Game. (https://en.wikipedia.org/wiki/Squid_Game). Predatory game shows
 EX528         : House of the RAINBOW Dragon (https://youtu.be/u4t1G6G2PQ4). GAY!
+EX549         : The 549 page UFO Textbook (The Science of UFOLOGY)
 EX555         : ALBERTA BASED HEROES OF MIGHT AND MAGIC 5 AMUSEMENT PARK IDEA. (Unknown) Mid Ranking Angel.
 EX593         : Project X 593
 EX621         : The 621 rule (furry conventions). e621 (https://en.wikipedia.org/wiki/E621_(website))
@@ -660,6 +661,7 @@ EXREPTILIANCELLREPLICATION : @@@ (https://youtu.be/yor71FdV4TI)
 EXRIGPIGS         : Oil rigs with a trash mouth who think the world revolves around oil & gas
 EXRUBBERBAND      : The Rubber Band Algorithm
 EXSECRETSREVEALED : Hidden Information + Public Mind Space + Transformation + Consequence
+EXSLOPAGANDA      : AI Generated Propaganda
 EXSPACEGOATFARTS  : Space = Alternative Reality + Goat = AHAH - Alien Human-Animal Hybrids + Farts = Secrets
 EXSTUPIDMONKEYHUMANS : HOLY HELL THESE PEOPLE ARE STUPID!
 EXSYMBIOTRIX         : The fusion of Galvan nanites with Venom symbiote goo
